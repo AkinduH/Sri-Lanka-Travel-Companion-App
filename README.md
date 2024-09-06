@@ -22,16 +22,18 @@ Trip Planner is an intelligent travel itinerary generation app designed to help 
 2. **Python 3.x** – For running the back-end server.
 3. **Gemini API Key** – The API key is saved in the given `.env` file.
 
+### Clone the Repository
+```bash
+git clone https://github.com/AkinduH/trip_planner_team_9th_dimension.git
+cd trip_planner_team_9th_dimension
+```
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
 flutter pub get
 ```
 ### Add the `.env` file in to the project
-```bash
-git clone https://github.com/AkinduH/trip_planner_team_9th_dimension.git
-cd trip_planner_team_9th_dimension
-```
+
 ### Run the server
 ```bash
 python python_backend.py
