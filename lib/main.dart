@@ -22,12 +22,12 @@ class MyApp extends StatelessWidget {
       ),
       home: IntroScreen(),
       routes: {
-        '/categories': (context) => CategoriesScreen(),
+        '/categories': (context) => const CategoriesScreen(),
         '/date_selection': (context) => DateSelectionScreen(
-              selectedCategories: [],
+              selectedCategories: const [],
             ),
         '/summary': (context) => SummaryScreen(
-              selectedCategories: [],
+              selectedCategories: const [],
               startDate: DateTime.now(),
               endDate: DateTime.now(),
               duration: 0,
