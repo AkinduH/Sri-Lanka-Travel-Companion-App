@@ -11,7 +11,7 @@ def configure():
 
 app = Flask(__name__)
 CORS(app)
-genai.configure(api_key= os.getenv('api_key'))
+genai.configure(api_key= os.getenv('GEMINI_API_KEY'))
 
 generation_config = {
   "temperature": 0.9,
