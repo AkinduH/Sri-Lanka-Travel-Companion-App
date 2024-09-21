@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: IntroScreen(),
+      home: const IntroScreen(),
       routes: {
         '/categories': (context) => const CategoriesScreen(),
         '/date_selection': (context) => DateSelectionScreen(

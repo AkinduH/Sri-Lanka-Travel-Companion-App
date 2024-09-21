@@ -8,7 +8,7 @@ import 'SummaryScreen.dart';
 class DateSelectionScreen extends StatefulWidget {
   final List<String> selectedCategories;
 
-  DateSelectionScreen({required this.selectedCategories});
+  const DateSelectionScreen({super.key, required this.selectedCategories});
 
   @override
   // ignore: library_private_types_in_public_api
