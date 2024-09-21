@@ -1,0 +1,30 @@
+camping_sites
+
+Aadivaasi Pvt Ltd: Camping sites, SUPERIOR, Web: www.adhivaasi.com, Email: acc.kithala@themeresorts.com, Registration No: SLTDA/SQA/CAM/00005, Tel: 0555100500, Place: Kithala
+
+Athgira River Camping: Camping sites, SUPERIOR, Web: www.athgirarivercamp.com, Email: nssathgirarivercamping@gmail.com, Registration No: SLTDA/SQA/CAM/0008, Tel: 0472233275, Place: Embilipitiya
+
+Eco Team Safari Camps Udawalawe (pvt) Ltd: Camping sites, DELUXE, Web: WWW.ECOTEAM.LK, Email: accounts3@ecoteam.lk, Registration No: SLTDA/CAM/00002, Tel: 0710662217, Place: Udawalawe
+
+Eco Team Safari Camps Wilpattu (pvt) Ltd: Camping sites, DELUXE, Web: WWW.ECOTEAM.LK, Email: accounts7@ecoteam.lk, Registration No: SLTDA/SQA/CAM/0001, Tel: 0710662217, Place: Wilpattu
+
+Eco Team Safari Camps Yala (pvt) Ltd: Camping sites, DELUXE, Web: www.mahoora.lk, Email: accounts6@ecoteam.lk, Registration No: SLTDA/CAM/00003, Tel: 0710662217, Place: Yala
+
+Ella Retreat Hotel: Camping sites, SUPERIOR, Web: www.ellaretreat.com, Email: ellaretreat@yahoo.com, Registration No: SLTDA/SQA/CAM/00015, Place: Ella
+
+Leopard Nest: Camping sites, DELUXE, Web: www.leopardnest.com, Email: ruwan.rat@gmail.com, Registration No: SLTDA/SQA/CAM/0007, Tel: 0474935191, Place: Yala
+
+Leopard Trails: Camping sites, DELUXE, Web: www.leopardtrails.com, Email: hr@leopardtrails.com, Registration No: SLTDA/CAM/00004, Tel: 0112686147, Place: Yala
+
+Makini Bush Camp: Camping sites, DELUXE, Web: https://makinibushcamp.com, Email: chamith@makini.lk, Registration No: SLTDA/SQA/CAM/00012, Tel: 0773526879, Place: Udawalawe
+
+Noel Rodrigos Leopard Safaris: Camping sites, SUPERIOR, Web: www.leopardsafaris.com, Email: noel@leopardsafaris.com, Registration No: SLTDA/CAM/00006, Place: Yala
+Rock And Rope Adventure Resort: Camping sites, STANDARD, Email: sathieshbvg@gmail.com, Registration No: SLTDA/SQA/CAM/00013, Place: Unknown
+
+The Backwaters Lodge: Camping sites, SUPERIOR, Web: https://www.backwaterslodge.com/, Email: thebackwaters.lk@gmail.com, Registration No: SLTDA/SQA/CAM/00011, Place: Unknown
+
+Tribe Yala: Camping sites, SUPERIOR, Web: https://www.tribeyala.com/, Email: senuras@yahoo.com, Registration No: SLTDA/SQA/CAM/0010, Place: Yala
+
+Watersmeet Glamping: Camping sites, DELUXE, Email: watersmeetglamping@gmail.com, Registration No: SLTDA/SQA/CAM/00014, Place: Unknown
+
+Wild Glamping Pvt Ltd: Camping sites, SUPERIOR, Web: www.themeresorts.com/wildglamping, Email: accounts4@themeresorts.com, Registration No: SLTDA/SQA/CAM/0009, Tel: 0114706469, Place: Unknown

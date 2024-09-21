@@ -1,0 +1,528 @@
+
+				 Ratnapura  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Maduwanwela Walawwa  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Ratnapura | Maduwanwela Walawwa  
+						 
+						 Maduwanwela Walawwa  
+						 
+
+	It once housed a proud family, which servedthe Kandyan Kingdom and its King faithfully and endowed villages numbering 18 and 80,000 acres of land for their service and their last descendant was a personality that defined an era. 
+
+	 
+
+	Today the family and its descendants are no more but still stand their legendary home, the Maduwanwela Walauwa stands tall in the middle one of families estates. Although it had been reduced to almost half of its original size the mansion still impresses the visitors with its unique blend of Kandyan, Indian and Western styles of architecture and its size and layout. 
+
+	 
+
+	Situated in Kolonne, a sleepy and a picturesquevillage cradled between Embilipitiya and Suriyawewa, the mansion was first built by WijesundaraEkanayake in the 18 th Century. This earliest ancestor of the property was a favourite of the then Kandyan ruler, King Wimaladarmasooriya II and has received a present of 54,000 acres of land for gifting the King with a beautiful snow white deer lived in the nearby forests of Maduwanwela while King Rajasingha II had added almost 30,000 acres for capturing an evading Dutch prisoner. 
+
+ 
+						 More 
+						 
+
+	The Maduwanwela Walauwa had been labour of love of many generations yet the most advanced improvements had been done by the last owner of the mansion and the ‘Black Prince of Sabaragamuwa’, WickamasingheWijesundaraEaknayakeAbayakoonMudiyanseRalahamillage Sir JamesWilliam Maduwanwela, or the MahaDisawa of Maduwanwela. A local aristocrat, who true to his name, cherished and nurtured his land as if it was his kingdom; while preserving Buddhist religious and cultural values withit. 
+
+	 
+
+	In his time the mansion had been at its glorious best with 121 rooms and 21 inner court yards. Today only forty two rooms remain with not more than seven inner court yards. The records speaks of immense store rooms, which had stored dry grains, preserves and meats enough to sustains the entire population at the mansion and the 18 villages belonging to it. 
+
+	 
+
+	The MahaDisawa, his wife and his daughter had had separate rooms of their own and the doorways in general were small in frame; both short in height and narrow in width, which may have meant that they were petite in body structure. However, other reasons portray the door frame to be short in height to demand respect from those who entered, with the bowing of head gesture. 
+
+	 
+
+	A room specially built for the chanting of pirith at one end of the entrance with its floor set in vibrant mosaics of crushed ceramic is an rare addition while another peculiar chamber being the meeting hall, which was known for unusually low temperature inside. The reason being it’s ingeniously aerated wooden ventilation system, which kept the high temperature out and the cool in. 
+
+	 
+
+	In an entrance hall of the Walawwa is the proud life size portray of its last master framed in an intricately carved wooden frame made of the rarest of hard woods; ebony, satin, rosewood. 
+
+	 
+
+	The Walawwa even had its own courthouse where the MahaDisawaadministeredhis judicial powers. Sir JamesWilliam Maduwanwelawas an ardent fanof Mahatma Gandhi and had the upper storey built in 1905 in his honour with much plain design, much like Gandhi's home in India. 
+
+	 
+
+	Adjoining the entrance, a large Bo tree standvastly wide at its trunk and reaching great summits was encircled by a short stocky stone wall decorated with sculpted figures and ceramic plates as were the other walls of the same kind enclosing the Walawwa premises. The stone gate frame of the entrance to the Walawwa's immediate locality had been carved with vague outlines of birds and flowers, symbolising good governance and prosperity. 
+
+	 
+
+	It is said that the man they called the Black Prince would awaken his entire household, in the early hours of the morning, to begin the daily running of over 80,000 acres of his land, which was also his love and life. Yet four hundred years later the only voice that bellowsthrough the vicinity is the noisy winds circling the large tree filled spaces surrounding the Maduwanwela Walawwa, the mansion itself had aged with the burden of time and is under the process of restoration by the Archaeology Department, as a tribute to a princely human who ruled a kingdom within a kingdom. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=21"><img src="http://srilanka.travel//image/data/attraction_main_images/Budugala.jpg" style="width:100px;height:50px;"/><br/>Budugala</a>',
+      6.6325924 , 80.8754104, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=23"><img src="http://srilanka.travel//image/data/attraction_main_images/Divaguhawa.jpg" style="width:100px;height:50px;"/><br/>Diva Guhawa  Batatota Lena</a>',
+      6.749168923865482 , 80.39314270019531, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=150"><img src="http://srilanka.travel//image/data/001/attractions/Sripada/adams-peak.jpg" style="width:100px;height:50px;"/><br/>Sri Pada Adams Peak</a>',
+      6.809627 , 80.499399, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=151"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/sinharaja-800x400.jpg" style="width:100px;height:50px;"/><br/>Sinharaja</a>',
+      6.389637 , 80.501088, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=164"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Udawalawe-1.jpg" style="width:100px;height:50px;"/><br/>Udawalawe National Park</a>',
+      6.472865 , 81.063191, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=20"><img src="http://srilanka.travel//image/data/attraction_main_images/Balla_Mala_ella.jpg" style="width:100px;height:50px;"/><br/>Balla Mala Ella</a>',
+      6.743031900492014 , 80.39640426635742, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=24"><img src="http://srilanka.travel//image/data/attraction_main_images/Doovili_Ella.jpg" style="width:100px;height:50px;"/><br/>Doovili Ella</a>',
+      6.390024539343289 , 80.39159774780273, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.7062667, 80.384761111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Ratnapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Grand Udawalawe Safari Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : salesmanager@grandudawalawe.com 
+                                      				      				         Tel : 0472232000 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Rathnaloka Tour Inn 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ratnalokaacc555@gmail.com 
+                                      				      				         Tel : 0452222455 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Centauria Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : centauria@sltnet.lk 
+                                      				      				         Tel : 0472230514 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lake Serenity 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : marketing@lakeserenity.lk 
+                                      				      				         Tel : 0452262199 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 4  out of  4  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Budugala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henanigala Panchawasa Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pannathgoda Purana Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ridee Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudumbigala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Attanagalla Raja Maha Viharava 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nagapabbatha Monastery  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nikayalannuwara Historical Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dowa Rock Temple 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

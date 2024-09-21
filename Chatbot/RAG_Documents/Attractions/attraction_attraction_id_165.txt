@@ -1,0 +1,658 @@
+
+				 Galle  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Mirissa 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Galle | Mirissa 
+						 
+						 Mirissa 
+						 
+
+	Mirissa is the largest fishing port on the south coast and is known for its tuna, mullet, snapper and butterfish. In 1980 the first tourist accommodation was built however it wasn't until the mid-1990s that tourism to the town started to dramatically increase. 
+
+ 
+						 More 
+						 
+
+	Best time to visit- Winter Season: November - April The beaches are at their best at this time with fine weather and calm seas. Summer Season: May – October During the off season, Mirissa becomes quiet and sea gets a bit rough but it is still popular especially at weekends with crowds from Colombo coming to spend the day here. Whale and dolphin watching: there are many companies with different prices (2000-6000 LKR), but in the end all of them are similar, and you will be surrounded by another 12 boats while hunting the animals. You can easily get good views of dolphins, as they will be in a big group jumping out of the water for a long time, but don't expect much from the whales: they are elusive, and you'll most likely only see a bit of their back for a brief second when they come out for air. The boats will chase them around until you get four or five of these sightings, and then head back home. If the engine doesn't fail, you'll be boarding at 6:30, leave the harbour at 7:00, and be back by 11:00. Some boats have plastic chairs, others have benches, others have mattresses on the upper deck floor. Check the boat at the harbour, ask how many people will be on board, and avoid overcrowding. All of them include a cup of coffee or tea, a small bottle of water, some breakfast (jam sandwich), bananas, pineapple and watermelon. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=53"><img src="http://srilanka.travel//image/data/attraction_main_images/kosgoda.jpg" style="width:100px;height:50px;"/><br/>Kosgoda</a>',
+      6.3354424 , 80.03393119999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=55"><img src="http://srilanka.travel//image/data/attraction_main_images/weligama.jpg" style="width:100px;height:50px;"/><br/>Weligama  Bay</a>',
+      5.9773782 , 80.4288487, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=156"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Hikaduwa-1.jpg" style="width:100px;height:50px;"/><br/>Hikkaduwa Beach</a>',
+      6.139540 , 80.104979, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=162"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Unawatuna-1.jpg" style="width:100px;height:50px;"/><br/>Unawatuna</a>',
+      6.009862 , 80.248518, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=190"><img src="http://srilanka.travel//image/data/001/Attraction01/Jungle-Beach /Jungle-1.jpg" style="width:100px;height:50px;"/><br/>Jungle Beach </a>',
+      6.018866 , 80.239664, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=192"><img src="http://srilanka.travel//image/data/001/Attraction01/Koggala-Beach /Koggala-1.jpg" style="width:100px;height:50px;"/><br/>Koggala Beach </a>',
+      5.992334 , 80.310563, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=153"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Galle-1.jpg" style="width:100px;height:50px;"/><br/>Galle Fort</a>',
+      6.025003 , 80.218058, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=6"><img src="http://srilanka.travel//image/data/attraction_main_images/Whale_Watching_In_Mirissa.jpg" style="width:100px;height:50px;"/><br/>Whale Watching in Mirissa</a>',
+      5.94526548561255 , 80.46180725097656, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.0536389, 80.220975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Galle  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Utmt Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : iris@crazyhollmann.com 
+                                      				      				         Tel : 0770108674 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Talalla Retreat Centre 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chathuraji@yahoo.com 
+                                      				      				         Tel : 0412259171 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Austrian Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : office@austrianbeach.com 
+                                      				      				         Tel : 0412257360 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lalitha Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : lalithahotel@yahoo.com 
+                                      				      				         Tel : 0412233221 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Amaloh Boutique Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@amaloh.com 
+                                      				      				         Tel : 0412230088 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Barberyn Ayurvedic Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : beach.devika@barberynresorts.com 
+                                      				      				         Tel : 0415629950 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Dickwella  Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rm_dickwella@brownshotels.com 
+                                      				      				         Tel : 0412255271 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ani Villas 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : avslam@anivillas.com 
+                                      				      				         Tel : 0417634634 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  8  Results 
+			 More Places To Stay 
+
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pigeon Island National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Arugam Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Unawatuna 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kosgoda 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kalpitiya Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jungle Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala & Bentota 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koggala Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Face Green 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

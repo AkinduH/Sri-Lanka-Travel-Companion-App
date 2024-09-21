@@ -1,0 +1,584 @@
+
+				 Ampara  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Omunugala Cave Monastery 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Ampara | Omunugala Cave Monastery 
+						 
+						 Omunugala Cave Monastery 
+						 
+
+	Omunugala, a cave monastery built in the third century BC which later flourished into a monastery complex under the patron ship of kings and peasants of Eastern Sri Lanka lies destitute in the midst of Mahaoya jungle 
+
+ 
+
+	Spreading around the Omunugala Mountain, named such for an ancient dam constructed around a water fall, the monastery had declined with the Eastern Kingdom as was revived in 1973 yet was lost to the jungle again with separatist war ravaged the Eastern Province.  
+
+ 
+						 More 
+						 
+
+	An ancient Bo tree and a tamarind tree stands near the ruined stupa at the foot of the mountain, although the Bodhigara, or the housing around the Bo tree, had been reduced to mere stone pillars few centuries back.  
+
+ 
+
+	Just beyond the Bo tree is the famed ‘Nai Pena Ella’ or the waterfall of cobra hoods named for the sign of seven hooded cobra marked on its rocky banks. The seven hooded cobra is an ancient sign depicting an eternal source of water as the ancient believed the cobra to be the guardian of all water sources.  
+
+ 
+
+	More drip-ledged caves with Brahmin inscriptions detailing donation and donator could be found on the way to the top.  The most important inscription is within the largest cave in the monastery. It speaks of the donator as ‘Guptha, the daughter of NadikaMitha and the wife of Thilakana’ and is believed to a cave donation made by the daughter of Nadimithra, one of the ten great warriors of King Dutugamunu.  
+
+ 
+
+	A shrine roomhad been created within a thirty seven meter long cave. The cave remodeled with bricked walls and had been plastered and adorned with murals although few of the adornments remain. A siting Buddha has graced the wall opposite the main entrance but today only the ‘hettuthorana’ or wall pandal built around the statue remain. Although partially destroyed the drawing of the panadal still remain clear  
+
+ 
+
+	Things To Do: Archeology, photography and hiking  
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=99"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Okanda-Beach /Okanda-Beach-1.jpg" style="width:100px;height:50px;"/><br/>Okanda Beach</a>',
+      6.649917699999999 , 81.77277720000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=95"><img src="http://srilanka.travel//image/data/001/Ampara/Buddhangala Monastery/Buddangala-9 cvr.jpg" style="width:100px;height:50px;"/><br/>Buddhangala Monastery</a>',
+      7.3318375 , 81.70364319999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=97"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Pannathgoda-Purana-Raja-Maha-Viharaya/Pannathgoda-1.jpg" style="width:100px;height:50px;"/><br/>Pannathgoda Purana Raja Maha Viharaya</a>',
+      7.146935200000001 , 81.55244379999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=98"><img src="http://srilanka.travel//image/data/001/Ampara/Magulmaha viharaya/header_magulmaha_viharaya cover.jpg" style="width:100px;height:50px;"/><br/>Magul Maha temple Magul Maha viharaya</a>',
+      6.8673471 , 81.73665189999997, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=100"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Gamini-Thissa-Monastery-Complex/Gamini-1.jpg" style="width:100px;height:50px;"/><br/>GaminiThissa Monastery Complex in Mottagala</a>',
+      7.154517999999999 , 81.80603900000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=103"><img src="http://srilanka.travel//image/data/001/Ampara/Rajagala/header-rajagala COVER.jpg" style="width:100px;height:50px;"/><br/>Rajagala</a>',
+      7.4908074 , 81.61720830000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=104"><img src="http://srilanka.travel//image/data/001/Ampara/Neelagiri/header-neelagiri-cover.jpg" style="width:100px;height:50px;"/><br/>Neelagiri Stupa</a>',
+      6.8995015 , 81.79372790000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=105"><img src="http://srilanka.travel//image/data/001/Ampara/Nagapabbatha/Header-Bambaragasthalawa-cover.jpg" style="width:100px;height:50px;"/><br/>Nagapabbatha Monastery </a>',
+      6.635876800000001 , 81.67068960000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=106"><img src="http://srilanka.travel//image/data/001/Ampara/Piyangala Forest Hermitage/header-piyangala-cover.jpg" style="width:100px;height:50px;"/><br/>Piyangala Forest Hermitage</a>',
+      7.495774000000002 , 81.63159270000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=107"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Henanigala-Panchawasa-Raja-Maha-Viharaya/Henanigala-1.jpg" style="width:100px;height:50px;"/><br/>Henanigala Panchawasa Raja Maha Viharaya</a>',
+      7.576906600000001 , 81.08926270000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=108"><img src="http://srilanka.travel//image/data/001/Ampara/Deegavapiya/Header-Deegavapiya-cover.jpg" style="width:100px;height:50px;"/><br/>Ancient Deegawapiya</a>',
+      7.285287499999998 , 81.79783900000007, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=113"><img src="http://srilanka.travel//image/data/001/Ampara/Kudumbigala /Header-Kudimmbigala-cover.jpg" style="width:100px;height:50px;"/><br/>Kudumbigala Monastery</a>',
+      6.6721095 , 81.7443538, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=114"><img src="http://srilanka.travel//image/data/001/Ampara/Veheragala/Pulukunawa-cover.jpg" style="width:100px;height:50px;"/><br/>Ancient Veheragala of Pulukunawa</a>',
+      6.703905600000001 , 81.66472429999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=115"><img src="http://srilanka.travel//image/data/001/Ampara/Samangala/Samangala-cover.jpg" style="width:100px;height:50px;"/><br/>Samangala Forest Hermitage</a>',
+      7.412891499999999 , 81.57129639999994, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=111"><img src="http://srilanka.travel//image/data/001/Ampara/Bowattegala/Header-Bowatha Galge-cover.jpg" style="width:100px;height:50px;"/><br/>Bowattegala Monastery</a>',
+      6.5552778 , 81.6863889, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=116"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/The-Japanese-Peace-Pagoda/Pagoda-1.jpg" style="width:100px;height:50px;"/><br/>The Japanese Peace Pagoda</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=121"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Owagiriya-Ancient-Monastery/Ovagiriya-1.jpg" style="width:100px;height:50px;"/><br/>Owagiriya Ancient Monastery</a>',
+      7.219731899999999 , 81.56269680000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=122"><img src="http://srilanka.travel//image/data/001/Ampara/Tharu lengala/Header-Thar- lengala-cover.jpg" style="width:100px;height:50px;"/><br/>Habuthala Viharaya or Tharulengala Monastery</a>',
+      6.928471699999999 , 81.65467139999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=125"><img src="http://srilanka.travel//image/data/001/Ampara/Shasthrawela/Header-Sastharawela-cover.jpg" style="width:100px;height:50px;"/><br/>Shasthrawela</a>',
+      6.5552778 , 81.6863889, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=128"><img src="http://srilanka.travel//image/data/001/Ampara/Gonagolla Monastery/Main- Cover.jpg" style="width:100px;height:50px;"/><br/>Gonagolla Monastery</a>',
+      7.435068799999999 , 81.62851060000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=131"><img src="http://srilanka.travel//image/data/001/Ampara/Kebiliththa/header-kebilittha-COVER.jpg" style="width:100px;height:50px;"/><br/>Kebiliththa Devalaya</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=133"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Veheragala-Temple/Veheragala-1.jpg" style="width:100px;height:50px;"/><br/>Veheragala Temple</a>',
+      6.703905600000001 , 81.66472429999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=134"><img src="http://srilanka.travel//image/data/001/Ampara/Kotaveheragala/header-Kotaveheragala-cover.jpg" style="width:100px;height:50px;"/><br/>Kotaveheragala</a>',
+      6.878081599999999 , 81.75294759999997, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=142"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Muhudu-Maha-Viharaya/Muhudu-1.jpg" style="width:100px;height:50px;"/><br/>Muhudu Maha Viharaya</a>',
+      6.8684711 , 81.84050560000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=148"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Mullikulamalai/Mullikulamalai-1.jpg" style="width:100px;height:50px;"/><br/>Mullikulamalai</a>',
+      7.285287499999998 , 81.79783900000007, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=149"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Okanda-Beach /Okanda-Beach-1.jpg" style="width:100px;height:50px;"/><br/> Okanda Devalaya  A Destination of Mass Pilgrim</a>',
+      6.651726500000001 , 81.7727691, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=129"><img src="http://srilanka.travel//image/data/001/Ampara/Kudagala/Maincover.jpg" style="width:100px;height:50px;"/><br/>Kudagala Forest Reserve amp Monastery</a>',
+      6.5441667 , 81.65750000000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=141"><img src="http://srilanka.travel//image/data/001/Ampara/Lahugala/Lahugala-cover.jpg" style="width:100px;height:50px;"/><br/>Lahugala Kitulana Forest Reserve</a>',
+      6.913880199999999 , 81.75682529999995, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=112"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Camping-in-Kumana-National-Wildlife-Sanctuary/Camping-in-Kumana-1.jpg" style="width:100px;height:50px;"/><br/>Camping in Kumana National Wildlife Sanctuary</a>',
+      6.6493509 , 81.77008339999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=117"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Govinda-Hela-of-Siyambalanduwa/Siyambalanduwa-1.jpg" style="width:100px;height:50px;"/><br/>Govinda Hela of Siyambalanduwa</a>',
+      6.9103363 , 81.55914050000001, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=96"><img src="http://srilanka.travel//image/data/001/Ampara/Jayanthi Wewa /header_jayanthi_wewa cover.jpg" style="width:100px;height:50px;"/><br/>Jayanthi Wewa </a>',
+      7.115048499999999 , 81.54044429999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=101"><img src="http://srilanka.travel//image/data/001/Ampara/Arugambay/header-arugambay cover.jpg" style="width:100px;height:50px;"/><br/>Arugambay amp Pottuvil Point</a>',
+      6.840407799999999 , 81.83684779999999, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=102"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Senanayaka-Samudraya/Inginiyagala-1.jpg" style="width:100px;height:50px;"/><br/>Senanayaka Samudraya of Inginiyagala</a>',
+      7.2278803 , 81.53540769999995, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=109"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Maduru-Oya-National-Wildlife-Park/Maduru-Oya.jpg" style="width:100px;height:50px;"/><br/>Maduru Oya National Wildlife Park</a>',
+      7.576906600000001 , 81.08926270000006, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=118"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Wadinagala/wadinagala-1.jpg" style="width:100px;height:50px;"/><br/>Wadinagala</a>',
+      7.133864 , 81.54867279999996, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=124"><img src="http://srilanka.travel//image/data/001/Ampara/Senanigala/Header-Senanigala-Cover.jpg" style="width:100px;height:50px;"/><br/>Henanegala Len Viharaya</a>',
+      7.570201299999998 , 81.06417299999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=126"><img src="http://srilanka.travel//image/data/001/Ampara/Sangamankanda /Samangala-komari-cover.jpg" style="width:100px;height:50px;"/><br/>Sangamankanda Point</a>',
+      7.025934899999999 , 81.87830869999993, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=130"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Maduru-Oya-Reservoir/Maduru-Oya-1.jpg" style="width:100px;height:50px;"/><br/>Maduru Oya Reservoir</a>',
+      7.5252778 , 81.25638890000005, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=132"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Gal-Oya-National-Park/Gal-oya-1.jpg" style="width:100px;height:50px;"/><br/>Gal Oya National Park</a>',
+      7.258665 , 81.7014074, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=135"><img src="http://srilanka.travel//image/data/001/Ampara/Alioluwa Lake/Alioluwa Lake-cover.jpg" style="width:100px;height:50px;"/><br/>Alioluwa Lake</a>',
+      7.239064699999998 , 81.57266729999992, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=136"><img src="http://srilanka.travel//image/data/001/Ampara/Pallan Hela Mountain/Pallan Hela Mountain-cover.jpg" style="width:100px;height:50px;"/><br/>Pallan Hela Mountain</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=137"><img src="http://srilanka.travel//image/data/001/Ampara/Makaraya/Makaraya-cover.jpg" style="width:100px;height:50px;"/><br/>Makaraya</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=138"><img src="http://srilanka.travel//image/data/001/Ampara/Veddagala/Veddagala- cover.JPG" style="width:100px;height:50px;"/><br/>Veddagala</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=139"><img src="http://srilanka.travel//image/data/001/Ampara/Nittaewo/Nittaewo- cover.JPG" style="width:100px;height:50px;"/><br/>The Dagger Clawed People</a>',
+      7.231759100000001 , 81.64734399999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=140"><img src="http://srilanka.travel//image/data/001/Ampara/Mahaoya/Mahaoya-cover.jpg" style="width:100px;height:50px;"/><br/>The Steaming Hot Water Wells of Mahaoya</a>',
+      7.4312864 , 81.33296010000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=144"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Dome-Houses/dome-1.jpg" style="width:100px;height:50px;"/><br/>Dome Houses</a>',
+      6.875270599999999 , 81.83063340000001, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=143"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Hot-Water-Springs-in-Wahawa/Hotwater-1.jpg" style="width:100px;height:50px;"/><br/>Hot Water Springs in Wahawa</a>',
+      7.531116199999998 , 81.34544170000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=147"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Rambakan-Oya/Rambakan-Oya-1.jpg" style="width:100px;height:50px;"/><br/>Rambakan Oya</a>',
+      7.498410000000001 , 81.37804310000001, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=145"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Bandaraduwa/Bandaraduwa-1.jpg" style="width:100px;height:50px;"/><br/>Bandaraduwa</a>',
+      7.428174999999998 , 81.56512699999996, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=146"><img src="http://srilanka.travel//image/data/001/Prasad/Ampara/Nuwaragala/Nuwaragala-1.jpg" style="width:100px;height:50px;"/><br/>Nuwaragala</a>',
+      7.512463 , 81.48830969999995, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.3020417, 81.674772222222),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Ampara  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    The Blue Wave Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hasinig2@gmail.com 
+                                      				      				         Tel : 0463492992 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Star Dust Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : stardust@arugambay.com 
+                                      				      				         Tel : 0632248191 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Palm Groove Holiday Inn 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : galappaththi@gmail.com 
+                                      				      				         Tel : 0632248457 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 3  out of  3  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Devon Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduru Oya Reservoir 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyatha Uyana 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Senanayaka Samudraya of Inginiyagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Doovili Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bambarakanda Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dome Houses 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Colombo Lighthouse 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henanegala Len Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dunhinda Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

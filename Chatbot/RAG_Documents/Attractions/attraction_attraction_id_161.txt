@@ -1,0 +1,376 @@
+
+				 Kegalle  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Pinnawala Elephant Orphanage 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kegalle | Pinnawala Elephant Orphanage 
+						 
+						 Pinnawala Elephant Orphanage 
+						 
+
+	The orphanage was originally founded to provide care and protection to the many orphaned elephants found in the jungles of Sri Lanka. Pinnawala has the largest herd of captive elephants in the world 
+
+ 
+						 More 
+						 
+
+	Pinnawala Elephant Orphanage can be reached via the A1 Colombo – Kandy main road. A turn off at the 82 km post at Kegalle and turn left at the karadupana junction and it’s leads you to the Pinnawala Elephant Orphanage. 
+
+ 
+
+	The closest railway station is at Rambukkana 2km away from Pinnawala. The main site also has a few restaurants and refreshment stands, and management buildings, including sleeping shelters and Medical facilities. The elephant bathing and viewing area along the Oya River is directly opposite on the west side of the highway. 
+
+ 
+
+	Tourists can observe the bathing elephants from the broad riverbank as the herd interacts socially, bathing and playing. The orphanage is open to the public daily, and all admission fees are used to look after the elephants. Visitors to the park can view the care and daily routine of the elephants, such as bottle feeding of elephant calves, feeding of all other elephants, and bathing in the Ma Oya (River). 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+												 Opening Hours : 8.30 AM to 5.30 PM 
+
+					
+					
+										
+					
+					
+					
+					
+					
+												 More info :  
+
+	http://nationalzoo.gov.lk/elephantorphanage/ 
+
+ 
+
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=185"><img src="http://srilanka.travel//image/data/001/Attraction01/Asupini-ella/Asupini-1.JPG" style="width:100px;height:50px;"/><br/>Asupini Ella</a>',
+      7.117772 , 80.485695, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.2514306, 80.346402777778),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+                       
+      				
+            		 
+                    
+
+                     
+				     
+                 
+
+             
+        
+
+
+
+
+
+
+	
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wadinagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pallan Hela Mountain 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beira Lake 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hot Water Springs in Wahawa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Horton Plains 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rambakan Oya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Doovili Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Balla Mala Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Steaming Hot Water Wells of Mahaoya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dunhinda Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		
+	
+	 
+	 
+

@@ -1,0 +1,634 @@
+
+				 Trincomalee  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Pigeon Island National Park 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Trincomalee | Pigeon Island National Park 
+						 
+						 Pigeon Island National Park 
+						 
+
+	The national park contains some of the best remaining coral reefs of Sri Lanka. This national park is the 17th in Sri Lanka. The island was used as a shooting range during the colonial era. Pigeon Island is one of the several protected areas affected by the Indian Ocean tsunami in 2004. 
+
+ 
+
+	Pigeon Island consists of two islands; large pigeon island and small pigeon island. The large pigeon island is fringed by a coral reef, and is about 200 m long and 100 m wide. The national park is situated within the dry zone of Sri Lanka. You can see over 100 species of coral and 300 coral reef fish recorded in the area. Sea Turtles and Blacktip Reef Sharks are also commonly seen in the shallow coral areas. 
+
+ 
+						 More 
+						 
+
+	To reach Pigeon Island National Park, visitors must rent a boat from Nilaveli Beach and then take a one hour trip to the island. The charges for visiting Pigeon Island National Park entry fee adult/child US$10/5, service charge per group US$8 and charge per boat Rs 125.There are boat operators who will charge Rs 1500/- 1800/- for a return trip to the island. These can be organised outside hotel arrangements. The islands are looked after by the Navy. You can visit the Pigeon Island National Park every day from 9 a.m. to 5 p.m. You can also buy goggles and other swimming equipments. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=48"><img src="http://srilanka.travel//image/data/attraction_main_images/nilaweli.jpg" style="width:100px;height:50px;"/><br/>Nilaveli and Uppaveli</a>',
+      8.692733100000002 , 81.18852930000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=167"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Koneswaram-1.jpg" style="width:100px;height:50px;"/><br/>Koneswaram Kovil</a>',
+      8.582766  , 81.245473, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(8.58745, 81.215225),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Trincomalee  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Nilaveli Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accts.nilaveli@gmail.com 
+                                      				      				         Tel : 0262232295 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cardamon Hotel Nilaveli 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gibsons@126.com 
+                                      				      				         Tel : 0262061600 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sea Lotus Park Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@sealotuspark.com 
+                                      				      				         Tel : 0262225327 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pigeon Island Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rm@pigeonislandresort.com 
+                                      				      				         Tel : 0267388388 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jungle Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm-jb@ugaescapes.com 
+                                      				      				         Tel : 0265678701 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Anantamaa Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@anantamaa.com 
+                                      				      				         Tel : 0262050250 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Trinco Blu By Cinnamon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.blu@cinnamonhotels.com 
+                                      				      				         Tel : 0262221611 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  7  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala & Bentota 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kosgoda 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koggala Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Okanda Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Weligama  Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Mirissa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kalpitiya Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jungle Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nilaveli and Uppaveli 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

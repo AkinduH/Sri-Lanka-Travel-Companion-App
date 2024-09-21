@@ -1,0 +1,951 @@
+
+				 Bandarawela  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Little Adamâ€™s Peak 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Bandarawela | Little Adamâ€™s Peak 
+						 
+						 Little Adamâ€™s Peak 
+						 
+
+	Ella is approximately 200 kilometers (120 mi) east of Colombo. The area has a rich bio-diversity, dense with numerous varieties of flora and fauna. Ella is surrounded by hills covered with cloud forests and tea plantations. The town has a cooler climate than surrounding lowlands, due to its elevation. The Ella Gap allows views across the southern plains of Sri Lanka. 
+
+ 
+
+	Do not challenge the magnificent sightseeing in Sri Lanka, Little Adams Peak, whether by considering the word "Little", it is called the sacred summit of Adams (Sri Pada, where the imprint of Lord Buddha is preserved) As regards the similarity between Two Mountains. Accordingly, the mountain was called as little Adams Peak. 
+
+ 
+
+	“Punchi Sri Pada” is some other name for this top. It is 1141 m in top. Little Adam’s Peak attracts many vacationers who come to Sri Lanka. Gradually with a clean hike as much as the mountain of Little Adams Peak you may consummation a really worth panoramic view. You need to walk via lush green tea plantations, waterfalls and paddy fields even as playing the sceneries. 
+
+ 
+
+	It will be invaluable if you can visit the place in the morning when the clouds roll. Other places like Little Adams Peak deliberate: "How far Sri Lanka is worth and rich with beautiful natural destinations of Sri Lankan tourism". It will feel like a neck exercise for visitors that you need to rotate your body to look for outstanding views for 360 degrees. 
+
+ 
+						 More 
+						 
+
+	It is absolutely necessary to say that ‘don’t forget to wake up early inside the morning and climb the mountain before it receives hot’ otherwise you'll feel tired. Although take a bottle of water with you. If you could have a cup of tea or something you could feel higher to your manner again to the lodge or domestic. It is wise to keep in mind that if you want to take a picture with the tea plucker who works in the tea plantations, they will ask for money. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=180"><img src="http://srilanka.travel//image/data/001/Attraction01/dowa/Dowa-Temple-1.jpg" style="width:100px;height:50px;"/><br/>Dowa Rock Temple</a>',
+      6.856366 , 81.022152, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=154"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Ella-1.jpg" style="width:100px;height:50px;"/><br/>Ella </a>',
+      6.866736 , 81.046660, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=188"><img src="http://srilanka.travel//image/data/001/Attraction01/Rawana-ella-ravana-falls/Rawana-1.jpg" style="width:100px;height:50px;"/><br/>Rawana ella and Ravana falls</a>',
+      6.840527 , 81.054634, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=196"><img src="http://srilanka.travel//image/data/001/Attraction01/Babarakanda/Bambarakanda-1.jpg" style="width:100px;height:50px;"/><br/>Bambarakanda Falls</a>',
+      6.773143 , 80.826333, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.8268444, 80.998091666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Bandarawela  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Pegasus Reef Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kapilag@pegasusreefhotel.com 
+                                      				      				         Tel : 0112930205 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Goldi Sands Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : goldi@eureka.lk 
+                                      				      				         Tel : 0312279227 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Catamaran Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelaccounts4@lsr-srilanka.com 
+                                      				      				         Tel : 0312228805 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Paradise Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : paradisebeach@sltnet.lk 
+                                      				      				         Tel : 0312224258 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Beach 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hyacinth@jetwinghotels.com 
+                                      				      				         Tel : 0312273500 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Beach Boutique 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@beachboutique.lk 
+                                      				      				         Tel : 0112232325 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Royal Castle 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sales@airwinghotels.com 
+                                      				      				         Tel : 0312227028 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Camelot Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@camelot.lk 
+                                      				      				         Tel : 0312222318 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel J 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : vimukthi@hotelj.lk 
+                                      				      				         Tel : 0112345700 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Blue 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : vijith@jetwinghotels.com 
+                                      				      				         Tel : 0312279000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Sea 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ajith@jetwinghotels.com 
+                                      				      				         Tel : 0314933415 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Full Moon Garden Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : finance@fullmoon.lk 
+                                      				      				         Tel : 0112260555 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Grandeeza Luxury Hotel &banquets 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@grandeeza.com 
+                                      				      				         Tel : 0312228500 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pledge 3 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chiefaccountant@pledgehotelsandresorts.com 
+                                      				      				         Tel : 0312224005 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ramada Katunayake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : audit@ramadakatunayake.com 
+                                      				      				         Tel : 0112253646 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Goodwood Plaza 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : goodwoodplazakatunayake@gmail.com 
+                                      				      				         Tel : 0112252561 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  27  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Omunugala Cave Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 St. Clairs Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Makaraya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Point Pedro 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Growing Stone 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nara Mangrove Garden 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Colombo Lighthouse 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sangamankanda Point 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pallan Hela Mountain 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Devon Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

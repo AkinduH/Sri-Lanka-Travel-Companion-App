@@ -1,0 +1,541 @@
+
+				 Badulla  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Diyaluma  Falls  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Badulla | Diyaluma  Falls  
+						 
+						 Diyaluma  Falls  
+						 
+
+	On one side of cascades, the earth is covered with deciduous plants. Wild animals found in the area include lizards. 
+
+ 
+
+	In Sinhalese, Diyaluma or Diya Haluma means "rapid flow of water" or may be translated as "liquid light". According to Sri Lankan historian, Dr. R. L. Brohier, Diyaluma is the setting of the folklore about a tragedy involving a young chieftain who had been banished to the highlands and the attempt by his betrothed to join.  
+
+ 
+
+	As all the passes were guarded the young man let down a rope of twisted creepers over the escarpment, as she was hauled up she was dashed against the rocks and died. The Gods, moved to pity by the harrowing spectacle, caused a stream of water to gush from the mountain and veil all evidence of the tragedy in a watery light, hence the term Diyaluma. 
+
+ 
+						 More 
+						 
+
+	At 171 m, Diyaluma Ella Falls is the third largest waterfall in Sri Lanka. The torrent of water cascades to the plateau of Koslanda and during the rain, it is a spectacular view. 
+
+ 
+
+	Cascades is located along the Koslanda-Wellawaya road in the district of Badulla. Koslanda is the closest town in the fall, 6 km, and Wellawaya is 13 km. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=177"><img src="http://srilanka.travel//image/data/001/Attraction01/Dunhida/Dunhida-1.png" style="width:100px;height:50px;"/><br/>Dunhinda Falls</a>',
+      7.017293 , 81.063305, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.9935611, 81.054975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Badulla  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    98 Acres Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fb@resort98acres.com 
+                                      				      				         Tel : 0572050050 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Melheim Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : nnaayakkaracranford@yahoo.com 
+                                      				      				         Tel : 0717554491 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Olympus Plaza Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : navishtha@gmail.com 
+                                      				      				         Tel : 0572268544 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Orient Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : orient-col@eureka.lk 
+                                      				      				         Tel : 0572222407 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Bandarawela Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sec@bandarawelahotel.lk 
+                                      				      				         Tel : 0572222501 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  5  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduru Oya Reservoir 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Huluganga Ella Falls  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Dagger Clawed People 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gregory Lake  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Alioluwa Lake 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Horton Plains 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyatha Uyana 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Devon Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nilavara Bottomless Well  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft island  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

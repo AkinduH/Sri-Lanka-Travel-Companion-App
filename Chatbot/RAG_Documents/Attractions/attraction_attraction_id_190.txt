@@ -1,0 +1,982 @@
+
+				 Galle  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Jungle Beach  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Galle | Jungle Beach  
+						 
+						 Jungle Beach  
+						 
+
+	This place has Golden sandy shore and rich bio diversity backgrounds and suitable for swimming without waves. The beach is rich with coral reefs and marine biology. Rumassala mountain is closer to jungle beach. 
+
+ 
+
+	 Rumassala is famous for tourist and naturalists because jungle beach filled with many uncommon birds, animals, plants, as well as this place  famous for rare medicinal plants.  
+
+ 
+
+	According to Ramayana legend the Rumassala Rock is part of the Himalayan range that was brought by "Hanuman" to heal the wounded battalions in order to obey the request of King Rama, 
+
+ 
+						 More 
+						 
+
+	The beach is located about 7.5 km from the main city, Galle. and a few kilometers from Rumassala. reached by a climb up Rumassala mountain and then by trekking down through greenery through a small route which leads to beach. The beach  is small and secluded 
+
+ 
+
+	Snorkeling is also a great thing to do this area, you should  take snorkeling equipment. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=53"><img src="http://srilanka.travel//image/data/attraction_main_images/kosgoda.jpg" style="width:100px;height:50px;"/><br/>Kosgoda</a>',
+      6.3354424 , 80.03393119999998, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=55"><img src="http://srilanka.travel//image/data/attraction_main_images/weligama.jpg" style="width:100px;height:50px;"/><br/>Weligama  Bay</a>',
+      5.9773782 , 80.4288487, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=156"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Hikaduwa-1.jpg" style="width:100px;height:50px;"/><br/>Hikkaduwa Beach</a>',
+      6.139540 , 80.104979, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=162"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Unawatuna-1.jpg" style="width:100px;height:50px;"/><br/>Unawatuna</a>',
+      6.009862 , 80.248518, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=165"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Mirissa-1.jpg" style="width:100px;height:50px;"/><br/>Mirissa</a>',
+      5.944783 , 80.458777, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=192"><img src="http://srilanka.travel//image/data/001/Attraction01/Koggala-Beach /Koggala-1.jpg" style="width:100px;height:50px;"/><br/>Koggala Beach </a>',
+      5.992334 , 80.310563, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=153"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Galle-1.jpg" style="width:100px;height:50px;"/><br/>Galle Fort</a>',
+      6.025003 , 80.218058, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=6"><img src="http://srilanka.travel//image/data/attraction_main_images/Whale_Watching_In_Mirissa.jpg" style="width:100px;height:50px;"/><br/>Whale Watching in Mirissa</a>',
+      5.94526548561255 , 80.46180725097656, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.0536389, 80.220975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Galle  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Coral Sands Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : coralsands@sltnet.lk 
+                                      				      				         Tel : 0912277513 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Susanthas 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : susanthas@sltnet.lk 
+                                      				      				         Tel : 0342275324 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Gartons Cape 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ranil.sampath@gartonhotels.com 
+                                      				      				         Tel : 0912282411 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Villa Thawthisa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@villathawthisa.com 
+                                      				      				         Tel : 0912250159 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hikkaduwa Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kala@hbeachhotel.com 
+                                      				      				         Tel : 0912277327 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cinnamon Bentota Beach 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.cbb@cinnamonhotels.com 
+                                      				      				         Tel : 0342275176 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Villa Ranmenika 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ranmenika@sltnet.lk 
+                                      				      				         Tel : 0912264251 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Riu Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotel.srilanka@riu.com 
+                                      				      				         Tel : 0913098689 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Thaala Bentota Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : andradi.avanib@serendibleisure.lk 
+                                      				      				         Tel : 0344641464 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Heritance Ahungalle 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ahungalla@heritancehotels.com 
+                                      				      				         Tel : 0915555000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lavanga Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : cfo@lavanga.lk 
+                                      				      				         Tel : 0912277623 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Bentota Village 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : bentotavillege@gmail.com 
+                                      				      				         Tel : 0342270130 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Citrus - Hikkaduwa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : janitha@citrusleisure.com 
+                                      				      				         Tel : 0914383244 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Insight 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ga@nkartravelhouse.com 
+                                      				      				         Tel : 0912283296 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lawrence Hill Paradise 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ayurvedakurlaub@gmx.de 
+                                      				      				         Tel : 0912277544 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ayurveda Paragon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ayurvedaparagon@sltnet.lk 
+                                      				      				         Tel : 0912283460 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  39  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kalpitiya Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hikkaduwa Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kosgoda 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koggala Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Weligama  Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Unawatuna 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Okanda Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala & Bentota 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Alankuda Beach 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

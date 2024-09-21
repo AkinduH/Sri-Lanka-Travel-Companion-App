@@ -1,0 +1,585 @@
+
+				 Batticaloa  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Arugam Bay 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Batticaloa | Arugam Bay 
+						 
+						 Arugam Bay 
+						 
+
+	Arugam Bay is on the list of the top ten surf points in the world. The best time of the year is between May and November. In Arugam Bay there are three point breaks “The Point”, “Pottuvil Point” and “Crocodile Rock” are within a hour tuk tuk ride from the Hotel, with The Point being visible (15 min walk) from the hotel. 
+
+ 
+						 More 
+						 
+
+	dunes. The very first international surfing competition was held by ISA (International Surfing Association) in the summer of 2004 and the surfing season in Arugambay is from beginning of April and ends of October. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=5"><img src="http://srilanka.travel//image/data/attraction_main_images/Baron_Cap_or_Thoppigala.jpg" style="width:100px;height:50px;"/><br/>Barons Cap or Thoppigala</a>',
+      7.831751810329571 , 81.4442253112793, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.7311556, 81.674744444444),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Batticaloa  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Uga Bay Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm-ub@ugaescapes.com 
+                                      				      				         Tel : 0655671001 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel East Lagoon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@hoteleastlagoon.com 
+                                      				      				         Tel : 0652229220 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Passi Bay Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : acc.passikudah@earlsred.lk 
+                                      				      				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Marina Passikudah 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelaccounts1@lsr-Srilanka.com 
+                                      				      				         Tel : 0652050244 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Passi Villas Passikudah 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelaccounts6@lsr-srilanka.com 
+                                      				      				         Tel : 0652050284 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Anantaya Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.passi@anantaya.lk 
+                                      				      				         Tel : 0652233200 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  6  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kalpitiya Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Okanda Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Mirissa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hikkaduwa Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pigeon Island National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Weligama  Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negambo Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nilaveli and Uppaveli 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Unawatuna 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

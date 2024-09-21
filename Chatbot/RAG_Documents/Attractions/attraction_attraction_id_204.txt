@@ -1,0 +1,1017 @@
+
+				 Colombo  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Seema Malakaya Meditation Centre 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Colombo | Seema Malakaya Meditation Centre 
+						 
+						 Seema Malakaya Meditation Centre 
+						 
+
+	This is a temple that belongs to Gangaramaya temple. This beautiful place designed by one of Sri Lankan best architect Geoffrey Bawa. This temple located in the middle of the lake. This temple covered with a short white wall and on this wall numerous statues of Buddha sitting in different poses. On your visit, stop walking and sit down. Enjoy the calm of being on the water. The hustle and bustle of the city, although close, seems to be a lesson. In the afternoon, this place bright with colourful lights. 
+
+ 
+						 More 
+						 
+
+	This place located near to well-known Ganagaramaya temple. You can hire tuk from here to “Sir James Pieris Mawatha” You will be able to see the water temple from that location. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=210"><img src="http://srilanka.travel//image/data/001/Attraction01/Galle-face/Galle-face-1.jpg" style="width:100px;height:50px;"/><br/>Galle Face Green</a>',
+      6.924568 , 79.844916 , 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=220"><img src="http://srilanka.travel//image/data/001/Attraction01/temple-800x400.jpg" style="width:100px;height:50px;"/><br/>Sri Shakhyasinharamaya</a>',
+      6.951070199999999 , 79.87415809999993, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=202"><img src="http://srilanka.travel//image/data/001/Attraction01/Indipendance/Indipendance-1.jpg" style="width:100px;height:50px;"/><br/>Independence Memorial Hall</a>',
+       6.902762 , 79.868745, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=205"><img src="http://srilanka.travel//image/data/001/Attraction01/Wolvendal-church/Church-1.jpg" style="width:100px;height:50px;"/><br/>Wolvendaal Church</a>',
+      6.9421 , 79.859, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=209"><img src="http://srilanka.travel//image/data/001/Attraction01/Bellanwila/Bellanwila-1.jpg" style="width:100px;height:50px;"/><br/>Bellanwila Temple Bellanwila Rajamaha Viharaya</a>',
+      6.845649 , 79.890041, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=172"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Beira-1.jpg" style="width:100px;height:50px;"/><br/>Beira Lake</a>',
+      6.929491 , 79.854159, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=201"><img src="http://srilanka.travel//image/data/001/Attraction01/Diyatha-Uyana/Diyatha-1.jpg" style="width:100px;height:50px;"/><br/>Diyatha Uyana</a>',
+      6.904511 , 79.909807, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=207"><img src="http://srilanka.travel//image/data/001/Attraction01/Floating/Floting-1.jpg" style="width:100px;height:50px;"/><br/>Pettah Floating Market</a>',
+      6.932938 , 79.855409, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=208"><img src="http://srilanka.travel//image/data/001/Attraction01/Light-House/Light-1.jpg" style="width:100px;height:50px;"/><br/>Colombo Lighthouse</a>',
+      6.936269 , - 79.840713, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=216"><img src="http://srilanka.travel//image/data/001/Attraction01/Viharamahadevi/Viharamahadevi-1.jpg" style="width:100px;height:50px;"/><br/>Viharamahadevi Park</a>',
+      6.913476 , 79.861837, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=200"><img src="http://srilanka.travel//image/data/001/Attraction01/Dutch/Dutch-1.jpg" style="width:100px;height:50px;"/><br/>Dutch Hospital </a>',
+      6.933675  , 79.843503, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=203"><img src="http://srilanka.travel//image/data/001/Attraction01/Lional/Lional-1.jpg" style="width:100px;height:50px;"/><br/>Lionel Wendt Art Centre</a>',
+      6.906705 , 79.860545, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=206"><img src="http://srilanka.travel//image/data/001/Attraction01/Gold-Center/Gold-1.jpg" style="width:100px;height:50px;"/><br/>Colombo Gold Center</a>',
+      6.940034 , 79.853120, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=211"><img src="http://srilanka.travel//image/data/001/Attraction01/Craft-Village/Craft-1.jpg" style="width:100px;height:50px;"/><br/>Craft Village</a>',
+      6.890188 , 79.921762, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=212"><img src="http://srilanka.travel//image/data/001/Attraction01/Pettah/Pettah-1.jpg" style="width:100px;height:50px;"/><br/>Pettah Market</a>',
+      6.936218 , 79.850106, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=213"><img src="http://srilanka.travel//image/data/001/Attraction01/Racecourse/Race-1.jpg" style="width:100px;height:50px;"/><br/>Colombo Racecourse</a>',
+      6.905514  , 79.863423, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=214"><img src="http://srilanka.travel//image/data/001/Attraction01/Green-Path/Green-1.jpg" style="width:100px;height:50px;"/><br/>Green path Colombo</a>',
+       6.911612 ,  79.860577, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=217"><img src="http://srilanka.travel//image/data/001/Attraction01/Arcade/Arcade-1.jpg" style="width:100px;height:50px;"/><br/>Arcade Independence Square</a>',
+      6.902506 , 79.868916, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=218"><img src="http://srilanka.travel//image/data/001/Attraction01/Ape-Gama/Ape-gama-1.jpg" style="width:100px;height:50px;"/><br/>Traditional Village Ape Gama</a>',
+      6.891276 , 79.922249, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.9280583, 79.861736111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Colombo  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Hotel Janaki 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : nuwan@hoteljanakicolombo.com 
+                                      				      				         Tel : 0112581524 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Colombo Court Hotel & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sec@colombocourthotel.com 
+                                      				      				         Tel : 0114961476 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Taj Samudra Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : tmpj.bandara@tajhotels.com 
+                                      				      				         Tel : 0115446622 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Renuka Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : maya_fc@renukahotel.com 
+                                      				      				         Tel : 0112573598 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Kingsbury 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sri@thekingsburyhotel.com 
+                                      				      				         Tel : 0112421221 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Rathna Pearl Grand City Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : om@pearlgrand.lk 
+                                      				      				         Tel : 0112597444 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Galadari Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : prasad@galadari.lk 
+                                      				      				         Tel : 0112544544 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Berjaya Mount Royal Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chandana.g@berjayahotel.com 
+                                      				      				         Tel : 0112739610 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hilton Colombo Residence 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : viraj.rukmal@hilton.com 
+                                      				      				         Tel : 0112300613 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Mount Lavinia Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hiruni.f@mountlaviniahotel.com 
+                                      				      				         Tel : 0112711711 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ocean Edge Suites And Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : operations@oceanedgesrilanka.com 
+                                      				      				         Tel : 0112589999 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Residence By Uga Escapes 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ceo.secy@ugaescapes.com 
+                                      				      				         Tel : 0115673000 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Colombo City Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : cmb_cityhotels@sltnet.lk 
+                                      				      				         Tel : 0115341962 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hilton-colombo 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : harsha.ranawaka@hilton.com 
+                                      				      				         Tel : 0112492492 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cinnamon Grand Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sharon@cinnamonhotels.com 
+                                      				      				         Tel : 0662286809 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pearl City Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : pearlcityacc@gmail.com 
+                                      				      				         Tel : 0114523800 
+				        				       
+						
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  31  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sigiriya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rajagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Aukana  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koneswaram Kovil 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Panavitiya Ambalama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kataragama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kebiliththa Devalaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 DambakolaPatuna Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nikayalannuwara Historical Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Magul Maha temple (Magul Maha viharaya) 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

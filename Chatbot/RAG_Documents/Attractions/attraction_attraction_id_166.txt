@@ -1,0 +1,924 @@
+
+				 Hambantota  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Kumana National Park 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Hambantota | Kumana National Park 
+						 
+						 Kumana National Park 
+						 
+
+	Kumana is one of the most important bird nesting and breeding grounds in Sri Lanka. 255 species of birds have been recorded in the national park. Kumbukkan Oya forms the southern boundary of the national park. Some 20 lagoons and tanks support the extensive birdlife of the national park. The lagoons are shallow with depths less than 2 meters (6.6 ft.). Kumana villu is subject to occasional inundation with seawater. The elevation of the area ranges from sea level to 90 meters (300 ft.). The mean annual temperature is 27.30 °C (81.14 °F) and the area receives 1,300 millimeters (51.18 in) of annual rainfall. 
+
+ 
+						 More 
+						 
+
+	The Kumana area is part of an ancient civilization that goes back to the 3rd century BC. Rock inscriptions belonging to the 2nd and 1st centuries BC have also been found in the region. The Kumana National Park lies on the route of the traditional annual foot Pilgrimage to the Hindu temple at Kataragama. Both Tamil and Sinhalese communities take part in this pilgrimage. The number of birds observed in the national park has fallen in recent years. Environmentalists and wildlife lovers have expressed their concern over a road planned to be constructed from Kirinda to Panama which will run along the coastline of the park. 
+
+ 
+
+	The park Office located in Okande and in hrere you should buy a permit and Guide before enter the park.  
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=179"><img src="http://srilanka.travel//image/data/001/Attraction01/Kirinda/Kirinda-1.jpg" style="width:100px;height:50px;"/><br/>Kirinda</a>',
+      6.213330 , 81.335336, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=163"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Yala-1.jpg" style="width:100px;height:50px;"/><br/>Yala National Park</a>',
+      6.279281 ,  81.401821, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=168"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Bundala-1.jpg" style="width:100px;height:50px;"/><br/>Bundala National Park</a>',
+      6.175162 , 81.196843, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.1430694, 81.121283333333),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Hambantota  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Anantara Peace Heaven Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : wudari@anantara.com 
+                                      				      				         Tel : 0472244455 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Eva Lanka 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : manager@eva.lk 
+                                      				      				         Tel : 0472240940 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Kithala Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : manager.kithala@themeresorts.com 
+                                      				      				         Tel : 0474378378 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ekho Safari 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rm.safari@ekhohotels.com 
+                                      				      				         Tel : 0472237299 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cinnamon Wild Yala 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.wild@cinnamonhotels.com 
+                                      				      				         Tel : 0472239450 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ranna 212 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : indunil.weerasinghe@timexsl.com 
+                                      				      				         Tel : 0114728200 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Tamarind Tree 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sales@hoteltamarindtree.com 
+                                      				      				         Tel : 0473011054 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Oasis Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@oasis-ayurveda.de 
+                                      				      				         Tel : 0472220650 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Thaulle Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : finance@thaulle.com 
+                                      				      				         Tel : 0472237900 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Shangri-la Hambantota Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sumith.manjula@shangri-la.com 
+                                      				      				         Tel : 0477888888 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Elephant Reach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : malinga@lhtholdings.com 
+                                      				      				         Tel : 0117388965 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Peacock Beach Hotel Ltd 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chairman@lankaila.net 
+                                      				      				         Tel : 0472220377 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Chaarya Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : reservations@chaaryaresorts.com 
+                                      				      				         Tel : 0472237143 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Wila Safari Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : wimalasiri62@gmail.com 
+                                      				      				         Tel : 0472239581 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Palm Paradise Cabanas 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rohanwanigasinghe@gmail.com 
+                                      				      				         Tel : 0472240842 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  15  Results 
+                         More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Minneriya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wilpattu National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Udawalawe National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Biobab Tree  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Baron's Cap or Thoppigala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Lahugala Kitulana Forest Reserve 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

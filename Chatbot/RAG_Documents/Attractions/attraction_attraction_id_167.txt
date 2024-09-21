@@ -1,0 +1,628 @@
+
+				 Trincomalee  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Koneswaram Kovil 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Trincomalee | Koneswaram Kovil 
+						 
+						 Koneswaram Kovil 
+						 
+
+	The temple is situated atop Konesar Malai, a promontory from where overlooking of large body of Indian ocean, nearby eastern coast, as well as Gokarna bay. Konesvaram is revered as one the Pancha Ishwarams (five abodes) of Sri Lanka for long time. Being a major place for Hindu pilgrimage, it was labelled "Rome of the Gentiles/Pagans of the Orient" in some records. Koneswaram gains its name from the main deity of the temple, the Hindu God Shiva. Konesvaram played a main role in the religious and cultural history of Sri Lanka which was probably built during the reign of the early Cholas and the Five Dravidians of the Early Pandyan Kingdom. Developed from 205 BC. J.-C., the original kovil combined key features to form its basic Dravidian temple plan. A 17th century stone inscription in the temple indicates that the temple began its history in 1580 BC. Today the temple is one of the important religious buildings and is an archaeological site with rare emblems of the dynasties engraved in the temple stones. The complex was destroyed in the colonial religious attacks between 1622 and 1624 and a fort was built on the site of its debris. A built 1632 temple located far from the city is home to some of its original idols. The world interest was renewed following the discovery of its underwater and land ruins, sculptures and bronzes Chola by archaeologists and Arthur C. Clarke in 1950’s. 
+
+ 
+						 More 
+						 
+
+	The Koneswaram temple is well known for its celebration of the traditional the chariot festival, the Navaratri and Sivarathri functions. The Chariot Festival lasts for twenty-two days in April and focuses on preparing the deities and the community for Puthandu, the Tamil New Year. Navaratri lasts for nine days and is dedicated to various aspects of the presiding goddess, whereas Sivarathri is dedicated to Siva. Devotees visit the temple to attend the daily pujas and make their offerings. Booths are erected outside for the sale of food, drink, brassware, pottery, cloth and holy images. These functions primarily attract Hindus to the temple. The Koneswaram Temple is situated in 238 kilometers (148 mi) away from Colombo on Sri Lanka's east coast. 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=48"><img src="http://srilanka.travel//image/data/attraction_main_images/nilaweli.jpg" style="width:100px;height:50px;"/><br/>Nilaveli and Uppaveli</a>',
+      8.692733100000002 , 81.18852930000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=159"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Pigeon-Island-1.jpg" style="width:100px;height:50px;"/><br/>Pigeon Island National Park</a>',
+      8.722112 , 81.204543, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(8.58745, 81.215225),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Trincomalee  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Cardamon Hotel Nilaveli 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gibsons@126.com 
+                                      				      				         Tel : 0262061600 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Anantamaa Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@anantamaa.com 
+                                      				      				         Tel : 0262050250 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sea Lotus Park Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@sealotuspark.com 
+                                      				      				         Tel : 0262225327 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Trinco Blu By Cinnamon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.blu@cinnamonhotels.com 
+                                      				      				         Tel : 0262221611 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pigeon Island Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rm@pigeonislandresort.com 
+                                      				      				         Tel : 0267388388 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Nilaveli Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accts.nilaveli@gmail.com 
+                                      				      				         Tel : 0262232295 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jungle Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm-jb@ugaescapes.com 
+                                      				      				         Tel : 0265678701 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  7  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gonagolla Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kadurugoda Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ridee Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bahirawa Kanda  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Fort 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bowattegala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Nagapooshani Amman Kovil  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 DambakolaPatuna Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kataragama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Temple 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

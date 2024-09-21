@@ -1,0 +1,763 @@
+
+				 Anuradhapura  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Wilpattu National Park 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Anuradhapura | Wilpattu National Park 
+						 
+						 Wilpattu National Park 
+						 
+
+	Wilpattu is among the top national parks world-renowned for its leopard population. A sample of forty-nine individual leopards were photo-captured in the surveyed area and the core area density was between that of Yala National Park's Block I and Horton Plains National Park. There are many types of vegetation to be found in Wilpattu, including littoral vegetation, such as salt grass and low scrub monsoon forest with tall emergents, such as palu (Manilkara hexandra), and satin (Chloroxylon swietenia), milla (Vitex altissima), weera (Drypetes sepiaria), ebony (Diospyros ebenum) and wewarna (Alseodaphne semecapriflolia).  
+
+ 
+
+	31 species of mammals have been identified within Wilpattu national park. Mammals that are identified as threatened species living within the Wilpattu National Park are the elephant, sloth bear, leopard and water buffalo. Sambhur, spotted deer, mongoose, mouse and shrew are more of Wilpattu's residents. 
+
+ 
+
+	The painted stork, the open bill, little cormorant, Sri Lankan junglefowl (Gallus lafayetii) along with many species of owls, terns, gulls, eagles, kites buzzards are to be found at Wilpattu National Park. Wetland bird species that can be seen in Wilpattu are the garganey, pintail, whistling teal, spoonbill, white ibis, large white egret, cattle egret and purple heron. 
+
+ 
+
+	The most common reptiles found in the park are the monitor lizard, mugger crocodile, common cobra, rat snake, Indian python, pond turtle and the soft-shelled turtle which are resident in the large permanent Villus. 
+
+ 
+						 More 
+						 
+
+	The unique feature of Wilpattu National Park is the existence of "Willus" (Natural lakes) - Natural, sand-rimmed water basins or depressions that fill with rainwater. Nearly sixty lakes (Willu) and tanks are found spread throughout Wilpattu. Located in the Northwest coast lowland dry zone of Sri Lanka.  
+
+ 
+
+	The park is located 30 km west Anuradhapura and located 26 km north of Puttalam. The park is 1,317 square kilometers (131, 693 hectares). The best time to visit Wilpattu is during the months of February and October. There are a few private eco-tourism groups that show tourists around the park in Safari like trips. In 1905 the area was designated a sanctuary and in 1938 it was upgraded to the National Park status. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=28"><img src="http://srilanka.travel//image/data/attraction_main_images/Jathika_Namal_Uyana.jpg" style="width:100px;height:50px;"/><br/>Jathika Namal Uyana</a>',
+      7.906911616469297 , 80.58128356933594, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=176"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Aukana-1.jpg" style="width:100px;height:50px;"/><br/>Aukana </a>',
+      8.010786 , 80.512820, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(8.3119278, 80.40365),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Anuradhapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Rajarata Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : om@rajaratahotel.lk 
+                                      				      				         Tel : 0252030000 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Randiya Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ourhome@sltnet.lk 
+                                      				      				         Tel : 0252222868 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cinnamon Lodge 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.lodge@cinnamonhotels.com 
+                                      				      				         Tel : 0112306000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Miridiya Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@dedigamagroup.lk 
+                                      				      				         Tel : 0252223262 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Sanctuary At Tissawewa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@quickshaws.com 
+                                      				      				         Tel : 0252222299 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Avasta Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : wedagec@yahoo.com 
+                                      				      				         Tel : 0252227777 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Habarana Village By Cinnamon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hrm.village@cinnamonhotels.com 
+                                      				      				         Tel : 0662270047 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sorowwa Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ceo@sorowwa.com 
+                                      				      				         Tel : 0662270333 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Lakeside At Nuwarawewa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : infoquickshaws@gmail.com 
+                                      				      				         Tel : 0252225442 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Palm Garden Village Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : pgvhanu@gmail.com 
+                                      				      				         Tel : 0772387161 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  10  Results 
+                         More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Udawalawe National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Minneriya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Baron's Cap or Thoppigala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wasgamuwa National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kumana National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Biobab Tree  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

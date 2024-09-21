@@ -1,0 +1,614 @@
+
+				 Trincomalee  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Nilaveli and Uppaveli 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Trincomalee | Nilaveli and Uppaveli 
+						 
+						 Nilaveli and Uppaveli 
+						 
+
+	The Bay of Trincomalee's harbor is renowned for  
+
+ 
+
+	its large size and security; unlike every other in the Indian Sea, it is accessible to all types of craft in all weathers. The beaches are used for surfing, 
+
+ 
+
+	 scuba diving, fishing and whale watching. The city also has the largest Dutch fort in Sri Lanka. It is home to major Sri Lankan naval bases and a  
+
+ 
+
+	Sri Lankan Air Force base. 
+
+ 
+						 More 
+						 
+
+	On the North East Coast of Sri Lanka, Nilaveli is a pristine covered with white sands and gentle waves slip softly to shore and is the ultimate  
+
+ 
+
+	getaway for those who wish for quiet bliss on a tropical heaven, far away from the cares of life. 
+
+ 
+
+	Uppaveli is one of beautiful, sensible and calm beach closer to Trincomalee with plenty of fairly comfortable accommodation options. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=159"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Pigeon-Island-1.jpg" style="width:100px;height:50px;"/><br/>Pigeon Island National Park</a>',
+      8.722112 , 81.204543, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=167"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Koneswaram-1.jpg" style="width:100px;height:50px;"/><br/>Koneswaram Kovil</a>',
+      8.582766  , 81.245473, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(8.58745, 81.215225),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Trincomalee  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Sea Lotus Park Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@sealotuspark.com 
+                                      				      				         Tel : 0262225327 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Nilaveli Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accts.nilaveli@gmail.com 
+                                      				      				         Tel : 0262232295 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Trinco Blu By Cinnamon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.blu@cinnamonhotels.com 
+                                      				      				         Tel : 0262221611 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jungle Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm-jb@ugaescapes.com 
+                                      				      				         Tel : 0265678701 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Anantamaa Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@anantamaa.com 
+                                      				      				         Tel : 0262050250 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cardamon Hotel Nilaveli 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gibsons@126.com 
+                                      				      				         Tel : 0262061600 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pigeon Island Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rm@pigeonislandresort.com 
+                                      				      				         Tel : 0267388388 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  7  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Arugam Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Mirissa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koggala Beach  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kalpitiya Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Unawatuna 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pigeon Island National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Alankuda Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala & Bentota 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hikkaduwa Beach 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

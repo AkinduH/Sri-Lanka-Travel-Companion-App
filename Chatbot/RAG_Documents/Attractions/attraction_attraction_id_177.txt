@@ -1,0 +1,543 @@
+
+				 Badulla  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Dunhinda Falls 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Badulla | Dunhinda Falls 
+						 
+						 Dunhinda Falls 
+						 
+
+	It is even more fascinating over the months of November to March as it carries an enormous volume of water in this rainy season of Sri Lanka. 
+
+ 
+
+	Subsequently, it is enriched with Uma Oya, Hal Oya and the small rivers of the regions of Bandarawela and Welimada. In addition to reaching the fall, you have to walk about 1 kilometer on foot. But it will bring you a fascinating experience to see wild birds, butterflies, monkeys, deer, etc. as it is really worth a lot for tourists interested in wildlife. 
+
+ 
+
+	In transit, you can see another little waterfall named Kuda Dunhinda initially. Hence you can taste and revive yourself by having a local home grown drink by the sellers on sides of the path to the water fall. Toward the finish of this adventure you can meet a secured organize developed for the watchers and appreciate the water fall. In the event that you are especially sure, you can achieve the foot of the water fall and cross the stream. While appreciating the fall its better to remind that don't go nearer to the fall or bathe as it is profound and loaded with tricky shakes and stones close to the base of the water fall. 
+
+ 
+						 More 
+						 
+
+	Dunhinda Falls is a waterfall located about 5 kilometers (3.1 mi) from Badulla town in Sri Lanka. The Dunhinda Falls is one of Sri Lanka's most beautiful waterfalls. The waterfall, which is 64 meters (210 ft.) high gets its name from the smoky dew drops spray, (Dun in Sinhala means mist or smoke) which surrounds the area at the foot of the waterfall. It's also known as Bridal fall as the shape of the waterfall reflect a bridal veil. The water fall is created by the river called Badulu Oya which goes through the Badulla town. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=197"><img src="http://srilanka.travel//image/data/001/Attraction01/Diyaluma-Falls/Diyaluma-1.jpg" style="width:100px;height:50px;"/><br/>Diyaluma  Falls </a>',
+      6.733187 , 81.031331, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.9935611, 81.054975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Badulla  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    98 Acres Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fb@resort98acres.com 
+                                      				      				         Tel : 0572050050 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Olympus Plaza Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : navishtha@gmail.com 
+                                      				      				         Tel : 0572268544 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Melheim Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : nnaayakkaracranford@yahoo.com 
+                                      				      				         Tel : 0717554491 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Orient Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : orient-col@eureka.lk 
+                                      				      				         Tel : 0572222407 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Bandarawela Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sec@bandarawelahotel.lk 
+                                      				      				         Tel : 0572222501 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  5  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Steaming Hot Water Wells of Mahaoya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Doovili Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 St. Clairs Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Little Adamâ€™s Peak 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyaluma  Falls  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hamilton Canal 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sangamankanda Point 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gal Oya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bambarakanda Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Devon Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

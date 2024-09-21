@@ -1,0 +1,501 @@
+
+				 Kataragama  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Kataragama 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kataragama | Kataragama 
+						 
+						 Kataragama 
+						 
+
+	Kataragama Temple, Kiriwehera and Sella kataragama are famous attractions in Kataragama city. The temple of Kataragama is an important sanctuary for Hindus and Buddhists. The temple of Kataragama is dedicated to the divinity with six faces and twelve hands, which is known as Skanda-Murukan or Subrahmanya among the Hindus. Sinhalese Buddhists believe that Kataragama Deviyo is a Buddhist Guradish deity who helps his disciples who are in need. Manik River (Manik Ganga) Flow down near to this Kataragama temple. Kataragama perahera Colourful festival held on month of July. It Includes Various Cultural Dancing events and rituals. Fire Walking also a very famous event in Kataragama temple. One main Purpose of this fire walking is remove illnesses from our body. Kiri Vehera is among the Solosmasthana, the 16 most sacred Buddhist pilgrimage sites of ancient Sri Lanka. This stupa which is 95 ft. in height with a circumference of 280 ft. is located 800 m North to the famous Ruhunu Maha Kataragama Devalaya. Venerable Kobawaka Dhamminda Thera is the present Chief Prelate of Kirivehera Rajamaha Viharaya Sella Kataragama is a very important place in Kataragama. About 4 miles from Sella to Kataragama. At the long distance, fast a love seen was between Skanda Kumar and Valliamma at here. Sella Kataragma has many Kovils. Those are Ganapathi Kovil, Siva Kovil, Kataragama Kovil, Valliamma Kovil, Lakshmi Kovil and Saman Devalaya. 
+
+ 
+						 More 
+						 
+
+	The annual procession held in July or August is the main event of the shrine with fire walkers and Kawadi dancers. Offering to the got are made at 4.30am 10.30am and 6.30pm daily. 19km inland from Tissamaharama lies the small & remote town of Kataragama. Kataragama is one of most popular & most sacred pilgrimages sites of Sri Lanka. Like Adam’s Peak, it attracts Sinhalese Buddhists as well as Hindu Tamils. The adored site is visited by Muslims & Christians too. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+							 
+    var locations = [
+		
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.4143389, 81.334441666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Kataragama  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Hotel Chamila 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelchamila@gmail.com 
+                                      				      				         Tel : 0475677501 
+				        				       
+						
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Mandara Rosen Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : admin@mandarahotels.com 
+                                      				      				         Tel : 0472236030 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Kaduruketha 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sudesh@jetwinghotels.com 
+                                      				      				         Tel : 0112345700 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Okrin Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelokrin@gmail.com 
+                                      				      				         Tel : 0472235032 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 4  out of  4  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nikayalannuwara Historical Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Richmond Castle 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bowattegala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Shasthrawela 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nagadeepa Purana Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kelaniya Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ratmullukanda Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Seema Malakaya Meditation Centre 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ancient Veheragala of Pulukunawa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduwanwela Walawwa  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

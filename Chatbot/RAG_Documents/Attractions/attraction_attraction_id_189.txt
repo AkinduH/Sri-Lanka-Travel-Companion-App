@@ -1,0 +1,702 @@
+
+				 Nuwara Eliya  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 St. Clairs Falls 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Nuwara Eliya | St. Clairs Falls 
+						 
+						 St. Clairs Falls 
+						 
+
+	when you travel to Nuwara-eliya through the Talawakele road, this is the best spot to take a break and having tea or coffee, sure it will take down your weariness. Misty cold climate, greenish environment gives you to best feeling ever. This surround environment provides best backdrop picture. St. Clair’s waterfall always be a magnificent place to photographers, it always gives different amazing views.  
+
+ 
+
+	If you want to explore this beautiful environment you can go for a hike from first fall to next fall. 
+
+ 
+
+	This water fall 80 meters’ height and 50 meters in width 
+
+ 
+						 More 
+						 
+
+	St. Clair’s waterfall located in 5km west of the Talawakele town on the Hatton- Talawakele road in Nuwara-Eliya district. It is about 142km and it take around 4 and half hour. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=158"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Horton-Plains.jpg" style="width:100px;height:50px;"/><br/>Horton Plains</a>',
+      6.802193 , 80.807244, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=174"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Victoria-1.jpg" style="width:100px;height:50px;"/><br/>Victoria Park</a>',
+      6.970547 , 80.768247, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=178"><img src="http://srilanka.travel//image/data/001/Attraction01/Gregory/Gregory-1.jpg" style="width:100px;height:50px;"/><br/>Gregory Lake </a>',
+      6.957535 , 80.780182, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=186"><img src="http://srilanka.travel//image/data/001/Attraction01/Devon-Falls/Devon-1.jpg" style="width:100px;height:50px;"/><br/>Devon Falls</a>',
+      6.951354 , 80.630017, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=187"><img src="http://srilanka.travel//image/data/001/Attraction01/Laxapana-Falls/Laxapana-1.jpg" style="width:100px;height:50px;"/><br/>Laxapana Falls</a>',
+      6.899422 , 80.500741, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.949716599999999, 80.78910680000001),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Nuwara Eliya  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Galway Heights Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@galwayheights.com 
+                                      				      				         Tel : 0522223728 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Heritance Tea Factory 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : teafactory@heritancehotels.com 
+                                      				      				         Tel : 052229600 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Araliya Green City 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : secretary@araliyagreencity.com 
+                                      				      				         Tel : 0522225000 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Glendower Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts.headoffice@hotelglendower.com 
+                                      				      				         Tel : 0522222501 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Oak Ray Tea Bush 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : oakrayteabush@senanirest.com 
+                                      				      				         Tel : 0524925029 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hill Club 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : acchillclub@sltnet.lk 
+                                      				      				         Tel : 0522222653 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Windsor Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@windsorhotellk.com 
+                                      				      				         Tel : 0522222554 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    St.andrews Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : dissanayake@jetwinghotels.com 
+                                      				      				         Tel : 0522222445 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Blue Meadows-nuwara Eliya 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : naslinjayawardana@gmail.com 
+                                      				      				         Tel : 0522051086 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  9  Results 
+                         More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sangamankanda Point 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Omunugala Cave Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rambakan Oya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Horton Plains 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft island  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Colombo Lighthouse 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rawana ella and Ravana falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduru Oya Reservoir 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henarathgoda Botanical Garden  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Laxapana Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

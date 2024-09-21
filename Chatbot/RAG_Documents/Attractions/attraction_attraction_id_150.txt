@@ -1,0 +1,580 @@
+
+				 Ratnapura  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Sri Pada (Adam's Peak) 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Ratnapura | Sri Pada (Adam's Peak) 
+						 
+						 Sri Pada (Adam's Peak) 
+						 
+
+	The mountain is located in the southern reaches of the Central Highlands, in the Ratnapura District and Nuwara Eliya district of the Sabaragamuwa Province and Central Province —lying about 40 km northeast of the city of Ratnapura and 32 km southwest of the city of Hatton. The surrounding region is largely forested hills, with no mountain of comparable size nearby. The region along the mountain is a wildlife reserve, housing many species and endemic species. Most local people believe dwarf elephants (kuru ali) live in this samanala forest. 
+
+ 
+
+	Adam's Peak is important as a watershed. The districts to the south and the east of Adam's Peak yield precious stones—emeralds, rubies and sapphires, for which the island has been famous, and which earned for its ancient name of Ratnadvipa. 
+
+ 
+
+	The peak pilgrimage season is in April, and the goal is to be on top of the mountain at sunrise, when the distinctive shape of the mountain casts a triangular shadow on the surrounding plain and can be seen to move quickly downward as the sun rises. 
+
+ 
+
+	Climbing at night can be a remarkable experience, with the lights of the path leading up and into the stars overhead. There are rest stops along the way. 
+
+ 
+
+	The mountain is most often scaled from December to May. During other months it is hard to climb the mountain due to very heavy rain, extreme wind, and thick mist. 
+
+ 
+
+	For Buddhists, the footprint mark is the left foot of the Buddha, left behind when Buddha visited Sri Lanka, as a symbol for worship at the invitation of Buddhist God Saman. 
+
+ 
+						 More 
+						 
+
+	Access to the mountain is possible by 6 trails: Ratnapura-Palabaddala, Hatton-Nallathanni, Kuruwita-Erathna, Murraywatte, Mookuwatte & Malimboda. The Nallathanni & Palabaddala routes are most favored by those undertaking the climb, while the Kuruwita-Erathna trail is used less often; these trails are linked to major cities or town by bus, accounting for their popular use. 
+
+ 
+
+	The Murraywatte, Mookuwatte & Malimboda routes are hardly used, but do intersect with the Palabaddala road midway through the ascent. 
+
+ 
+
+	The usual route taken by most pilgrims is ascent via Hatton and descent via Ratnapura; although the Hatton trail is the steepest, it is also shorter than any of the other trails by approximately five kilometers. 
+
+ 
+
+	Sri pada season begin in December and it is end in May. The January to March period is particularly busy time to climb. 
+
+ 
+
+	Most people starting this journey Dalhousie call nallathanni. nallathanni is 3 hours from hatton. 
+
+ 
+
+	• Buses- In peak season might be two direct buses from kandy. Otherwise exists local bus from Hatton. You might be required to change bus in Maskeliya (after around 1.5 hours). 
+
+ 
+
+	• Train- The nearest train station is Hatton. Then switch to bus, taxi, tuktuk. 
+
+ 
+
+	• Taxi- Depending on your negotiation skills, a taxi (7 seats) around LKR2000-3000. 
+
+ 
+
+	• TukTuk- Depending on your negotiation skills. Around LKR600. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=21"><img src="http://srilanka.travel//image/data/attraction_main_images/Budugala.jpg" style="width:100px;height:50px;"/><br/>Budugala</a>',
+      6.6325924 , 80.8754104, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=23"><img src="http://srilanka.travel//image/data/attraction_main_images/Divaguhawa.jpg" style="width:100px;height:50px;"/><br/>Diva Guhawa  Batatota Lena</a>',
+      6.749168923865482 , 80.39314270019531, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=26"><img src="http://srilanka.travel//image/data/attraction_main_images/Maduwanwala_34.jpg" style="width:100px;height:50px;"/><br/>Maduwanwela Walawwa </a>',
+      6.376717964353511 , 80.70899963378906, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=151"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/sinharaja-800x400.jpg" style="width:100px;height:50px;"/><br/>Sinharaja</a>',
+      6.389637 , 80.501088, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=164"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Udawalawe-1.jpg" style="width:100px;height:50px;"/><br/>Udawalawe National Park</a>',
+      6.472865 , 81.063191, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=20"><img src="http://srilanka.travel//image/data/attraction_main_images/Balla_Mala_ella.jpg" style="width:100px;height:50px;"/><br/>Balla Mala Ella</a>',
+      6.743031900492014 , 80.39640426635742, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=24"><img src="http://srilanka.travel//image/data/attraction_main_images/Doovili_Ella.jpg" style="width:100px;height:50px;"/><br/>Doovili Ella</a>',
+      6.390024539343289 , 80.39159774780273, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.7062667, 80.384761111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Ratnapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Centauria Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : centauria@sltnet.lk 
+                                      				      				         Tel : 0472230514 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Rathnaloka Tour Inn 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ratnalokaacc555@gmail.com 
+                                      				      				         Tel : 0452222455 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Grand Udawalawe Safari Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : salesmanager@grandudawalawe.com 
+                                      				      				         Tel : 0472232000 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lake Serenity 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : marketing@lakeserenity.lk 
+                                      				      				         Tel : 0452262199 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 4  out of  4  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yapahuwa Rock Fortress 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Piyangala Forest Hermitage 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dambulla CaveTemple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								  Alawala Devin Penne Ela 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Nagapooshani Amman Kovil  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Japanese Peace Pagoda 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Seema Malakaya Meditation Centre 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Fort 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Richmond Castle 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nikayalannuwara Historical Temple 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

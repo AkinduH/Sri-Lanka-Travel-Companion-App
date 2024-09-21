@@ -1,0 +1,471 @@
+
+				 Kurunegala  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Panavitiya Ambalama 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kurunegala | Panavitiya Ambalama 
+						 
+						 Panavitiya Ambalama 
+						 
+
+	Panavitiya Ambalama is an ambalama situated in Sri Lanka. An ambalama is a place constructed for pilgrims, traders and travelers to rest. Panavitiya Ambalama is a place famous for wood carving. 
+
+ 
+
+	Panavitiya Ambalama is situated near Narammala in Kurunegala District, Sri Lanka . To reach it, one must travel about 4 km along a small road away from the main road. 
+
+ 
+
+	It is said that this was built during the 18th Century. It is believed that the ambalama is situated to the side of a footpath from Dambadeniya to Kurunegala and Yapahuwa. This is conserved by Archaeological Department, Sri Lanka. 
+
+ 
+						 More 
+						 
+
+	The ambalama is constructed on four large stone slabs, about a feet in height, to prevent damage from termites. Wooden pillars support the roof. Nine inner wooden pillars of about 6 feet in height are exquisitely carved. But the 19 outer wooden pillars are not carved so well. 
+
+ 
+
+	Carvings like Gajasinghe Katayama, Hansa Puttuwa, flower designs and sculptures of dancers could be seen. Other than that, carvings about day to day life can also be found. Many wood carvings that could be seen in Embekka Devalaya could also be seen here 
+
+ 
+
+	Things To Do : Pilgrimage, photography, sightseeing,  caving 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=33"><img src="http://srilanka.travel//image/data/attraction_main_images/Nikayalannuwara_Historical_Temple.jpg" style="width:100px;height:50px;"/><br/>Nikayalannuwara Historical Temple</a>',
+      7.578285851973999 , 79.83738899230957, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=88"><img src="http://srilanka.travel//image/data/001/Kurunegala/Nikayalannuwara Historical Temple/Header_Nikasalanuwara cvr pic.jpg" style="width:100px;height:50px;"/><br/>Nikayalannuwara Historical Temple</a>',
+      7.472981299999999 , 80.35472860000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=89"><img src="http://srilanka.travel//image/data/001/Kurunegala/Rathmulu Kanda/Header_Rathmulu Kanda cvr pic.jpg" style="width:100px;height:50px;"/><br/>Ratmullukanda Viharaya</a>',
+      7.515635099999998 , 80.50418409999997, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=90"><img src="http://srilanka.travel//image/data/001/Prasad/Kurunagala/Ridee Viharaya/Ridee-1.jpg" style="width:100px;height:50px;"/><br/>Ridee Viharaya</a>',
+      7.5373387 , 80.49197670000001, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=91"><img src="http://srilanka.travel//image/data/001/Kurunegala/Tomb of King Vijay /Headder_Tomb of King Vijay cvr.jpg" style="width:100px;height:50px;"/><br/>Tomb of King Vijay</a>',
+      7.472981299999999 , 80.35472860000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=92"><img src="http://srilanka.travel//image/data/001/Prasad/Kurunagala/Rambodagalla Buddha Statue /Rambodagalla.jpg" style="width:100px;height:50px;"/><br/>Rambodagalla Buddha Statue</a>',
+      7.515635099999998 , 80.50418409999997, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=94"><img src="http://srilanka.travel//image/data/001/Kurunegala/Panavitiya Ambalama/Header_Panavitiya Ambalama CVR.jpg" style="width:100px;height:50px;"/><br/>Panavitiya Ambalama</a>',
+      7.4068253 , 80.17327309999996, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=184"><img src="http://srilanka.travel//image/data/001/Attraction01/Yapahuwa/Yapahuwa-1.jpg" style="width:100px;height:50px;"/><br/>Yapahuwa Rock Fortress</a>',
+      7.816953 , 80.317363, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.473275, 80.354833333333),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Kurunegala  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Buddima Samudra 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : buddisamudra@gmail.com 
+                                      				      				         Tel : 0372260896 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Yapahuwa Paradise 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sunil@yapahuwa-paradise.com 
+                                      				      				         Tel : 0373975055 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Athgiri 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kandyanreachhotel@gmail.com 
+                                      				      				         Tel : 0372224218 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 3  out of  3  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Omunugala Cave Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jayanthi Wewa  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nara Mangrove Garden 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Viharamahadevi Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Victoria Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Alioluwa Lake 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rambakan Oya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henarathgoda Botanical Garden  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beira Lake 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hot Water Springs in Wahawa 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

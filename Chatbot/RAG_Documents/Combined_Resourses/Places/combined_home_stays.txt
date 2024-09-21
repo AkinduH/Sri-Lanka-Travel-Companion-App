@@ -1,0 +1,36 @@
+home_stays
+
+Araliya: Home stay, SUPERIOR, 2 Rooms, Email: sarath1231@hotmail.com, Registration No: SLTDA/SQA/HSU/00386, Licence No: HSU/2024/0104, Valid till 31st December 2024, Tel: 0812203902, Mobile: 0777060547
+
+Asiri Home Stay Sigiriya: Home stay, STANDARD, 2 Rooms, Email: asirihomestay@gmail.com, Registration No: SLTDA/SQA/HSU/00710, Licence No: HSU/2024/0071, Valid till 31st December 2024, Tel: 0662054338, Mobile: 0766520048
+
+Diyawara Home Stay: Home stay, STANDARD, 2 Rooms, Email: diyawaratravel@gmail.com, Registration No: SLTDA/SQA/HSU/00588, Licence No: HSU/2024/0055, Valid till 31st December 2024, Tel: 0252235651, Mobile: 0714284192
+
+Eeshani Guest Inn: Home stay, STANDARD, 5 Rooms, Email: eeshani.inter@yahoo.ca, Registration No: SLTDA/SQA/HSU/0300, Licence No: HSU/2024/0065, Valid till 31st December 2024, Tel: 0572228703, Mobile: 0774733583
+
+Ella Mount View Guest Inn: Home stay, STANDARD, 3 Rooms, Email: mountviewguest@gmail.com, Registration No: SLTDA/SQA/HSU/00557, Licence No: HSU/2024/0053, Valid till 31st December 2024, Tel: 0575798500, Mobile: 0727672500
+
+Godella The Green Park: Home stay, SUPERIOR, 4 Rooms, Email: godellathegreenpark@gmail.com, Registration No: SLTDA/SQA/HSU/00764, Licence No: HSU/2024/0066, Valid till 31st December 2024, Tel: 0412273441, Mobile: 0719599584
+
+Kelaniya Heritage: Home stay, SUPERIOR, 3 Rooms, Web: www.kelaniyaheritage.lk, Email: unichemmarketing@gmail.com, Registration No: SLTDA/SQA/HSU/00671, Licence No: HSU/2024/0099, Valid till 31st December 2024, Tel: 0112908874, Mobile: 0777423782
+
+Kundala Bungalows: Home stay, STANDARD, 3 Rooms, Email: flyinghawa@yahoo.es, Registration No: SLTDA/SQA/HSU/00546, Licence No: HSU/2024/0041, Valid till 31st December 2024, Tel: 0716897298, Mobile: 0716897298
+
+Palms Villa: Home stay, DELUXE, 3 Rooms, Email: gw0885@gmail.com, Registration No: SLTDA/SQA/HSU/00404, Licence No: HSU/2024/0033, Valid till 31st December 2024, Tel: 0312231322, Mobile: 0773474913
+
+Plantation Inn: Home stay, STANDARD, 3 Rooms, Email: pradeepthushara@yahoo.com, Registration No: SLTDA/SQA/HSU/00520, Licence No: HSU/2024/0030, Valid till 31st December 2024, Tel: 0412250081, Mobile: 0718476636
+Rivorich Residence: Home stay, DELUXE, 4 Rooms, Web: www.rivorichresidence.lk, Email: rivorichkandy@gmail.com, Registration No: SLTDA/SQA/HSU/00641, Licence No: HSU/2024/0086, Valid till 31st December 2024, Tel: 0812063135, Mobile: 0777654978
+
+Rockwell Colombo: Home stay, DELUXE, 3 Rooms, Email: shanthapdn@yahoo.com, Registration No: SLTDA/SQA/HSU/0226, Licence No: HSU/2024/0044, Valid till 31st December 2024, Tel: 0711054133, Mobile: 0705634682
+
+Rustle Hill Home Stay: Home stay, STANDARD, 4 Rooms, Email: nalindakularathne@hotmail.com, Registration No: SLTDA/SQA/HSU/00910, Licence No: HSU/2024/0068, Valid till 31st December 2024, Tel: 0572050013, Mobile: 0763014174
+
+Sanasuma Villa: Home stay, STANDARD, 1 Room, Email: omani.assalaarachchi@gmail.com, Registration No: SLTDA/SQA/HSU/00582, Licence No: HSU/2024/0007, Valid till 31st December 2024, Tel: 0342270103, Mobile: 0715768804
+
+Sheen Home Stay: Home stay, STANDARD, 2 Rooms, Email: sheenbalapitiya@gmail.com, Registration No: SLTDA/SQA/HSU/00402, Licence No: HSU/2024/0011, Valid till 31st December 2024, Tel: 0912257152, Mobile: 0767153703
+
+Surf Bay Villa: Home stay, SUPERIOR, 4 Rooms, Email: surfbayvilla@gmail.com, Registration No: SLTDA/SQA/HSU/00668, Licence No: HSU/2024/0076, Valid till 31st December 2024, Tel: 0412255226, Mobile: 0777378768
+
+Thal Sewana: Home stay, SUPERIOR, 4 Rooms, Web: www.thalsewana.com, Email: thalsewana@gmail.com, Registration No: SLTDA/SQA/HSU/00632, Licence No: HSU/2024/0058, Valid till 31st December 2024, Tel: 0663063363, Mobile: 0773739549
+
+Thomasz Lodge: Home stay, DELUXE, 3 Rooms, Web: www.thomaszlodge.com, Email: bertram.thomasz@outlook.com, Registration No: SLTDA/SQA/HSU/01196, Licence No: HSU/2024/0029, Valid till 31st December 2024, Tel: 0812050378, Mobile: 0711926094

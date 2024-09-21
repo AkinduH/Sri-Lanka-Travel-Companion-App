@@ -1,0 +1,492 @@
+
+				 Ratnapura  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Doovili Ella 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Ratnapura | Doovili Ella 
+						 
+						 Doovili Ella 
+						 
+
+	Many secrets and wonders of nature lie hidden within the Sinharaja Forest Reserve. One such wonder is the Duvilli Ella; a beautiful waterfall discovered quite recently. Although its height has not yet been determined, it is estimated to be over 500 feet high. The flow rate of the waterfall is constant all year through, and the spray creates a misty halo around the area. The name ‘Duvilli’ means ‘fine dust’ –therefore we can assume that the natives compared the water spray to a dusty look and hence the waterfall was named Duvilli Ella. 
+
+ 
+						 More 
+						 
+
+	There are many indigenous plant and animal species to be found in this unspoiled environment surrounding the waterfall. It has retained its natural habitat due to its location, which is not easily accessible by motor vehicles. A number of smaller waterfalls, about 50 to 60 feet high, can be spotted on the path to Duvilli Ella, urging you on towards the vision of beauty ahead. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=21"><img src="http://srilanka.travel//image/data/attraction_main_images/Budugala.jpg" style="width:100px;height:50px;"/><br/>Budugala</a>',
+      6.6325924 , 80.8754104, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=23"><img src="http://srilanka.travel//image/data/attraction_main_images/Divaguhawa.jpg" style="width:100px;height:50px;"/><br/>Diva Guhawa  Batatota Lena</a>',
+      6.749168923865482 , 80.39314270019531, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=26"><img src="http://srilanka.travel//image/data/attraction_main_images/Maduwanwala_34.jpg" style="width:100px;height:50px;"/><br/>Maduwanwela Walawwa </a>',
+      6.376717964353511 , 80.70899963378906, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=150"><img src="http://srilanka.travel//image/data/001/attractions/Sripada/adams-peak.jpg" style="width:100px;height:50px;"/><br/>Sri Pada Adams Peak</a>',
+      6.809627 , 80.499399, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=151"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/sinharaja-800x400.jpg" style="width:100px;height:50px;"/><br/>Sinharaja</a>',
+      6.389637 , 80.501088, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=164"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Udawalawe-1.jpg" style="width:100px;height:50px;"/><br/>Udawalawe National Park</a>',
+      6.472865 , 81.063191, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=20"><img src="http://srilanka.travel//image/data/attraction_main_images/Balla_Mala_ella.jpg" style="width:100px;height:50px;"/><br/>Balla Mala Ella</a>',
+      6.743031900492014 , 80.39640426635742, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.7062667, 80.384761111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Ratnapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Rathnaloka Tour Inn 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ratnalokaacc555@gmail.com 
+                                      				      				         Tel : 0452222455 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Centauria Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : centauria@sltnet.lk 
+                                      				      				         Tel : 0472230514 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Grand Udawalawe Safari Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : salesmanager@grandudawalawe.com 
+                                      				      				         Tel : 0472232000 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lake Serenity 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : marketing@lakeserenity.lk 
+                                      				      				         Tel : 0452262199 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 4  out of  4  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bambarakanda Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Omunugala Cave Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyaluma  Falls  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Arugambay & Pottuvil Point 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beira Lake 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Balla Mala Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduru Oya National Wildlife Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Panavitiya Ambalama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala Light House 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nara Mangrove Garden 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

@@ -1,0 +1,936 @@
+
+				 Galle  
+	        >
+	         
+		Pristine														 
+	        >
+	       
+		 Kosgoda 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Galle | Kosgoda 
+						 
+						 Kosgoda 
+						 
+
+	At night marine turtles come ashore, dig a hole and lay their eggs, covering them up before heading back to see. To avoid predatory acts, several private turtle hatcheries have been set up along the coast. Visitors can see huge tanks filled with new born turtle hatchlings. 
+
+ 
+						 More 
+						 
+
+	After being fed, the baby turtles are taken to the sea and released when they are 2-4 days old, usually during the safer hours of darkness. Although October to April is the main laying season, some eggs can be found at Kosgoda throughout the year. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=55"><img src="http://srilanka.travel//image/data/attraction_main_images/weligama.jpg" style="width:100px;height:50px;"/><br/>Weligama  Bay</a>',
+      5.9773782 , 80.4288487, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=156"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Hikaduwa-1.jpg" style="width:100px;height:50px;"/><br/>Hikkaduwa Beach</a>',
+      6.139540 , 80.104979, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=162"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Unawatuna-1.jpg" style="width:100px;height:50px;"/><br/>Unawatuna</a>',
+      6.009862 , 80.248518, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=165"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Mirissa-1.jpg" style="width:100px;height:50px;"/><br/>Mirissa</a>',
+      5.944783 , 80.458777, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=190"><img src="http://srilanka.travel//image/data/001/Attraction01/Jungle-Beach /Jungle-1.jpg" style="width:100px;height:50px;"/><br/>Jungle Beach </a>',
+      6.018866 , 80.239664, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=192"><img src="http://srilanka.travel//image/data/001/Attraction01/Koggala-Beach /Koggala-1.jpg" style="width:100px;height:50px;"/><br/>Koggala Beach </a>',
+      5.992334 , 80.310563, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=153"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Galle-1.jpg" style="width:100px;height:50px;"/><br/>Galle Fort</a>',
+      6.025003 , 80.218058, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=6"><img src="http://srilanka.travel//image/data/attraction_main_images/Whale_Watching_In_Mirissa.jpg" style="width:100px;height:50px;"/><br/>Whale Watching in Mirissa</a>',
+      5.94526548561255 , 80.46180725097656, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.0536389, 80.220975),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Galle  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Calamansi Cove By Jetwing 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chaminda@calamansicovevillas.com 
+                                      				      				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Taj Bentota Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : dilhani.sajika@tajhotels.com 
+                                      				      				         Tel : 0345555555 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Avenra Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@avenrabeach.com 
+                                      				      				         Tel : 0912277186 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Centara Ceysands Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : jchamikara@nhhotels.com 
+                                      				      				         Tel : 0342275073 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Whispering Palms Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : dave@whisperingpalmshotel.com 
+                                      				      				         Tel : 0342275181 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Insight 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ga@nkartravelhouse.com 
+                                      				      				         Tel : 0912283296 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Koggala Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : lakshman@tisarahotels.com 
+                                      				      				         Tel : 0112816039 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Thaproban Pavilion Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : finance.thambapanni@gmail.com 
+                                      				      				         Tel : 0914944184 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Bentota Village 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : bentotavillege@gmail.com 
+                                      				      				         Tel : 0342270130 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Rock Side Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : rocksidebeachresort@hayoo.com 
+                                      				      				         Tel : 0342271273 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pandanus Beach Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm@pandanusbeach.com 
+                                      				      				         Tel : 0342271240 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sanmira Renaissance 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@sanmirahotel.com 
+                                      				      				         Tel : 0912227555 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Heritance Ahungalle 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ahungalla@heritancehotels.com 
+                                      				      				         Tel : 0915555000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Gloria Grand Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : acc.hotel@gloriagrandunawatuna.com 
+                                      				      				         Tel : 0912250770 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Gartons Cape 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ranil.sampath@gartonhotels.com 
+                                      				      				         Tel : 0912282411 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Long Beach Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : invoices@tisarahotels.com 
+                                      				      				         Tel : 0112853485 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  39  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Weligama  Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Okanda Beach 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nilaveli and Uppaveli 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Unawatuna 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Face Green 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pigeon Island National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala & Bentota 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Negombo 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Arugam Bay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Pristine			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hikkaduwa Beach 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

@@ -1,0 +1,600 @@
+
+				 Polonnaruwa  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Minneriya National Park 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Polonnaruwa | Minneriya National Park 
+						 
+						 Minneriya National Park 
+						 
+
+	Located in the North Central Province of Sri Lanka, the area was designated as a National Park in 1997, having previously been declared a wildlife sanctuary. The nature reserve protects the catchments of 3 ancient irrigation tanks, including the Minneriya Tank, which was built by King Mahasen in the third century AD, and is one of the most important habitats in the region for the long term conservation of elephants. 
+
+ 
+
+	May to October is a popular time to visit the Minneriya National Park due to the famous Elephant Gathering. As the waters of the reservoir recede during the dry season, lush grass is exposed on the banks. Small herds of elephants from surrounding parks travel to Minneriya and gather to form massive herds. This is a fascinating event and visitors are often treated to the sight of many hundreds of elephants feeding on the banks. Once the rains set in, the elephants disperse and retreat into the surrounding jungles. 
+
+ 
+
+	The vegetation of the park primarily consists of dry-mixed evergreen tropical forests. Other vegetation types include strips of riverine forest, scrub, native bamboo, and grasslands. Prior to conservation efforts, the land used to be timber forests. Plantations of eucalyptus and teak, established by the Department of Forest Conservation, can be still be seen within the park, however the forest has now been established for conservation. 
+
+ 
+
+	The park is well worth a visit even during non gathering months. Due to the topography and vegetation, Minneriya offers excellent mammal visibility. Elephants are a major attraction year round, though not in the same numbers, as are a host of other mammals. Among the 35 indigenous species of mammals residing in the park, four are endemic, and ten species are nationally threatened. Keystone species include the majestic elephant, the elusive leopard, and unique Sri Lankan Sloth Bear. Other mammals include Sambar Deer, Spotted Deer, Mouse Deer, Wild Boar, Purple-faced Leaf Monkey, Toque Macaque, Sri Lanka Flame- striped Jungle Squirrel, Grey Langur, three species of mongoose, the porcupine, and the endangered Indian Pangolin. 
+
+ 
+						 More 
+						 
+
+	Despite it’s location in the dry zone, Minneriya is rich in birdlife, and is an ideal park for birdwatchers, offering dazzling sights of endemic and migratory birds, depending on the time of year. Minneriya National Park has registered more than 170 species of birds. Exotic migratory waders including the Wood Sandpiper, Common Sandpiper and Kentish Plover can be seen at the edge of the reservoir in winter months. The reservoir is important for large water birds including the Lesser Adjutant, Painted Stork, and Spot-billed Pelican. Endemic species include Ceylon Grey Hornbill, Ceylon Green Pigeon, Ceylon Hanging Parrot, Brown-capped Babbler, Black-capped Bulbul, Ceylon Small Barbet and Ceylon Junglefowl. Vulnerable species such as the Yellow-fronted Pied Woodpecker and the Fork-tailed Drongo- Cuckoo are also found in the park. The park is also home to a host of raptors. A special but common sighting is the aerial acrobatics of White-bellied Sea Eagles, proudly on display as they hunt for their dinner. Along with Kaudulla and Girithale, Minneriya forms one of the 70 Important Bird Areas (IBAs) of Sri Lanka. 
+
+ 
+
+	Minneriya is also an important habitat for the conservation of herpetofauna, with over 54 species. Endemic species include the Tammenna Skink, Spotted Supple Skink, Painted- lipped Lizard, and Sri Lankan Kangaroo Lizard. Threatened and rare species include Sarasins’ Snake Skink, Rock Python, and Trinket Snake. Mugger Crocodiles, Water Monitor and Land Monitors are among other reptiles which are more easily visible. 
+
+ 
+
+	Whether you are an avid bird watcher, keen to see elephants in the wild, or just enjoy being out in nature, Minneriya is a great park to visit at any time of year. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+							 
+    var locations = [
+		
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.9409833, 81.018816666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Polonnaruwa  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    The Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : manoj@thelakehotelpolonnaruwa.com 
+                                      				      				         Tel : 0272222411 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Sudu Araliya 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@hotelsuduaraliya.com 
+                                      				      				         Tel : 0272224849 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Deer Park Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts-deerpark@deerparksrilanka.com 
+                                      				      				         Tel : 0272246272 
+				        				       
+						
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Giritale Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ganeshant@carcumb.com 
+                                      				      				         Tel : 0272246311 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Village 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : villapol@sltnet.lk 
+                                      				      				         Tel : 0272223366 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Ruins Chaaya 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chirath@newrathnagroup.com 
+                                      				      				         Tel : 0272226999 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  6  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Baron's Cap or Thoppigala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Biobab Tree  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kumana National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Lahugala Kitulana Forest Reserve 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wilpattu National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wasgamuwa National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

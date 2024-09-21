@@ -1,0 +1,423 @@
+
+				 Jaffna  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Delft Biobab Tree  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Jaffna | Delft Biobab Tree  
+						 
+						 Delft Biobab Tree  
+						 
+
+	The Baobab trees are another legacy of the Portuguese who brought it here for medicinal purposes for the horses. There are several Baobab trees in the island, each believed to be 300-400 years old. One in particular is unique as the trunk has a hollow large enough to walk into.  
+
+ 
+						 More 
+						 
+
+	Two men can stand abreast in the entrance. Baobab (Adansonia) is native to Madagascar, Australia and Africa. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=8"><img src="http://srilanka.travel//image/data/attraction_main_images/Dambakolapatuna.jpg" style="width:100px;height:50px;"/><br/>DambakolaPatuna Viharaya</a>',
+      9.786542888403797 , 79.94768142700195, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=10"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Dutch_Fort.jpg" style="width:100px;height:50px;"/><br/>Delft Dutch Fort </a>',
+      9.48461976401594 , 79.69851493835449, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=12"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Temple.jpg" style="width:100px;height:50px;"/><br/>Delft Temple</a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=14"><img src="http://srilanka.travel//image/data/attraction_main_images/Kadurugoda_Temple.jpg" style="width:100px;height:50px;"/><br/>Kadurugoda Temple</a>',
+      9.740188905777304 , 79.99780654907227, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=16"><img src="http://srilanka.travel//image/data/attraction_main_images/Nagadeepa_Viharaya.jpg" style="width:100px;height:50px;"/><br/>Nagadeepa Purana Raja Maha Viharaya</a>',
+      9.609551185126227 , 79.77069854736328, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=19"><img src="http://srilanka.travel//image/data/attraction_main_images/Nagadeepa_kovil.jpg" style="width:100px;height:50px;"/><br/>The Nagapooshani Amman Kovil </a>',
+      9.6129362214504 , 79.76966857910156, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=13"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Wild_Horses.jpg" style="width:100px;height:50px;"/><br/>Delft Wild Horses </a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=11"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Growing_Stone.jpg" style="width:100px;height:50px;"/><br/>Delft Growing Stone</a>',
+      9.502058738952877 , 79.70400810241699, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=17"><img src="http://srilanka.travel//image/data/attraction_main_images/Nilvara_bottomless_well.jpg" style="width:100px;height:50px;"/><br/>Nilavara Bottomless Well </a>',
+      9.752708500416476 , 80.09119033813477, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=18"><img src="http://srilanka.travel//image/data/attraction_main_images/Point_pedro.jpg" style="width:100px;height:50px;"/><br/>Point Pedro</a>',
+      9.794155151213436 , 80.22075176239014, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=171"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/delft-1.jpg" style="width:100px;height:50px;"/><br/>Delft island </a>',
+      9.516974 , 79.683344, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(9.6617056, 80.025566666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Jaffna  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Subhas Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelsubhasjaffna@yahoo.com 
+                                      				      				         Tel : 0212224923 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jaffna Heritage Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : niluxsan9@yahoo.com 
+                                      				      				         Tel : 0212222424 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 2  out of  2  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Minneriya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wilpattu National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Lahugala Kitulana Forest Reserve 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Baron's Cap or Thoppigala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Udawalawe National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kumana National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

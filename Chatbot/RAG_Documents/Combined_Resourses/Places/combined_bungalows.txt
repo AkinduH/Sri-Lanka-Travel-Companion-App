@@ -1,0 +1,544 @@
+bungalows
+
+15 Lmd: Category: Bungalow, Classification: SUPERIOR, Rooms: 3, Web: www.15lmd.com, Email: thilankal@kingslake.com, Registration No: SLTDA/SQA/BUN/00441, Licence No: BUN/2024/0259, Valid till 31st December 2024, Tel: 0117799200, Mobile: 0773794226, Place: Unknown
+
+41 Lighthouse Street: Category: Bungalow, Classification: DELUXE, Rooms: 3, Email: 41@teardrop-villas.com, Registration No: SLTDA/SQA/BUN/00892, Licence No: BUN/2024/0010, Valid till 31st December 2024, Mobile: 0767713185, Place: Unknown
+
+42 Light House Street: Category: Bungalow, Classification: DELUXE, Rooms: 4, Web: www.taryvillas.com, Email: enquiries@teardrop-villas.com, Registration No: SLTDA/SQA/BUN/00532, Licence No: BUN/2024/0005, Valid till 31st December 2024, Tel: 0112321679, Mobile: 0767713185, Place: Unknown
+
+Abiman Vinrich Holiday Resort: Category: Bungalow, Classification: STANDARD, Rooms: 5, Email: abimanvinrichholidayresort@gmail.com, Registration No: SLTDA/SQA/BUN/01098, Licence No: BUN/2024/0061, Valid till 31st December 2024, Tel: 0742405581, Mobile: 0706808807, Place: Unknown
+
+Aki Luna Lagoon Resort: Category: Bungalow, Classification: STANDARD, Rooms: 2, Email: akilunalagoonresort@gmail.com, Registration No: SLTDA/SQA/BUN/01133, Licence No: BUN/2024/0119, Valid till 31st December 2024, Mobile: 077772740, Place: Unknown
+
+Allure Yala: Category: Bungalow, Classification: DELUXE, Rooms: 3, Web: www.allureyala.com, Email: janaka797979@gmail.com, Registration No: SLTDA/SQA/BUN/01183, Licence No: BUN/2024/0211, Valid till 31st December 2024, Tel: 0773797979, Mobile: 0773797979, Place: Yala
+
+Amandro Resort: Category: Bungalow, Classification: DELUXE, Rooms: 5, Email: amandrodirector@gmail.com, Registration No: SLTDA/SQA/BUN/00950, Licence No: BUN/2024/0040, Valid till 31st December 2024, Tel: 0342298129, Mobile: 0773883547, Place: Unknown
+
+Amarya Resorts: Category: Bungalow, Classification: SUPERIOR, Rooms: 5, Email: amaryaresort@gmail.com, Registration No: SLTDA/SQA/BUN/01144, Licence No: BUN/2024/0137, Valid till 31st December 2024, Mobile: 0774274268, Place: Unknown
+Heaven Palace: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: ckrajapakshe@gmail.com, Registration No: SLTDA/SQA/BUN/01208, Licence No: BUN/2024/0246, Valid till 31st December 2024, Tel: 0812498854, Mobile: 0773054172, Place: Unknown
+
+Hela Gedara: Category: Bungalow, Classification: STANDARD, Rooms: 4, Email: uddika82silva@gmail.com, Registration No: SLTDA/SQA/BUN/01143, Licence No: BUN/2024/0135, Valid till 31st December 2024, Tel: 0342278873, Mobile: 0762639142, Place: Unknown
+
+Hibiscus: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: https://www.ceylonbungalows.com, Email: poornima@ceylonbungalows.com, Registration No: SLTDA/SQA/BUN/00740, Licence No: BUN/2024/0250, Valid till 31st December 2024, Tel: 0112510000, Mobile: 0771778182, Place: Unknown
+
+Hide Out Bangalow - Thalawathugoda: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: www.hideoutthalawathugoda.lk, Email: nikhilnaresh72@yahoo.com, Registration No: SLTDA/SQA/BUN/01201, Licence No: BUN/2024/0239, Valid till 31st December 2024, Tel: 0777355329, Mobile: 0777355329, Place: Thalawathugoda
+
+Hill Cottage: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: www.hillcottage.lk, Email: dhanika@dpmco.com, Registration No: SLTDA/SQA/BUN/00708, Licence No: BUN/2024/0037, Valid till 31st December 2024, Tel: 0524930200, Mobile: 0773497486, Place: Unknown
+
+Hill Paradise Hanthana: Category: Bungalow, Classification: DELUXE, Rooms: 9, Email: kavithaginige@gmail.com, Registration No: SLTDA/SQA/BUN/01225, Licence No: BUN/2024/0291, Valid till 31st December 2024, Mobile: 0770617953, Place: Hanthana
+
+Hill Safari: Category: Bungalow, Classification: STANDARD, Rooms: 5, Email: hillsafari@hotmail.com, Registration No: SLTDA/SQA/BUN/00396, Licence No: BUN/2024/0012, Valid till 31st December 2024, Tel: 0575672700, Mobile: 0773699405, Place: Unknown
+Holistic Villas Hills: Category: Bungalow, Classification: DELUXE, Rooms: 2, Web: www.holisticvillashills.com, Email: holisticresortsandvillas@gmail.com, Registration No: SLTDA/SQA/BUN/01041, Licence No: BUN/2024/0103, Valid till 31st December 2024, Tel: 0812218259, Mobile: 0777772245, Place: Unknown
+
+Holistic Villas River: Category: Bungalow, Classification: DELUXE, Rooms: 4, Web: www.holisticvillasriver.com, Email: holisticvillasriver@gmail.com, Registration No: SLTDA/SQA/BUN/01042, Licence No: BUN/2024/0104, Valid till 31st December 2024, Tel: 0812218259, Mobile: 0777772245, Place: Unknown
+
+Hotel Hanguk Villa: Category: Bungalow, Classification: SUPERIOR, Rooms: 3, Email: hangukbangalow@gmail.com, Registration No: SLTDA/SQA/BUN/01085, Licence No: BUN/2024/0035, Valid till 31st December 2024, Mobile: 0717230100, Place: Unknown
+
+Hotel Lagoon Villa: Category: Bungalow, Classification: STANDARD, Rooms: 5, Email: lasantha.mendis@yahoo.com, Registration No: SLTDA/SQA/BUN/01222, Licence No: BUN/2024/0281, Valid till 31st December 2024, Mobile: 0771370134, Place: Unknown
+
+Hotel Levon: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: www.levon.lk, Email: hotel.levon.ella@gmail.com, Registration No: SLTDA/SQA/BUN/01016, Licence No: BUN/2024/0270, Valid till 31st December 2024, Tel: 0552224663, Mobile: 0760908913, Place: Ella
+
+Hotel Sapid Luck: Category: Bungalow, Classification: STANDARD, Rooms: 2, Web: Hotelsapidluck@gmail.com, Email: hotelsapidluck@gmail.com, Registration No: SLTDA/SQA/BUN/00933, Licence No: BUN/2024/0095, Valid till 31st December 2024, Tel: 0472237004, Mobile: 0718062121, Place: Unknown
+
+Idex Holiday Bunglow: Category: Bungalow, Classification: SUPERIOR, Rooms: 3, Email: idexlanka@gmail.com, Registration No: SLTDA/SQA/BUN/01202, Licence No: BUN/2024/0240, Valid till 31st December 2024, Tel: 0710155555, Mobile: 0710155555, Place: Unknown
+
+Illukawela Walauwa Holiday Resort: Category: Bungalow, Classification: SUPERIOR, Rooms: 5, Email: kulastead02@illukawela.com, Registration No: SLTDA/SQA/BUN/01178, Licence No: BUN/2024/0204, Valid till 31st December 2024, Mobile: 0770570090, Place: Unknown
+
+Imbulana Villa And Tea Estate: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: imbulanavilla@gmail.com, Registration No: SLTDA/SQA/BUN/01110, Licence No: BUN/2024/0080, Valid till 31st December 2024, Mobile: 0703634534, Place: Unknown
+
+Infenta's Villa: Category: Bungalow, Classification: DELUXE, Rooms: 8, Email: fhdonbosco@gmail.com, Registration No: SLTDA/SQA/BUN/01206, Licence No: BUN/2024/0244, Valid till 31st December 2024, Tel: 0764208772, Mobile: 0764208772, Place: Unknown
+Inidi Leisure: Bungalow, DELUXE, 8 Rooms, Web: 16 Walton Road, Email: contact@inidileisure.com, Registration No: SLTDA/SQA/BUN/01193, Licence No: BUN/2024/0223, Valid till 31st December 2024, Tel: 0778645203, Mobile: 0773048323, Place: Unknown
+
+Ishq Colombo: Bungalow, DELUXE, 4 Rooms, Email: prashanth@ishqvillas.com, Registration No: SLTDA/SQA/BUN/00778, Licence No: BUN/2024/0114, Valid till 31st December 2024, Tel: 0112467467, Mobile: 0761671676, Place: Colombo
+
+Jack Tree Lodge: Bungalow, DELUXE, 7 Rooms, Web: www.jacktreelodge.lk, Email: danekanayake@gmail.com, Registration No: SLTDA/SQA/BUN/01139, Licence No: BUN/2024/0126, Valid till 31st December 2024, Tel: 0812054914, Mobile: 0773205086, Place: Unknown
+
+Jade Villas Digana: Bungalow, DELUXE, 3 Rooms, Email: arnold@networks.lk, Registration No: SLTDA/SQA/BUN/01093, Licence No: BUN/2024/0056, Valid till 31st December 2024, Tel: 0115339200, Mobile: 0772386779, Place: Digana
+
+Jetwing Mahesa Bhawan: Bungalow, DELUXE, 4 Rooms, Web: https://www.jetwinghotels.com/jetwingmahesabhawan/, Email: zulaiha@jetwinghotels.com, Registration No: SLTDA/SQA/BUN/01063, Licence No: BUN/2024/0260, Valid till 31st December 2024, Tel: 0707493015, Mobile: 0707493015, Place: Unknown
+
+Jungle Resort: Bungalow, SUPERIOR, 6 Rooms, Web: jungleresort.O@gmail.com, Email: galbokkahewagesunitha@gmail.com, Registration No: SLTDA/SQA/BUN/01097, Licence No: BUN/2024/0060, Valid till 31st December 2024, Tel: 0413120361, Mobile: 0715268249, Place: Unknown
+
+K.g Guest House & Restaurant: Bungalow, STANDARD, 4 Rooms, Email: ketheeswarankandiah813@gmail.com, Registration No: SLTDA/SQA/BUN/01172, Licence No: BUN/2024/0189, Valid till 31st December 2024, Mobile: 0778191522, Place: Unknown
+
+Kabalana House By Ceilao Villas: Bungalow, DELUXE, 4 Rooms, Email: reservations@ceilaovillas.com, Registration No: SLTDA/SQA/BUN/0333, Licence No: BUN/2024/0166, Valid till 31st December 2024, Tel: 0912283350, Mobile: 0776221163, Place: Unknown
+
+Kalahe House: Bungalow, DELUXE, 3 Rooms, Web: www.kalahehouse.com, Email: dileepasanjeewa88@gmail.com, Registration No: SLTDA/SQA/BUN/01117, Licence No: BUN/2024/0089, Valid till 31st December 2024, Mobile: 0763725849, Place: Unknown
+
+Kanada House: Bungalow, SUPERIOR, 6 Rooms, Email: BILESHLIYANAGE@GMAIL.COM, Registration No: SLTDA/SQA/BUN/01196, Licence No: BUN/2024/0233, Valid till 31st December 2024, Mobile: 0763109737, Place: Unknown
+Kandy Cabana Eco Resort: Bungalow, SUPERIOR, 4 Rooms, Web: www.kandycabana.com, Email: kandycabana@gmail.com, Registration No: SLTDA/SQA/BUN/00991, Licence No: BUN/2024/0170, Valid till 31st December 2024, Tel: 0711772227, Mobile: 0711772227, Place: Kandy
+
+Kandy Hill Bungalow: Bungalow, DELUXE, 7 Rooms, Email: om.kandyhillbungalow@gmail.com, Registration No: SLTDA/SQA/BUN/01100, Licence No: BUN/2024/0063, Valid till 31st December 2024, Tel: 0812227510, Mobile: 0761110953, Place: Kandy
+
+Kandy Homestay: Bungalow, DELUXE, 7 Rooms, Email: wickrama.p.samarakoon@gmail.com, Registration No: SLTDA/SQA/BUN/01101, Licence No: BUN/2024/0065, Valid till 31st December 2024, Mobile: 0777861388, Place: Kandy
+
+Kanimadala Boutique Resort: Bungalow, DELUXE, 7 Rooms, Email: indra.wegan@gmail.com, Registration No: SLTDA/SQA/BUN/00986, Licence No: BUN/2024/0177, Valid till 31st December 2024, Tel: 0252221661, Mobile: 0772348328, Place: Unknown
+
+Kapukotuwa Walawwa: Bungalow, SUPERIOR, 4 Rooms, Email: nandanaruwan19@gmail.com, Registration No: SLTDA/SQA/BUN/01048, Licence No: BUN/2024/0158, Valid till 31st December 2024, Mobile: 0779311074, Place: Unknown
+
+Kathircholai: Bungalow, DELUXE, 4 Rooms, Web: www.kathircholai.com, Email: info@kathircholai.com, Registration No: SLTDA/SQA/BUN/01019, Licence No: BUN/2024/0287, Valid till 31st December 2024, Mobile: 0776964393, Place: Unknown
+
+Kelburne Mountain View Holidays: Bungalow, DELUXE, 9 Rooms, Email: cfo@resplendentceylon.com, Registration No: SLTDA/SQA/BUN/01052, Licence No: BUN/2024/0215, Valid till 31st December 2024, Tel: 0112573382, Mobile: 0702888111, Place: Unknown
+
+Kent Cottage: Bungalow, DELUXE, 4 Rooms, Web: www.kentcottage.lk, Email: krishansanjeewa22@gmail.com, Registration No: SLTDA/SQA/BUN/00888, Licence No: BUN/2024/0048, Valid till 31st December 2024, Mobile: 0777008880, Place: Unknown
+
+King Fisher Leisure: Bungalow, DELUXE, 4 Rooms, Email: kingfisherleisurevillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00514, Licence No: BUN/2024/0171, Valid till 31st December 2024, Tel: 0777119447, Mobile: 0777119447, Place: Unknown
+
+King Reach: Bungalow, SUPERIOR, 2 Rooms, Email: kingreachvilla@gmail.com, Registration No: SLTDA/SQA/BUN/00796, Licence No: BUN/2024/0011, Valid till 31st December 2024, Tel: 0252235891, Mobile: 0714166222, Place: Unknown
+Kirana Villa By Santani: Category: Bungalow, Classification: DELUXE, Rooms: 4, Web: www.santani.com/kirana-a-santani-villa/, Email: sharmila@santani.com, Registration No: SLTDA/SQA/BUN/01114, Licence No: BUN/2024/0084, Valid till 31st December 2024, Tel: 0117223227, Mobile: 0703669127, Place: Unknown
+
+Kirinda Lodge By Ceilao Villas: Category: Bungalow, Classification: DELUXE, Rooms: 2, Email: info@ceilaovillas.com, Registration No: SLTDA/SQA/BUN/0332, Licence No: BUN/2024/0131, Valid till 31st December 2024, Tel: 0112590484, Mobile: 0776221163, Place: Kirinda
+
+Kolonta Hotel: Category: Bungalow, Classification: STANDARD, Rooms: 4, Email: abeethalakpathi@gmail.com, Registration No: SLTDA/SQA/BUN/01175, Licence No: BUN/2024/0201, Valid till 31st December 2024, Mobile: 0715851909, Place: Unknown
+
+Kozy B & B - Mount Lavinia: Category: Bungalow, Classification: SUPERIOR, Rooms: 8, Email: kosala@mpower.lk, Registration No: SLTDA/SQA/BUN/00929, Licence No: BUN/2024/0111, Valid till 31st December 2024, Tel: 0773249044, Mobile: 0773249044, Place: Mount Lavinia
+
+Kumbuk Villa: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: kasun@finefinisheng.com, Registration No: SLTDA/SQA/BUN/01141, Licence No: BUN/2024/0132, Valid till 31st December 2024, Tel: 0362252845, Mobile: 0779782857, Place: Unknown
+
+Kumbura Villa: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: kumburavillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00839, Licence No: BUN/2024/0138, Valid till 31st December 2024, Tel: 0912227020, Mobile: 0762958031, Place: Unknown
+
+Kuru Ganga Villa: Category: Bungalow, Classification: SUPERIOR, Rooms: 5, Web: www.kurugangavilla.com, Email: kurugangavilla@gmail.com, Registration No: SLTDA/SQA/BUN/00989, Licence No: BUN/2024/0167, Valid till 31st December 2024, Mobile: 777568356, Place: Unknown
+
+La-ceylon: Category: Bungalow, Classification: STANDARD, Rooms: 2, Email: hknharsha@gmail.com, Registration No: SLTDA/SQA/BUN/01086, Licence No: BUN/2024/0039, Valid till 31st December 2024, Mobile: 0767968463, Place: Unknown
+
+Lake Wind Home Stay: Category: Bungalow, Classification: SUPERIOR, Rooms: 2, Email: gaminij187@gmail.com, Registration No: SLTDA/SQA/BUN/01071, Licence No: BUN/2024/0016, Valid till 31st December 2024, Tel: 0718353529, Mobile: 0776741424, Place: Unknown
+
+Lakmini Lodge: Category: Bungalow, Classification: STANDARD, Rooms: 5, Email: lakminilodge@hotmail.com, Registration No: SLTDA/SQA/BUN/00531, Licence No: BUN/2024/0182, Valid till 31st December 2024, Tel: 0710638959, Mobile: 0717098128, Place: Unknown
+Lanrich Eco Villas: Bungalow, SUPERIOR, 2 Rooms, Email: Shewavitharane@gmail.com, Registration No: SLTDA/SQA/BUN/00926, Licence No: BUN/2024/0118, Valid till 31st December 2024, Tel: 0412254660, Mobile: 0714306113, Place: Unknown
+Leaf Watagala: Bungalow, DELUXE, 5 Rooms, Web: www.leafleisure.com, Email: leafleisure@gmail.com, Registration No: SLTDA/SQA/BUN/00810, Licence No: BUN/2024/0193, Valid till 31st December 2024, Mobile: 0771726132, Place: Watagala
+Leela Walauwa: Bungalow, DELUXE, 4 Rooms, Web: www.taruvillas.com, Email: leelawalauwwa@gmail.com, Registration No: SLTDA/SQA/BUN/00741, Licence No: BUN/2024/0232, Valid till 31st December 2024, Mobile: 0779071964, Place: Unknown
+Lily Bungalow: Bungalow, STANDARD, 3 Rooms, Web: www.lilybungalowgalle.com, Email: lilybungalow@gmail.com, Registration No: SLTDA/SQA/BUN/01163, Licence No: BUN/2024/0176, Valid till 31st December 2024, Tel: 0783575262, Mobile: 0783575262, Place: Galle
+Lite Breeze Villa: Bungalow, SUPERIOR, 3 Rooms, Web: Www.litebreese.lk, Email: Litebreezbreez@gmail.com, Registration No: SLTDA/SQA/BUN/01152, Licence No: BUN/2024/0152, Valid till 31st December 2024, Tel: 0765293884, Mobile: 0765293884, Place: Unknown
+Lotus Lake Villa: Bungalow, STANDARD, 4 Rooms, Email: chamithrasintha@gmail.com, Registration No: SLTDA/SQA/BUN/01187, Licence No: BUN/2024/0216, Valid till 31st December 2024, Tel: 0772379387, Mobile: 0712384387, Place: Unknown
+Lumi Villa: Bungalow, SUPERIOR, 3 Rooms, Email: lumivillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00885, Licence No: BUN/2024/0226, Valid till 31st December 2024, Mobile: 0777119447, Place: Unknown
+Luxe Wilderness: Bungalow, DELUXE, 3 Rooms, Web: www.luxewilderness.com, Email: sanjayadm@gmail.com, Registration No: SLTDA/SQA/BUN/00707, Licence No: BUN/2024/0266, Valid till 31st December 2024, Tel: 0773521716, Mobile: 0773521716, Place: Unknown
+M Beach House: Bungalow, DELUXE, 4 Rooms, Email: info@m-beach.house, Registration No: SLTDA/SQA/BUN/01195, Licence No: BUN/2024/0229, Valid till 31st December 2024, Mobile: 0714110941, Place: Unknown
+Manel Villa: Bungalow, SUPERIOR, 3 Rooms, Email: harshasuboda6@gmail.com, Registration No: SLTDA/SQA/BUN/01150, Licence No: BUN/2024/0153, Valid till 31st December 2024, Tel: 0344938590, Mobile: 0769011746, Place: Unknown
+Mankada Cabana Eco Resort: Bungalow, SUPERIOR, 3 Rooms, Location: Mankada, Email: mankadacabana@gmail.com, Registration No: SLTDA/SQA/BUN/01192, Licence No: BUN/2024/0222, Valid till 31st December 2024, Mobile: 0712730021
+
+Mannankulam Villa: Bungalow, DELUXE, 4 Rooms, Location: Mannankulam, Web: https://www.mannankulam.com/, Email: info@mannankulam.com, Registration No: SLTDA/SQA/BUN/01010, Licence No: BUN/2024/0258, Valid till 31st December 2024, Tel: 0672277216, Mobile: 0773794226
+
+Maple Castle: Bungalow, DELUXE, 7 Rooms, Location: Nuwara Eliya, Web: https://maplecastle.lk/, Email: irshadmtm123@yahoo.com, Registration No: SLTDA/SQA/BUN/01213, Licence No: BUN/2024/0264, Valid till 31st December 2024, Tel: 0522222757, Mobile: 0777308970
+
+Margosa Mountain Villa: Bungalow, DELUXE, 3 Rooms, Location: Kandy, Email: margosa.mountainvilla@gmail.com, Registration No: SLTDA/SQA/BUN/00987, Licence No: BUN/2024/0041, Valid till 31st December 2024, Mobile: 0719177015
+
+Masith Guest: Bungalow, STANDARD, 5 Rooms, Location: Unawatuna, Email: masithunawatuna@gmail.com, Registration No: SLTDA/SQA/BUN/00872, Licence No: BUN/2024/0087, Valid till 31st December 2024, Tel: 0773015664, Mobile: 0773015664
+
+Max Wadiya: Bungalow, DELUXE, 3 Rooms, Location: Ambalangoda, Email: max.wadiya@gmail.com, Registration No: SLTDA/SQA/BUN/00389, Licence No: BUN/2024/0070, Valid till 31st December 2024, Tel: 0912257926
+
+Meth Suites: Bungalow, SUPERIOR, 8 Rooms, Location: Colombo, Web: www.methsuites.com, Email: sooriyask@gmail.com, Registration No: SLTDA/SQA/BUN/00996, Licence No: BUN/2024/0280, Valid till 31st December 2024, Tel: 0112225838, Mobile: 0761318938
+
+Misty Hills Villa Kadugannawa: Bungalow, DELUXE, 3 Rooms, Location: Kadugannawa, Email: mistyhillsvillateam@gmail.com, Registration No: SLTDA/SQA/BUN/01036, Licence No: BUN/2024/0069, Valid till 31st December 2024, Mobile: 0778817330
+
+Mk Hotel & Room: Bungalow, STANDARD, 4 Rooms, Location: Jaffna, Email: mirujan2001@gmail.com, Registration No: SLTDA/SQA/BUN/01164, Licence No: BUN/2024/0178, Valid till 31st December 2024, Tel: 0779181180, Mobile: 0756553552
+
+Momondo Hotel & Restaurant: Bungalow, STANDARD, 4 Rooms, Location: Jaffna, Email: momondojaffna@gmail.com, Registration No: SLTDA/SQA/BUN/01182, Licence No: BUN/2024/0210, Valid till 31st December 2024, Tel: 0212219113, Mobile: 0777310414
+Monaratenna Bungalow: Bungalow, DELUXE, 8 Rooms, Location: Monaratenna, Email: bobkahanda@gmail.com, Registration No: SLTDA/SQA/BUN/00624, Licence No: BUN/2024/0285, Valid till 31st December 2024, Tel: 0473626542, Mobile: 0777753975
+
+Motel Vintage: Bungalow, DELUXE, 2 Rooms, Location: Unknown, Web: www.motelmintage.com, Email: lahilemon@gmail.com, Registration No: SLTDA/SQA/BUN/01205, Licence No: BUN/2024/0243, Valid till 31st December 2024, Tel: 0777733598, Mobile: 0777733598
+
+Mount Lake Inn: Bungalow, SUPERIOR, 3 Rooms, Location: Unknown, Email: ranasinghenishani69@gmail.com, Registration No: SLTDA/SQA/BUN/00648, Licence No: BUN/2024/0042, Valid till 31st December 2024, Tel: 0523120488, Mobile: 0721984517
+
+Mount View Kataragama: Bungalow, STANDARD, 4 Rooms, Location: Kataragama, Email: mountviwekataragama@gmail.com, Registration No: SLTDA/SQA/BUN/01128, Licence No: BUN/2024/0109, Valid till 31st December 2024, Tel: 0472235575, Mobile: 0777593309
+
+Mountain Villa Riverston: Bungalow, DELUXE, 3 Rooms, Location: Riverston, Email: arcadianleisure@arcadiansourcing.com, Registration No: SLTDA/SQA/BUN/00629, Licence No: BUN/2024/0254, Valid till 31st December 2024, Tel: 0112870432, Mobile: 0702882233
+
+Mullai Villa Rest: Bungalow, SUPERIOR, 2 Rooms, Location: Unknown, Email: mullaibungalow@gmail.com, Registration No: SLTDA/SQA/BUN/01130, Licence No: BUN/2024/0112, Valid till 31st December 2024, Tel: 0779904045, Mobile: 0779904045
+
+Muthu Nila Villa: Bungalow, SUPERIOR, 2 Rooms, Location: Unknown, Email: muthunilako@gmail.com, Registration No: SLTDA/SQA/BUN/00846, Licence No: BUN/2024/0230, Valid till 31st December 2024, Tel: 0714831896, Mobile: 0714831896
+
+Namaskara By The Beach: Bungalow, DELUXE, 1 Room, Location: Beachfront, Email: sangrang@gmail.com, Registration No: SLTDA/SQA/BUN/01212, Licence No: BUN/2024/0263, Valid till 31st December 2024, Mobile: 0760585146
+
+Natures Bliss Holidays: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Web: www.naterblisholidays.com, Email: bnnalaka@hotmail.com, Registration No: SLTDA/SQA/BUN/00462, Licence No: BUN/2024/0156, Valid till 31st December 2024, Tel: 0112956383, Mobile: 0777781574
+
+New Lavan: Bungalow, SUPERIOR, 6 Rooms, Location: Unknown, Web: www.newlavan.ik, Email: camilas1950@gmail.com, Registration No: SLTDA/SQA/BUN/01169, Licence No: BUN/2024/0185, Valid till 31st December 2024, Tel: 0112708744, Mobile: 0779921839
+Nikaweratiya Circuit Bungalow: Bungalow, STANDARD, 5 Rooms, Location: Nikaweratiya, Email: nldbcircuit@gmail.com, Registration No: SLTDA/SQA/BUN/01146, Licence No: BUN/2024/0142, Valid till 31st December 2024, Tel: 0372260288, Mobile: 0773782137
+
+Nilnara Villa: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Web: www.nilnara.lk, Email: villanilnara@gmail.com, Registration No: SLTDA/SQA/BUN/01081, Licence No: BUN/2024/0027, Valid till 31st December 2024, Tel: 0912256844, Mobile: 0777904024
+
+North Joy Hotel And Resort: Bungalow, DELUXE, 7 Rooms, Location: Unknown, Email: northjoy2023@gmail.com, Registration No: SLTDA/SQA/BUN/01137, Licence No: BUN/2024/0123, Valid till 31st December 2024, Tel: 0773361750, Mobile: 0773361750
+
+O2 Villas- Yala: Bungalow, DELUXE, 4 Rooms, Location: Yala, Web: www.o2hotels.lk, Email: o2villasyalasltda@gmail.com, Registration No: SLTDA/SQA/BUN/01103, Licence No: BUN/2024/0067, Valid till 31st December 2024, Tel: 0473132522, Mobile: 0778784786
+
+Oasis Bungalow: Bungalow, DELUXE, 9 Rooms, Location: Unknown, Web: Oasis Bungalow.com, Email: oasisfertinihal@gmail.com, Registration No: SLTDA/SQA/BUN/01032, Licence No: BUN/2024/0029, Valid till 31st December 2024, Tel: 0524930577, Mobile: 0727326565
+
+Occazia: Bungalow, SUPERIOR, 3 Rooms, Location: Unknown, Email: desilva.hdr@gmail.com, Registration No: SLTDA/SQA/BUN/01159, Licence No: BUN/2024/0169, Valid till 31st December 2024, Mobile: 0777316100
+
+Ocean Breeze Villa: Bungalow, STANDARD, 5 Rooms, Location: Matara, Email: oceanbreezevilla.matara@gmail.com, Registration No: SLTDA/SQA/BUN/01165, Licence No: BUN/2024/0179, Valid till 31st December 2024, Tel: 0718223918
+
+Ocean Divine: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.oceandivine.net, Email: oceandivinesrilanka@gmail.com, Registration No: SLTDA/SQA/BUN/01156, Licence No: BUN/2024/0161, Valid till 31st December 2024, Mobile: 0776750015
+
+Ocean Gateway Dickwella: Bungalow, SUPERIOR, 4 Rooms, Location: Dickwella, Email: oceangatewaydikwella@gmail.com, Registration No: SLTDA/SQA/BUN/01089, Licence No: BUN/2024/0047, Valid till 31st December 2024, Mobile: 0777300263
+
+Ohiya Jungle Resort: Bungalow, SUPERIOR, 3 Rooms, Location: Ohiya, Web: Ohiya Jungle Resort, Email: kasunimantha@gmail.com, Registration No: SLTDA/SQA/BUN/01033, Licence No: BUN/2024/0148, Valid till 31st December 2024, Tel: 0572281285, Mobile: 0712621441
+Orenda: Bungalow, SUPERIOR, 3 Rooms, Web: www.visitorenda.com, Email: samithliyanage888@gmail.com, Registration No: SLTDA/SQA/BUN/01189, Licence No: BUN/2024/0219, Valid till 31st December 2024, Tel: 0912237767, Mobile: 0777700680, Place: Unknown
+
+Oudarya Guest: Bungalow, SUPERIOR, 5 Rooms, Email: hettigamageosura@gmail.com, Registration No: SLTDA/SQA/BUN/01207, Licence No: BUN/2024/0245, Valid till 31st December 2024, Tel: 0272227444, Mobile: 0770298353, Place: Unknown
+
+P And P Luxury Villa S: Bungalow, SUPERIOR, 3 Rooms, Email: prasanna300971@gmail.com, Registration No: SLTDA/SQA/BUN/01168, Licence No: BUN/2024/0183, Valid till 31st December 2024, Mobile: 0773676940, Place: Unknown
+
+Palmyra Nature Resort Sigiriya: Bungalow, STANDARD, 7 Rooms, Web: https://www.palmyranatureresort.com, Email: dilshanherath@gmail.com, Registration No: SLTDA/SQA/BUN/01087, Licence No: BUN/2024/0043, Valid till 31st December 2024, Mobile: 0773012310, Place: Sigiriya
+
+Pannama Village: Bungalow, STANDARD, 5 Rooms, Email: pannamavillage@gmail.com, Registration No: SLTDA/SQA/BUN/01088, Licence No: BUN/2024/0044, Valid till 31st December 2024, Tel: 0452262230, Mobile: 0775273350, Place: Unknown
+
+Paradise Cove: Bungalow, SUPERIOR, 5 Rooms, Web: www.paradisecovesrilanka.com, Email: paradisecovevillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00475, Licence No: BUN/2024/0130, Valid till 31st December 2024, Tel: 0412255130, Mobile: 0777119447, Place: Unknown
+
+Parasol Dore: Bungalow, SUPERIOR, 3 Rooms, Web: leparasoldore@hotmail.com, Email: leparasoldore@hotmail.com, Registration No: SLTDA/SQA/BUN/01121, Licence No: BUN/2024/0096, Valid till 31st December 2024, Mobile: 0779311440, Place: Unknown
+
+Pearl Villa: Bungalow, SUPERIOR, 5 Rooms, Email: wchathurani2@gmail.com, Registration No: SLTDA/SQA/BUN/01079, Licence No: BUN/2024/0025, Valid till 31st December 2024, Mobile: 0771762403, Place: Unknown
+
+Pinipahana Walauwa: Bungalow, DELUXE, 5 Rooms, Web: www.pinipahanawalauwa.com, Email: walauwapinipahana@gmail.com, Registration No: SLTDA/SQA/BUN/01091, Licence No: BUN/2024/0051, Valid till 31st December 2024, Tel: 0412244890, Mobile: 0772855448, Place: Unknown
+
+Planters Bungalow: Bungalow, DELUXE, 6 Rooms, Web: www.plantersbungalow.com, Email: plantersbungalow@aol.com, Registration No: SLTDA/SQA/BUN/00542, Licence No: BUN/2024/0234, Valid till 31st December 2024, Tel: 0552055600, Mobile: 0771540737, Place: Unknown
+Amarya Resorts: Category: Bungalow, Classification: SUPERIOR, Rooms: 5, Email: amaryaresort@gmail.com, Registration No: SLTDA/SQA/BUN/01144, Licence No: BUN/2024/0137, Valid till 31st December 2024, Mobile: 0774274268, Place: Unknown
+
+Ambalama Villa: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: ambalamavillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00418, Licence No: BUN/2024/0128, Valid till 31st December 2024, Tel: 0777700932, Mobile: 0777119447, Place: Unknown
+
+Amma Erna: Category: Bungalow, Classification: SUPERIOR, Rooms: 3, Email: info@ammaerna.com, Registration No: SLTDA/SQA/BUN/00727, Licence No: BUN/2024/0140, Valid till 31st December 2024, Mobile: 0777037565, Place: Unknown
+
+Amore Resorts: Category: Bungalow, Classification: DELUXE, Rooms: 5, Web: www.amoreresorts.lk, Email: jagathpathirane@gmail.com, Registration No: SLTDA/SQA/BUN/01157, Licence No: BUN/2024/0163, Valid till 31st December 2024, Tel: 0812410744, Mobile: 0777807409, Place: Unknown
+
+Angam Villa: Category: Bungalow, Classification: SUPERIOR, Rooms: 2, Email: shehan3000@gmail.com, Registration No: SLTDA/SQA/BUN/00749, Licence No: BUN/2024/0127, Valid till 31st December 2024, Tel: 0112867712, Mobile: 0769037723, Place: Unknown
+
+Anoleth Farm Resort: Category: Bungalow, Classification: STANDARD, Rooms: 5, Email: ali_uma@yahoo.com, Registration No: SLTDA/SQA/BUN/01171, Licence No: BUN/2024/0188, Valid till 31st December 2024, Tel: 0322260135, Mobile: 0763999745, Place: Unknown
+
+Anuradha Holiday Home: Category: Bungalow, Classification: SUPERIOR, Rooms: 5, Web: www.anuradhaholidays.com, Email: gamiwali@gmail.com, Registration No: SLTDA/SQA/BUN/01219, Licence No: BUN/2024/0275, Valid till 31st December 2024, Tel: 0252220099, Mobile: 0779798800, Place: Unknown
+
+Apsara Hotel: Category: Bungalow, Classification: STANDARD, Rooms: 3, Web: aaaaaaaaaaaaaaa, Email: ajithdanarathna28@gmail.com, Registration No: SLTDA/SQA/BUN/01030, Licence No: BUN/2024/0190, Valid till 31st December 2024, Tel: 0000000000, Mobile: 0716732739, Place: Unknown
+
+Arsulana Eco Lodge Bungalow: Category: Bungalow, Classification: DELUXE, Rooms: 7, Web: www.arsulana.com, Email: arsulanalodge@gmail.com, Registration No: SLTDA/SQA/BUN/01075, Licence No: BUN/2024/0020, Valid till 31st December 2024, Mobile: 0777317414, Place: Unknown
+
+Atulya Villas Nuwara Eliya: Category: Bungalow, Classification: DELUXE, Rooms: 6, Web: No 21 , Abeygunaratne Mawatha, Email: villaatulyane@gmail.com, Registration No: SLTDA/SQA/BUN/00887, Licence No: BUN/2024/0116, Valid till 31st December 2024, Tel: 0522235359, Mobile: 0713319513, Place: Nuwara Eliya
+Pointe Sud: Bungalow, DELUXE, 5 Rooms, Location: Mirissa, Email: serendivaip@gmail.com, Registration No: SLTDA/SQA/BUN/00491, Licence No: BUN/2024/0268, Valid till 31st December 2024, Tel: 0414922385, Mobile: 0722253501
+
+Prana: Bungalow, SUPERIOR, 4 Rooms, Location: Balapitiya, Email: balapitiyayoga123@gmail.com, Registration No: SLTDA/SQA/BUN/01125, Licence No: BUN/2024/0101, Valid till 31st December 2024, Mobile: 0713358265
+
+Resort Deepika: Bungalow, SUPERIOR, 8 Rooms, Location: Anuradhapura, Email: resortdeepika@gmail.com, Registration No: SLTDA/SQA/BUN/01115, Licence No: BUN/2024/0085, Valid till 31st December 2024, Mobile: 0770681560
+
+Rest And T: Bungalow, SUPERIOR, 2 Rooms, Location: Ella, Email: agpriyanthika88@gmail.com, Registration No: SLTDA/SQA/BUN/01181, Licence No: BUN/2024/0209, Valid till 31st December 2024, Tel: 0711270566, Mobile: 0711270566
+
+River Pearl Villa: Bungalow, DELUXE, 1 Room, Location: Bentota, Email: RIVERPEARLVILLA@GMAIL.COM, Registration No: SLTDA/SQA/BUN/01129, Licence No: BUN/2024/0110, Valid till 31st December 2024, Mobile: 0717231501
+
+Riverpool Holiday Bungalow: Bungalow, STANDARD, 4 Rooms, Location: Kithulgala, Email: maheshanmalayandy@gmail.com, Registration No: SLTDA/SQA/BUN/00494, Licence No: BUN/2024/0106, Valid till 31st December 2024, Tel: 0113042634, Mobile: 0719017115
+
+Riverside Bungalow: Bungalow, DELUXE, 4 Rooms, Location: Galle, Email: ajithw@carcumb.com, Registration No: SLTDA/SQA/BUN/0344, Licence No: BUN/2024/0099, Valid till 31st December 2024, Tel: 034927464, Mobile: 0777874926
+
+Riverside Suites: Bungalow, DELUXE, 4 Rooms, Location: Kandy, Email: nihalwadu@gmail.com, Registration No: SLTDA/SQA/BUN/00618, Licence No: BUN/2024/0004, Valid till 31st December 2024, Tel: 0777736040, Mobile: 0777736040
+
+Romantic Beach Hotel: Bungalow, STANDARD, 4 Rooms, Location: Unawatuna, Email: sajeewanisamadra7@gmail.com, Registration No: SLTDA/SQA/BUN/01194, Licence No: BUN/2024/0228, Valid till 31st December 2024, Tel: 0322050575, Mobile: 0772550615
+
+Roy Lanka Inn: Bungalow, SUPERIOR, 7 Rooms, Location: Kandy, Email: roylankakandy@gmail.com, Registration No: SLTDA/SQA/BUN/01132, Licence No: BUN/2024/0117, Valid till 31st December 2024, Tel: 0812573040, Mobile: 0706701111
+Royal Lake Bungalow: Bungalow, STANDARD, 3 Rooms, Location: Unknown, Email: royalbungalowdk@gmail.com, Registration No: SLTDA/SQA/BUN/01158, Licence No: BUN/2024/0164, Valid till 31st December 2024, Mobile: 0770280361
+
+Royal Rock: Bungalow, SUPERIOR, 6 Rooms, Location: Sigiriya, Email: royalrocksigiriya@yahoo.com, Registration No: SLTDA/SQA/BUN/00977, Licence No: BUN/2024/0115, Valid till 31st December 2024, Mobile: 0777349575
+
+Saffron Lake Yala: Bungalow, SUPERIOR, 5 Rooms, Location: Yala, Web: www.saffronlakeyala.com, Email: info@saffronlakeyala.com, Registration No: SLTDA/SQA/BUN/01083, Licence No: BUN/2024/0033, Valid till 31st December 2024, Mobile: 0773914451
+
+Salt Beach House: Bungalow, SUPERIOR, 2 Rooms, Location: Unknown, Email: chamara.wikramasinghe@gmail.com, Registration No: SLTDA/SQA/BUN/01135, Licence No: BUN/2024/0121, Valid till 31st December 2024, Mobile: 0777902411
+
+Sambar Hills Villas Resort: Bungalow, DELUXE, 9 Rooms, Location: Unknown, Web: www.luxuryvillas.lk, Email: auditdivision@premadasas.com, Registration No: SLTDA/SQA/BUN/01107, Licence No: BUN/2024/0076, Valid till 31st December 2024, Mobile: 0717320888
+
+Samudra Villa: Bungalow, DELUXE, 2 Rooms, Location: Unknown, Email: samudravillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00489, Licence No: BUN/2024/0198, Valid till 31st December 2024, Tel: 0777911012, Mobile: 0777119447
+
+Sandahiru Villa: Bungalow, DELUXE, 3 Rooms, Location: Beruwala, Web: 11 Lane, Hettimulla, Beruwala, Sri Lanka., Email: sandahiruvilla@gmail.com, Registration No: SLTDA/SQA/BUN/01191, Licence No: BUN/2024/0221, Valid till 31st December 2024, Tel: 0342277988, Mobile: 0776209688
+
+Sat Nam Village Hotel: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: satnamleisures@gmail.com, Registration No: SLTDA/SQA/BUN/00849, Licence No: BUN/2024/0195, Valid till 31st December 2024, Tel: 0662058502, Mobile: 0761195913
+
+Scottish Planter Glendevon Bungalow: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.themeresorts.com, Email: accounts@themeresorts.com, Registration No: SLTDA/SQA/BUN/00544, Licence No: BUN/2024/0009, Valid till 31st December 2024, Tel: 0522265050, Mobile: 0772594058
+
+Sea Front Villa: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: pkcbgperera@gmail.com, Registration No: SLTDA/SQA/BUN/01113, Licence No: BUN/2024/0083, Valid till 31st December 2024, Mobile: 0712471227
+Sea View Tourist Inn: Bungalow, SUPERIOR, 6 Rooms, Location: Unknown, Email: seaviewtouristinn@gmail.com, Registration No: SLTDA/SQA/BUN/01014, Licence No: BUN/2024/0021, Valid till 31st December 2024, Tel: 0472242704, Mobile: 0713403544
+
+Seconds Colombo: Bungalow, SUPERIOR, 6 Rooms, Location: Colombo, Email: secondsprojects@gamil.com, Registration No: SLTDA/SQA/BUN/01216, Licence No: BUN/2024/0272, Valid till 31st December 2024, Mobile: 0777730714
+
+Secret Place: Bungalow, STANDARD, 5 Rooms, Location: Unknown, Email: secretplace.ab@gmail.com, Registration No: SLTDA/SQA/BUN/01174, Licence No: BUN/2024/0194, Valid till 31st December 2024, Tel: 0812305511, Mobile: 0755572119
+
+Seenigama White Sand Villa: Bungalow, DELUXE, 4 Rooms, Location: Seenigama, Web: https://whitesandvillaseen.wixsite.com/mysite, Email: nirasha1000@yahoo.com, Registration No: SLTDA/SQA/BUN/00841, Licence No: BUN/2024/0013, Valid till 31st December 2024, Tel: 0912277312, Mobile: 0912277312
+
+Serenity Valley: Bungalow, SUPERIOR, 5 Rooms, Location: Ambuluwawa, Web: www.serenity-valley.com, Email: serenityvalleyambuluwawa@gmail.com, Registration No: SLTDA/SQA/BUN/01021, Licence No: BUN/2024/0028, Valid till 31st December 2024, Tel: 0814283888, Mobile: 0770762888
+
+Shady Cottage: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: piyushani_0719@yahoo.com, Registration No: SLTDA/SQA/BUN/01111, Licence No: BUN/2024/0081, Valid till 31st December 2024, Mobile: 0770442434
+
+Shalini Villa: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Email: Shalinivillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00785, Licence No: BUN/2024/0141, Valid till 31st December 2024, Mobile: 0777119447
+
+Shamaz Galle: Bungalow, DELUXE, 8 Rooms, Location: Galle, Web: www.shamazgalle.com, Email: mslafir@gmail.com, Registration No: SLTDA/SQA/BUN/00990, Licence No: BUN/2024/0251, Valid till 31st December 2024, Tel: 0912250799, Mobile: 0777715779
+
+Shanmuga Villa Rest House: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: rajah2013@gmail.com, Registration No: SLTDA/SQA/BUN/01046, Licence No: BUN/2024/0284, Valid till 31st December 2024, Tel: 0776112664, Mobile: 0775161946
+
+Sigiri Holiday Bungalow: Bungalow, SUPERIOR, 5 Rooms, Location: Sigiriya, Email: shakilanethmika@gmail.com, Registration No: SLTDA/SQA/BUN/01214, Licence No: BUN/2024/0269, Valid till 31st December 2024, Mobile: 0773813040
+Sisila Rest: Bungalow, STANDARD, 3 Rooms, Location: Unknown, Email: narmadadakshini07@gmail.com, Registration No: SLTDA/SQA/BUN/01142, Licence No: BUN/2024/0134, Valid till 31st December 2024, Mobile: 0710824263
+
+Sisters Away: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: sistersaway@gmail.com, Registration No: SLTDA/SQA/BUN/00965, Licence No: BUN/2024/0045, Valid till 31st December 2024, Tel: 0912282114, Mobile: 0704662691
+
+Siyanrose Bungalows: Bungalow, STANDARD, 3 Rooms, Location: Unknown, Web: lalithrubasinghe100@gmail.com, Email: lalithrubasinghe100@gmail.com, Registration No: SLTDA/SQA/BUN/01056, Licence No: BUN/2024/0006, Valid till 31st December 2024, Tel: 0779166378, Mobile: 0779166378
+
+Sky Reach Lodge & Spa: Bungalow, STANDARD, 4 Rooms, Location: Unknown, Web: skyreachlodge@gmail.com, Email: info.serendibholdings@gmail.com, Registration No: SLTDA/SQA/BUN/01136, Licence No: BUN/2024/0122, Valid till 31st December 2024, Tel: 0382246881, Mobile: 0777573604
+
+Sobaya Residence: Bungalow, DELUXE, 8 Rooms, Location: Unknown, Email: gayaneagle@gmail.com, Registration No: SLTDA/SQA/BUN/01198, Licence No: BUN/2024/0236, Valid till 31st December 2024, Tel: 0472223150, Mobile: 0777911409
+
+Sola Amithirigala: Bungalow, SUPERIOR, 6 Rooms, Location: Amithirigala, Email: cynefin.pvtld@gmail.com, Registration No: SLTDA/SQA/BUN/01082, Licence No: BUN/2024/0032, Valid till 31st December 2024, Tel: 0332268035, Mobile: 0776617644
+
+Solas Surf: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.solassurf.com, Email: hdesaram@y7mail.com, Registration No: SLTDA/SQA/BUN/01034, Licence No: BUN/2024/0289, Valid till 31st December 2024, Mobile: 0776958646
+
+South Point Ocean: Bungalow, DELUXE, 8 Rooms, Location: Unknown, Web: www.southpointocean.com, Email: info@southpointvilla.com, Registration No: SLTDA/SQA/BUN/01186, Licence No: BUN/2024/0214, Valid till 31st December 2024, Mobile: 0766766766
+
+Sri Devi Retreats: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Email: Srideviretreatsltda@gmail.com, Registration No: SLTDA/SQA/BUN/00660, Licence No: BUN/2024/0227, Valid till 31st December 2024, Tel: 0777119447, Mobile: 0756165636
+
+Sri Moon: Bungalow, SUPERIOR, 2 Rooms, Location: Unknown, Email: chamilalakmal001@gmail.com, Registration No: SLTDA/SQA/BUN/01127, Licence No: BUN/2024/0108, Valid till 31st December 2024, Tel: 0717799913, Mobile: 0775099913
+Still Waters Artistry: Bungalow, DELUXE, 6 Rooms, Location: Unknown, Email: resv.stillwatersartistry@gmail.com, Registration No: SLTDA/SQA/BUN/01224, Licence No: BUN/2024/0288, Valid till 31st December 2024, Mobile: 0778437201
+
+Sulanga Luxury Chalets: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Email: rtissera@hotmail.com, Registration No: SLTDA/SQA/BUN/01200, Licence No: BUN/2024/0238, Valid till 31st December 2024, Tel: 0772487000, Mobile: 0772487000
+
+Sumudu Holiday Resort: Bungalow, SUPERIOR, 3 Rooms, Location: Unknown, Email: sumuduholidayresort@gmail.com, Registration No: SLTDA/SQA/BUN/01072, Licence No: BUN/2024/0017, Valid till 31st December 2024, Tel: 0913925485, Mobile: 0775469975
+
+Swan Lake: Bungalow, STANDARD, 5 Rooms, Location: Unknown, Web: aselabew393@gmail.com, Email: aselabew393@gmail.com, Registration No: SLTDA/SQA/BUN/01151, Licence No: BUN/2024/0151, Valid till 31st December 2024, Tel: 0718375393, Mobile: 0766395293
+
+Swanee Grand: Bungalow, DELUXE, 8 Rooms, Location: Unknown, Web: www.swaneegrand.com, Email: swaneegrand@gmail.com, Registration No: SLTDA/SQA/BUN/00547, Licence No: BUN/2024/0008, Valid till 31st December 2024, Tel: 0773170035, Mobile: 0777516048
+
+Swiss Residence: Bungalow, STANDARD, 5 Rooms, Location: Morontuduwa, Web: http://www.facebook.com.SwissResidenceHotel/, Email: swissresidencemorontuduwa@gmail.com, Registration No: SLTDA/SQA/BUN/01017, Licence No: BUN/2024/0165, Valid till 31st December 2024, Tel: 0382285637, Mobile: 0714112553
+
+T P V Estates: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Email: tpvestates@gmail.com, Registration No: SLTDA/SQA/BUN/01185, Licence No: BUN/2024/0213, Valid till 31st December 2024, Mobile: 0777447989
+
+T-house: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: supunr1979@gmail.com, Registration No: SLTDA/SQA/BUN/01221, Licence No: BUN/2024/0277, Valid till 31st December 2024, Mobile: 0772015877
+
+Taru Villas Rampart Street: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.25RampartStreet.com, Email: taruvillas25@gmail.com, Registration No: SLTDA/SQA/BUN/00455, Licence No: BUN/2024/0136, Valid till 31st December 2024, Tel: 0773856602, Mobile: 0777284158
+
+Taru Villas-906: Bungalow, DELUXE, 2 Rooms, Location: Unknown, Web: www.taruvillas.com, Email: taruvillas906@gmail.com, Registration No: SLTDA/SQA/BUN/00644, Licence No: BUN/2024/0186, Valid till 31st December 2024, Mobile: 0777284158
+Thalpe Bungalow: Bungalow, DELUXE, 3 Rooms, Location: Thalpe, Email: Thalpehousesltda@gmail.com, Registration No: SLTDA/SQA/BUN/00818, Licence No: BUN/2024/0225, Valid till 31st December 2024, Mobile: 0777119447
+
+Thana Rest: Bungalow, STANDARD, 3 Rooms, Location: Unknown, Email: thanarest9@gmail.com, Registration No: SLTDA/SQA/BUN/01134, Licence No: BUN/2024/0120, Valid till 31st December 2024, Mobile: 0777664913
+
+The Barns Resaturant And Villas: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Email: shivantha1985@yahoo.com, Registration No: SLTDA/SQA/BUN/01223, Licence No: BUN/2024/0283, Valid till 31st December 2024, Mobile: 0773668728
+
+The Cavern: Bungalow, DELUXE, 3 Rooms, Location: Unknown, Web: UNDER CONSTRUCTION, Email: MD@TOKYOCEMENT.LK, Registration No: SLTDA/SQA/BUN/01179, Licence No: BUN/2024/0206, Valid till 31st December 2024, Tel: 0112504268, Mobile: 0777760888
+
+The Eliya: Bungalow, STANDARD, 3 Rooms, Location: Nuwara Eliya, Web: No 51/A,Elkpan,Ruwan Eliya,Nuwara Eliya, Email: nilanexpress@gmail.com, Registration No: SLTDA/SQA/BUN/01073, Licence No: BUN/2024/0018, Valid till 31st December 2024, Tel: 0522237700, Mobile: 0773441559
+
+The Green Village Dambulla: Bungalow, STANDARD, 4 Rooms, Location: Dambulla, Email: thegreenvillagedambulla@gmail.com, Registration No: SLTDA/SQA/BUN/00743, Licence No: BUN/2024/0038, Valid till 31st December 2024, Mobile: 0768005630
+
+The Lavender House By Reveal: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Web: www.revealthecollection.com, Email: sepalad@brownshotels.com, Registration No: SLTDA/SQA/BUN/01078, Licence No: BUN/2024/0024, Valid till 31st December 2024, Tel: 0114790500, Mobile: 0770154761
+
+The Pier: Bungalow, DELUXE, 4 Rooms, Location: Moratuwa, Web: www.thepiermoratuwa.com, Email: info@thepiermoratuwa.com, Registration No: SLTDA/SQA/BUN/0293, Licence No: BUN/2024/0162, Valid till 31st December 2024, Tel: 0112780000, Mobile: 771068002
+
+The Residence Hikkaduwa: Bungalow, DELUXE, 2 Rooms, Location: Hikkaduwa, Web: www.theresidencehikkaduwa.com, Email: info@theresidencehikkaduwa.com, Registration No: SLTDA/SQA/BUN/00840, Licence No: BUN/2024/0036, Valid till 31st December 2024, Tel: 0912276620, Mobile: 0777204712
+
+The Riverston Grand: Bungalow, DELUXE, 6 Rooms, Location: Riverston, Web: https://theriverstongrand.lk, Email: abovetheclouds@riverstongrand.com, Registration No: SLTDA/SQA/BUN/00915, Licence No: BUN/2024/0267, Valid till 31st December 2024, Tel: 0665200300, Mobile: 0775482727
+The Vintage Villa: Bungalow, SUPERIOR, 3 Rooms, Location: Unknown, Email: s.p.malalage7777@gmail.com, Registration No: SLTDA/SQA/BUN/01011, Licence No: BUN/2024/0145, Valid till 31st December 2024, Mobile: 0776002454
+
+The Waves Beach Chalets: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.thewaves.lk, Email: senarathliyanage@gmail.com, Registration No: SLTDA/SQA/BUN/00446, Licence No: BUN/2024/0050, Valid till 31st December 2024, Tel: 2591391, Mobile: 0766832683
+
+The White Bungalow Polgasowita: Bungalow, DELUXE, 4 Rooms, Location: Polgasowita, Email: drsdesilvahpl@gmail.com, Registration No: SLTDA/SQA/BUN/01092, Licence No: BUN/2024/0054, Valid till 31st December 2024, Tel: 0112092417, Mobile: 0760716700
+
+The Zenden: Bungalow, STANDARD, 1 Room, Location: Unknown, Email: Shamalimangat@gmail.com, Registration No: SLTDA/SQA/BUN/01074, Licence No: BUN/2024/0019, Valid till 31st December 2024, Mobile: 0779969370
+
+Thirasara Family Garden: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Email: thirasaradoasathpaya@gmail.com, Registration No: SLTDA/SQA/BUN/01109, Licence No: BUN/2024/0079, Valid till 31st December 2024, Tel: 0252245025, Mobile: 0714193275
+
+Tiki Taka Kandy: Bungalow, DELUXE, 2 Rooms, Location: Kandy, Email: tikitaka.kandy@gmail.com, Registration No: SLTDA/SQA/BUN/01122, Licence No: BUN/2024/0097, Valid till 31st December 2024, Tel: 0773771973, Mobile: 0773771973
+
+Top House: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.tophouse.lk, Email: rupert@cinnamonhill.com, Registration No: SLTDA/SQA/BUN/00731, Licence No: BUN/2024/0102, Valid till 31st December 2024, Mobile: 0770340489
+
+Top Secret Beach Hotel: Bungalow, DELUXE, 9 Rooms, Location: Unknown, Email: topsecretbeachhotel@gmail.com, Registration No: SLTDA/SQA/BUN/01140, Licence No: BUN/2024/0129, Valid till 31st December 2024, Tel: 0768080381
+
+Tranquil Villa: Bungalow, DELUXE, 6 Rooms, Location: Unknown, Web: www.tranquilvilla.net, Email: g.arunaperera@gmail.com, Registration No: SLTDA/SQA/BUN/01119, Licence No: BUN/2024/0093, Valid till 31st December 2024, Mobile: 0773421343
+
+Tropical Retreat: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Web: tropicalretreat.lk, Email: prabatgamage@gmail.com, Registration No: SLTDA/SQA/BUN/00538, Licence No: BUN/2024/0105, Valid till 31st December 2024, Tel: 0912248192, Mobile: 0773220173
+Udamgiri Villa: Bungalow, STANDARD, 2 Rooms, Location: Unknown, Email: lakshmifernando16@gmail.com, Registration No: SLTDA/SQA/BUN/01177, Licence No: BUN/2024/0203, Valid till 31st December 2024, Mobile: 0716361595
+
+Ulugedara Villa: Bungalow, STANDARD, 4 Rooms, Location: Mirissa, Web: www.surfnyogamirissa.com, Email: hasanil1909@gmail.com, Registration No: SLTDA/SQA/BUN/01184, Licence No: BUN/2024/0212, Valid till 31st December 2024, Mobile: 0715333324
+
+V@ Ella Guest House: Bungalow, STANDARD, 3 Rooms, Location: Ella, Email: vatellaguest@gmail.com, Registration No: SLTDA/SQA/BUN/01211, Licence No: BUN/2024/0262, Valid till 31st December 2024, Mobile: 0713156844
+
+Vegan Factory And Farm Stay: Bungalow, STANDARD, 3 Rooms, Location: Unknown, Web: https://plantbased.lk/vegan-farm-stay/, Email: info@esilkroute.com.lk, Registration No: SLTDA/SQA/BUN/01218, Licence No: BUN/2024/0274, Valid till 31st December 2024, Tel: 0664550711, Mobile: 0775083962
+
+Victoria Villa: Bungalow, DELUXE, 6 Rooms, Location: Unknown, Web: www.exclusivevebarts.com, Email: gayani.kariyawasam@hirdaramani.com, Registration No: SLTDA/SQA/BUN/00793, Licence No: BUN/2024/0030, Valid till 31st December 2024, Tel: 0912283523, Mobile: 0718015650
+
+Viking Villa: Bungalow, STANDARD, 9 Rooms, Location: Unknown, Web: slvikingvilla.com, Email: sl.vikingvilla@gmail.com, Registration No: SLTDA/SQA/BUN/01190, Licence No: BUN/2024/0220, Valid till 31st December 2024, Tel: 0771874534, Mobile: 0741698008
+
+Villa 105: Bungalow, DELUXE, 3 Rooms, Location: Unknown, Email: enrichpropertym@gmail.com, Registration No: SLTDA/SQA/BUN/01215, Licence No: BUN/2024/0271, Valid till 31st December 2024, Tel: 4168763282, Mobile: 0778637222
+
+Villa 386: Bungalow, DELUXE, 4 Rooms, Location: Unknown, Web: www.villa386.com, Email: villa386fo@gmail.com, Registration No: SLTDA/SQA/BUN/00952, Licence No: BUN/2024/0072, Valid till 31st December 2024, Tel: 0912259906, Mobile: 0779087763
+
+Villa Alba: Bungalow, DELUXE, 5 Rooms, Location: Unknown, Email: management@villaalba.net, Registration No: SLTDA/SQA/BUN/01077, Licence No: BUN/2024/0023, Valid till 31st December 2024, Tel: 0777150051, Mobile: 076612527
+
+Villa Anushka: Bungalow, SUPERIOR, 4 Rooms, Location: Unknown, Web: www.villa-anushka.com, Email: nepeetprime@gmail.com, Registration No: SLTDA/SQA/BUN/01226, Licence No: BUN/2024/0292, Valid till 31st December 2024, Mobile: 0715509008
+Villa Atulya: Bungalow, DELUXE, 5 Rooms, Location: Galle, Web: www.villaatulya.com, Email: priyalal@dpsconsultancy.com, Registration No: SLTDA/SQA/BUN/00495, Licence No: BUN/2024/0090, Valid till 31st December 2024, Tel: 0412236087, Mobile: 0768401784
+
+Villa Kanchana: Bungalow, DELUXE, 5 Rooms, Location: Mirissa, Web: lakeviewmirissa.com, Email: desilvabotswana@gmail.com, Registration No: SLTDA/SQA/BUN/00603, Licence No: BUN/2024/0091, Valid till 31st December 2024, Tel: 0412232460, Mobile: 0777619420
+
+Villa Lalee: Bungalow, SUPERIOR, 6 Rooms, Location: Unawatuna, Email: poojadesilva28@gmail.com, Registration No: SLTDA/SQA/BUN/01106, Licence No: BUN/2024/0075, Valid till 31st December 2024, Mobile: 0776957810
+
+Villa Reef Talpe: Bungalow, DELUXE, 6 Rooms, Location: Talpe, Email: reeftalpe252@gmail.com, Registration No: SLTDA/SQA/BUN/01096, Licence No: BUN/2024/0059, Valid till 31st December 2024, Mobile: 0777747005
+
+Villa Rosa: Bungalow, DELUXE, 5 Rooms, Location: Kandy, Email: mahesh@villarosa-kandy.com, Registration No: SLTDA/SQA/BUN/00386, Licence No: BUN/2024/0252, Valid till 31st December 2024, Tel: 0812215556, Mobile: 0773260360
+
+Villa Saltasia: Bungalow, DELUXE, 4 Rooms, Location: Weligama, Email: wathsalal86@gmail.com, Registration No: SLTDA/SQA/BUN/00882, Licence No: BUN/2024/0053, Valid till 31st December 2024, Tel: 0412220660, Mobile: 0766275661
+
+Villa Sanitha: Bungalow, SUPERIOR, 3 Rooms, Location: Hikkaduwa, Email: sanithavilla@gmail.com, Registration No: SLTDA/SQA/BUN/00948, Licence No: BUN/2024/0088, Valid till 31st December 2024, Tel: 0775217154, Mobile: 0775217154
+
+Villa Sante: Bungalow, DELUXE, 5 Rooms, Location: Negombo, Email: villasante259@gmail.com, Registration No: SLTDA/SQA/BUN/01118, Licence No: BUN/2024/0092, Valid till 31st December 2024, Tel: 0322261133, Mobile: 0772824060
+
+Villa Serenity By Jat: Bungalow, DELUXE, 4 Rooms, Location: Bentota, Email: info@villaserenitybyjat.com, Registration No: SLTDA/SQA/BUN/00757, Licence No: BUN/2024/0282, Valid till 31st December 2024, Mobile: 0777344537
+
+Villa Skye House: Bungalow, DELUXE, 4 Rooms, Location: Weligama, Web: http://stay.evinsl.com/property/178616-skye-house, Email: harshani@villasinsrilanka.com, Registration No: SLTDA/SQA/BUN/00980, Licence No: BUN/2024/0248, Valid till 31st December 2024, Mobile: 0772999463
+Villa Tea Fields: Bungalow, STANDARD, 4 Rooms, Location: Ella, Web: www.villateafields.com, Email: info@villateafields.com, Registration No: SLTDA/SQA/BUN/00719, Licence No: BUN/2024/0265, Valid till 31st December 2024, Mobile: 0773521716
+
+Villa Vanna: Bungalow, DELUXE, 4 Rooms, Location: Unawatuna, Email: info@villavanna.com, Registration No: SLTDA/SQA/BUN/01076, Licence No: BUN/2024/0022, Valid till 31st December 2024, Tel: 0762769196, Mobile: 0760786357
+
+Villa Vista: Bungalow, DELUXE, 4 Rooms, Location: Kandy, Email: dulip.wickramaratne@gmail.com, Registration No: SLTDA/SQA/BUN/00583, Licence No: BUN/2024/0001, Valid till 31st December 2024, Mobile: 0777568760
+
+Visu Villa: Bungalow, SUPERIOR, 5 Rooms, Location: Nuwara Eliya, Email: visuvilla@gmail.com, Registration No: SLTDA/SQA/BUN/01013, Licence No: BUN/2024/0199, Valid till 31st December 2024, Tel: 0662270950, Mobile: 0710485660
+
+Vvp Rest: Bungalow, STANDARD, 3 Rooms, Location: Anuradhapura, Email: vvprest2022@gmail.com, Registration No: SLTDA/SQA/BUN/01084, Licence No: BUN/2024/0034, Valid till 31st December 2024, Mobile: 0766758732
+
+Walauwa On The Hill: Bungalow, DELUXE, 3 Rooms, Location: Nuwara Eliya, Web: walauwaonthehill.com, Email: walauwaonthehill@gmail.com, Registration No: SLTDA/SQA/BUN/01170, Licence No: BUN/2024/0187, Valid till 31st December 2024, Tel: 0512225204, Mobile: 0706715036
+
+Waran Rest: Bungalow, STANDARD, 4 Rooms, Location: Jaffna, Email: waranrest@gmail.com, Registration No: SLTDA/SQA/BUN/01147, Licence No: BUN/2024/0143, Valid till 31st December 2024, Mobile: 0777660396
+Avora Hotel: Bungalow, SUPERIOR, 4 Rooms, Web: www.aviratreehotel.com, Email: avoratree53@gmail.com, Registration No: SLTDA/SQA/BUN/00848, Licence No: BUN/2024/0064, Valid till 31st December 2024, Tel: 0773654751, Place: Unknown
+
+Back Of Beyond Dehigaha Ela: Bungalow, STANDARD, 4 Rooms, Email: bobfinances@gmail.com, Registration No: SLTDA/SQA/BUN/00545, Licence No: BUN/2024/0133, Valid till 31st December 2024, Tel: 0663060601, Mobile: 0774100250, Place: Dehigaha Ela
+
+Back Of Beyond Pidurangala: Bungalow, SUPERIOR, 4 Rooms, Email: backofbeyondpidu@gmail.com, Registration No: SLTDA/SQA/BUN/00546, Licence No: BUN/2024/0196, Valid till 31st December 2024, Tel: 0664918912, Mobile: 0773558619, Place: Pidurangala
+
+Basilea Guest: Bungalow, STANDARD, 6 Rooms, Web: www.basileaguest.com, Email: malithsuranga85623@gmail.com, Registration No: SLTDA/SQA/BUN/00471, Licence No: BUN/2024/0149, Valid till 31st December 2024, Tel: 0342277074, Mobile: 0777047541, Place: Unknown
+
+Battaramulla Boutique Villa: Bungalow, STANDARD, 4 Rooms, Web: https://battaramulla-boutique-hotel.business.site/, Email: villabbh@gmail.com, Registration No: SLTDA/SQA/BUN/01155, Licence No: BUN/2024/0159, Valid till 31st December 2024, Tel: 0766610039, Mobile: 0766610039, Place: Battaramulla
+
+Bed Rock Beach Bunglow: Bungalow, DELUXE, 4 Rooms, Email: beachbunglowsbedrock@gmail.com, Registration No: SLTDA/SQA/BUN/01138, Licence No: BUN/2024/0125, Valid till 31st December 2024, Tel: 0719660057, Mobile: 0719660057, Place: Unknown
+
+Belihuloya Hideout Villa: Bungalow, STANDARD, 3 Rooms, Web: www.belihuloyahideout.com, Email: belihuloyahideout@gmail.com, Registration No: SLTDA/SQA/BUN/01145, Licence No: BUN/2024/0139, Valid till 31st December 2024, Tel: 0702099890, Mobile: 0772099890, Place: Belihuloya
+Wasala Village View: Bungalow, SUPERIOR, 5 Rooms, Location: Unknown, Email: wmwbhapugoda@gmail.com, Registration No: SLTDA/SQA/BUN/0314, Licence No: BUN/2024/0200, Valid till 31st December 2024, Tel: 0572229766, Mobile: 0718045922
+
+Watawala Lassana Holiday Bungalow: Bungalow, STANDARD, 8 Rooms, Location: Watawala, Web: https://lassanawatawala.com/, Email: rnuraj@hotmail.com, Registration No: SLTDA/SQA/BUN/01123, Licence No: BUN/2024/0098, Valid till 31st December 2024, Mobile: 0777040684
+
+Way To Malee Guest: Bungalow, STANDARD, 5 Rooms, Location: Unknown, Email: chamoddc2002@gmail.com, Registration No: SLTDA/SQA/BUN/01149, Licence No: BUN/2024/0146, Valid till 31st December 2024, Tel: 0776045900, Mobile: 0719098329
+
+Weerawila Circuit Bungalow: Bungalow, STANDARD, 6 Rooms, Location: Weerawila, Email: nldb.weerawila@gmail.com, Registration No: SLTDA/SQA/BUN/01220, Licence No: BUN/2024/0276, Valid till 31st December 2024, Tel: 0475679399, Mobile: 0763064892
+
+Wew Pawana Guest And Restaurant: Bungalow, STANDARD, 6 Rooms, Location: Unknown, Email: wewpawanaresturant@gmail.com, Registration No: SLTDA/SQA/BUN/01173, Licence No: BUN/2024/0192, Valid till 31st December 2024, Tel: 0272250148, Mobile: 0777488251
+
+White House: Bungalow, SUPERIOR, 5 Rooms, Location: Mirissa, Email: whitehousemirissa@gmail.com, Registration No: SLTDA/SQA/BUN/00856, Licence No: BUN/2024/0031, Valid till 31st December 2024, Tel: 0412254812, Mobile: 0714819548
+
+Wijaya Giri: Bungalow, DELUXE, 6 Rooms, Location: Unknown, Web: http://stay.evinsl.com/property/183368-wijaya-giri, Email: pathum@villasinsrilanka.com, Registration No: SLTDA/SQA/BUN/01024, Licence No: BUN/2024/0249, Valid till 31st December 2024, Mobile: 0772999463
+
+Wild Resort Ella: Bungalow, DELUXE, 4 Rooms, Location: Ella, Email: wildresortella@gmail.com, Registration No: SLTDA/SQA/BUN/01090, Licence No: BUN/2024/0049, Valid till 31st December 2024, Mobile: 0779817992
+
+Windy Hills Estate: Bungalow, DELUXE, 2 Rooms, Location: Unknown, Web: http://windyhillsbungalow.com/, Email: manjuka.prasantha@gmail.com, Registration No: SLTDA/SQA/BUN/01203, Licence No: BUN/2024/0241, Valid till 31st December 2024, Mobile: 778919784
+
+Windy Ridge Kandy: Bungalow, DELUXE, 5 Rooms, Location: Kandy, Email: senakaumbsl@gmail.com, Registration No: SLTDA/SQA/BUN/00956, Licence No: BUN/2024/0191, Valid till 31st December 2024, Tel: 0773047771, Mobile: 0773047771
+Yalegoda Walauwa: Bungalow, DELUXE, 6 Rooms, Location: Kandy, Web: www.yalegodawalauwa.com, Email: shyamalipanabokke@gmail.com, Registration No: SLTDA/SQA/BUN/00564, Licence No: BUN/2024/0077, Valid till 31st December 2024, Tel: 0812315384, Mobile: 0774706213
+
+Yurt Villa: Bungalow, STANDARD, 2 Rooms, Location: Unawatuna, Email: steveparenteau2@gmail.com, Registration No: SLTDA/SQA/BUN/00750, Licence No: BUN/2024/0168, Valid till 31st December 2024, Tel: 0342238812, Mobile: 0720504564
+Bentota River Villa: Bungalow, STANDARD, 4 Rooms, Email: aymanceylon@outlook.com, Registration No: SLTDA/SQA/BUN/00551, Licence No: BUN/2024/0279, Valid till 31st December 2024, Tel: 0342271345, Mobile: 0773448671, Place: Bentota
+
+Bhawana Nature Resort Udawalawa: Bungalow, SUPERIOR, 3 Rooms, Email: bhawananatureresort@gmail.com, Registration No: SLTDA/SQA/BUN/00984, Licence No: BUN/2024/0278, Valid till 31st December 2024, Mobile: 0717570800, Place: Udawalawa
+
+Binuliya House: Bungalow, STANDARD, 2 Rooms, Email: binuliyahouse@gmail.com, Registration No: SLTDA/SQA/BUN/01105, Licence No: BUN/2024/0074, Valid till 31st December 2024, Tel: 0777406332, Mobile: 0777406332, Place: Unknown
+
+Bisodola Gest: Bungalow, STANDARD, 4 Rooms, Web: www.bisodolaguest.com, Email: wasanthamunasingha69@gmail.com, Registration No: SLTDA/SQA/BUN/01124, Licence No: BUN/2024/0100, Valid till 31st December 2024, Tel: 0779002043, Mobile: 0779002043, Place: Unknown
+
+Bivonra Guest Inn: Bungalow, SUPERIOR, 5 Rooms, Email: bivonragest@gmail.com, Registration No: SLTDA/SQA/BUN/01027, Licence No: BUN/2024/0173, Valid till 31st December 2024, Tel: 0272050238, Mobile: 0717468788, Place: Unknown
+
+Blue Heights: Bungalow, DELUXE, 4 Rooms, Email: blueheightssltda@gmail.com, Registration No: SLTDA/SQA/BUN/00891, Licence No: BUN/2024/0197, Valid till 31st December 2024, Tel: 0777119447, Mobile: 0777119447, Place: Unknown
+
+Bolgoda Lake Villa: Bungalow, SUPERIOR, 4 Rooms, Email: upesure2003@gmail.com, Registration No: SLTDA/SQA/BUN/01209, Licence No: BUN/2024/0247, Valid till 31st December 2024, Mobile: 0770680450, Place: Bolgoda
+
+Bopaththalawa Circuit Bungalow: Bungalow, SUPERIOR, 4 Rooms, Email: Bopaththalawa.nldb@gmail.com, Registration No: SLTDA/SQA/BUN/01180, Licence No: BUN/2024/0207, Valid till 31st December 2024, Tel: 0512230254, Mobile: 0773734545, Place: Bopaththalawa
+
+Boundary House: Bungalow, DELUXE, 4 Rooms, Web: http://stay.evinsl.com/property/184363-boundary-ho, Email: mahen@villasinsrilanka.com, Registration No: SLTDA/SQA/BUN/01023, Licence No: BUN/2024/0224, Valid till 31st December 2024, Mobile: 0766602022, Place: Unknown
+
+Brh Banquet And Restaurent: Bungalow, DELUXE, 3 Rooms, Email: HASANKAKULA@YAHOO.COM, Registration No: SLTDA/SQA/BUN/01204, Licence No: BUN/2024/0242, Valid till 31st December 2024, Tel: 0412266665, Mobile: 0711926000, Place: Unknown
+Broomfield By Jetwing: Category: Bungalow, Classification: DELUXE, Rooms: 6, Web: www.jetwinghotels.lk, Email: fo.broomfield@jetwinghotels.com, Registration No: SLTDA/SQA/BUN/01068, Licence No: BUN/2024/0055, Valid till 31st December 2024, Tel: 0522224509, Mobile: 0707191599, Place: Unknown
+
+Bungalow By The Beach: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: chamaalimarasinghe@gmail.com, Registration No: SLTDA/SQA/BUN/00850, Licence No: BUN/2024/0071, Valid till 31st December 2024, Tel: 0777761184, Mobile: 0777761184, Place: Unknown
+
+By The C Cabana S: Category: Bungalow, Classification: STANDARD, Rooms: 3, Email: kavindi128@gmail.com, Registration No: SLTDA/SQA/BUN/01154, Licence No: BUN/2024/0157, Valid till 31st December 2024, Tel: 0772499866, Mobile: 0722110180, Place: Unknown
+
+Casa Blanco: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: jve685737@gmail.com, Registration No: SLTDA/SQA/BUN/0301, Licence No: BUN/2024/0002, Valid till 31st December 2024, Tel: 0779057986, Mobile: 0779057986, Place: Unknown
+
+Cassia Hill: Category: Bungalow, Classification: DELUXE, Rooms: 4, Web: www.cassiahill.com, Email: sujithwidanagamage@goodagile.com, Registration No: SLTDA/SQA/BUN/00575, Licence No: BUN/2024/0003, Valid till 31st December 2024, Tel: 0112588503, Mobile: 0775732233, Place: Unknown
+
+Castle Colombo: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: nissarana2000@yahoo.com, Registration No: SLTDA/SQA/BUN/00703, Licence No: BUN/2024/0160, Valid till 31st December 2024, Tel: 0112606702, Mobile: 0718224035, Place: Colombo
+
+Ceylanro: Category: Bungalow, Classification: DELUXE, Rooms: 5, Email: donthushara51@yahoo.com, Registration No: SLTDA/SQA/BUN/01116, Licence No: BUN/2024/0086, Valid till 31st December 2024, Mobile: 0773585857, Place: Unknown
+
+Ceylon Villa Blue: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: sivaneraj@gmail.com, Registration No: SLTDA/SQA/BUN/01160, Licence No: BUN/2024/0172, Valid till 31st December 2024, Tel: 0765252529, Mobile: 0778128884, Place: Unknown
+
+Cinnamon Garden Bungalow: Category: Bungalow, Classification: STANDARD, Rooms: 2, Email: Cinnamongardenbungalow@gmail.com, Registration No: SLTDA/SQA/BUN/00983, Licence No: BUN/2024/0147, Valid till 31st December 2024, Mobile: 0773692633, Place: Unknown
+
+Clouds Holiday Bungalow: Category: Bungalow, Classification: DELUXE, Rooms: 4, Web: www.clouds.lk, Email: reservations@clouds.lk, Registration No: SLTDA/SQA/BUN/0300, Licence No: BUN/2024/0052, Valid till 31st December 2024, Tel: 2591391, Mobile: 0766832683, Place: Unknown
+Coco Tangalla: Bungalow, DELUXE, 6 Rooms, Location: Tangalle, Web: www.manorhouseconcepts.com, Email: hasith@manorhouseconcepts.com, Registration No: SLTDA/SQA/BUN/01070, Licence No: BUN/2024/0015, Valid till 31st December 2024, Tel: 0112333861, Mobile: 0716118955
+
+Coco Ville Bungalow: Bungalow, STANDARD, 3 Rooms, Location: Unawatuna, Web: www.cocoville.lk, Email: jimmijve@yahoo.com, Registration No: SLTDA/SQA/BUN/00408, Licence No: BUN/2024/0007, Valid till 31st December 2024, Tel: 0779057986, Mobile: 0779057986
+
+Coconut Grove: Bungalow, DELUXE, 4 Rooms, Location: Ahangama, Web: http://stay.evinsl.com/property/178617-coconut-gro, Email: accounts@villasinsrilanka.com, Registration No: SLTDA/SQA/BUN/00904, Licence No: BUN/2024/0217, Valid till 31st December 2024, Mobile: 0772999463
+
+Colonial Retreat Villa: Bungalow, DELUXE, 5 Rooms, Location: Galle, Web: colonialretreatvilla.com, Email: info@colonialretreatvilla.com, Registration No: SLTDA/SQA/BUN/01112, Licence No: BUN/2024/0082, Valid till 31st December 2024, Tel: 0112774890, Mobile: 0774442082
+
+Container Villa Colection: Bungalow, DELUXE, 3 Rooms, Location: Weligama, Email: container.villacollection90@gmail.com, Registration No: SLTDA/SQA/BUN/01210, Licence No: BUN/2024/0261, Valid till 31st December 2024, Tel: 0718863386, Mobile: 0718863386
+
+Dammika Holiday Resort: Bungalow, SUPERIOR, 6 Rooms, Location: Anuradhapura, Email: dammikaresort@gmail.com, Registration No: SLTDA/SQA/BUN/01094, Licence No: BUN/2024/0057, Valid till 31st December 2024, Tel: 0777714707, Mobile: 0777714707
+
+Dendrobium House: Bungalow, DELUXE, 4 Rooms, Location: Galle, Web: www.dendrobiumhouse.lk, Email: villas@serendipityretreats.com, Registration No: SLTDA/SQA/BUN/01040, Licence No: BUN/2024/0205, Valid till 31st December 2024, Mobile: 0772085314
+
+Dk Resort: Bungalow, STANDARD, 2 Rooms, Location: Nuwara Eliya, Email: dkresort802@gmail.com, Registration No: SLTDA/SQA/BUN/01099, Licence No: BUN/2024/0062, Valid till 31st December 2024, Tel: 0777218311, Mobile: 0777218311
+
+Down South Cabanas: Bungalow, DELUXE, 5 Rooms, Location: Mirissa, Web: info@downsouthcabanas.com, Email: kushiabey@gmail.com, Registration No: SLTDA/SQA/BUN/01197, Licence No: BUN/2024/0235, Valid till 31st December 2024, Tel: 0912281386, Mobile: 0779177947
+
+Dream City Bungalow: Bungalow, SUPERIOR, 4 Rooms, Location: Anuradhapura, Email: bungalow@dreamcityhotel.lk, Registration No: SLTDA/SQA/BUN/01095, Licence No: BUN/2024/0058, Valid till 31st December 2024, Mobile: 0771700355
+Dumbara Wood Villa: Bungalow, SUPERIOR, 4 Rooms, Email: dumbaradasum@gmail.com, Registration No: SLTDA/SQA/BUN/00724, Licence No: BUN/2024/0286, Valid till 31st December 2024, Tel: 0664928905, Mobile: 0775405959, Place: Unknown
+
+Dune Towers: Bungalow, DELUXE, 8 Rooms, Web: www.dunetowers.com, Email: info@dunetowers.com, Registration No: SLTDA/SQA/BUN/01120, Licence No: BUN/2024/0094, Valid till 31st December 2024, Tel: 0702910368, Mobile: 0762960368, Place: Unknown
+
+Eco Farm Village: Bungalow, STANDARD, 6 Rooms, Web: https://ecofarmvillagehotel.com, Email: info.ecofarmvillage@gmail.com, Registration No: SLTDA/SQA/BUN/01126, Licence No: BUN/2024/0107, Valid till 31st December 2024, Tel: 0717354494, Mobile: 070503040, Place: Unknown
+
+Ekanayaka Home Stay: Bungalow, STANDARD, 1 Room, Email: samithekanayake036@gmail.com, Registration No: SLTDA/SQA/BUN/01188, Licence No: BUN/2024/0218, Valid till 31st December 2024, Mobile: 0712901062, Place: Unknown
+
+Eldezo Relax Paradise: Bungalow, DELUXE, 4 Rooms, Email: eldezobentotasltda@gmail.com, Registration No: SLTDA/SQA/BUN/01166, Licence No: BUN/2024/0180, Valid till 31st December 2024, Mobile: 0767136626, Place: Bentota
+
+Elephant Beach Guest House: Bungalow, DELUXE, 6 Rooms, Email: elephantbeach.komari@gmail.com, Registration No: SLTDA/SQA/BUN/01102, Licence No: BUN/2024/0066, Valid till 31st December 2024, Tel: 0777726949, Mobile: 0777726949, Place: Komari
+
+Elephant Wale Hotel: Bungalow, STANDARD, 9 Rooms, Email: bertramervingnanapragasam@gmail.com, Registration No: SLTDA/SQA/BUN/01217, Licence No: BUN/2024/0273, Valid till 31st December 2024, Tel: 0777253580, Mobile: 0715550444, Place: Unknown
+
+Ella Deck: Bungalow, STANDARD, 4 Rooms, Web: www.ella.com, Email: info@austasiasports.com, Registration No: SLTDA/SQA/BUN/00783, Licence No: BUN/2024/0046, Valid till 31st December 2024, Tel: 0115566566, Mobile: 0772300813, Place: Ella
+
+Excellent Tourist Guest: Bungalow, SUPERIOR, 7 Rooms, Email: hotelexcellent2@gmail.com, Registration No: SLTDA/SQA/BUN/01161, Licence No: BUN/2024/0174, Valid till 31st December 2024, Tel: 0812420222, Mobile: 0777801488, Place: Unknown
+
+Field View: Bungalow, SUPERIOR, 4 Rooms, Web: WWW.FIELDVIEWKM.COM, Email: lpdilhan@gmail.com, Registration No: SLTDA/SQA/BUN/01148, Licence No: BUN/2024/0144, Valid till 31st December 2024, Tel: 0718294401, Mobile: 0767509639, Place: Unknown
+Field Villa: Category: Bungalow, Classification: DELUXE, Rooms: 4, Email: fieldvillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00516, Licence No: BUN/2024/0257, Valid till 31st December 2024, Mobile: 0777119447, Place: Unknown
+
+Floating Mountain Villa: Category: Bungalow, Classification: DELUXE, Rooms: 5, Web: https://floatingmountainvilla.com, Email: info@floatingmountainvilla.com, Registration No: SLTDA/SQA/BUN/01004, Licence No: BUN/2024/0154, Valid till 31st December 2024, Mobile: 0773678771, Place: Unknown
+
+Fort Bliss: Category: Bungalow, Classification: STANDARD, Rooms: 4, Email: fortblisssltda@gmail.com, Registration No: SLTDA/SQA/BUN/00380, Licence No: BUN/2024/0256, Valid till 31st December 2024, Tel: 0912248168, Mobile: 0777119447, Place: Unknown
+
+Fortuna Heritage Home: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Email: fortunaheritage@gmail.com, Registration No: SLTDA/SQA/BUN/00994, Licence No: BUN/2024/0290, Valid till 31st December 2024, Tel: 0777177825, Mobile: 0777717782, Place: Unknown
+
+Frangipani: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: https://www.ceylonbungalows.com, Email: info@ceylonbungalows.com, Registration No: SLTDA/SQA/BUN/00748, Licence No: BUN/2024/0253, Valid till 31st December 2024, Tel: 0112510000, Mobile: 0771778182, Place: Unknown
+
+Gal Oya Lake Club: Category: Bungalow, Classification: DELUXE, Rooms: 5, Email: Galoyalakeclub@gmail.com, Registration No: SLTDA/SQA/BUN/01104, Licence No: BUN/2024/0068, Valid till 31st December 2024, Mobile: 0777353585, Place: Gal Oya
+
+Gallus Hideaway: Category: Bungalow, Classification: SUPERIOR, Rooms: 2, Web: No. 56/7, Ukwatta Road, Email: bdsmendis@yahoo.com, Registration No: SLTDA/SQA/BUN/01131, Licence No: BUN/2024/0113, Valid till 31st December 2024, Tel: 0912230536, Mobile: 0759000370, Place: Ukwatta
+
+Gammedda Villa: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Web: https://www.booking.com/Share-RHMkaZ, Email: gammeddav@gmail.com, Registration No: SLTDA/SQA/BUN/01176, Licence No: BUN/2024/0202, Valid till 31st December 2024, Mobile: 0767434100, Place: Unknown
+
+Gentz Residency: Category: Bungalow, Classification: STANDARD, Rooms: 4, Web: www.gentzrest.lk, Email: jagath2323@gmail.com, Registration No: SLTDA/SQA/BUN/01108, Licence No: BUN/2024/0078, Valid till 31st December 2024, Tel: 0112686949, Mobile: 0741586949, Place: Unknown
+
+Ginganga Lodge: Category: Bungalow, Classification: SUPERIOR, Rooms: 4, Email: gingangalodgevillasltda@gmail.com, Registration No: SLTDA/SQA/BUN/00693, Licence No: BUN/2024/0255, Valid till 31st December 2024, Mobile: 0777119447, Place: Unknown
+Goalma Family Holiday Resort: Bungalow, SUPERIOR, 5 Rooms, Email: goal.rooms@gmail.com, Registration No: SLTDA/SQA/BUN/00959, Licence No: BUN/2024/0208, Valid till 31st December 2024, Tel: 0252234416, Mobile: 0773491500, Place: Unknown
+
+Governor's Camp Udawalawe: Bungalow, SUPERIOR, 3 Rooms, Email: romilagovernorscamp212@gmail.com, Registration No: SLTDA/SQA/BUN/01199, Licence No: BUN/2024/0237, Valid till 31st December 2024, Mobile: 0766845349, Place: Udawalawe
+
+Grand Century Hotel: Bungalow, STANDARD, 3 Rooms, Web: www.grandcenturyhotel.com, Email: vitharanataj555@gmail.com, Registration No: SLTDA/SQA/BUN/01167, Licence No: BUN/2024/0181, Valid till 31st December 2024, Tel: 0717479634, Mobile: 0717479634, Place: Unknown
+
+Grand Villa Kalametiya: Bungalow, SUPERIOR, 4 Rooms, Email: grandvillakalametiya@gmail.com, Registration No: SLTDA/SQA/BUN/01069, Licence No: BUN/2024/0014, Valid till 31st December 2024, Mobile: 0713253141, Place: Kalametiya
+
+Green Heritage Villa: Bungalow, STANDARD, 7 Rooms, Email: greenheritagevilla@gmail.com, Registration No: SLTDA/SQA/BUN/01153, Licence No: BUN/2024/0155, Valid till 31st December 2024, Tel: 0777853165, Mobile: 0777853165, Place: Unknown
+
+Green Holiday Village: Bungalow, STANDARD, 3 Rooms, Email: greensholidayvillage@gmail.com, Registration No: SLTDA/SQA/BUN/01066, Licence No: BUN/2024/0150, Valid till 31st December 2024, Mobile: 0718697086, Place: Unknown
+
+Green Park Resort: Bungalow, STANDARD, 7 Rooms, Email: jenahan.eyecare@gmail.com, Registration No: SLTDA/SQA/BUN/01162, Licence No: BUN/2024/0175, Valid till 31st December 2024, Tel: 0242229282, Mobile: 0775717676, Place: Unknown
+
+Guardian Bungalow: Bungalow, SUPERIOR, 4 Rooms, Web: www.guardianbungalow.com, Email: lalwijer@tpg.com.au, Registration No: SLTDA/SQA/BUN/01080, Licence No: BUN/2024/0026, Valid till 31st December 2024, Mobile: 0722906738, Place: Unknown
+
+Gulanahena Tea Estate Bungalow: Bungalow, STANDARD, 2 Rooms, Email: mataraged@gmail.com, Registration No: SLTDA/SQA/BUN/00581, Licence No: BUN/2024/0231, Valid till 31st December 2024, Tel: 0777771985, Mobile: 0777771985, Place: Gulanahena
+
+Hala House Colombo: Bungalow, DELUXE, 9 Rooms, Web: www.halahousecolombo.com, Email: nilam.lis@gmail.com, Registration No: SLTDA/SQA/BUN/00412, Licence No: BUN/2024/0184, Valid till 31st December 2024, Tel: 0720333608, Mobile: 0773635614, Place: Colombo

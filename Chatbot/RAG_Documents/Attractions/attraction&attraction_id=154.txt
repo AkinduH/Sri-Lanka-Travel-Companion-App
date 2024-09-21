@@ -1,0 +1,575 @@
+
+				 Bandarawela  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Ella  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Bandarawela | Ella  
+						 
+						 Ella  
+						 
+
+	The area has a rich bio-diversity, dense with numerous varieties of flora and fauna. Ella is surrounded by hills covered with cloud forests and tea plantations. The town has a cooler climate than surrounding lowlands, due to its elevation. The Ella Gap allows views across the southern plains of Sri Lanka. On a sunny morning, you can even see the glow from the lighthouses along the southern coast. 
+
+ 
+						 More 
+						 
+
+	By rail. Ella's a few stops from Badulla at the end of the railway line that snakes through the Hill Country. Trains go to Colombo and Kandy from here. The fares are ludicrously cheap in 2nd and 3rd class, and the views spectacular. It's usually no problem getting a seat in 2nd/3rd class going to Colombo or Kandy, as the trains from Badulla are quite empty until reaching Nanu Oya. However the reverse is true going up to Ella and it can be quite crowded until the last 2 or 3 hours of the journey. Ella's railway station itself is prettily quaint. there are many travelers who visit ella by train. 
+
+ 
+
+	By Road, Buses go south through Ella Gap to Wellawaya where you can change for a number of destinations in the south of the island. 
+
+ 
+
+	The climate throughout most of the year is typical of the high Hill Country, with a hot sun by midday, but a moderate air temperature. It will often rain in the afternoon, but only for an hour or so. A sweatshirt, or light jacket is needed at night. In December it can rain a lot!. 
+
+ 
+
+	Ella has a small post office and one bank (Bank of Ceylon) with an ATM. 
+
+ 
+
+	There's not much to do in Ella itself, with a handful of small shops and only a few bars/restaurants. It's basically a nicely relaxing base for exploring the surrounding country. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=180"><img src="http://srilanka.travel//image/data/001/Attraction01/dowa/Dowa-Temple-1.jpg" style="width:100px;height:50px;"/><br/>Dowa Rock Temple</a>',
+      6.856366 , 81.022152, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=183"><img src="http://srilanka.travel//image/data/001/Attraction01/Little/Little-1.jpg" style="width:100px;height:50px;"/><br/>Little Adams Peak</a>',
+      6.862936 , 81.064980, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=188"><img src="http://srilanka.travel//image/data/001/Attraction01/Rawana-ella-ravana-falls/Rawana-1.jpg" style="width:100px;height:50px;"/><br/>Rawana ella and Ravana falls</a>',
+      6.840527 , 81.054634, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=196"><img src="http://srilanka.travel//image/data/001/Attraction01/Babarakanda/Bambarakanda-1.jpg" style="width:100px;height:50px;"/><br/>Bambarakanda Falls</a>',
+      6.773143 , 80.826333, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.8268444, 80.998091666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Bandarawela  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    98 Acres Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fb@resort98acres.com 
+                                      				      				         Tel : 0572050050 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Melheim Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : nnaayakkaracranford@yahoo.com 
+                                      				      				         Tel : 0717554491 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Orient Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : orient-col@eureka.lk 
+                                      				      				         Tel : 0572222407 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Bandarawela Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sec@bandarawelahotel.lk 
+                                      				      				         Tel : 0572222501 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Olympus Plaza Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : navishtha@gmail.com 
+                                      				      				         Tel : 0572268544 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  5  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Balla Mala Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Point Pedro 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bambarakanda Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dunhinda Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pinnawala Elephant Orphanage 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gal Oya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jayanthi Wewa  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Senanayaka Samudraya of Inginiyagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bopagama Water Fall 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Laxapana Falls 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

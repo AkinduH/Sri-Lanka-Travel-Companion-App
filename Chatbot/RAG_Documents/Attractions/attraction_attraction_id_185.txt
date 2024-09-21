@@ -1,0 +1,370 @@
+
+				 Kegalle  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Asupini Ella 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kegalle | Asupini Ella 
+						 
+						 Asupini Ella 
+						 
+
+	This waterfall situated in the Aranayake. The Name Asupini ella received from the historic story. According to the ancient tales, there was a king who had many queens. On his return from war, he assured them that he would give them a sign from the hills about the result of the war. He said, “If his soldiers waved a white flag over the hills, it would mean he was defeated and killed in action. But, if he waved his own flag bearing his crest, that he was victorious”. He won the war. But he waved white flag as a joke. His wives were so upset that they all committed suicide by jumping over the falls which inspired the name Ahupini, which is derived from 'Aswaya' (Horse), and 'Pini' or 'Panina' (Jump) which combined means "the horses jumped over the falls.  
+
+ 
+
+	this waterfall surround within beautiful environment, that give you to amazing scenic view and you have able to watch various birds in this environment. This is a one of good place to take photograph and bird watching. 
+
+ 
+						 More 
+						 
+
+	You can Reach to this spot by two routes. 
+
+ 
+
+	The first one is Colombo, awissawella, ginigathhena, nawalapitiya, Madhagoda Junction, Uduwella and asupini ella. (134 km)  
+
+ 
+
+	The other road is Colombo-Kandy Road (A-1 road) but this road is poor.  
+
+ 
+
+	Best time to visit this fall is December to February because, it will have Low Probability to rain. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=161"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Pinnawala-1.jpg" style="width:100px;height:50px;"/><br/>Pinnawala Elephant Orphanage</a>',
+      7.300896 , 80.387585, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.2514306, 80.346402777778),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+                       
+      				
+            		 
+                    
+
+                     
+				     
+                 
+
+             
+        
+
+
+
+
+
+
+	
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Veddagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Colombo Lighthouse 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Viharamahadevi Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Laxapana Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Devon Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Arugambay & Pottuvil Point 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gal Oya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Little Adamâ€™s Peak 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Hot Water Springs in Wahawa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Point Pedro 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		
+	
+	 
+	 
+

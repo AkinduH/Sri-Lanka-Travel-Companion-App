@@ -1,0 +1,757 @@
+
+				 Anuradhapura  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Jathika Namal Uyana 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Anuradhapura | Jathika Namal Uyana 
+						 
+						 Jathika Namal Uyana 
+						 
+
+	The "Jathika Namal Uyana" is "the largest Na-forest and pink quartz mountain in Asia". This unrevealed unique natural heaven has been brought forward to the attention of the world almost 15 years before, by the "Ven. Wanawasi Rahula Thero". The Namal Uyana which is spectacular and attractive with its exceptional natural depths has a history of more than one thousand years. 
+
+ 
+
+	According to archeological researchers findings, the pink quartz in this historical place has a history of more than 550 millions of years. This unique place "Jathika Namal Uyana" is situated 7kms from Madatugama junction of Colombo - Anuradhapura highway. towards the road leading to Adiyagala. at Galkiriyagama in Sri Lanka. The NA Tree is a valuable resource which provides an excellent service not only for the people but also for the environment. 
+
+ 
+						 More 
+						 
+
+	 Na Tree 
+
+	 
+
+	These trees have expanded over 260 acres of land it is a marvelous scene to have a breath taking look at how they have stretched in that area. NA tree has got a peculiar smell which will enable anybody to sense that NA tree or trees are around. Botanically, NA tree is called "Mesua Ferara" and in English it is called the Iron Wood Tree. The group of NA trees are called Clusaiaceae or Guttiriferae. This significant tree is a native to Sri Lanka, India, Malayasia, Buruma, Thailand, and Papua Neviginnia. Buddhists has a great religious value for NA tree but not only Buddhists other religions also consider it as a sacred resource. It is also a meditation centre for the Buddhist monks around the island and other parts of the world. Iron Wood forest is a unique forest in Sri Lanka where the Iron Wood trees dominate the vegetation of the 260 acres of forest. The whole part of NA is also used herbal medicines and soaps, perfumes, and cosmetics. This was named as the national tree of Sri Lanka. 
+
+	 
+
+	 Bio Diversity 
+
+	 
+
+	This iron woods has been categorized to a cast by plant kingdom as cast of "clusiaceae – guttifarceae". These special two casts can be seen at the Jathika Namal Uyana. 85% will be the Mesna Ferra from the hole NA Trees of the NA Forest. This mesua ferra has been as the "National Tree" by the Sri Lankan Government. Some trees characteristic to the Sri Lanka also can be seen in this area. Three vegetation types of soil units have been revealed by geographical and biological units of University of Peradeniya Sri Lanka. 
+
+	 
+
+	    Community related to the Pink Quartz (Up to 150-180m Sea Level) 
+
+	    Trees and Bushes community rocky outcrop (Up to 150-180m sea level) 
+
+	    Abundant area (Up to150 m Sea Level) 
+
+ 
+
+	History reveals that emperor Shajahan while constructing 'Taj Mahal", the 7th wonder of the world brought all the necessary materials which are rare, from different parts of the world and he used marbles from Namal Uyana Pink Quartz Mountains to make it incomparable. 
+
+	 
+
+	Blessed with all these historical, archeological and geographical backgrounds surrounding this fortuned land, anyone who visits Namal Uyana Forest and the Pink Quartz Mountains will find the peace of mind and will forget all the sorrows of the outside world. 
+
+	 
+
+	 History of Jathika Namal Uyana 
+
+	 
+
+	Jathika Namal Uyana revealed 15 years ago, which has become the first NA Forest is the most popular sacred place among the people in Sri Lanka which has a great history during the era of king Devanampiyathissa in Anuradhapura. 
+
+	 
+
+	Ancient statues added with historical values are nearby Jathika Namal Uyana pink quartz mountain. Ruins of buildings, Bodhigara, Stupas, inscriptions further can be seen here. 60acres of forest has been apportioned as an ancient area Ancient statues added with historical values are nearby Jathika Namal Uyana pink quartz mountain. Ruins of buildings, Bodhigara, Stupas, inscriptions further can be seen here. 60acres of forest has been apportioned as an ancient area. 
+
+	 
+
+	The Ranawa village can be remembered as the starting place of Jathika Namal Uyana and the history of Jathika Namal Uyana commenced during the period starting from king Devanampiyathissa and ending with king IV Dappula. The inscription that is called Andiyagala was from by king IV Dappula. This epigraph proves the history of this unique place. 
+
+	 
+
+	Further the king IV Kashyapa has built huts in Rathmalagala Viharaya and it is a credible achievement by this area that the king IV Dappula made the Viharaya,also called Rathdematamal pirivena, later viharaya was ruined in Namal Uyana. Except other kings who ruled this area, King Maha Vijayabahu the 8th (B.C). took the initiative to promote Jathika Namal Uyna as a religious place which is having a botanical garden and a marvelous natural forest. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=176"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Aukana-1.jpg" style="width:100px;height:50px;"/><br/>Aukana </a>',
+      8.010786 , 80.512820, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=219"><img src="http://srilanka.travel//image/data/001/Attraction01/Wilpattu/Wilpattu-1.jpg" style="width:100px;height:50px;"/><br/>Wilpattu National Park</a>',
+      8.456457 , 80.047982, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(8.3119278, 80.40365),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Anuradhapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Palm Garden Village Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : pgvhanu@gmail.com 
+                                      				      				         Tel : 0772387161 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Cinnamon Lodge 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.lodge@cinnamonhotels.com 
+                                      				      				         Tel : 0112306000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Avasta Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : wedagec@yahoo.com 
+                                      				      				         Tel : 0252227777 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Sanctuary At Tissawewa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@quickshaws.com 
+                                      				      				         Tel : 0252222299 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sorowwa Resort And Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ceo@sorowwa.com 
+                                      				      				         Tel : 0662270333 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Rajarata Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : om@rajaratahotel.lk 
+                                      				      				         Tel : 0252030000 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Miridiya Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@dedigamagroup.lk 
+                                      				      				         Tel : 0252223262 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Habarana Village By Cinnamon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hrm.village@cinnamonhotels.com 
+                                      				      				         Tel : 0662270047 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Lakeside At Nuwarawewa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : infoquickshaws@gmail.com 
+                                      				      				         Tel : 0252225442 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Randiya Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ourhome@sltnet.lk 
+                                      				      				         Tel : 0252222868 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  10  Results 
+                         More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduwanwela Walawwa  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Veheragala Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bahirawa Kanda  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ratmullukanda Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Fort 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Mullikulamalai 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 DambakolaPatuna Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diva Guhawa - Batatota Lena 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bellanwila Temple (Bellanwila Rajamaha Viharaya) 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Nagapooshani Amman Kovil  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

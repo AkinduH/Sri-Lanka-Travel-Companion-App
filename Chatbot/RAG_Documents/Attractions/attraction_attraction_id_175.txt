@@ -1,0 +1,957 @@
+
+				 Matale  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Wasgamuwa National Park 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Matale | Wasgamuwa National Park 
+						 
+						 Wasgamuwa National Park 
+						 
+
+	Wasgamuwa National Park was declared to protect and to make a refuge for the displaced wild animals during the Mahaweli Development Project in 1984 and is one of the four National Parks designated under the Project. Wasgamuwa is one of protected areas where Sri Lankan Elephants can be seen in large herds. It is also one of the Important Bird Areas in Sri Lanka. The best time to enjoy the view of large herds is from November to May. For the rest of the year, elephants tend to migrate to Minneriya and Kaudulla National Parks. Wasgamuwa National Park exhibits one of the highest biodiversity among the protected areas in Sri Lanka. More than 150 floral species have recorded from the park. Cryptocoryne walkeri and Munronia pumila are two plants with economic value. Reservoirs and riverine forests support large number of fauna species. The forest consists of several layers. Some 1,700 years old tamarind tree, "Oru Bendi Siyambalawa" (Sinhala for Canoes-Moored-Tamarind) was situated in the park. Wasgamuwa National Park is home to 23 species of mammals. The park is inhabited by a herd of 150 Sri Lankan elephants. Marsh elephant roams in the Mahaweli river area. Both monkeys found in the park, purple-faced langur and toque macaque, are endemic to Sri Lanka. While water buffalo and Sri Lankan axis deer are common to observe, Sri Lanka leopard and sloth bear are rare. Small golden palm civet is another rare endemic mammal. The number of bird species recorded from the park is 143. This includes 8 endemic species. Endemic red-faced malkoha is a resident bird in this national park. Sri Lanka junglefowl is another endemic bird inhabits the park. Lesser adjutant, yellow-fronted barbet, and Sri Lanka spur fowl are the species that visit the reservoirs and streams of the national park. Peafowl, painted stork, black-headed ibis and Eurasian spoonbill are the park's other aquatic birds. Rare Sri Lanka frogmouth can be found here. Another rare species, chestnut-winged cuckoo, is seen near the Mahaweli river. Endemic and endangered Fejervarya pulla is one of the eight species of amphibians of the park. Of 17 reptile species recorded in the park, five species are endemic. Water monitor and mugger crocodile are common in the waterbodies of the park. Skinks Lankascincus spp., lizards Calotes ceylonensis and Otocryptis wiegmanni, and serpent Chrysopelea taprobanica are the endangered reptile species. Endemic Garra ceylonensis and combtail are among the 17-fish species reside in the aquatic habitats of the park. Of the park's 50 butterflies, eight species are endemic. 
+
+ 
+						 More 
+						 
+
+	You can reach to wasgamuwa Nationala Park in hasalaka on the Kandy-Mahiyangana Road and proceed via Wilgamuwa upto Wasgamuwa. 
+
+ 
+
+	The best time to enjoy the view of large herds is from November to May. For the rest of the year, elephants tend to migrate to Minneriya and Kaudulla National Parks. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+							 
+    var locations = [
+		
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.4677667, 80.623427777778),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Matale  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Sigiriya Village Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@sigiriyavillage.lk 
+                                      				      				         Tel : 0472240940 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Sigiriya 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : prasannaL@brownshotels.com 
+                                      				      				         Tel : 0662286815 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hunnas Falls Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@hunasfallshotels.com 
+                                      				      				         Tel : 0812476402 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Heritance Kandalama 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fc.kandalama@heritancehotels.com 
+                                      				      				         Tel : 0665555000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Amaara Forest Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : anton@worldlink.lk 
+                                      				      				         Tel : 0662277277 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Occidental Paradise Dambulla 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : paradise.hr@occidentalhotels.com 
+                                      				      				         Tel : 0662286300 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Sigiriya Jungles 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountantho@sigiriyajungles.com 
+                                      				      				         Tel : 0114508508 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ranjith@jetwinghotels.com 
+                                      				      				         Tel : 0112345700 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Kassapa Lions Rock 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : acc@kassapalionsrock.com 
+                                      				      				         Tel : 0114342658 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Gimanhala Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gimanhalaacc@gmail.com 
+                                      				      				         Tel : 0662284864 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Thilanka Resorts & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : namalbandara123@gmail.com 
+                                      				      				         Tel : 0664468001 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Aliya Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : saman@themeresorts.com 
+                                      				      				         Tel : 0662270870 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Camellia Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm@camelliaresortspa.lk 
+                                      				      				         Tel : 0662054103 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Eden Garden 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : janu1447@gmail.com 
+                                      				      				         Tel : 0662286635 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Fresco Water Villas 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fresco@senanirest.com 
+                                      				      				         Tel : 0662286160 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pelwehera Village Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : pelwehera@senanirest.com 
+                                      				      				         Tel : 0662284281 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  17  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Lahugala Kitulana Forest Reserve 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Minneriya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kumana National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Udawalawe National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Baron's Cap or Thoppigala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Biobab Tree  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

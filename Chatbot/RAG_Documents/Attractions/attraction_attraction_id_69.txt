@@ -1,0 +1,982 @@
+
+				 Gampaha  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Maligathenna Raja Maha Viharaya 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Gampaha | Maligathenna Raja Maha Viharaya 
+						 
+						 Maligathenna Raja Maha Viharaya 
+						 
+
+	Photography , Historical Study ,Hiking , Biking 
+
+ 
+
+	The caves are spread on different levels among the forest and each level could be reached through a stone stairway, the one leading to the top of the mountain been the most unique and celebrated. 
+
+ 
+						 More 
+						 
+
+	Some of the original meditation caves had been converted to shrine rooms during the time of King Walagamba with murals on the walls and on roof and a 18 feet reclining Buddha statue. The ground level which is reached after a small and steady climb consists  the main temple and the majority of the caves are found on this level, the largest being the meditation hall. Another large cave had been converted into the main shrine room while sthupa in the ground level had been built during the last century. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+												 More info :  
+
+	   
+
+ 
+
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=59"><img src="http://srilanka.travel//image/data/001/Gampaha/Header__Attanagalla 800,400.jpg" style="width:100px;height:50px;"/><br/>Attanagalla Raja Maha Viharava</a>',
+      7.113774799999999 , 80.13547900000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=66"><img src="http://srilanka.travel//image/data/001/Gampaha/800,400 Header_Agurukaramulla.jpg" style="width:100px;height:50px;"/><br/>Angurukaramulla Temple</a>',
+      7.209498400000001 , 79.85400720000007, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=81"><img src="http://srilanka.travel//image/data/001/Gampaha/Alawala Devin Penne Ela/800,400 Header_Alawala_devin.jpg" style="width:100px;height:50px;"/><br/> Alawala Devin Penne Ela</a>',
+      7.1227825 , 80.1955246, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=82"><img src="http://srilanka.travel//image/data/001/Gampaha/Warana/800,400 Header__Warana.jpg" style="width:100px;height:50px;"/><br/>Warana </a>',
+      7.1028835 , 80.074795, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=87"><img src="http://srilanka.travel//image/data/001/Gampaha/Thewatta Besilika Church/800,400 Header_ThewattaBC.jpg" style="width:100px;height:50px;"/><br/>Thewatta Besilika Church  National Basilica of Our Lady of Lan </a>',
+      7.036761800000001 , 79.93151250000005, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=182"><img src="http://srilanka.travel//image/data/001/Attraction01/kelaniya-temple/kelaniya-1.jpg" style="width:100px;height:50px;"/><br/>Kelaniya Raja Maha Viharaya</a>',
+      6.952082 , 79.918528, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=80"><img src="http://srilanka.travel//image/data/001/Gampaha/Gampaha_Ayurvedha/800,400 header_Gampaha_Ayurvedha.jpg" style="width:100px;height:50px;"/><br/>Gampaha Wickramarachchi Ayurweda Hospital </a>',
+      7.0910179 , 80.0370848, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=60"><img src="http://srilanka.travel//image/data/001/Gampaha/800,400 header__Hapilton_Canel.jpg" style="width:100px;height:50px;"/><br/>Hamilton Canal</a>',
+      7.0015334 , 79.87119740000003, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=79"><img src="http://srilanka.travel//image/data/001/Prasad/Gampaha/Bopagama Water Fall/Bopagama-1.jpg" style="width:100px;height:50px;"/><br/>Bopagama Water Fall</a>',
+      7.0873101 , 80.01436560000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=84"><img src="http://srilanka.travel//image/data/001/Gampaha/Henarathgoda Botanical Garden/800,400 header__Henarathgoda_BG.jpg" style="width:100px;height:50px;"/><br/>Henarathgoda Botanical Garden </a>',
+      7.099302699999999 , 79.98570799999993, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=85"><img src="http://srilanka.travel//image/data/001/Gampaha/Nara mangrove/800,400 Header_naramangrove.jpg" style="width:100px;height:50px;"/><br/>Nara Mangrove Garden</a>',
+      7.0873101 , 80.01436560000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=61"><img src="http://srilanka.travel//image/data/001/Gampaha/Header_Weweldeniya 800,400.jpg" style="width:100px;height:50px;"/><br/>Weweldeniya</a>',
+      7.197928500000002 , 80.15262710000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=62"><img src="http://srilanka.travel//image/data/001/Gampaha/800,400 Header1_Ancient_Replica_ center.jpg" style="width:100px;height:50px;"/><br/>Antiquities Replica Centre </a>',
+      7.0873101 , 80.01436560000002, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=83"><img src="http://srilanka.travel//image/data/001/Gampaha/Pineapple in Balummahara/800,400 Header__Belummahara.jpg" style="width:100px;height:50px;"/><br/>Pineapple in Belummahara</a>',
+      7.0663699 , 80.01224490000004, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.0876417, 80.014397222222),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Gampaha  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Vivanta Colombo Airport Garden 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kiran.bussari@tajhotels.com 
+                                      				      				         Tel : 0112252950 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Misuki Plaza Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : misukiplazahotel@gmail.com 
+                                      				      				         Tel : 0112238407 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Oasis Beach Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : oasisbeachnegombo@gmail.com 
+                                      				      				         Tel : 0312279022 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Goldi Sands Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : goldi@eureka.lk 
+                                      				      				         Tel : 0312279227 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pegasus Reef Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kapilag@pegasusreefhotel.com 
+                                      				      				         Tel : 0112930205 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Beach 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hyacinth@jetwinghotels.com 
+                                      				      				         Tel : 0312273500 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Paradise Beach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : paradisebeach@sltnet.lk 
+                                      				      				         Tel : 0312224258 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Sea 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ajith@jetwinghotels.com 
+                                      				      				         Tel : 0314933415 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Tamarind Tree 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@tamarindtree.lk 
+                                      				      				         Tel : 0112253802 
+				        				       
+						
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Ayurveda 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ruklanthi@jetwinghotels.com 
+                                      				      				         Tel : 0312276719 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Amagi Aria 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fc@amagihotels.com 
+                                      				      				         Tel : 0312238385 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Heritance Negombo 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ar.negombo@heritancehotels.com 
+                                      				      				         Tel : 0317431431 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jetwing Lagoon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hr.lagoon@jetwinghotels.com 
+                                      				      				         Tel : 0312233777 
+				        				       
+						
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Full Moon Garden Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : finance@fullmoon.lk 
+                                      				      				         Tel : 0112260555 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Pledge 3 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : chiefaccountant@pledgehotelsandresorts.com 
+                                      				      				         Tel : 0312224005 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Grandeeza Luxury Hotel &banquets 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@grandeeza.com 
+                                      				      				         Tel : 0312228500 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  27  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jathika Namal Uyana 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Tomb of King Vijay 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pannathgoda Purana Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kotaveheragala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Independence Memorial Hall 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sri Pada (Adam's Peak) 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rajagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Buddhangala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduwanwela Walawwa  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Nagapooshani Amman Kovil  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

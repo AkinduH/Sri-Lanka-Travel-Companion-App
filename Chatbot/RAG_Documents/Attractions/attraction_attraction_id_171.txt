@@ -1,0 +1,473 @@
+
+				 Jaffna  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Delft island  
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Jaffna | Delft island  
+						 
+						 Delft island  
+						 
+
+	This island is named as Delft in the Admiralty Chart unlike the other islands, whose names are Tamil. The island's area is 50 km² and it is roughly oval-shaped. Its length is 8 km and its maximum width about 6 km. The most pleasant season is probably from July to August, when the bad weather has decreased but you are greeted with a slight breeze. January and February are cooler as in the rest of the island, but January can be wet. Except for the bus, there is no vehicle in the island and the visit to the island is usually done in the trailer of a tractor. 
+
+ 
+						 More 
+						 
+
+	In the western coast of the island there are remains of a 1000-year-old temple built by the Chola Dynasty, as well as the ruins of a Dutch colonial fort. The water is slightly brackish, and it is taken from shallow wells using buckets made from Palmyra palm leaves. The houses are fenced by stacked coral stones or palm leaves, which gives Delft its particular appearance. There are feral ponies on the island, descendants of forebears abandoned there in the Dutch period. The island was named after the Dutch city of Delft by Rijckloff van Goens. Visitors should take the ferry from Kurikattuwan to the southern tip of Pungudutivu (about 45 minutes by car from Jaffna), while the journey takes about 1 hour. 
+
+ 
+
+	There are two ferry services per day. One in the morning and other one in the afternoon but it is advisable to check first before planning your trip. The schedule is subject to significant changes due to weather conditions and boat conditions. On arriving at the island there is only one bus available, go and go on the single road. It is probably advisable to hire a tractor that can take you on a more detailed route. 
+
+ 
+
+	Portuguese Fort, Baobab Tree, Banyan Tree, Quindah Tower, Wild Horses, Sarapiddy, Foot Print, Pigeon Nest, Old Stupa, Old Stables are the popular attractions in the delft island. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=8"><img src="http://srilanka.travel//image/data/attraction_main_images/Dambakolapatuna.jpg" style="width:100px;height:50px;"/><br/>DambakolaPatuna Viharaya</a>',
+      9.786542888403797 , 79.94768142700195, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=10"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Dutch_Fort.jpg" style="width:100px;height:50px;"/><br/>Delft Dutch Fort </a>',
+      9.48461976401594 , 79.69851493835449, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=12"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Temple.jpg" style="width:100px;height:50px;"/><br/>Delft Temple</a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=14"><img src="http://srilanka.travel//image/data/attraction_main_images/Kadurugoda_Temple.jpg" style="width:100px;height:50px;"/><br/>Kadurugoda Temple</a>',
+      9.740188905777304 , 79.99780654907227, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=16"><img src="http://srilanka.travel//image/data/attraction_main_images/Nagadeepa_Viharaya.jpg" style="width:100px;height:50px;"/><br/>Nagadeepa Purana Raja Maha Viharaya</a>',
+      9.609551185126227 , 79.77069854736328, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=19"><img src="http://srilanka.travel//image/data/attraction_main_images/Nagadeepa_kovil.jpg" style="width:100px;height:50px;"/><br/>The Nagapooshani Amman Kovil </a>',
+      9.6129362214504 , 79.76966857910156, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=9"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Biobab_Tree.jpg" style="width:100px;height:50px;"/><br/>Delft Biobab Tree </a>',
+      9.481402768798606 , 79.71756935119629, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=13"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Wild_Horses.jpg" style="width:100px;height:50px;"/><br/>Delft Wild Horses </a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=11"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Growing_Stone.jpg" style="width:100px;height:50px;"/><br/>Delft Growing Stone</a>',
+      9.502058738952877 , 79.70400810241699, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=17"><img src="http://srilanka.travel//image/data/attraction_main_images/Nilvara_bottomless_well.jpg" style="width:100px;height:50px;"/><br/>Nilavara Bottomless Well </a>',
+      9.752708500416476 , 80.09119033813477, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=18"><img src="http://srilanka.travel//image/data/attraction_main_images/Point_pedro.jpg" style="width:100px;height:50px;"/><br/>Point Pedro</a>',
+      9.794155151213436 , 80.22075176239014, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(9.6617056, 80.025566666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Jaffna  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Subhas Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelsubhasjaffna@yahoo.com 
+                                      				      				         Tel : 0212224923 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Jaffna Heritage Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : niluxsan9@yahoo.com 
+                                      				      				         Tel : 0212222424 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 2  out of  2  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Senanayaka Samudraya of Inginiyagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henanegala Len Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyaluma  Falls  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 The Steaming Hot Water Wells of Mahaoya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henarathgoda Botanical Garden  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Omunugala Cave Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Point Pedro 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Victoria Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Doovili Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Pinnawala Elephant Orphanage 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

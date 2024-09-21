@@ -1,0 +1,473 @@
+
+				 Kurunegala  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Ratmullukanda Viharaya 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kurunegala | Ratmullukanda Viharaya 
+						 
+						 Ratmullukanda Viharaya 
+						 
+
+	Located in close vicinity to Panduwasnuwara in the Kurunegala district the Ratmullukanda Viharaya is situated on the Ratmullukanda hill. The highest peak where the Viharaya or temple is situated can be reached by vehicle, so visitors old and young alike can visit the temple without any problems. At the highest point of the nearly 1000 ft high hill there is massive Buddha statue that is a beautiful sight to behold. Further visitors can enjoy amazing panoramic views of the surrounding area from this vantage point. The Ratmullukanda Viharaya is an interesting place for both local and foreign visitors.  
+
+ 
+						 More 
+						 
+
+	 Things To Do : Pilgrimage, photography, sightseeing, hiking 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=33"><img src="http://srilanka.travel//image/data/attraction_main_images/Nikayalannuwara_Historical_Temple.jpg" style="width:100px;height:50px;"/><br/>Nikayalannuwara Historical Temple</a>',
+      7.578285851973999 , 79.83738899230957, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=88"><img src="http://srilanka.travel//image/data/001/Kurunegala/Nikayalannuwara Historical Temple/Header_Nikasalanuwara cvr pic.jpg" style="width:100px;height:50px;"/><br/>Nikayalannuwara Historical Temple</a>',
+      7.472981299999999 , 80.35472860000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=90"><img src="http://srilanka.travel//image/data/001/Prasad/Kurunagala/Ridee Viharaya/Ridee-1.jpg" style="width:100px;height:50px;"/><br/>Ridee Viharaya</a>',
+      7.5373387 , 80.49197670000001, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=91"><img src="http://srilanka.travel//image/data/001/Kurunegala/Tomb of King Vijay /Headder_Tomb of King Vijay cvr.jpg" style="width:100px;height:50px;"/><br/>Tomb of King Vijay</a>',
+      7.472981299999999 , 80.35472860000004, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=92"><img src="http://srilanka.travel//image/data/001/Prasad/Kurunagala/Rambodagalla Buddha Statue /Rambodagalla.jpg" style="width:100px;height:50px;"/><br/>Rambodagalla Buddha Statue</a>',
+      7.515635099999998 , 80.50418409999997, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=94"><img src="http://srilanka.travel//image/data/001/Kurunegala/Panavitiya Ambalama/Header_Panavitiya Ambalama CVR.jpg" style="width:100px;height:50px;"/><br/>Panavitiya Ambalama</a>',
+      7.4068253 , 80.17327309999996, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=184"><img src="http://srilanka.travel//image/data/001/Attraction01/Yapahuwa/Yapahuwa-1.jpg" style="width:100px;height:50px;"/><br/>Yapahuwa Rock Fortress</a>',
+      7.816953 , 80.317363, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=36"><img src="http://srilanka.travel//image/data/attraction_main_images/Panavitiya_Ambalama.jpg" style="width:100px;height:50px;"/><br/>Panavitiya Ambalama</a>',
+      7.406600961962466 , 80.17162442207336, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.473275, 80.354833333333),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Kurunegala  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Buddima Samudra 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : buddisamudra@gmail.com 
+                                      				      				         Tel : 0372260896 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Yapahuwa Paradise 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sunil@yapahuwa-paradise.com 
+                                      				      				         Tel : 0373975055 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Athgiri 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : kandyanreachhotel@gmail.com 
+                                      				      				         Tel : 0372224218 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 3  out of  3  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kadurugoda Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Sri Shakhyasinharamaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Neelagiri Stupa 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Muhudu Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudumbigala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bellanwila Temple (Bellanwila Rajamaha Viharaya) 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nagadeepa Purana Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Angurukaramulla Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kataragama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ancient Veheragala of Pulukunawa 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

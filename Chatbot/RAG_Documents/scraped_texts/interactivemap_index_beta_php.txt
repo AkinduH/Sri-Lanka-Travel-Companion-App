@@ -1,0 +1,157 @@
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N2SWKH'); 
+ 
+
+ 
+
+ 
+ 
+         
+             
+         
+     
+ 
+    
+    
+ 
+     
+		 	
+             
+                 
+                 Clear search 
+                 
+                 
+             
+         	
+   
+         
+             All Districts   
+                           	
+			 
+			 
+                           	
+			 
+			Ampara 
+                           	
+			 
+			Anuradhapura 
+                           	
+			 
+			Badulla 
+                           	
+			 
+			Batticaloa 
+                           	
+			 
+			Colombo 
+                           	
+			 
+			Galle 
+                           	
+			 
+			Gampaha 
+                           	
+			 
+			Hambantota 
+                           	
+			 
+			Jaffna 
+                           	
+			 
+			Kalutara 
+                           	
+			 
+			Kandy 
+                           	
+			 
+			Kegalle 
+                           	
+			 
+			Kilinochchi 
+                           	
+			 
+			Kurunegala 
+                           	
+			 
+			Mannar 
+                           	
+			 
+			Matale 
+                           	
+			 
+			Matara 
+                           	
+			 
+			Moneragala 
+                           	
+			 
+			Mullaitivu 
+                           	
+			 
+			N/A 
+                           	
+			 
+			Nuwara Eliya 
+                           	
+			 
+			Polonnaruwa 
+                           	
+			 
+			Puttalam 
+                           	
+			 
+			Ratnapura 
+                           	
+			 
+			Trincomalee 
+                           	
+			 
+			Vavuniya 
+             
+         
+    
+     
+     
+
+ 
+     
+         
+            
+             
+
+                 
+
+  
+		 Things To See & Do 	
+		 Attractions 	
+		                 
+                       
+						 Please select your Accommodation Category 
+                         Boutique Hotels 
+                         Boutique Villas 
+                         Bungalow 
+                         Guest House 
+                         Heritage Bungalow 
+                         Heritage Homes 
+                     	 Home Stay 
+                         Hotels 
+			 
+			 5 Star Hotel 
+			 4 Star Hotel 
+			 3 Star Hotel 
+			 2 Star Hotel 
+			 1 Star Hotel 
+			 Unclassified 
+			 
+                         Rented Apartment 
+                     	 Rented Homes 
+                         
+                         Restaurants 
+			 
+			 Grade A 
+			 Grade B 
+			  
+		 Tourist Friendly Eating Places

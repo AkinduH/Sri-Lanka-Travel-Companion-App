@@ -1,0 +1,254 @@
+star_class_hotels
+
+Aliya Resort & Spa: Category: Hotels, Stars: 96 Rooms, Email: saman@themeresorts.com, Registration No: SLTDA/SQA/HC/00195, Licence No: HC/2024/0025, Valid till 31st December 2024, Tel: 0662270870, Place: Sigiriya
+
+Amaranthe Bay Resorts & Spa: Category: Hotels, Stars: 27 Rooms, Web: www.amaranthebay.com, Email: ga@amaranthebay.com, Registration No: SLTDA/SQA/HC/00212, Licence No: HC/2024/0011, Valid till 31st December 2024, Tel: 0262050200, Place: Trincomalee
+
+Amaya Beach Passikudah: Category: Hotels, Stars: 126 Rooms, Web: www.centarahotelsresorts.com, Email: priyankepa@amayaresorts.com, Registration No: SLTDA/SQA/HC/00201, Licence No: HC/2024/0061, Valid till 31st December 2024, Tel: 652050200, Place: Passikudah
+
+Amaya Hills: Category: Hotels, Stars: 100 Rooms, Web: www.amayaresorts.com, Email: gm.hills@amayaresorts.com, Registration No: SLTDA/SQA/HC/088, Licence No: HC/2024/0095, Valid till 31st December 2024, Tel: 0814474022, Place: Kandy
+
+Amaya Lake: Category: Hotels, Stars: 92 Rooms, Web: www.amayaresorts.com, Email: ca.lake@amayaresorts.com, Registration No: SLTDA/SQA/HC/087, Licence No: HC/2024/0051, Valid till 31st December 2024, Tel: 0664461500, Place: Dambulla
+
+Anantara Kalutara Resort: Category: Hotels, Stars: 141 Rooms, Web: www.anantara.com, Email: rlokusuriya@minor.com, Registration No: SLTDA/SQA/HC/00205, Licence No: HC/2024/0056, Valid till 31st December 2024, Tel: 0344297700, Place: Kalutara
+
+Anantara Peace Heaven Resort: Category: Hotels, Stars: 152 Rooms, Web: www.anantara.com, Email: wudari@anantara.com, Registration No: SLTDA/SQA/HC/00172, Licence No: HC/2024/0034, Valid till 31st December 2024, Tel: 0472244455, Place: Tangalle
+
+Araliya Beach Resort & Spa Unawatuna: Category: Hotels, Stars: 301 Rooms, Web: https://www.araliyaresorts.com/araliya-beach/, Email: accountant@araliyabeachresort.com, Registration No: SLTDA/SQA/HC/00218, Licence No: HC/2024/0044, Valid till 31st December 2024, Tel: 0912031111, Place: Unawatuna
+
+Araliya Green City: Category: Hotels, Stars: 192 Rooms, Web: www.araliyagreencity.com, Email: secretary@araliyagreencity.com, Registration No: SLTDA/SQA/HC/00194, Licence No: HC/2024/0098, Valid till 31st December 2024, Tel: 0522225000, Place: Nuwara Eliya
+
+Araliya Green Hills Hotel: Category: Hotels, Stars: 107 Rooms, Web: www.arliyagreenhills.com, Email: accountant@araliyagreenhills.com, Registration No: SLTDA/SQA/HC/00197, Licence No: HC/2024/0077, Valid till 31st December 2024, Tel: 0522224150, Place: Nuwara Eliya
+Maradha: Hotels, 31 Rooms, www.maradha.lk, info@maradha.lk, SLTDA/SQA/HC/00229, HC/2024/0016, Valid till 31st December 2024, 0112550136, Place not specified
+
+Marino Beach: Hotels, 289 Rooms, www.marinobeach.com, prasanna@damro.lk, SLTDA/SQA/HC/00219, HC/2024/0080, Valid till 31st December 2024, 0112375375, Place not specified
+
+Marriot Resort & Spa - Weligama Bay: Hotels, 198 Rooms, http://www.marriott.com/hotels/travel/cmbmc-weliga, dhanuka@hplhotels.com, SLTDA/SQA/HC/00211, HC/2024/0020, Valid till 31st December 2024, 0115101045, Weligama Bay
+
+Me Colombo: Hotels, 22 Rooms, mecolombo.com, madhawa@mecolombo.com, SLTDA/SQA/HC/00225, Expired on 31st December 2023, 0711365151, Colombo
+
+Mermaid Hotel & Club: Hotels, 72 Rooms, http://www.mermaidhotelkalutara.com/ppc/?gclid=CIj, gm@mermaidhotelnclub.com, SLTDA/SQA/HC/066, HC/2024/0043, Valid till 31st December 2024, 0342237613, Kalutara
+
+Mirage Hotel: Hotels, 60 Rooms, www.miragecolombo.com, accountant@miragecolombo.com, SLTDA/SQA/HC/00166, HC/2024/0054, Valid till 31st December 2024, 0112360660, Colombo
+
+Miridiya Hotel: Hotels, 40 Rooms, www.galway.lk, info@dedigamagroup.lk, SLTDA/SQA/HC/051, HC/2024/0050, Valid till 31st December 2024, 0252223262, Anuradhapura
+
+Misuki Plaza Hotel: Hotels, 26 Rooms, misukiplazahotel@gmail.com, SLTDA/SQA/HC/103, HC/2023/0123, Expired on 31st December 2023, 0112238407, Colombo
+
+Morven Colombo: Hotels, 92 Rooms, md@morvencolombo.com, SLTDA/SQA/HC/00226, HC/2024/0082, Valid till 31st December 2024, 0112381000, Colombo
+
+Mount Lavinia Hotel: Hotels, 204 Rooms, www.mountlaviniahotel.com, hiruni.f@mountlaviniahotel.com, SLTDA/SQA/HC/135, HC/2022/0121, Expired on 31st December 2022, 0112711711, Mount Lavinia
+Nilaveli Beach Hotel: 53 Rooms, Hotels, Trincomalee, Tel: 0262232295, Web: www.tangerinehotels.com, Email: accts.nilaveli@gmail.com
+Nilwala Hotel: 10 Rooms, Hotels, Kaluwamodara, Tel: 0342275017, Email: hotelnilwala@gmail.com
+North Gate Jaffna: 44 Rooms, Hotels, Jaffna, Tel: 0212030500, Web: www.jetwinghotels.com, Email: sivakumar@jetwinghotels.com
+Oak Ray Serene Garden: 35 Rooms, Hotels, Kandy, Tel: 0812227915, Web: www.serenegardenhotel.com, Email: serenegarden@senanirest.com
+Occidental Eden Beruwala: 158 Rooms, Hotels, Beruwala, Tel: 0342276075, Web: http://www.lolcleisure.com, Email: eksathw@brownshotels.com
+Ocean Edge Suites And Hotel: 78 Rooms, Hotels, Location not specified, Tel: 0112589999, Web: oceanedgesrilanka.com, Email: operations@oceanedgesrilanka.com
+Palm Beach Hotel: 43 Rooms, Hotels, Mount Lavinia, Tel: 0112712713, Web: www.palmbeach.lk, Email: ca@palmsmountlavinia.com
+Palm Garden Village Hotel: 50 Rooms, Hotels, Anuradhapura, Tel: 0772387161, Web: www.palmgardenvillage.com, Email: pgvhanu@gmail.com
+Pandanus Beach Resort & Spa: 76 Rooms, Hotels, Location not specified, Tel: 0342271240, Web: www.pandanusbeach.com, Email: gm@pandanusbeach.com
+Paradise Beach Hotel: 61 Rooms, Hotels, Location not specified, Tel: 0312224258, Web: www.paradisebeachsrilanka.com, Email: paradisebeach@sltnet.lk
+Paradise Holiday Village: Category: Hotels, Stars: 33 Rooms, Web: www.paradiseholidayvillage.com, Email: tusanigomez@yahoo.com, Registration No: SLTDA/SQA/HC/113, Licence No: HC/2023/0076, Expired on 31st December 2023, Tel: 0312274588, Place: Negombo
+
+Pearl City Hotel: Category: Hotels, Stars: 69 Rooms, Web: http://www.pearlcityhotel.net/, Email: pearlcityacc@gmail.com, Registration No: SLTDA/SQA/HC/118, Licence No: HC/2012/069, Expired on 31st December 2012, Tel: 0114523800, Place: Colombo 4
+
+Pegasus Reef Hotel: Category: Hotels, Stars: 140 Rooms, Web: www.pegasusreefhotel.com, Email: kapilag@pegasusreefhotel.com, Registration No: SLTDA/SQA/HC/098, Licence No: HC/2024/0015, Valid till 31st December 2024, Tel: 0112930205, Place: Not specified
+
+Pigeon Island Beach Hotel: Category: Hotels, Stars: 38 Rooms, Web: www.pigeonislandresort.com, Email: rm@pigeonislandresort.com, Registration No: SLTDA/SQA/HC/147, Licence No: HC/2024/0084, Valid till 31st December 2024, Tel: 0267388388, Place: Trincomalee
+
+Radisson Blu Resort Galle: Category: Hotels, Stars: 172 Rooms, Web: www.sinolanka.com, Email: sampath@sinolanka.com, Registration No: SLTDA/SQA/HC/00213, Licence No: HC/2024/0090, Valid till 31st December 2024, Tel: 0114715020, Place: Galle
+
+Radisson Colombo: Category: Hotels, Stars: 158 Rooms, Email: indika.sinolanka@gmail.com, Registration No: SLTDA/SQA/HC/00231, Licence No: HC/2024/0092, Valid till 31st December 2024, Tel: 0112555570, Place: Colombo
+
+Radisson Kandy: Category: Hotels, Stars: 122 Rooms, Email: warna.thilakaratne@radisson.com, Registration No: SLTDA/SQA/HC/00184, Licence No: HC/2024/0096, Valid till 31st December 2024, Tel: 0812030700, Place: Kandy
+
+Ramada - Colombo: Category: Hotels, Stars: 94 Rooms, Web: www.ramadacolombo.com, Email: audit@ramadacolombo.com, Registration No: SLTDA/SQA/HC/127, Licence No: HC/2024/0010, Valid till 31st December 2024, Tel: 0112422001, Place: Colombo
+
+Randholee Resorts: Category: Hotels, Stars: 25 Rooms, Web: www.randholeeresorts.com, Email: roshan@fsalk.com, Registration No: SLTDA/SQA/HC/109, Licence No: HC/2019/0051, Expired on 31st December 2019, Tel: 0812217741, Place: Not specified
+
+Randiya Hotel: Category: Hotels, Stars: 10 Rooms, Web: www.randiyahotels.com, Email: randiyahotel@gmail.com, Registration No: SLTDA/SQA/HC/140, Licence No: HC/2023/0104, Expired on 31st December 2023, Tel: 0112658442, Place: Anuradhapura
+Ranmal Holiday Resort: Hotels, 25 Rooms, http://www.ranmalholidayresort.com/, anura@rodesha.com, SLTDA/SQA/HC/071, HC/2024/0074, Valid till 31st December 2024, 0382298921, Place not specified
+
+Ranweli Holiday Village: Hotels, 84 Rooms, www.ranweli.com, ranweligm@sltnet.lk, SLTDA/SQA/HC/018, HC/2020/0096, Expired on 31st December 2020, 0312277359, Waikkal Beach
+
+Rathna Pearl Grand City Hotel: Hotels, 90 Rooms, www.pearlgrandhotel.com, om@pearlgrand.lk, SLTDA/SQA/HC/00182, HC/2023/0087, Expired on 31st December 2023, 0112597444, Place not specified
+
+Rathnaloka Tour Inn: Hotels, 53 Rooms, http://www.rathnaloka.com/, ratnalokaacc555@gmail.com, SLTDA/SQA/HC/041, Expired on 31st December 2012, 0452222455, Ratnapura
+
+Renuka City Hotel: Hotels, 40 Rooms, www.renukahotel.com, renukaht@renukahotel.com, SLTDA/SQA/HC/00221, HC/2024/0033, Valid till 31st December 2024, 0112573598, Colombo
+
+Renuka Hotel: Hotels, 81 Rooms, www.renukahotel.com, maya_fc@renukahotel.com, SLTDA/SQA/HC/002, HC/2024/0035, Valid till 31st December 2024, 0112573598, Colombo
+
+Riu Hotel: Hotels, 501 Rooms, www.riu.com, hotel.srilanka@riu.com, SLTDA/SQA/HC/00190, HC/2024/0022, Valid till 31st December 2024, 0913098689, Place not specified
+
+Riverdale Hotel: Hotels, 29 Rooms, riverdalehotelkandy.gmt@gmail.com, SLTDA/SQA/HC/069, HC/2023/0118, Expired on 31st December 2023, 0812223020, Kandy
+
+Sanmira Renaissance: Hotels, 20 Rooms, http://www.unawatunasanmirahotel.com/, accountant@sanmirahotel.com, SLTDA/SQA/HC/106, HC/2024/0053, Valid till 31st December 2024, 0912227555, Place not specified
+
+Senani Hotel: Hotels, 27 Rooms, http://www.senanihotel.com/, senanihotel@senanirest.com, SLTDA/SQA/HC/121, HC/2024/0107, Valid till 31st December 2024, 0812235118, Kandy
+Sheraton Kosgoda Turtle Beach Resort - Kosgoda - 5 Stars - 172 Rooms - Tel: 0917600100
+Sigiriya Village Hotel - Sigiriya - Stars not specified - 120 Rooms - Tel: 0472240940
+Sorowwa Resort And Spa - Location not specified - Stars not specified - 23 Rooms - Tel: 0662270333
+St.andrews Hotel - Nuwara Eliya - Stars not specified - 52 Rooms - Tel: 0522222445
+Taj Bentota Resort & Spa - Bentota - Stars not specified - 162 Rooms - Tel: 0345555555
+Taj Samudra Hotel - Colombo - Stars not specified - 291 Rooms - Tel: 0115446622
+Tangerine Beach Hotel - Location not specified - Stars not specified - 179 Rooms - Tel: 0342237295
+Temple Tree Resort And Spa - Induruwa - Stars not specified - 10 Rooms - Tel: 0342270700
+Thaala Bentota Resort - Bentota - Stars not specified - 90 Rooms - Tel: 0344641464
+The Blue Water - Wadduwa - 5 Stars - 100 Rooms - Tel: 0382235067
+The Deer Park Hotel - 85 Rooms - 5 Stars - Giritale - http://www.deerparksrilanka.com/
+The Golden Crown Hotel - 63 Rooms - Stars not specified - Location not specified - www.thegoldencrownhotel.com
+The Grand Kandyan - 100 Rooms - Stars not specified - Kandy - grandkandyan.com
+The Grand Mountian Hotel - 86 Rooms - Stars not specified - Location not specified - www.hinguranagroup.com
+The Kingsbury - 229 Rooms - 5 Stars - Colombo - https://www.thekingsburyhotel.com/
+The Lady Hill - 15 Rooms - Stars not specified - Galle - www.ladyhillsl.com
+The Lakeside At Nuwarawewa - 70 Rooms - Stars not specified - Location not specified - No website provided
+The Oasis Hotel - 50 Rooms - Stars not specified - Hambantota - http://www.oasis-ayurveda.de/
+The Ocean Colombo - 49 Rooms - Stars not specified - Colombo - www.theoceancolombo.com
+The Palms - 106 Rooms - Stars not specified - Beruwala - http://www.forthotels.lk/palms/home.htm
+The Sanctuary At Tissawewa | Hotels | 22 Rooms | Anuradhapura
+The Steuart By Citrus | Hotels | 50 Rooms | Colombo
+The Surf | Hotels | 86 Rooms | Bentota
+The Thinnai | Hotels | 58 Rooms | Jaffna
+The Village | Hotels | 36 Rooms | Habarana
+Trillium Hotel | Hotels | 34 Rooms | Colombo
+Trinco Blu By Cinnamon | Hotels | 56 Rooms | Trincomalee
+Turyaa - Kalutara | Hotels | 199 Rooms | Kalutara
+Villa Ocean View | Hotels | 143 Rooms | Wadduwa
+Wila Safari Hotel | Hotels | 10 Rooms | Tissamaharama
+Windsor Hotel - Nuwara Eliya - Hotels - 50 Rooms - www.windsorhotellk.com - accounts@windsorhotellk.com - SLTDA/SQA/HC/116 - HC/2024/0021 - Valid till 31st December 2024 - 0522222554
+Zmax Fairway Colombo - Colombo - Hotels - 181 Rooms - accounts2@fairwaycolombo.com - SLTDA/SQA/HC/00228 - HC/2024/0047 - Valid till 31st December 2024 - 0112153153
+Araliya Red: Category: Hotels, Stars: 196 Rooms, Web: www.araliyared.com, Email: accountant@araliyared.com, Registration No: SLTDA/SQA/HC/00217, Licence No: HC/2022/0054, Expired on 31st December 2022, Tel: 0522234406, Place: Not specified
+
+Arie Lagoon: Category: Hotels, Stars: 55 Rooms, Web: www.arielagoon.com, Email: gm.ralns@royalorchidhotels.com, Registration No: SLTDA/SQA/HC/00214, Licence No: HC/2023/0115, Expired on 31st December 2023, Tel: 0114327818, Place: Not specified
+
+Austrian Beach Resort: Category: Hotels, Stars: 10 Rooms, Web: http://www.austrianbeach.com/, Email: office@austrianbeach.com, Registration No: SLTDA/SQA/HC/107, Licence No: HC/2019/0121, Expired on 31st December 2019, Tel: 0412257360, Place: Dickwella
+
+Barberyn Reef Ayurveda Resort: Category: Hotels, Stars: 75 Rooms, Web: www.barberyn.com, Email: reef.devika@barberynresorts.com, Registration No: SLTDA/SQA/HC/132, Licence No: HC/2024/0105, Valid till 31st December 2024, Tel: 0342276036, Place: Not specified
+
+Berjaya Mount Royal Beach Hotel: Category: Hotels, Stars: 90 Rooms, Web: www.berjayahotel.com/colombo/en, Email: chandana.g@berjayahotel.com, Registration No: SLTDA/SQA/HC/149, Licence No: HC/2024/0110, Valid till 31st December 2024, Tel: 0112739610, Place: Colombo
+
+Best Western Elyon Colombo: Category: Hotels, Stars: 52 Rooms, Web: www.bestwesterncolombo.com, Email: fc@bestwesterncolombo.com, Registration No: SLTDA/SQA/HC/00175, Licence No: HC/2023/0110, Expired on 31st December 2023, Tel: 0117527527, Place: Colombo
+
+Blackpool Hotel: Category: Hotels, Stars: 50 Rooms, Web: www.blackpool.lk, Email: info@blackpool.lk, Registration No: SLTDA/SQA/HC/00200, Licence No: HC/2023/0121, Expired on 31st December 2023, Tel: 0527634634, Place: Not specified
+
+Camelot Beach Hotel: Category: Hotels, Stars: 81 Rooms, Email: accountant@camelot.lk, Registration No: SLTDA/SQA/HC/096, Licence No: HC/2024/0081, Valid till 31st December 2024, Tel: 0312222318, Place: Negombo
+
+Carolina Beach Hotel: Category: Hotels, Stars: 45 Rooms, Web: www.carolinabeachhotel.lk, Email: foe@carolinabeachhotel.lk, Registration No: SLTDA/SQA/HC/143, Licence No: HC/2020/0129, Expired on 31st December 2020, Tel: 0322243110, Place: Chilaw
+
+Centara Ceysands Resort & Spa: Category: Hotels, Stars: 164 Rooms, Web: http://www.centarahotelsresorts.com/centara/ccs/, Email: jchamikara@nhhotels.com, Registration No: SLTDA/SQA/HC/033, Licence No: HC/2024/0048, Valid till 31st December 2024, Tel: 0342275073, Place: Bentota
+Centauria Lake: Category: Hotels, Stars: 52 Rooms, Web: http://centauriahotel.com/lake/, Email: centauria@sltnet.lk, Registration No: SLTDA/SQA/HC/075, Licence No: HC/2024/0002, Valid till 31st December 2024, Tel: 0472230514, Place: Ratnapura
+
+Cinnamon Bentota Beach: Category: Hotels, Stars: 133 Rooms, Web: www.johnkeellshotels.com, Email: accountant.cbb@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/030, Licence No: HC/2024/0111, Valid till 31st December 2024, Tel: 0342275176, Place: Bentota
+
+Cinnamon Bey: Category: Hotels, Stars: 200 Rooms, Web: www.cinnamon hotels.com, Email: bey@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/00180, Licence No: HC/2024/0102, Valid till 31st December 2024, Tel: 0342297000, Place: Not specified
+
+Cinnamon Citadel: Category: Hotels, Stars: 121 Rooms, Web: www.chaayahotels.com, Email: accountant.citadel@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/114, Licence No: HC/2024/0070, Valid till 31st December 2024, Tel: 0812234365, Place: Kandy
+
+Cinnamon Grand Hotel: Category: Hotels, Stars: 501 Rooms, Web: www.cinnamonhotels.com, Email: sharon@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/001, Licence No: HC/2024/001, Valid till 31st December 2024, Tel: 0662286809, Place: Colombo
+
+Cinnamon Lakeside Colombo: Category: Hotels, Stars: 352 Rooms, Web: www.cinnamonhotels.com, Email: nilanthi@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/062, Licence No: HC/2024/0052, Valid till 31st December 2024, Tel: 0112491000, Place: Colombo
+
+Cinnamon Lodge: Category: Hotels, Stars: 162 Rooms, Web: www.cinnamonhotels.com, Email: accountant.lodge@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/144, Licence No: HC/2024/0089, Valid till 31st December 2024, Tel: 0112306000, Place: Habarana
+
+Cinnamon Red Colombo: Category: Hotels, Stars: 243 Rooms, Web: www.cinnamonhotels.com, Email: ganithri@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/00168, Licence No: HC/2023/0037, Expired on 31st December 2023, Tel: 0112145145, Place: Colombo
+
+Cinnamon Wild Yala: Category: Hotels, Stars: 61 Rooms, Web: http://www.cinnamonhotels.com/cinnamonwildyala/, Email: accountant.wild@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/161, Licence No: HC/2023/0041, Expired on 31st December 2023, Tel: 0472239450, Place: Yala
+
+Citrus Waskaduwa: Category: Hotels, Stars: 150 Rooms, Web: www.citrusleisure.com, Email: ramesh@citruswaskaduwa.com, Registration No: SLTDA/SQA/HC/00196, Licence No: HC/2024/0063, Valid till 31st December 2024, Tel: 0347634634, Place: Waskaduwa
+Club Hotel Dolphin: Category: Hotels, Stars: 151 Rooms, Web: www.serendibleisure.com, Email: dhammika.dolphin@serendibleisure.lk, Registration No: SLTDA/SQA/HC/153, Licence No: HC/2024/0079, Valid till 31st December 2024, Tel: 0312277788, Place: Not specified
+
+Club Palm Bay: Category: Hotels, Stars: 162 Rooms, Email: marawilaresort@forthotels.lk, Registration No: SLTDA/SQA/HC/128, Licence No: HC/2024/0064, Valid till 31st December 2024, Tel: 0322254956, Place: Northwest coast
+
+Coco Royal Beach: Category: Hotels, Stars: 70 Rooms, Web: www.coco royal beach.com, Email: acc@cocoroyalbeach.com, Registration No: SLTDA/SQA/HC/00178, Licence No: HC/2024/0075, Valid till 31st December 2024, Tel: 0342237660, Place: Not specified
+
+Colombo City Hotel: Category: Hotels, Stars: 48 Rooms, Web: www.colombocityhotels.com, Email: cmb_cityhotels@sltnet.lk, Registration No: SLTDA/SQA/HC/138, Licence No: HC/2024/0008, Valid till 31st December 2024, Tel: 0115341962, Place: Colombo
+
+Colombo Court Hotel & Spa: Category: Hotels, Stars: 32 Rooms, Web: www.colombocourthotel.com, Email: sec@colombocourthotel.com, Registration No: SLTDA/SQA/HC/00181, Licence No: HC/2024/0062, Valid till 31st December 2024, Tel: 0114961476, Place: Not specified
+
+Courtyard By Marriott - Colombo: Category: Hotels, Stars: 164 Rooms, Email: vidumini@colombocitycentre.lk, Registration No: SLTDA/SQA/HC/00233, Licence No: HC/2024/0083, Valid till 31st December 2024, Tel: 0117734400, Place: Colombo
+
+Devon Hotel: Category: Hotels, Stars: 25 Rooms, Web: www.devonsrilanka.com, Email: devon@sltnet.lk, Registration No: SLTDA/SQA/HC/112, Licence No: HC/2024/0113, Valid till 31st December 2024, Tel: 0812235164, Place: Not specified
+
+Earl's Regency Hotel: Category: Hotels, Stars: 96 Rooms, Web: www.aitkenspencehotels.com/earlsregency/, Email: accountant@earlsregency.lk, Registration No: SLTDA/SQA/HC/089, Licence No: HC/2024/0106, Valid till 31st December 2024, Tel: 0812422122, Place: Kandy
+
+Earls Regent Hotel: Category: Hotels, Stars: 60 Rooms, Web: www.regentkandy.lk, Email: accountant@regentkandy.lk, Registration No: SLTDA/SQA/HC/00169, Licence No: HC/2023/0108, Expired on 31st December 2023, Tel: 0812221144, Place: Kandy
+
+Fairview Hotel: Category: Hotels, Stars: 50 Rooms, Web: www.tangerinehotels.com, Email: rm@fairviewhotel.lk, Registration No: SLTDA/SQA/HC/00170, Licence No: HC/2024/0085, Valid till 31st December 2024, Tel: 0112058843, Place: Not specified
+Full Moon Garden Hotel: 2-star, 30 rooms, Negombo, near Colombo-Katunayake Int'l Airport
+Galadari Hotel: 5-star, 408 rooms, Colombo, luxury hotel in the heart of the city
+Galle Face Hotel: 5-star, 145 rooms, Colombo, historic luxury hotel bordering the Indian Ocean
+Galway Heights Hotel: 52 rooms, Nuwara Eliya, cool climate hotel with mountain views
+Gimanhala Hotel: 17 rooms, Sigiriya, conveniently located near city center
+Giritale Hotel: 40 rooms, Polonnaruwa, scenic hotel with views of Giritale
+Glendower Hotel: 20 rooms, Nuwara Eliya, centrally located near Victoria Park
+Golden Star Beach Hotel: 27 rooms, location not specified
+Goldi Sands Hotel: 132 rooms, Negombo, beachfront hotel near Bandaranaike International Airport
+Granbell Hotel Colombo: 292 rooms, Colombo, details limited
+Grand Oriental Hotel: Category: Hotels, Stars: 72 Rooms, Web: www.grandoriental.com, Email: gm.sec@grandoriental.com, Registration No: SLTDA/SQA/HC/119, Licence No: HC/2020/0105, Expired on 31st December 2020, Tel: 0112320320, Place: Colombo
+
+Grand Udawalawe Safari Resort: Category: Hotels, Stars: 57 Rooms, Web: www.grandudawalawe.com, Email: salesmanager@grandudawalawe.com, Registration No: SLTDA/SQA/HC/00192, Licence No: HC/2024/0031, Valid till 31st December 2024, Tel: 0472232000, Place: Udawalawe
+
+Habarana Village By Cinnamon: Category: Hotels, Stars: 108 Rooms, Web: http://www.cinnamonhotels.com/habaranavillagebycin, Email: hrm.village@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/097, Licence No: HC/2024/0087, Valid till 31st December 2024, Tel: 0662270047, Place: Habarana
+
+Heaven Seven: Category: Hotels, Stars: 11 Rooms, Email: gm.ne@lkbiz.com, Registration No: SLTDA/SQA/HC/00215, Licence No: HC/2024/0009, Valid till 31st December 2024, Tel: 0522234256, Place: Not specified
+
+Heritance Ahungalle: Category: Hotels, Stars: 154 Rooms, Web: http://www.heritancehotels.com/ahungalla/, Email: ahungalla@heritancehotels.com, Registration No: SLTDA/SQA/HC/060, Licence No: HC/2024/0027, Valid till 31st December 2024, Tel: 0915555000, Place: Ahungalla
+
+Heritance Kandalama: Category: Hotels, Stars: 162 Rooms, Web: www.heritancehotels.com, Email: fc.kandalama@heritancehotels.com, Registration No: SLTDA/SQA/HC/080, Licence No: HC/2024/0014, Valid till 31st December 2024, Tel: 0665555000, Place: Kandalama
+
+Heritance Negombo: Category: Hotels, Stars: 140 Rooms, Email: ar.negombo@heritancehotels.com, Registration No: SLTDA/SQA/HC/125, Licence No: HC/2024/0006, Valid till 31st December 2024, Tel: 0317431431, Place: Negombo
+
+Heritance Tea Factory: Category: Hotels, Stars: 57 Rooms, Web: www.heritancehotels.com, Email: teafactory@heritancehotels.com, Registration No: SLTDA/SQA/HC/083, Licence No: HC/2024/0028, Valid till 31st December 2024, Tel: 052229600, Place: Nuwara Eliya
+
+Hibiscus Beach Hotel: Category: Hotels, Stars: 51 Rooms, Web: www.hibiscusbeachhotel.com, Email: fom@hibiscusbeachhotel.com, Registration No: SLTDA/SQA/HC/117, Licence No: HC/2024/0055, Valid till 31st December 2024, Tel: 0345082222, Place: Not specified
+
+Hikka Tranz By Cinnamon: Category: Hotels, Stars: 150 Rooms, Web: http://www.cinnamonhotels.com/hikkatranzbycinnamon, Email: accountant.tranz@cinnamonhotels.com, Registration No: SLTDA/SQA/HC/162, Licence No: HC/2023/0029, Expired on 31st December 2023, Tel: 0912277023, Place: Hikkaduwa
+Hilton Colombo Residence: Category: Hotels, Stars: 176 Rooms, Web: www1.hilton.com/en_US/hi/hotel/COLJTTW-Hilton-Colo, Email: viraj.rukmal@hilton.com, Registration No: SLTDA/SQA/HC/134, Licence No: HC/2024/0059, Valid till 31st December 2024, Tel: 0112300613, Place: Colombo
+
+Hilton Colombo: Category: Hotels, Stars: 382 Rooms, Web: www.colombo.hilton.com, Email: harsha.ranawaka@hilton.com, Registration No: SLTDA/SQA/HC/064, Licence No: HC/2024/0029, Valid till 31st December 2024, Tel: 0112492492, Place: Colombo
+
+Hotel Athgiri: Category: Hotels, Stars: 23 Rooms, Web: www.kandyanreach.com, Email: kandyanreachhotel@gmail.com, Registration No: SLTDA/SQA/HC/141, Licence No: HC/2024/0040, Valid till 31st December 2024, Tel: 0372224218, Place: Not specified
+
+Hotel Bentota Village: Category: Hotels, Stars: 14 Rooms, Web: www.hotelbentotavillage.com, Email: bentotavillege@gmail.com, Registration No: SLTDA/SQA/HC/111, Licence No: HC/2019/0112, Expired on 31st December 2019, Tel: 0342270130, Place: Bentota
+
+Hotel Casamara: Category: Hotels, Stars: 33 Rooms, Web: www.casamara.com, Email: accounts@casamarahotel.com, Registration No: SLTDA/SQA/HC/006, Licence No: HC/2024/0042, Valid till 31st December 2024, Tel: 0812224688, Place: Kandy
+
+Hotel Chamila: Category: Hotels, Stars: 50 Rooms, Web: http://www.hotelchamila.com/, Email: hotelchamila@gmail.com, Registration No: SLTDA/SQA/HC/076, Licence No: HC/2023/0075, Expired on 31st December 2023, Tel: 0475677501, Place: Katharagama
+
+Hotel Hill Top: Category: Hotels, Stars: 81 Rooms, Email: accountant@hilltop.lk, Registration No: SLTDA/SQA/HC/013, Licence No: HC/2018/0033, Expired on 31st December 2018, Tel: 0812234317, Place: Kandy
+
+Hotel Janaki: Category: Hotels, Stars: 43 Rooms, Web: www.hoteljanakicolombo.com, Email: nuwan@hoteljanakicolombo.com, Registration No: SLTDA/SQA/HC/00174, Licence No: HC/2023/0117, Expired on 31st December 2023, Tel: 0112581524, Place: Colombo
+
+Hotel Nelly: Category: Hotels, Stars: 20 Rooms, Web: WWW.NELLYHOTEL.COM, Email: rubankrish@ymail.com, Registration No: SLTDA/SQA/HC/00163, Licence No: HC/2024/0072, Valid till 31st December 2024, Tel: 0242224477, Place: Not specified
+
+Hotel Nippon: Category: Hotels, Stars: 49 Rooms, Email: accounts@hotelnipponcolombo.com, Registration No: SLTDA/SQA/HC/00208, Licence No: HC/2024/0073, Valid till 31st December 2024, Tel: 0112432896, Place: Colombo
+Hotel Sapphire: 40 Rooms, Hotels, Colombo, Tel: 0112363306, Email: rsvtns@hotelsapphirelk.com
+Hotel Sigiriya: 80 Rooms, Hotels, Sigiriya, Tel: 0662286815, Web: www.serendibleisure.com
+Hotel Susanthas: 18 Rooms, Hotels, Bentota, Tel: 0342275324, Web: www.hotelsusanthagarden.com
+Hotel Topaz: 72 Rooms, Hotels, Kandy, Tel: 0817389000, Web: www.mclarenshotels.lk
+Hotel Yapahuwa Paradise: 20 Rooms, Hotels, Yapahuwa, Tel: 0373975055, Web: http://www.hotelyapahuwaparadise.com/
+Hunnas Falls Hotel: 31 Rooms, Hotels, Kandy, Tel: 0812476402, Web: www.hunasfallskandy.com
+Jetwing Blue: 108 Rooms, Hotels, Negombo, Tel: 0312279000, Web: www.jetwinghotels.com
+Jetwing Colombo Seven: 108 Rooms, Hotels, Colombo, Tel: 0112345700
+Jetwing Jaffna: 53 Rooms, Hotels, Jaffna, Tel: 0112345700, Web: www.jetwinghotels.com
+Jetwing Lake: 94 Rooms, Hotels, Location not specified, Tel: 0112345700, Web: www.jetwinghotels.com
+Jetwing Sea: Category: Hotels, Stars: 72 Rooms, Web: www.jetwinghotels.com, Email: ajith@jetwinghotels.com, Registration No: SLTDA/SQA/HC/053, Licence No: HC/2024/0005, Valid till 31st December 2024, Tel: 0314933415, Place: Not specified
+
+Kassapa Lions Rock: Category: Hotels, Stars: 31 Rooms, Web: http://www.kassapalionsrock.com, Email: acc@kassapalionsrock.com, Registration No: SLTDA/SQA/HC/102, Licence No: HC/2024/0039, Valid till 31st December 2024, Tel: 0114342658, Place: Digampathaha
+
+Kithala Resort: Category: Hotels, Stars: 40 Rooms, Web: www.priyankarahotel.com, Email: manager.kithala@themeresorts.com, Registration No: SLTDA/SQA/HC/067, Licence No: HC/2024/0026, Valid till 31st December 2024, Tel: 0474378378, Place: Not specified
+
+Koggala Beach Hotel: Category: Hotels, Stars: 189 Rooms, Web: http://www.koggalabeachhotel.com/, Email: lakshman@tisarahotels.com, Registration No: SLTDA/SQA/HC/011, Licence No: HC/2023/0090, Expired on 31st December 2023, Tel: 0112816039, Place: Koggala
+
+Lake Serenity: Category: Hotels, Stars: 14 Rooms, Web: http://www.lakeserenity.lk/, Email: marketing@lakeserenity.lk, Registration No: SLTDA/SQA/HC/142, Licence No: HC/2024/0038, Valid till 31st December 2024, Tel: 0452262199, Place: Kuruvita
+
+Lalitha Hotel: Category: Hotels, Stars: 27 Rooms, Email: lalithahotel@yahoo.com, Registration No: SLTDA/SQA/HC/105, Expired on 31st December 2012, Tel: 0412233221, Place: Matara
+
+Lavanga Resort And Spa: Category: Hotels, Stars: 20 Rooms, Web: www.lavanga.lk, Email: cfo@lavanga.lk, Registration No: SLTDA/SQA/HC/00193, Licence No: HC/2024/0099, Valid till 31st December 2024, Tel: 0912277623, Place: Not specified
+
+Mahaweli Reach Hotel: Category: Hotels, Stars: 116 Rooms, Web: www.mahaweli.com, Email: sonali@mahaweli.com, Registration No: SLTDA/SQA/HC/082, Licence No: HC/2024/0068, Valid till 31st December 2024, Tel: 0812212624, Place: Kandy
+
+Mandara Rosen Hotel: Category: Hotels, Stars: 58 Rooms, Web: www.mandarahotels.com, Email: admin@mandarahotels.com, Registration No: SLTDA/SQA/HC/090, Licence No: HC/2023/0025, Expired on 31st December 2023, Tel: 0472236030, Place: South West Coast
+
+Mandarina Colombo: Category: Hotels, Stars: 72 Rooms, Web: www.mandarinacolombo.com, Email: acct@mandarinacolombo.com, Registration No: SLTDA/SQA/HC/00206, Licence No: HC/2024/0091, Valid till 31st December 2024, Tel: 0112550660, Place: Colombo

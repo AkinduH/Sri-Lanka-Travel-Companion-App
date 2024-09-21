@@ -1,0 +1,348 @@
+Gateway to South Asia 2017 Travel Mart 
+					 2017南亚旅游博览会 – 通往最时尚的旅游目的地斯里兰卡 
+						
+					 Please Select Your Language 
+					 请选择您的语言 
+				 
+				 
+					 English 
+					 中文 
+				 
+			 
+		 
+		
+		
+		 
+			 
+ 
+				 
+					 
+						 
+							 
+								 Gateway to South Asia 2017 International Travel Fair 
+							 
+ 
+						 
+						 
+							 
+								 
+									 
+										 
+											 FROM 
+											4 th  MAY 
+										 
+										 
+											 TO 
+											7 th  MAY 	
+										 
+											
+									 		
+								 
+								 
+									 
+									 
+										 $('#clock').countdown('2017/05/04', function(event) {
+										 var $this = $(this).html(event.strftime(''
+										+ '<span class="count-num">%D</span> Days '
+										+ '<span class="count-num">%H</span> hr '
+										+ '<span class="count-num">%M</span> min '
+										+ '<span class="count-num">%S</span> sec'));
+										});
+									 
+								 
+								 
+							 
+
+ 
+						
+						
+						
+						 
+							 
+								 
+									 Event Outline 
+									 Gateway to South Asia 2017 is an International Travel Fair that will be held from 4 th  to 7 th  May 2017 in Colombo, Sri Lanka. The event programme is as follows: 															
+									 4 th  May 2017 evening - Welcome dinner hosted by the Hon. Minister of Tourism 
+									
+									 5 th  and 6 th  May -  Travel Fair and B2B Meetings at BMICH (Bandaranaike Memorial International Conference Hall) in Colombo	 
+									
+									 7 th  May -  Day excursion to Heritage Cities Kandy/Galle/Colombo. 
+									
+									
+									 
+										 The main goal of Gateway to South Asia 2017 is to attract 250 new tour operators to Sri Lanka. These operators will be from existing and emerging markets primarily identified by the airlines operating in Sri Lanka from their respective online operating destinations with inbound traffic targeted from winter season 2017. 
+										
+										 Gateway to South Asia 2017 will facilitate the government's effort to achieve 4 million tourist arrivals by 2020 which is spearheaded by the Hon. Minister of Tourism Development, Lands and Christian Religious Affairs, John Amaratunga. Minister Amaratunga has appointed travel trade veteran and former Ceylon Tourist Board Chairman, Mr. Udaya Nanayakkara as Chairman, Organizing Committee. 
+										
+										 With the rapidly changing landscape of international travel where traditional tour operators are making way for direct online booking platforms, it is imperative to reach out to the new generation of travelers who prefer to travel guided by social media. In this respect it is proposed to reach out to travel influencers like bloggers, online travel portals, booking platforms and travel journalists through Gateway to South Asia 2017. 
+										
+										 The event will also be used as a platform to attract investment to the country by showcasing the government's development programmes such as the Megapolis Plan and tourism infrastructure development projects like the airport expansion which will enable handling of the biggest aircraft such as Airbus A380 etc., development of new highways and similar projects. 										
+										 In order to make the travel fair an attractive proposition, 4-5 star class city hotels, airlines and logistics service providers have already offered special concessionary rates for participants. 
+										
+										 As mentioned the main focus will be on attracting new tour operators in new markets and two invitations will be extended to each participant company. The event is being synchronized with ''Sancharaka Udawa'' local travel fair and the dates have been specifically selected so as to not clash with any other international travel event and ahead of the busy summer period. The timing will also complement the launch of the destination marketing promotion that is to be launched by Sri Lanka Tourism. 
+										
+										 Gateway to South Asia 2017 will be a high profile event where besides the main exhibition other affiliated events such as fashion shows, gem exhibitions etc. will also take place. Visits will be offered to participants covering places of interest across the island. International media will be invited for the event along with well-known international celebrities. 
+										
+										
+										 The growth and survival of Sri Lanka's tourism industry depends on initiatives of this nature. Gateway to South Asia 2017 will be a carefully curated event that will sustain and grow tourism in Sri Lanka towards the target of 4 million arrivals by 2020 and upgrade tourism income to a higher level. 	
+										
+										 Online registration is now available on the dedicated event page on the official Sri Lanka Tourism web portal: 
+										
+										 www.srilanka.travel/gtsa2017 
+										
+										 Accommodation is available in 4 and 5 star class hotels at special concessionary rates as follows: 
+										 
+											Five Star   
+											US$ 40 Nett* per person twin sharing basis   
+	       									US$ 80 Nett* single supplement 
+											Available hotels – Hilton Colombo, Movenpick Hotel Colombo, Galadari Hotel  										
+											Four Star  
+											US$ 31 Nett* per person twin sharing basis  
+											US$ 62 Nett* single supplement 
+											Available hotels – Ramada Colombo, Mount Lavinia Hotel 
+											 *All above rates are inclusive of daily breakfast and taxes. 
+										 
+										
+										 Event venues – BMICH (Bandaranaike Memorial International Conference Hall), Kingsbury Hotel, Galle Face Hotel 
+										
+										 Transfer from airport to hotel and back, shuttle transport from hotel to BMICH and back (exhibition and B2B venue), lunch on 5 th  and 7 th  at BMICH, transport for evening function on May 4 th  and day excursions to Kandy/Galle on May 7th will be provided on complimentary basis 										
+										 The itinerary as follows. 
+										 
+											Kandy Excursion - Full Day                 : View Details 
+											Southern Coast Excursion - Full Day: View Details 
+											Colombo Highlights - Half Day          : View Details 
+										 
+										 Also note post event round-trips can be arranged at very concessionary rates. 
+										  	 	
+											Glimpse of Sri Lanka – 3 Nights         : View Details 
+											Explore Sri Lanka – 6 Nights               : View Details 
+											
+										 
+										 We invite you to make use of this golden opportunity to visit Sri Lanka, 'The Most Fashionable Destination in 2017' (Vogue Magazine Paris, Feb. '17). 
+										 To apply for online visa, log on to :  http://www.eta.gov.lk/slvisa/ 
+										
+									 
+									 Read More 
+									 
+										For further information please contact: 
+										 
+										 Tel: +94112 208300 Ext: 101 	 
+										 Email: gtsa2017@srilanka.travel 
+										or 
+										Mr. Udaya Nanayakkara (Chairman, Organizing Committee) 
+										 Tel: +94772244844 
+										 Email: udayananayakkara@gmail.com / chairmangtsa2017@srilanka.travel 
+										 
+								 
+							 
+						 
+						
+						
+						
+						
+						
+						
+						 
+							 
+								 Registration 
+					
+								 
+									 
+									 
+									 Take your first step to visiting Sri Lanka, the 'Most Fashionable Destination in 2017 ' (Vogue, Paris). 
+									 						
+									 
+										 
+											 Are you currently selling Sri Lanka as a destination? 
+											 
+												 
+												 Yes 
+											  
+											 
+												 
+												 No 
+											 
+										 
+										 
+											 If not, we have good news for you! 
+											 You are invited to visit Gateway to South Asia 2017 international travel fair in Sri Lanka. 
+											 Please fill out the details below to help us process your invitation. 
+										 
+										 
+										 
+											 												
+												 
+													 *Company Name  
+													  
+												 
+												 
+													 *Position 
+													  
+												 													
+											 
+											 
+										 
+										 
+											 *Individual Name  
+											 
+												  
+											  
+										 
+											 
+												
+										 
+											 *Telephone  
+											 
+												  
+											  
+										 
+										 
+											 *Email  
+											 
+												  
+											  
+										 
+										 
+											 *Company Website  
+											 
+												  
+											  
+										 		
+										 
+											 *Country  
+											 
+												  
+											  
+										 
+										 
+											 Additional Information  
+											 
+												   
+											  
+										 
+										 
+											 You will be hearing from us soon.  
+											 Thank you. 
+										 
+										 
+											 
+											 
+										 
+									 
+								 	
+							 
+						 
+						
+						 
+							 								
+								 
+									 Organizers 
+									 
+										 
+										 
+										 
+										 
+										 
+										 
+									 
+								 
+							 
+							 
+								 
+									 
+								 
+							 
+							
+						 
+
+						 
+							 
+								 Airlines 
+								 
+									 
+									 
+									 
+									 
+									 
+									 
+									 	
+									 
+									 
+									 
+									 
+								 
+							 
+						 
+						 
+							 
+								 Hotels 
+								 
+									 
+									 
+									 
+									 
+									 
+								 
+							 
+						 
+						 
+							 
+								 Event Venues 
+								 
+									 
+									 
+									 
+									
+								 
+							 
+						 
+						 
+							 								
+								 	
+									 Plan Your Visit 
+									 										
+										 About Sri Lanka 
+										 Visa Information 
+										 Hotels & Other Accommodation 
+										 Interactive Map 
+										 Travel Agents 
+										 Tour Guides 
+									 
+								 
+							 
+							 
+								 
+									 Venue 
+									 
+								 
+							 
+						 
+
+
+ 
+						
+						
+
+						
+					 
+				 
+			 
+		 
+		
+		 
+			 
+				 
+					 Investor 
+					 Terms of Use 
+					 Sri Lanka Airport & Aviation Services 
+					 Immigration and Emigration 
+					 © 2017 All Rights Reserved by Sri Lanka Tourism Promotion Bureau. 
+				 
+			 
+			 
+				 
+					 Sri Lanka Tourism Promotion Bureau 
+					 Sri Lanka Tourism Development Authority   
+					  Sri Lanka Tourism Convention Bureau 
+					 SLITHM 
+					 Ministry of Tourism Development and Christian Religious Affairs

@@ -1,0 +1,218 @@
+normal_hotels
+
+98 Acres Resort: Category: Hotels, Rooms: 28, Web: www.resort98acres.com, Email: fb@resort98acres.com, Registration No: SLTDA/SQA/TH/236, Licence No: TH/2024/0042, Valid till 31st December 2024, Tel: 0572050050, Place: Ella
+
+Adhitya Ayurveda: Category: Hotels, Rooms: 24, Web: www.adhitya.lk, Email: janani@adhitya.lk, Registration No: SLTDA/SQA/TH/00425, Licence No: TH/2024/0106, Valid till 31st December 2024, Tel: 0252030200, Place: Beruwala
+
+Amaara Forest Hotel: Category: Hotels, Rooms: 40, Web: www.amaaraforest.com, Email: anton@worldlink.lk, Registration No: SLTDA/SQA/TH/00321, Licence No: TH/2024/0078, Valid till 31st December 2024, Tel: 0662277277, Place: Sigiriya
+
+Amaara Sky Hotel: Category: Hotels, Rooms: 12, Web: www.amaarasky.com, Email: joyel@worldlink.lk, Registration No: SLTDA/SQA/TH/244, Licence No: TH/2024/0077, Valid till 31st December 2024, Tel: 0812228813, Place: Kandy
+
+Amagi Aria: Category: Hotels, Rooms: 22, Web: www.amagiresort.com, Email: fc@amagihotels.com, Registration No: SLTDA/SQA/TH/233, Licence No: TH/2024/0104, Valid till 31st December 2024, Tel: 0312238385, Place: Negombo
+
+Ambalama Leisure Lounge: Category: Hotels, Rooms: 14, Web: www.ambalama.lk, Email: contact@ambalama.lk, Registration No: SLTDA/SQA/TH/195, Licence No: TH/2024/0063, Valid till 31st December 2024, Tel: 0362253388, Place: Galle
+
+Amethyst Resort: Category: Hotels, Rooms: 42, Web: www.amethystresorts.com, Email: hotelacc@amethystpassikudah.com, Registration No: SLTDA/SQA/TH/228, Licence No: TH/2024/0064, Valid till 31st December 2024, Tel: 0115328100, Place: Passikudah
+
+Anantamaa Hotel: Category: Hotels, Rooms: 50, Web: www.anantamaa.com, Email: info@anantamaa.com, Registration No: SLTDA/SQA/TH/00311, Licence No: TH/2024/0109, Valid till 31st December 2024, Tel: 0262050250, Place: Trincomalee
+
+Ani Villas: Category: Hotels, Rooms: 15, Web: www.anivillas.com, Email: avslam@anivillas.com, Registration No: SLTDA/SQA/TH/00324, Licence No: TH/2024/0017, Valid till 31st December 2024, Tel: 0417634634, Place: Dickwella
+
+Avani Kalutara Resort: Category: Hotels, Rooms: 105, Email: kdisnaka@anantara.com, Registration No: SLTDA/SQA/TH/050, Licence No: TH/2024/0069, Valid till 31st December 2024, Tel: 0342226537, Place: Kalutara
+Royal Classic Resort: Category: Hotels, Rooms: 31, Web: www.royalclassicresort.com, Email: manager@royalclassicresort.com, Registration No: SLTDA/SQA/TH/00414, Licence No: TH/2024/0100, Valid till 31st December 2024, Tel: 0812072777, Place: Kandy
+
+Ruvisha Beach Hotel: Category: Hotels, Rooms: 38, Web: www.ruvishabeachhotel.com, Email: accounts@ruvishabeachhotel.com, Registration No: SLTDA/SQA/TH/00410, Licence No: TH/2024/0093, Valid till 31st December 2024, Tel: 0312030900, Place: Negombo
+
+Sarasa Hotel: Category: Hotels, Rooms: 19, Web: www.sarasacityhotel.com, Email: starhotelsr@yahoo.com, Registration No: SLTDA/SQA/TH/138, Licence No: TH/2024/0012, Valid till 31st December 2024, Tel: 2910460, Place: Colombo
+
+Saru Blue Sapphire Hotel: Category: Hotels, Rooms: 20, Web: tupulfernando@gmail.com, Email: sisiraalahakoone@gmail.com, Registration No: SLTDA/SQA/TH/00407, Licence No: TH/2024/0055, Valid till 31st December 2024, Tel: 0452230000, Place: Ratnapura
+
+Serene Pavilions: Category: Hotels, Rooms: 15, Email: am@serenepavilions.com, Registration No: SLTDA/SQA/TH/221, Licence No: TH/2024/0096, Valid till 31st December 2024, Tel: 2685009, Place: Wadduwa
+
+Sheraton Colombo: Category: Hotels, Rooms: 320, Email: sulani.desilva@gmail.com, Registration No: SLTDA/SQA/TH/00433, Licence No: TH/2024/0032, Valid till 31st December 2024, Place: Colombo
+
+Siddhalepa Ayurveda Health Resort: Category: Hotels, Rooms: 50, Web: www.siddhaleparesort.com, Email: rm@siddhalepa.com, Registration No: SLTDA/SQA/TH/125, Licence No: TH/2024/0094, Valid till 31st December 2024, Tel: 0382296967, Place: Wadduwa
+
+Silvas Beach Hotel: Category: Hotels, Rooms: 17, Email: finance.silvasbeach@gmail.com, Registration No: SLTDA/SQA/TH/040, Licence No: TH/2024/0105, Valid till 31st December 2024, Tel: 0312279408, Place: Negombo
+
+Sofia Colombo City Hotel: Category: Hotels, Rooms: 212, Email: info@sofiacolombo.com, Registration No: SLTDA/SQA/TH/00434, Licence No: TH/2024/0053, Valid till 31st December 2024, Tel: 0112225225, Place: Colombo
+
+Sueen Nature Resort: Category: Hotels, Rooms: 26, Email: sueennature@gmail.com, Registration No: SLTDA/SQA/TH/00438, Licence No: TH/2024/0079, Valid till 31st December 2024, Place: Sigiriya
+Sun Siyam Passikudah: Category: Hotels, Rooms: 1, Web: www.sunsiyam.com, Email: arshed.refai@sunsiyam.com, Registration No: SLTDA/SQA/TH/00289, Licence No: TH/2024/0098, Valid till 31st December 2024, Tel: 9468050302, Place: Passikudah
+
+Sungreen Resort: Category: Hotels, Rooms: 39, Web: www.sungreenhabarana.com, Email: gm@sungreenhabarana.com, Registration No: SLTDA/SQA/TH/00378, Licence No: TH/2024/0095, Valid till 31st December 2024, Tel: 0667634001, Place: Habarana
+
+Tamarind Lake: Category: Hotels, Rooms: 32, Web: www.tamarindlake.co, Email: gre.grandtamarindlake@gmail.com, Registration No: SLTDA/SQA/TH/00330, Licence No: TH/2024/0047, Valid till 31st December 2024, Tel: 0472236377, Place: Tangalle
+
+Taru Villas Kandy: Category: Hotels, Rooms: 10, Email: manager.finance@taruvillas.com, Registration No: SLTDA/SQA/TH/00437, Licence No: TH/2024/0074, Valid till 31st December 2024, Tel: 0762962894, Place: Kandy
+
+Thaulle Resort: Category: Hotels, Rooms: 28, Web: www.thaulle.com, Email: finance@thaulle.com, Registration No: SLTDA/SQA/TH/00291, Licence No: TH/2024/0066, Valid till 31st December 2024, Tel: 0472237900, Place: Yala
+
+The Beach Boutique: Category: Hotels, Rooms: 12, Web: www.beachboutique.lk, Email: info@beachboutique.lk, Registration No: SLTDA/SQA/TH/00312, Licence No: TH/2024/0059, Valid till 31st December 2024, Tel: 0112232325, Place: Negombo
+
+The Blue Wave Hotel: Category: Hotels, Rooms: 31, Email: hasinig2@gmail.com, Registration No: SLTDA/SQA/TH/00353, Licence No: TH/2024/0039, Valid till 31st December 2024, Tel: 0463492992, Place: Arugam Bay
+
+The Covanro: Category: Hotels, Rooms: 39, Web: www.covanro.com, Email: accounts@covanro.com, Registration No: SLTDA/SQA/TH/00295, Licence No: TH/2024/0088, Valid till 31st December 2024, Tel: 0332245000, Place: Nuwara Eliya
+
+The Golden Ridge Hotel: Category: Hotels, Rooms: 47, Web: www.thegoldenridge.com, Email: indudelwala@yahoo.com, Registration No: SLTDA/SQA/TH/00389, Licence No: TH/2024/0116, Valid till 31st December 2024, Tel: 0522030300, Place: Nuwara Eliya
+
+The Lake Forest: Category: Hotels, Rooms: 22, Email: thelakeforest@gmail.com, Registration No: SLTDA/SQA/TH/00397, Licence No: TH/2024/0086, Valid till 31st December 2024, Tel: 0112561819, Place: Nuwara Eliya
+The Tamarind Tree: Category: Hotels, Rooms: 57, Web: https://tamarindresort.com/, Email: accountant@tamarindtree.lk, Registration No: SLTDA/SQA/TH/029, Licence No: TH/2024/0022, Valid till 31st December 2024, Tel: 0112253802, Place: Colombo
+
+Tri: Category: Hotels, Rooms: 10, Web: www.trilanka.com, Email: areedeeenterprises@gmail.com, Registration No: SLTDA/SQA/TH/00329, Licence No: TH/2024/0027, Valid till 31st December 2024, Tel: 0912283238, Place: Galle
+
+Uga Bay Resort & Spa: Category: Hotels, Rooms: 48, Web: www.ugaescapes.com, Email: gm-ub@ugaescapes.com, Registration No: SLTDA/SQA/TH/242, Licence No: TH/2024/0052, Valid till 31st December 2024, Tel: 0655671001, Place: Passikudah
+
+Utmt Resort: Category: Hotels, Rooms: 26, Email: iris@crazyhollmann.com, Registration No: SLTDA/SQA/TH/00281, Licence No: TH/2024/0054, Valid till 31st December 2024, Tel: 0770108674, Place: Tangalle
+
+Villa Pinnawala And Restaurant: Category: Hotels, Rooms: 13, Web: www.villapinnawalarest.com, Email: villapinnawala@gmail.com, Registration No: SLTDA/SQA/TH/00359, Licence No: TH/2024/0058, Valid till 31st December 2024, Tel: 0354935377, Place: Pinnawala
+
+Villa Ranmenika: Category: Hotels, Rooms: 14, Web: www.villaranmenika.com, Email: ranmenika@sltnet.lk, Registration No: SLTDA/SQA/TH/163, Licence No: TH/2024/0072, Valid till 31st December 2024, Tel: 0912264251, Place: Unawatuna
+
+Vivanta Colombo Airport Garden: Category: Hotels, Rooms: 208, Web: www.tajhotels.com, Email: kiran.bussari@tajhotels.com, Registration No: SLTDA/SQA/TH/111, Licence No: TH/2024/0034, Valid till 31st December 2024, Tel: 0112252950, Place: Colombo
+
+Zest Metropole: Category: Hotels, Rooms: 36, Web: www.zestmetropole.com, Email: finance@zestmetropole.com, Registration No: SLTDA/SQA/TH/00435, Licence No: TH/2024/0060, Valid till 31st December 2024, Tel: 0112110550, Place: Colombo
+Ayurveda Paragon: Category: Hotels, Rooms: 82, Email: ayurvedaparagon@sltnet.lk, Registration No: SLTDA/SQA/TH/067A, Licence No: TH/2024/0062, Valid till 31st December 2024, Tel: 0912283460, Place: Talpe
+
+Ayurvie Weligama: Category: Hotels, Rooms: 22, Web: https://www.themeresorts.com/ayurvieweligama/, Email: manager.ayurvie@themeresorts.com, Registration No: SLTDA/SQA/TH/00416, Licence No: TH/2024/0023, Valid till 31st December 2024, Tel: 0412070700, Place: Weligama
+
+Bandarawela Hotel: Category: Hotels, Rooms: 33, Web: www.aitkenspencehotels.com, Email: sec@bandarawelahotel.lk, Registration No: SLTDA/SQA/TH/032, Licence No: TH/2024/0045, Valid till 31st December 2024, Tel: 0572222501, Place: Bandarawela
+
+Barberyn Ayurvedic Beach Resort: Category: Hotels, Rooms: 60, Web: www.barberyn.com, Email: beach.devika@barberynresorts.com, Registration No: SLTDA/SQA/TH/174, Licence No: TH/2024/0107, Valid till 31st December 2024, Tel: 0415629950, Place: Weligama
+
+Blue Beach Galle: Category: Hotels, Rooms: 84, Web: WWW.FAIRWAYSUNSET.COM, Email: rm@bbgalle.com, Registration No: SLTDA/SQA/TH/00394, Licence No: TH/2024/0080, Valid till 31st December 2024, Tel: 0912220220, Place: Galle
+
+Buddima Samudra: Category: Hotels, Rooms: 14, Email: buddisamudra@gmail.com, Registration No: SLTDA/SQA/TH/245, Licence No: TH/2024/0035, Valid till 31st December 2024, Tel: 0372260896, Place: Chilaw
+
+Calamansi Cove By Jetwing: Category: Hotels, Rooms: 14, Web: www.calamansicove.com, Email: chaminda@calamansicovevillas.com, Registration No: SLTDA/SQA/TH/00305, Licence No: TH/2024/0019, Valid till 31st December 2024, Place: Balapitiya
+
+Camellia Resort & Spa: Category: Hotels, Rooms: 60, Web: www.camelliaresortspa.com, Email: gm@camelliaresortspa.lk, Registration No: SLTDA/SQA/TH/00253, Licence No: TH/2024/0099, Valid till 31st December 2024, Tel: 0662054103, Place: Sigiriya
+
+Cardamon Hotel Nilaveli: Category: Hotels, Rooms: 22, Email: gibsons@126.com, Registration No: SLTDA/SQA/TH/00347, Licence No: TH/2024/0015, Valid till 31st December 2024, Tel: 0262061600, Place: Nilaveli
+
+Centauria Wild: Category: Hotels, Rooms: 58, Email: rm.wild@centauriahotels.com, Registration No: SLTDA/SQA/TH/00377, Licence No: TH/2024/0001, Valid till 31st December 2024, Tel: 0477634635, Place: Udawalawe
+Chaarya Resort & Spa: Category: Hotels, Rooms: 20, Web: www.chaaryaresorts.com, Email: reservations@chaaryaresorts.com, Registration No: SLTDA/SQA/TH/170, Licence No: TH/2024/0070, Valid till 31st December 2024, Tel: 0472237143, Place: Yala
+
+Cinnamon Life: Category: Hotels, Rooms: 687, Web: https://www.cinnamonhotels.com/cinnamonlife, Email: life-sltda@cinnamonhotels.com, Registration No: SLTDA/SQA/TH/00440, Licence No: TH/2024/0111, Valid till 31st December 2024, Place: Colombo
+
+Citrus - Hikkaduwa: Category: Hotels, Rooms: 54, Web: http://www.citrusleisure.com/, Email: janitha@citrusleisure.com, Registration No: SLTDA/SQA/TH/020, Licence No: TH/2024/0043, Valid till 31st December 2024, Tel: 0914383244, Place: Hikkaduwa
+
+Coral Rock By Bansei: Category: Hotels, Rooms: 30, Web: www.coralrockhotel.com, Email: accountant@bansei-resorts.lk, Registration No: SLTDA/SQA/TH/068, Licence No: TH/2024/0002, Valid till 31st December 2024, Tel: 0912277021, Place: Hikkaduwa
+
+Covanro Sigiriya: Category: Hotels, Rooms: 49, Web: www.covanrosigiriya.com, Email: rohanari321@gmail.com, Registration No: SLTDA/SQA/TH/00432, Licence No: TH/2024/0046, Valid till 31st December 2024, Tel: 0662280000, Place: Sigiriya
+
+Dickwella Resort And Spa: Category: Hotels, Rooms: 61, Web: http://www.brownshotels.com/dickwella/, Email: rm_dickwella@brownshotels.com, Registration No: SLTDA/SQA/TH/046, Licence No: TH/2024/0110, Valid till 31st December 2024, Tel: 0412255271, Place: Dickwella
+
+Dream Beach Hotel: Category: Hotels, Rooms: 21, Web: http://www.jucehotels.com/ambalangoda/, Email: sheron@hotelj.lk, Registration No: SLTDA/SQA/TH/103, Licence No: TH/2024/0049, Valid till 31st December 2024, Tel: 0912258873, Place: Ambalangoda
+
+Ekho Safari: Category: Hotels, Rooms: 57, Web: http://yalasafariholidays.com/, Email: rm.safari@ekhohotels.com, Registration No: SLTDA/SQA/TH/117, Licence No: TH/2024/0113, Valid till 31st December 2024, Tel: 0472237299, Place: Yala
+
+Fox Jaffna By Fox Resorts: Category: Hotels, Rooms: 28, Web: www.fox-resorts.com, Email: sales@foxresorts.com, Registration No: SLTDA/SQA/TH/00402, Licence No: TH/2024/0083, Valid till 31st December 2024, Tel: 0217400400, Place: Jaffna
+
+Fox Kandy: Category: Hotels, Rooms: 26, Web: www.foxresorts.com, Email: sadhana@foxresorts.com, Registration No: SLTDA/SQA/TH/00426, Licence No: TH/2024/0090, Valid till 31st December 2024, Tel: 0817800800, Place: Kandy
+Galavilla Boutique Hotel: Category Hotels, 12 Rooms, Web www.galavillaspa.com, Email dgm@galavillaspa.com, Registration No: SLTDA/SQA/TH/00303, Licence No: TH/2024/0081, Valid till 31st December 2024, Tel 0812054908, Place: Kandy
+
+Grand 7 Hotel: Category Hotels, 15 Rooms, Web wwwsevenelevenhotelcololombo.com, Email sevenelevenhotelcolombo@gmail.com, Registration No: SLTDA/SQA/TH/00382, Licence No: TH/2024/0075, Valid till 31st December 2024, Tel 0112606090, Place: Colombo
+
+Heritance Ayurveda Maha Gedara: Category Hotels, 64 Rooms, Web http://www.heritancehotels.com/ayurvedamahagedara, Email act.amg@heritancehotels.com, Registration No: SLTDA/SQA/TH/185, Licence No: TH/2024/0031, Valid till 31st December 2024, Tel 034555500, Place: Beruwala
+
+Hill Club: Category Hotels, 39 Rooms, Web http://www.hillclubsrilanka.net/, Email acchillclub@sltnet.lk, Registration No: SLTDA/SQA/TH/118, Licence No: TH/2024/0026, Valid till 31st December 2024, Tel 0522222653, Place: Nuwara Eliya
+
+Hotel East Lagoon: Category Hotels, 45 Rooms, Email info@hoteleastlagoon.com, Registration No: SLTDA/SQA/TH/00260, Licence No: TH/2024/0005, Valid till 31st December 2024, Tel 0652229220, Place: Passikudah
+
+Hotel Eden Garden: Category Hotels, 36 Rooms, Web www.edengardenlk.com, Email janu1447@gmail.com, Registration No: SLTDA/SQA/TH/061, Licence No: TH/2024/0030, Valid till 31st December 2024, Tel 0662286635, Place: Sigiriya
+
+Hotel Eva Lanka: Category Hotels, 29 Rooms, Web www.eva.lk, Email manager@eva.lk, Registration No: SLTDA/SQA/TH/113, Licence No: TH/2024/0097, Valid till 31st December 2024, Tel 0472240940, Place: Tangalle
+
+Hotel Grand Serendib: Category Hotels, 24 Rooms, Web www.grandserandibhotel.com, Email gserandib2020@gmail.com, Registration No: SLTDA/SQA/TH/00428, Licence No: TH/2024/0082, Valid till 31st December 2024, Tel 0814954994, Place: Kandy
+Hotel Grand Serendib: Category: Hotels, Rooms: 24, Web: www.grandserandibhotel.com, Email: gserandib2020@gmail.com, Registration No: SLTDA/SQA/TH/00428, Licence No: TH/2024/0082, Valid till 31st December 2024, Tel: 0814954994, Place: Kandy
+
+Hotel Heavens Edge: Category: Hotels, Rooms: 24, Email: heavensedge@sltnet.lk, Registration No: SLTDA/SQA/TH/00334, Licence No: TH/2024/0065, Valid till 31st December 2024, Tel: 0572050711, Place: Ella
+
+Hotel J: Category: Hotels, Rooms: 35, Web: www.jetwinghotels.com, Email: vimukthi@hotelj.lk, Registration No: SLTDA/SQA/TH/251, Licence No: TH/2024/0013, Valid till 31st December 2024, Tel: 0112345700, Place: Negombo
+
+Hotel J,unawatuna: Category: Hotels, Rooms: 36, Web: www.hotelj.lk, Email: farrel@hotelj.lk, Registration No: SLTDA/SQA/TH/00380, Licence No: TH/2024/0010, Valid till 31st December 2024, Tel: 0912030800, Place: Unawatuna
+
+Hotel Kabalana: Category: Hotels, Rooms: 32, Web: www.kabalana.com, Email: reservations@kabalanahotel.com, Registration No: SLTDA/SQA/TH/00429, Licence No: TH/2024/0028, Valid till 31st December 2024, Tel: 0912282588, Place: Ahangama
+
+Hotel Lanka Super Corals: Category: Hotels, Rooms: 100, Web: http://www.hotellankasupercorals.com/, Email: devmithnk@gmail.com, Registration No: SLTDA/SQA/TH/092, Licence No: TH/2024/0101, Valid till 31st December 2024, Tel: 0914383385, Place: Hikkaduwa
+
+Hotel Sudu Araliya: Category: Hotels, Rooms: 104, Web: http://www.hotelsuduaraliya.com/, Email: accountant@hotelsuduaraliya.com, Registration No: SLTDA/SQA/TH/124, Licence No: TH/2024/0051, Valid till 31st December 2024, Tel: 0272224849, Place: Polonnaruwa
+
+Hotel Thilanka: Category: Hotels, Rooms: 86, Web: www.thilankahotel.com, Email: accountant.thilanka@gmail.com, Registration No: SLTDA/SQA/TH/019, Licence No: TH/2024/0004, Valid till 31st December 2024, Tel: 0814475200, Place: Kandy
+
+Insight: Category: Hotels, Rooms: 32, Web: www.insightsrilanka.com, Email: ga@nkartravelhouse.com, Registration No: SLTDA/SQA/TH/129, Licence No: TH/2024/0025, Valid till 31st December 2024, Tel: 0912283296, Place: Ahangama
+
+Itc Ratnadipa: Category: Hotels, Rooms: 352, Email: abhijeet.sreenivasan@itchotels.com, Registration No: SLTDA/SQA/TH/00436, Licence No: TH/2024/0073, Valid till 31st December 2024, Place: Colombo
+Jaffna Heritage Hotel: Category: Hotels, Rooms: 10, Web: www.jaffnaheritage.com, Email: niluxsan9@yahoo.com, Registration No: SLTDA/SQA/TH/00262, Licence No: TH/2024/0056, Valid till 31st December 2024, Tel: 0212222424, Place: Jaffna
+
+Jetwing Ayurveda: Category: Hotels, Rooms: 12, Web: http://www.jetwinghotels.com/jetwingayurvedapavili, Email: ruklanthi@jetwinghotels.com, Registration No: SLTDA/SQA/TH/161, Licence No: TH/2024/0009, Valid till 31st December 2024, Tel: 0312276719, Place: Negombo
+
+Jetwing Beach: Category: Hotels, Rooms: 78, Email: hyacinth@jetwinghotels.com, Registration No: SLTDA/SQA/TH/071, Licence No: TH/2024/0003, Valid till 31st December 2024, Tel: 0312273500, Place: Negombo
+
+Jetwing Kaduruketha: Category: Hotels, Rooms: 25, Web: www.jetwinghotel.com, Email: sudesh@jetwinghotels.com, Registration No: SLTDA/SQA/TH/00319, Licence No: TH/2024/0014, Valid till 31st December 2024, Tel: 0112345700, Place: Wellawaya
+
+Jetwing Kandy Gallery: Category: Hotels, Rooms: 26, Web: www.jetwingkandygallery.com, Email: pasan.k@jetwinghotels.com, Registration No: SLTDA/SQA/TH/00408, Licence No: TH/2024/0007, Valid till 31st December 2024, Tel: 0812034000, Place: Kandy
+
+Jetwing Lagoon: Category: Hotels, Rooms: 55, Web: http://www.jetwinghotels.com, Email: hr.lagoon@jetwinghotels.com, Registration No: SLTDA/SQA/TH/229, Licence No: TH/2024/0011, Valid till 31st December 2024, Tel: 0312233777, Place: Negombo
+
+Jetwing Lighthouse: Category: Hotels, Rooms: 85, Email: tharindu@jetwinghotels.com, Registration No: SLTDA/SQA/TH/023, Licence No: TH/2024/0006, Valid till 31st December 2024, Tel: 0912224017, Place: Galle
+
+Jetwing Surf: Category: Hotels, Rooms: 20, Web: www.jetwinghotels.com, Email: finance.surf@jetwinghotels.com, Registration No: SLTDA/SQA/TH/00379, Licence No: TH/2024/0018, Valid till 31st December 2024, Tel: 0112345700, Place: Pottuvil
+
+Jetwing Yala: Category: Hotels, Rooms: 80, Email: ramasinghe@jetwinghotels.com, Registration No: SLTDA/SQA/TH/00261, Licence No: TH/2024/0016, Valid till 31st December 2024, Tel: 0474710710, Place: Yala
+
+Jie Jie Beach By Jetwing: Category: Hotels, Rooms: 180, Email: rukantha@jetwinghotels.com, Registration No: SLTDA/SQA/TH/00356, Licence No: TH/2024/0041, Valid till 31st December 2024, Tel: 0387899899, Place: Panadura
+Jungle Beach Resort: Category: Hotels, Rooms: 48, Web: www.ugaescapes.com, Email: gm-jb@ugaescapes.com, Registration No: SLTDA/SQA/TH/232, Licence No: TH/2024/0048, Valid till 31st December 2024, Tel: 0265678701, Place: Trincomalee
+
+Karunakarala Resort: Category: Hotels, Rooms: 17, Web: www.karunakarala.com/sparesort, Email: accounts@karunakarala.com, Registration No: SLTDA/SQA/TH/00350, Licence No: TH/2024/0050, Valid till 31st December 2024, Tel: 0312272750, Place: Negombo
+
+Lanka Princess Hotel: Category: Hotels, Rooms: 94, Web: lankaprincess.com, Email: accountantoffice@lankaprincess.com, Registration No: SLTDA/SQA/TH/076, Licence No: TH/2024/0036, Valid till 31st December 2024, Tel: 0342276711, Place: Beruwala
+
+Lavendish Wild Safari Hotel: Category: Hotels, Rooms: 24, Web: www.lavendishleisure.com, Email: suchira@dedigamagroup.lk, Registration No: SLTDA/SQA/TH/144, Licence No: TH/2024/0038, Valid till 31st December 2024, Tel: 0663669268, Place: Yala
+
+Laya Leisure - Kukuleganga: Category: Hotels, Rooms: 104, Web: www.kkbholidayresort.com, Email: kkgholidayresort@gmail.com, Registration No: SLTDA/SQA/TH/201, Licence No: TH/2024/0085, Valid till 31st December 2024, Tel: 0342236533, Place: Kalutara
+
+Lucky Elephant Hotel: Category: Hotels, Rooms: 15, Web: WWW.LUCKYELEPHANT.LK, Email: luckyelephanthikkaduwa@gmail.com, Registration No: SLTDA/SQA/TH/00393, Licence No: TH/2024/0102, Valid till 31st December 2024, Tel: 0912274880, Place: Hikkaduwa
+
+Madulkelle Tea & Eco Lodge: Category: Hotels, Rooms: 11, Web: www.madulkelle.com, Email: accountant@madulkelle.com, Registration No: SLTDA/SQA/TH/238, Licence No: TH/2024/0061, Valid till 31st December 2024, Tel: 0813801052, Place: Kandy
+
+Marabedda Gardens Resort: Category: Hotels, Rooms: 19, Web: www.marabeddaresort.lk, Email: info@marabeddaresort.lk, Registration No: SLTDA/SQA/TH/00439, Licence No: TH/2024/0108, Valid till 31st December 2024, Tel: 0817596677, Place: Kandy
+
+Monarch Imperial: Category: Hotels, Rooms: 16, Web: www.monarchimperial.lk, Email: info@monarchimperial.lk, Registration No: SLTDA/SQA/TH/00421, Licence No: TH/2024/0092, Valid till 31st December 2024, Tel: 0112772727, Place: Colombo
+
+Nivadoo Resort Sigiriya: Category: Hotels, Rooms: 20, Email: nivadooinvestment@gmail.com, Registration No: SLTDA/SQA/TH/00441, Licence No: TH/2024/0112, Valid till 31st December 2024, Place: Sigiriya
+Oak Ray Tea Bush: Category: Hotels, Rooms: 1, Web: www.teabushramboda.com, Email: oakrayteabush@senanirest.com, Registration No: SLTDA/SQA/TH/00290, Licence No: TH/2024/0084, Valid till 31st December 2024, Tel: 0524925029, Place: Ramboda
+
+Oak-ray Beach: Category: Hotels, Rooms: 32, Web: http://www.haridraresort.com/, Email: haridra@senanirest.com, Registration No: SLTDA/SQA/TH/223, Licence No: TH/2024/0087, Valid till 31st December 2024, Tel: 0382285610, Place: Bentota
+
+Okrin Hotel: Category: Hotels, Rooms: 16, Web: www.hotelokrin.com, Email: hotelokrin@gmail.com, Registration No: SLTDA/SQA/TH/248, Licence No: TH/2024/0040, Valid till 31st December 2024, Tel: 0472235032, Place: Tangalle
+
+Olympus Plaza Hotel: Category: Hotels, Rooms: 30, Web: www.olympusplazahotel.com, Email: navishtha@gmail.com, Registration No: SLTDA/SQA/TH/214, Licence No: TH/2024/0024, Valid till 31st December 2024, Tel: 0572268544, Place: Bandarawela
+
+Orient Hotel: Category: Hotels, Rooms: 35, Web: http://www.orienthotelsl.com/, Email: orient-col@eureka.lk, Registration No: SLTDA/SQA/TH/049, Licence No: TH/2024/0020, Valid till 31st December 2024, Tel: 0572222407, Place: Bandarawela
+
+Orion Hotel: Category: Hotels, Rooms: 31, Email: purchasing@orioncity.lk, Registration No: SLTDA/SQA/TH/00403, Licence No: TH/2024/0057, Valid till 31st December 2024, Tel: 0112692257, Place: Colombo
+
+Palm Groove Holiday Inn: Category: Hotels, Rooms: 23, Web: www.palmgroveholidayinn.com, Email: galappaththi@gmail.com, Registration No: SLTDA/SQA/TH/177, Licence No: TH/2024/0021, Valid till 31st December 2024, Tel: 0632248457, Place: Beruwala
+
+Palm Paradise Cabanas: Category: Hotels, Rooms: 22, Web: http://www.beach.lk/, Email: rohanwanigasinghe@gmail.com, Registration No: SLTDA/SQA/TH/122, Licence No: TH/2024/0029, Valid till 31st December 2024, Tel: 0472240842, Place: Tangalle
+
+Pelwehera Village Resort: Category: Hotels, Rooms: 16, Web: http://www.pelweheraresort.com/gallery.html, Email: pelwehera@senanirest.com, Registration No: SLTDA/SQA/TH/204, Licence No: TH/2024/0068, Valid till 31st December 2024, Tel: 0662284281, Place: Dambulla
+
+Pledge Scape: Category: Hotels, Rooms: 25, Web: www.beachvilla.negombo.com, Email: mohan19690226@gmail.com, Registration No: SLTDA/SQA/TH/00396, Licence No: TH/2024/0091, Valid till 31st December 2024, Tel: 0312030500, Place: Negombo
+R Degrees Hotel: Category: Hotels, Rooms: 10, Web: www.rdegrees.lk, Email: info@rdegrees.lk, Registration No: SLTDA/SQA/TH/00355, Licence No: TH/2024/0067, Valid till 31st December 2024, Tel: 0912259351, Place: Galle
+
+Ramada Katunayake: Category: Hotels, Rooms: 56, Email: audit@ramadakatunayake.com, Registration No: SLTDA/SQA/TH/039, Licence No: TH/2024/0008, Valid till 31st December 2024, Tel: 0112253646, Place: Katunayake
+
+Ranna 212: Category: Hotels, Rooms: 55, Web: www.ranna212.com, Email: indunil.weerasinghe@timexsl.com, Registration No: SLTDA/SQA/TH/226, Licence No: TH/2024/0089, Valid till 31st December 2024, Tel: 0114728200, Place: Tangalle
+
+Residence By Uga Escapes: Category: Hotels, Rooms: 11, Web: www.ugaescapes.com, Email: ceo.secy@ugaescapes.com, Registration No: SLTDA/SQA/TH/00300, Licence No: TH/2024/0044, Valid till 31st December 2024, Tel: 0115673000, Place: Colombo
+
+Riff Hikkaduwa: Category: Hotels, Rooms: 25, Web: WWW.RIFFHIKKADUWA.COM, Email: gm@riffhikkaduwa.com, Registration No: SLTDA/SQA/TH/00385, Licence No: TH/2024/0103, Valid till 31st December 2024, Place: Hikkaduwa
+
+Robinson Hotel: Category: Hotels, Rooms: 19, Web: www.infortravelsrilanka.com/robinson, Email: anjulaprasanna@gmail.com, Registration No: SLTDA/SQA/TH/109, Licence No: TH/2024/0071, Valid till 31st December 2024, Tel: 0472235175, Place: Tangalle
+
+Royal Castle: Category: Hotels, Rooms: 20, Web: www.thepalacehotel.net, Email: sales@airwinghotels.com, Registration No: SLTDA/SQA/TH/186, Licence No: TH/2024/0076, Valid till 31st December 2024, Tel: 0312227028, Place: Negombo
+
+Royal Classic Resort: Category: Hotels, Rooms: 31, Web: www.royalclassicresort.com, Email: manager@royalclassicresort.com, Registration No: SLTDA/SQA/TH/00414, Licence No: TH/2024/0100, Valid till 31st December 2024, Tel: 0812072777, Place: Kandy

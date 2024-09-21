@@ -1,0 +1,496 @@
+
+				 Ratnapura  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Budugala 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Ratnapura | Budugala 
+						 
+						 Budugala 
+						 
+
+	Kaltota is situated between the Rathnapura Monaragala and Badulla districts. Administratively, it is owned by the Sabaragamuwa province. There is ample evidence that there was an ancient Kingdom at Kaltota. There was a Pandya king (believed to be King Wickremapandya of the 11th century) who had a son named ‘Kalathitha”. When the son got married the King allowed him to settle down and establish a Kingdom in the up country region. The prince had come to Kaltota at the river valley of ‘walawe’ to establish the Kingdom at Budugala and had ruled four years, thereafter. The area was named Kalathithapura. Later, the King of Anuradhapura invaded with an army to kill the prince and destroy his palace; who ultimately threw treasures like gems, gold, silver in to the river.  
+
+ 
+						 More 
+						 
+
+	Some believe that those treasures are still there, somewhere in the river bed. Budugala is a big center-place, considering the past and present religious background at Kaltota. This picturesque religious place is found amidst the forest and at the bottom of the Kuragala rock, while traveling towards Kaltota via Welipothayaya. When passing Diyavinna from Weligepola visitors can see rocky caves, stone pillars, stony steps and ruined buildings even today. Some believe that this place was named Budugala due to a Buduha statue, constructed upon a rock. However, no remnants of such a construction remain today. 
+
+ 
+
+	A few later constructions can be seen alongside the early cave temples. As there is a belief of a hidden treasure at this place, it is always attacked by treasure seekers. Budugala temple and the vicinity is an archeological reserved site. Kuragala mountain range is situated over the Budugala auspicious premises. The people believe that there was an underground tunnel system from Kuragala to Budugala. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=23"><img src="http://srilanka.travel//image/data/attraction_main_images/Divaguhawa.jpg" style="width:100px;height:50px;"/><br/>Diva Guhawa  Batatota Lena</a>',
+      6.749168923865482 , 80.39314270019531, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=26"><img src="http://srilanka.travel//image/data/attraction_main_images/Maduwanwala_34.jpg" style="width:100px;height:50px;"/><br/>Maduwanwela Walawwa </a>',
+      6.376717964353511 , 80.70899963378906, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=150"><img src="http://srilanka.travel//image/data/001/attractions/Sripada/adams-peak.jpg" style="width:100px;height:50px;"/><br/>Sri Pada Adams Peak</a>',
+      6.809627 , 80.499399, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=151"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/sinharaja-800x400.jpg" style="width:100px;height:50px;"/><br/>Sinharaja</a>',
+      6.389637 , 80.501088, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=164"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Udawalawe-1.jpg" style="width:100px;height:50px;"/><br/>Udawalawe National Park</a>',
+      6.472865 , 81.063191, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=20"><img src="http://srilanka.travel//image/data/attraction_main_images/Balla_Mala_ella.jpg" style="width:100px;height:50px;"/><br/>Balla Mala Ella</a>',
+      6.743031900492014 , 80.39640426635742, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=24"><img src="http://srilanka.travel//image/data/attraction_main_images/Doovili_Ella.jpg" style="width:100px;height:50px;"/><br/>Doovili Ella</a>',
+      6.390024539343289 , 80.39159774780273, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.7062667, 80.384761111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Ratnapura  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Rathnaloka Tour Inn 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : ratnalokaacc555@gmail.com 
+                                      				      				         Tel : 0452222455 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Grand Udawalawe Safari Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : salesmanager@grandudawalawe.com 
+                                      				      				         Tel : 0472232000 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Centauria Lake 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : centauria@sltnet.lk 
+                                      				      				         Tel : 0472230514 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Lake Serenity 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : marketing@lakeserenity.lk 
+                                      				      				         Tel : 0452262199 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 4  out of  4  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Independence Memorial Hall 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rajagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maligathenna Raja Maha Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Ratmullukanda Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Koneswaram Kovil 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Jathika Namal Uyana 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dowa Rock Temple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kataragama 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gamini-Thissa Monastery Complex in Mottagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nagadeepa Purana Raja Maha Viharaya 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

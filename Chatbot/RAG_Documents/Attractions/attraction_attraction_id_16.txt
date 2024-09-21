@@ -1,0 +1,443 @@
+
+				 Jaffna  
+	        >
+	         
+				Heritage												 
+	        >
+	       
+		 Nagadeepa Purana Raja Maha Viharaya 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Jaffna | Nagadeepa Purana Raja Maha Viharaya 
+						 
+						 Nagadeepa Purana Raja Maha Viharaya 
+						 
+
+	Graced by the presence of Lord Buddha on his second visit to Sri Lanka merely five years after attaining enlightment to make peace between two warring Naga Kings, Nagadeepa Purana Raja MahaViharaya is among the sixteen most venerated Buddhist pilgrim locations in the island. 
+
+ 
+
+	The temple situated in the island of Nagadeepawhich is 30 km from Jaffna on road and another 15 minutes in a ferry attracts thousands of pilgrims throughout the year despite its extreme location. The road from Jaffna takes travelers as far as Pungudutivu and the ferry conveys them to Nagadeepa from Jetty Kurikadduvan in the far end of the Pungudutivu Island 
+
+ 
+						 More 
+						 
+
+	The grand chronicle of Sri Lanka records pilgrims from the Buddhist world arriving in Nagadeepa in pilgrimage of the Rajayathana Stupa as far as first century BC. However the Stupa was constructed nearly 2700 years ago by the two Naga Kings Chulodara and Mahodara, whose dispute over the gem adorned golden throne, was settled peacefully by Lord Buddha on the day of dark moon in the month of April. In gratitude the throne was offered to the lord Buddha, was returned to the Naga Kings and was later enshrined in the Rajayathana stupa. 
+
+ 
+
+	The stupa was repeatedly reconstructed and redecorated by Kings Devanampiyatissa, Dutugamunu, Saddatissa, Dhatusenaand many more and was a flourishing temple until it was repeatedly plundered by the provincial Tamil kings and Portuguese during the 17 th Century. The temple was forgotten with time until it was unearthed and reconstructed in 1941. The Stupa was reconstructed and the temple rebuilt when the 30 year old was stalled the flow of pilgrims again. The temple too received the brunt of the war and the temple’s main Buddha Statue a gift from Burma was dismantled andthrown to the sea.  
+
+ 
+
+	However the end of the war had revived the pilgrimage to Nagadeepa and the temple and its surrounding is blooming under the sponsorship of visitors and the Sri Lankan Army.  
+
+ 
+
+	Today there are two shrine rooms at the Viharaya premises. The main shrine room is situated behind the Rajayathana Stupa and is constructed in the traditional Jaffna architecture. The second shrine room is smaller than the main shrine room and the Bronze Buddha statue gifted by the Burmese Government is enshrined in it. On the opposite side of the temple and off the road is the ancient Bodhi Tree, one of the oldest in the island.  
+
+ 
+
+	The newly dawned peace had revived this sacred ground on which a war was prevented and peace was made by the greatest human nearly three millennia back. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=8"><img src="http://srilanka.travel//image/data/attraction_main_images/Dambakolapatuna.jpg" style="width:100px;height:50px;"/><br/>DambakolaPatuna Viharaya</a>',
+      9.786542888403797 , 79.94768142700195, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=10"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Dutch_Fort.jpg" style="width:100px;height:50px;"/><br/>Delft Dutch Fort </a>',
+      9.48461976401594 , 79.69851493835449, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=12"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Temple.jpg" style="width:100px;height:50px;"/><br/>Delft Temple</a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=14"><img src="http://srilanka.travel//image/data/attraction_main_images/Kadurugoda_Temple.jpg" style="width:100px;height:50px;"/><br/>Kadurugoda Temple</a>',
+      9.740188905777304 , 79.99780654907227, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=19"><img src="http://srilanka.travel//image/data/attraction_main_images/Nagadeepa_kovil.jpg" style="width:100px;height:50px;"/><br/>The Nagapooshani Amman Kovil </a>',
+      9.6129362214504 , 79.76966857910156, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=9"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Biobab_Tree.jpg" style="width:100px;height:50px;"/><br/>Delft Biobab Tree </a>',
+      9.481402768798606 , 79.71756935119629, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=13"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Wild_Horses.jpg" style="width:100px;height:50px;"/><br/>Delft Wild Horses </a>',
+      9.503582490697907 , 79.69302177429199, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=11"><img src="http://srilanka.travel//image/data/attraction_main_images/Delft_Growing_Stone.jpg" style="width:100px;height:50px;"/><br/>Delft Growing Stone</a>',
+      9.502058738952877 , 79.70400810241699, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=17"><img src="http://srilanka.travel//image/data/attraction_main_images/Nilvara_bottomless_well.jpg" style="width:100px;height:50px;"/><br/>Nilavara Bottomless Well </a>',
+      9.752708500416476 , 80.09119033813477, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=18"><img src="http://srilanka.travel//image/data/attraction_main_images/Point_pedro.jpg" style="width:100px;height:50px;"/><br/>Point Pedro</a>',
+      9.794155151213436 , 80.22075176239014, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=171"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/delft-1.jpg" style="width:100px;height:50px;"/><br/>Delft island </a>',
+      9.516974 , 79.683344, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(9.6617056, 80.025566666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Jaffna  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Jaffna Heritage Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : niluxsan9@yahoo.com 
+                                      				      				         Tel : 0212222424 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Subhas Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelsubhasjaffna@yahoo.com 
+                                      				      				         Tel : 0212224923 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+				 2  out of  2  Results 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gonagolla Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Dutch Fort  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								  Alawala Devin Penne Ela 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Dambulla CaveTemple 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Buddhangala Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								  Okanda Devalaya ( A Destination of Mass Pilgrim) 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rajagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Galle Fort 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Mullikulamalai 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Heritage			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Muhudu Maha Viharaya 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

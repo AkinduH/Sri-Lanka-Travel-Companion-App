@@ -1,0 +1,966 @@
+
+				 Kandy  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Meemure 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Kandy | Meemure 
+						 
+						 Meemure 
+						 
+
+	The distance from Colombo capital to Meemure is about 188 km. Meemure is one of the most remote villages in Sri Lanka with the only access via a 14 km (8.7 mi) trail from the town of Loolwatte. Lakegala mountain is in Meemure village. It is thought of the place wherever King Ravana raised the Dhadu Monara or Dhandu Monara. Meemure village owns an exceptional natural beauty. It is rich with natural Beauty and Traditional Sri Lankan styles. According to the legend stories of the village goes back to 5000 years Lakegala that settled near this village was belonged to king Ravana. Pyramid-shaped Lakegala was used by Ravana as a source of security energy and people believe there was a tunnel in Lakegala at the time of Rama - Ravana War Most people believe that Ravana's corpse Been placed in Lakegala. The Knuckles Creek System contains at least 25 species of freshwater fish with 8 endemic species and 7 nationally threatened fish species recorded. The Knuckles Forest area has a rich birdlife composition and has recorded over 130 species of birds. More than 10 migratory species of birds are also found here. 
+
+ 
+
+	The villagers build environmentally friendly homes using clay and 'Illuk', which lasts for 30 to 40 years. They mark their land boundary, using walls of quirts. This building wall technology can only be seen in any village in Sri Lanka. 
+
+ 
+						 More 
+						 
+
+	Meemure is approximately a 7-hour drive from Colombo, in an off road vehicle. Here is how you can go there; First go to Kandy city which is 116 km away from Colombo. Then Kandy-Mahiyangana Road (A26) towards to Mahiyangana. Turn to Left from Hunnasgiriya Junction which is 35 km away from Kandy. Then go towards the Loolwatte Village which is 15 km away from Hunnasgiriya Junction. Then from Loolwatte it is about another 15 km to the Meemure Village.you can use village public van it is a marvelous experience to have,to that you should be at Hunnasgiriya junction around 11 clock .hiring vehicles from Hunnasgiriya would be expensive than village vehicle. 
+
+ 
+
+	There is no cellular service available in the village,but a CDMA telephone service is available. 
+
+ 
+
+	December – February Scanty rains March – September Clear weather September – December Rain can be expected Weather Report (Rain fall is expected) Since January/May Lakegala is absolutely viewed from Estern ocean of Sri Lanka, ancient sailors used this lake gala as a land mark. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=3"><img src="http://srilanka.travel//image/data/attraction_picture_gallery/Bahirawakanda.jpg" style="width:100px;height:50px;"/><br/>Bahirawa Kanda </a>',
+      7.2956194 , 80.6305416666666, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=155"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Kandy-1.jpg" style="width:100px;height:50px;"/><br/>Sri Dalada Maligawa Temple of the Tooth </a>',
+      7.294373 , 80.641486 , 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=2"><img src="http://srilanka.travel//image/data/attraction_main_images/Huluganga_Ella.jpg" style="width:100px;height:50px;"/><br/>Huluganga Ella Falls </a>',
+      7.4012167 , 80.7421, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.2907389, 80.633736111111),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Kandy  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Mahaweli Reach Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sonali@mahaweli.com 
+                                      				      				         Tel : 0812212624 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Riverdale Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : riverdalehotelkandy.gmt@gmail.com 
+                                      				      				         Tel : 0812223020 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Topaz 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : anurab@topaz.lk 
+                                      				      				         Tel : 0817389000 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Earls Regent Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@regentkandy.lk 
+                                      				      				         Tel : 0812221144 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Queens Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : senarath.ekanayake@kandyhotels.lk 
+                                      				      				         Tel : 0812222813 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Randholee Resorts 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : roshan@fsalk.com 
+                                      				      				         Tel : 0812217741 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Grand Kandyan 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@grandkandyan.com 
+                                      				      				         Tel : 0812030400 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Devon Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : devon@sltnet.lk 
+                                      				      				         Tel : 0812235164 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Thilanka 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.thilanka@gmail.com 
+                                      				      				         Tel : 0814475200 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Madulkelle Tea & Eco Lodge 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@madulkelle.com 
+                                      				      				         Tel : 0813801052 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Senani Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : senanihotel@senanirest.com 
+                                      				      				         Tel : 0812235118 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Tourmaline 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@topaz.lk 
+                                      				      				         Tel : 0817389000 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    The Swiss Residence 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant@swissresidence.lk 
+                                      				      				         Tel : 0812204646 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Casamara 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accounts@casamarahotel.com 
+                                      				      				         Tel : 0812224688 
+				        				       
+						                                         Book Now   
+
+
+                               
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Radisson Kandy 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : warna.thilakaratne@radisson.com 
+                                      				      				         Tel : 0812030700 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel Suisse 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : dhananjaya.menuwan@kandyhotels.lk 
+                                      				      				         Tel : 0812233026 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+			 4  out of  25  Results 
+			 More Places To Stay 
+			 More Places To Stay 
+			 More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Asupini Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Maduru Oya Reservoir 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Balla Mala Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wadinagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bopagama Water Fall 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Viharamahadevi Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Laxapana Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Little Adamâ€™s Peak 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Senanayaka Samudraya of Inginiyagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Diyaluma  Falls  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

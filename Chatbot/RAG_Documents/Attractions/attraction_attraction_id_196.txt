@@ -1,0 +1,559 @@
+
+				 Bandarawela  
+	        >
+	         
+												Scenic				 
+	        >
+	       
+		 Bambarakanda Falls 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Bandarawela | Bambarakanda Falls 
+						 
+						 Bambarakanda Falls 
+						 
+
+	Bambarakanda Falls is the tallest waterfall in Sri Lanka. With a height of 263 m (863 ft.), it ranks as the 299th highest waterfall in the world.  
+
+ 
+
+	It is not a wide waterfall, but descends like a thin line of a rocky outcrop. The fall is formed by the Uduweriya Haputale and Kuda Oya, a tributary of the Walawe River. 
+
+ 
+						 More 
+						 
+
+	Situated in Kalupahana in the Badulla District, this waterfall is 5 km away from the A4 Highway. The waterfall was formed by Kuda Oya, which is a branch of the Walawe River. The Bambarakanda Falls can be found in a forest of pine trees. 
+
+ 
+
+	The trip to the falls is identified by a small sign. Travel along this curved road for about 3.5 km where you will arrive at the place where autumn is directly visible on your left. 
+
+ 
+
+	This path is very narrow, watered and full of pot holes. A four-wheel drive is recommended because a pickup truck with a high ground height could get there. The base of the fall is a few hundred meters from the road, and no clear path is available to get there. Travel time from Kalupahana approximately 30-40 minutes due to the state of the road. 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=180"><img src="http://srilanka.travel//image/data/001/Attraction01/dowa/Dowa-Temple-1.jpg" style="width:100px;height:50px;"/><br/>Dowa Rock Temple</a>',
+      6.856366 , 81.022152, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=154"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Ella-1.jpg" style="width:100px;height:50px;"/><br/>Ella </a>',
+      6.866736 , 81.046660, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=183"><img src="http://srilanka.travel//image/data/001/Attraction01/Little/Little-1.jpg" style="width:100px;height:50px;"/><br/>Little Adams Peak</a>',
+      6.862936 , 81.064980, 1],
+            ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=188"><img src="http://srilanka.travel//image/data/001/Attraction01/Rawana-ella-ravana-falls/Rawana-1.jpg" style="width:100px;height:50px;"/><br/>Rawana ella and Ravana falls</a>',
+      6.840527 , 81.054634, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(6.8268444, 80.998091666667),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Bandarawela  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Melheim Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : nnaayakkaracranford@yahoo.com 
+                                      				      				         Tel : 0717554491 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Bandarawela Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : sec@bandarawelahotel.lk 
+                                      				      				         Tel : 0572222501 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    98 Acres Resort 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : fb@resort98acres.com 
+                                      				      				         Tel : 0572050050 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Olympus Plaza Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : navishtha@gmail.com 
+                                      				      				         Tel : 0572268544 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Orient Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : orient-col@eureka.lk 
+                                      				      				         Tel : 0572222407 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+         Web Site   
+                                      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  5  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Nilavara Bottomless Well  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Beruwala Light House 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft island  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Doovili Ella 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Victoria Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Henanegala Len Viharaya 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Rawana ella and Ravana falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Laxapana Falls 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wadinagala 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Scenic			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Gregory Lake  
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+

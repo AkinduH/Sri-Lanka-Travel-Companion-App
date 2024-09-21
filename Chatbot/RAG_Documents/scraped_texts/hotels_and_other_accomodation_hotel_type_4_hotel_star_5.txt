@@ -1,0 +1,4801 @@
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk')); 
+	
+	
+ 
+	$('ul.dropdown-menu').on('click', function(event){
+    event.stopPropagation();
+});
+ 
+
+
+
+ 
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+     
+
+     
+
+ 
+
+    .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+
+
+/*pop-up (1912)*/
+
+#overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none;
+}
+.cnt223 a{
+  text-decoration: none;
+}
+.popup{
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top:-62px;
+  background-color: rgba(0,0,0,0.45);
+}
+
+.popup img {
+  width: 100%;
+  height: auto;
+}
+.cnt223{
+  padding: 10px;
+  min-width: 200px;
+  width: 330px;
+  min-height: 150px;
+  margin: 137px auto;
+  /*            background: #f3f3f3;*/
+  background: rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 103;
+  /*                padding: 15px 35px;*/
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
+  /*            border: 3px solid rgb(140, 140, 140);*/
+}
+.cnt223 p{
+  clear: both;
+  color: #555555;
+  /* text-align: justify; */
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.cnt223 p a{
+  color: #d91900;
+  font-weight: bold;
+}
+.cnt223 .close{
+  float: right;
+  right: -7px;
+  position: absolute;
+  top: -6px;
+  padding: 2px 5px;
+  background-color: #252525;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #bbbaba;
+  opacity: 0.8;
+}
+.cnt223 .close:hover{
+  cursor: pointer;
+  background-color: #696969;
+}
+
+/*End pop-up */
+
+#interactiveMap{
+	display:inline-block;
+	right: -3px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 342px;
+    width: 60px;
+    z-index: 999;
+    }
+    div#interactiveMap img {
+    width: 45px;
+    height: 62px;
+}
+	
+	.top-header-hide {
+		display: none;
+	}
+	
+	.top-header {
+		-webkit-transition: all 0.1s ease-out;
+    	-moz-transition: all 0.1s ease-out;
+    	-o-transition: all 0.1s ease-out;
+    	transition: all 0.1s ease-out;	
+	}
+	
+	
+	.middle-header {
+		-webkit-transition: all 0.1s ease-out;
+    	-moz-transition: all 0.1s ease-out;
+    	-o-transition: all 0.1s ease-out;
+    	transition: all 0.1s ease-out;	
+	}
+    @media (max-width: 2560px){
+       .covid-19-btn {
+            left: 37.5%;
+        }
+    }
+
+    @media (max-width: 1980px){
+       .covid-19-btn {
+            left: 30%;
+        }
+    }
+    @media (max-width: 1536px){
+        .covid-19-btn {
+            left: 29.5%;
+        }
+    }
+
+    @media (max-width: 1440px){
+       .covid-19-btn {
+            left: 25%;
+        }
+    }
+
+    @media (max-width: 1366px){
+       .covid-19-btn {
+            left: 25%;
+        }
+    }
+
+    @media (max-width: 1200px){
+        .covid-19-btn {
+            left: 24%;
+        }
+    }
+
+    @media (max-width: 1024px){
+        .covid-19-btn {
+            left: 20%;
+        }
+    }
+        
+    @media (max-width: 768px){
+       .covid-19-btn {
+            left: 15%;
+        }
+
+        .covid-19-btn a {
+            font-size:15px;
+        }
+    }
+	
+    @media (max-width: 767px){
+        div#interactiveMap img {
+            display: none;
+        }
+    }
+
+    @media (max-width:480px){
+        .covid-19-btn {
+            left: 5%;
+            width: 90%;
+            bottom: 160px;
+        }
+
+        .covid-19-btn a {
+            padding:0;
+        }
+    }
+
+     @media (max-width:425px){
+        .covid-19-btn {
+            left: 7%;
+            width: 85.5%;
+            bottom: 110px;
+        }
+    }
+
+     @media (max-width:375px){
+        .covid-19-btn {
+            left: 8%;
+            bottom: 110px;
+        }
+    }
+
+    @media (max-width:360px){
+        .covid-19-btn {
+            left: 7%;
+            bottom: 102px;
+            width: 86%;
+        }
+    }
+       
+       
+     @media (max-width:320px){
+        .covid-19-btn {
+            left: 7%;
+            bottom: 79px;
+            text-align: center;
+        }
+
+        .covid-19-btn a {
+            padding:0;
+        }
+    }
+           
+ 
+
+
+ 
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+ 
+
+ 
+
+ 
+ 
+(function() {
+window.__insp = window.__insp || [];
+__insp.push(['wid', 2111360868]);
+function ldinsp(){ if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=2111360868&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+})();
+ 
+ 
+
+ 
+ 
+ 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2ZYRW5NK7S');
+ 
+
+
+
+				
+ 
+ 
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N2SWKH'); 
+ 
+    
+     
+         
+             × 
+             Meet the locals:  
+         
+         
+             .hytPlayerWrap{display: inline-block; position: relative; width:100%;}.hytPlayerWrap.ended::after{content:""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; cursor: pointer; background-color: black; background-repeat: no-repeat; background-position: center; background-size: 64px 64px; background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCI+PHBhdGggZD0iTTI1NSAxMDJWMEwxMjcuNSAxMjcuNSAyNTUgMjU1VjE1M2M4NC4xNSAwIDE1MyA2OC44NSAxNTMgMTUzcy02OC44NSAxNTMtMTUzIDE1My0xNTMtNjguODUtMTUzLTE1M0g1MWMwIDExMi4yIDkxLjggMjA0IDIwNCAyMDRzMjA0LTkxLjggMjA0LTIwNC05MS44LTIwNC0yMDQtMjA0eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==);}.hytPlayerWrap.paused::after{ display:none;content:""; position: absolute; top: 70px; left: 0; bottom: 50px; right: 0; cursor: pointer; background-color: black; background-repeat: no-repeat; background-position: center; background-size: 40px 40px; background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNzA2LjY2NyIgaGVpZ2h0PSIxNzA2LjY2NyIgdmlld0JveD0iMCAwIDEyODAgMTI4MCI+PHBhdGggZD0iTTE1Ny42MzUgMi45ODRMMTI2MC45NzkgNjQwIDE1Ny42MzUgMTI3Ny4wMTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);}       "use strict"; document.addEventListener('DOMContentLoaded', function(){if (window.hideYTActivated) return; let onYouTubeIframeAPIReadyCallbacks=[]; for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")){let playerFrame=playerWrap.querySelector("iframe"); let tag=document.createElement('script'); tag.src="https://www.youtube.com/iframe_api"; let firstScriptTag=document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); let onPlayerStateChange=function(event){if (event.data==YT.PlayerState.ENDED){playerWrap.classList.add("ended");}else if (event.data==YT.PlayerState.PAUSED){playerWrap.classList.add("paused");}else if (event.data==YT.PlayerState.PLAYING){playerWrap.classList.remove("ended"); playerWrap.classList.remove("paused");}}; let player; onYouTubeIframeAPIReadyCallbacks.push(function(){player=new YT.Player(playerFrame,{events:{'onStateChange': onPlayerStateChange}});}); playerWrap.addEventListener("click", function(){let playerState=player.getPlayerState(); if (playerState==YT.PlayerState.ENDED){player.seekTo(0);}else if (playerState==YT.PlayerState.PAUSED){player.playVideo();}});}window.onYouTubeIframeAPIReady=function(){for (let callback of onYouTubeIframeAPIReadyCallbacks){callback();}}; window.hideYTActivated=true;}); 
+         
+         
+             Close 
+         
+     
+
+
+      
+ 
+    
+     
+		 
+			 
+				 
+				 
+					 Home 
+					 Site Map 
+					 Contact Us 
+					 Tourism News 
+                     Wildlife Streaming 
+					 
+						 
+						   
+							 
+								About Us
+								 
+							   
+							 
+							   
+								 History 
+								 Philosophy 
+                                 Board of Directors 
+								 
+								 Directors 
+                                                                 
+								 
+								 
+								 Investor 
+                                 
+                                     Meet Us 
+                                   
+                                 
+								 
+							 
+						   
+						 
+                     
+                    
+					 
+                         
+						 
+						   
+							 Select Language 
+							   
+							 
+                               
+                              
+                               
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                                }
+                             
+                        
+                             
+                               
+                           
+                              ENG 
+                              CHI 
+                            
+                              FRA 
+                              ITA 
+                              BEL 
+                              GRE 
+                              JAP 
+                              HIN 
+                              POR 
+                              KOR 
+                              SPA 
+                            
+
+                             
+
+
+                                var flags = document.getElementsByClassName('flag_link'); 
+                                    
+                                Array.prototype.forEach.call(flags, function(e){
+                                  e.addEventListener('click', function(){
+                                    var lang = e.getAttribute('data-lang'); 
+                                    var languageSelect = document.querySelector("select.goog-te-combo");
+                                    languageSelect.value = lang; 
+                                    languageSelect.dispatchEvent(new Event("change"));
+                                  }); 
+                                });
+                                
+                                
+                                 
+                        
+									 
+						   
+						 
+					 
+                    
+                        
+					 
+                        
+						 
+						   
+							 
+								Select Language
+								 
+							   
+							 
+
+                                 
+                                    function googleTranslateElementInit() {
+                                        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                                    }
+                                 
+                            
+                                 
+                                   
+							   
+                                  ENG 
+                                  CHI 
+                                  HIN 
+                                  TAMIL 
+                                  GER 								
+								  FRA 
+                                  RU 
+                                  ARABIC 
+                                  JAP 
+								  ITA 
+								  BEL 
+                                  POR 
+                                  SPA 
+                                  KOR 
+								  GRE 
+								
+								
+								
+								
+								
+                                
+                                
+                                
+                                
+
+                                 
+
+
+                                    var flags = document.getElementsByClassName('flag_link'); 
+                                        
+                                    Array.prototype.forEach.call(flags, function(e){
+                                      e.addEventListener('click', function(){
+                                        var lang = e.getAttribute('data-lang'); 
+                                        var languageSelect = document.querySelector("select.goog-te-combo");
+                                        languageSelect.value = lang; 
+                                        languageSelect.dispatchEvent(new Event("change"));
+                                      }); 
+                                    });
+                                    
+                                    
+                                     
+                            
+                             
+						   
+						 						
+					 
+                      Tourism Hotline: 1912 
+				 
+			 
+		 
+        	 
+	 
+		 
+		 
+ 
+   
+     
+      
+       
+         
+           
+           
+           
+         
+         
+         
+           
+           
+                           Wildlife Streaming 
+                         
+            
+             What's New 
+           
+
+           
+             Explore                         	  
+             
+              Sri Lanka At A Glance 
+                                            International Endorsements 
+                                            10 Good Reasons to Visit Sri Lanka 
+                                            Marvels of Sri Lanka 
+                                            World Class Sri Lanka 
+                                            Sri Lankan Legends 
+                                             12 Things to Do in Colombo 
+                                            Suggested Itineraries 
+                                             
+                 Sri Lankan Heritage              				
+                                             Provincial  Tourism  
+                                            Tourist Map of Sri Lanka 
+                         Interactive Map 
+                                   
+        
+        
+         Things To See & Do  
+         
+          Tourist Attractions 
+          Beach Holidays 
+          Wild Safaris 
+          Adventure Sports 
+          Adventure Tours 
+          Whale Watching 
+          Discover The Past 
+           Pilgrimage 
+          
+          Ayurveda 
+          Nature Trails 
+          Scenic Beauty 
+          Events 
+          Tourism News 
+          
+          Colombo City Tour 
+          Eco Tourism 
+          Night Life 
+          Dining 
+          Tourist Friendly Eating Places 
+          Spa & Wellness Centers 
+          Spice Gardens 
+          Tourist Shops 
+           Shopping 
+           Arts and Crafts 
+          Volunteer Tourism 
+          Research Tourism 
+          Things to See 
+          Buy Gemstone 
+          
+
+
+          
+      
+      
+             Upcoming Events 
+           
+      
+       Travel Essentials  
+       
+         Visa Requirements 
+         Plan Your Trip 
+         Visa Services 
+         Online Services 
+         Sri Lankan Embassies 							                        
+         Travel Tips 							                        
+         Travel Habits 
+         Airports 
+         Getting Around 	
+         Distance Calculator 						                            
+         Sri Lanka Weather 
+         Emergency Services 
+         Sri Lankan Public Holidays 2022 								                    		
+         
+         Transport  
+         Tour Guides 
+         Authorized Tourist Drivers 
+         Authorized Tuk Tuk Drivers 
+         Buy E-Tickets for Attractions 
+         Travel Magazines and  Directories 
+         
+         Currency Converter 
+         Travel Apps 
+         Foreign Embassies 	
+         
+         Travel Agents 
+         Doing Business in Sri Lanka 
+       
+     
+
+     
+       Where To Stay  
+       
+         
+         
+         Hotels & Other Accommodation 
+         Newly Registered Hotels &  Other Accommodation 
+         
+         National Holiday Resorts (Also Known  as "Tourist Board Guest Houses") 
+       
+     
+
+     
+       Travel Blog 
+     
+
+     Subscribe 
+
+     
+       Services  
+       
+         Online Services                         	
+         Plan Your Trip 
+         SLTPB Promotional KIT 
+         
+       
+     
+
+     
+       About Us  
+       
+         History 
+         Philosophy 
+         Board of Directors 
+         
+         
+         
+         Directors 
+         Investor 
+         Meet Us 
+         
+         
+       
+         
+         
+       
+     
+
+     
+       Plan a business event test 
+     
+                       
+                         
+                           What the world has to say 
+                         
+                         
+                           Tourism News 
+                         
+                        
+                         
+                           Your Complaints 
+                                                 
+                       
+                     
+                   
+                 
+               
+             
+           
+		 
+	 
+
+     
+
+     
+          
+             
+        
+
+ 
+            
+	
+     
+		 
+
+
+            
+            
+            
+             
+                 
+            
+            
+         
+
+             
+
+
+            
+			 
+    
+  
+    
+  
+  
+				 
+					 
+						 
+							 
+								 
+									 
+										 
+											 
+										 
+									 
+								 
+								 
+									 
+ 
+* {box-sizing: border-box}
+/*body {font-family: "Lato", sans-serif;}*/
+
+/* Style the tab */
+div.tab {
+    float: left;
+    background-color: #888;
+    width: 30%;
+    height: 100%;
+}
+	
+	div.tab .tab-in {
+		padding: 0 0 0 0;
+	}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    width: 100%;
+/*    background-color: #888;*/
+/*    color: #888;*/
+/*
+    color: #fff;
+    padding: 22px 16px;    
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+*/
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+/*
+    background-color: #ddd;
+	color: #888;
+*/
+}
+
+    
+    .dropdown-menu .active>a, .dropdown-menu .active>a:hover {
+    color: #333333;
+    text-decoration: none;
+    outline: 0;
+    background-color: #ddd;
+    background-image: -moz-linear-gradient(top, #ddd, #ddd);
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3)); */
+    /* background-image: -webkit-linear-gradient(top, #0088cc, #0077b3); */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ddd), to(#ddd)); 
+    background-image: -webkit-linear-gradient(top, #ddd, #ddd); 
+    background-image: -o-linear-gradient(top, #ddd, #ddd);
+    /* background-image: linear-gradient(to bottom, #0088cc, #0077b3); */
+    background-repeat: repeat-x;
+/*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddd', endColorstr='#ddd', GradientType=0);
+}
+    
+    .navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+    color: #ffffff;
+    background-color: #ddd;
+}
+    
+    /* Style the buttons inside the tab */
+div.tab button a {
+    display: block;
+    background-color: #888 !important;
+/*    color: #888;*/
+    color: #fff !important;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button a:hover {
+    background-color: #ddd !important;
+	color: #888 !important;
+    background-image: none !important: 
+}
+    
+    
+/* Create an active/current "tab button" class */
+div.tab button.active {
+/*    background-color: #fff;*/
+    background-color: #ddd;
+	color: #888;
+	border: 1px solid #c3c3c3;
+    border-right: none;
+/*	transition: 1s;*/
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 100%;
+	height: 470px;
+	background-color: #fff;
+/*	mysty*/
+	display: none;
+	font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+}
+	
+.tabcontent ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tabcontent ul li {
+	float: left;
+	width: 33.33%;
+}
+
+.tabcontent ul li .tab-content-wrap-in {
+	padding: 10px;
+}
+
+.tabcontent ul li a {
+	display: block;
+	padding: 0;
+	position: relative;
+	
+}
+
+.tabcontent ul li a p {
+	position: absolute;
+	bottom: 0;
+	padding: 7px;
+	width: 100%;
+	color: #fff !important;
+	background-color: rgba(38, 38, 38, 0.85);;		
+}
+
+.tabcontent ul li p {
+	color: #888;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 5px 0 0 0;		
+}	
+
+.tabcontent ul li p span a {
+	color: #888;
+	padding: 2px 0px;
+	font-size: 11px;
+	text-decoration: underline;  	
+}
+
+.tabcontent ul li p span a:hover {
+	color: #2D89F0 !important;	
+	cursor: pointer;
+}
+
+.tabcontent .main-menu-link-list {
+	border-top: 1px solid #d6d6d6;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.tabcontent .main-menu-link-list li {
+	width: auto;
+}
+
+.tabcontent .main-menu-link-list li a {
+	color: #888;
+	text-align: left;
+	padding: 5px 3px;
+}
+
+.tabcontent .main-menu-link-list li div a:hover {
+	color: #2D89F0 !important;		
+}
+
+.tabcontent .main-menu-link-list li a i {
+	font-size: 12px;
+}	
+
+.tabcontent .single-image {
+	list-style-type: none;
+	margin: 10px 0 0 30px;
+	
+}
+.tabcontent .single-image li {
+	float: none;
+	width: 50%
+}
+
+.tabcontent .single-image li p {
+	font-size: 16px;
+	line-height: 21px;
+	margin: 0;
+}
+
+.tabcontent .single-image li a img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.tabcontent .single-image li a p {
+	position: absolute;
+	bottom: 0;
+}
+
+.cms {
+	/*border:1px solid rgba(247, 148, 30, 0.63);*/
+    /*width: auto;
+    padding: 7px !important;
+    color: #f7941e !important;
+    width: 150px;
+    text-align: center !important;*/
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.cms {
+	    width: 135px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.cms {
+		margin: auto;
+	    border: none;
+	    /*background: rgba(0, 0, 0, 0.5098039215686274);*/
+	    width: 100%;
+	    border-radius: 0px !important;
+	}
+	.navbar-inverse .navbar-inner {
+		padding:0;
+	}
+	.container-l {
+		width:100%;
+	}
+	.span12 {
+	    width: 100%;
+	    margin:0;
+	}
+}
+	
+ 
+         
+             
+                 
+                	 
+                 	 
+                     
+                       
+                       
+                       
+                     
+						
+                     
+						
+                     											
+                       		
+                         							
+                           What's New 
+                         
+                         							
+                           What to Do   						
+                           							 
+							  
+							 	 
+									  
+										 
+											 
+											   Activities 
+                                                 
+                                                 Suggested Itineraries 
+											 
+										 
+										 
+											 
+												 
+													 
+														 
+															 
+															 Sun & Beach 
+															 
+															 This entire island gifted by shining blue water. Therefore, Sri Lanka is most popular for beaches among tourists.   Read More  
+														 
+													 
+													 
+														 
+															 
+															 Sri Lankan Heritage 
+															 
+															 In Sri Lanka, you can discover rich and enormous cultural heritage.  Read More  
+														 
+													 
+													 
+														 
+															 
+															 Adventure & Sports 
+															
+															 
+															 In Sri Lanka, you can get experience in water base, air base, earth base and many kinds of activities.  Read More  
+														 
+													 
+												 
+												 
+													 
+														 
+															  Pilgrimage 
+														 
+													 
+													 
+														 
+															  Ayurveda 
+														 
+													 
+ 
+													 
+														 
+															  Meetings & Conferences 
+														 
+													 
+													 
+														 
+															  Things to See 
+														 
+													 
+													 
+														 
+															  Eco Tourism 
+														 
+													 
+													 
+														 
+															  Shopping 
+														 
+													 
+													
+													 
+														 
+															  Night Life 
+														 
+													 
+													 
+														 
+															  Buy Gemstone 
+														 
+													 
+													 
+														 
+															  Spa & Wellness Centers 
+														 
+													 
+ 
+													 
+														 
+															  Dining 
+														 
+													 
+													 
+														 
+															  Tourist Shops 
+														 
+													 
+													 
+														 
+															  Spice Gardens 
+														 
+													 
+													 
+														 
+															  Tourist Friendly Eating Places 
+														 
+													 
+												 
+												
+											 
+										 
+										 
+										 	 
+												 
+													 
+														 
+															 
+																 
+																 Events & Festivals 
+																 
+															 												
+														 
+														 
+															 
+																 You can participate to Sri Lanka's cultural festivals and events, and it gives you to chance experience in unique cultural rituals. Read More  
+																 
+																
+																			  Sri Lanka Tourism E-News Letter 
+																
+																 
+															 
+														 
+													 
+												 		
+											 
+										 
+										 
+										 	 
+												 
+													 
+														 
+															 
+																 
+																 Suggested Itineraries 
+																 
+															 
+														 
+														 
+															 
+															 within this you can easily find out proper tour itineraries to explore the Sri Lanka. Read More  
+															 
+														 
+													 
+												 												
+											 
+										 
+									  							 								 
+								  
+							  
+							   
+                         
+						  
+						 							
+
+                           Where to Go   
+							
+                          							 
+							  
+							 	 
+									  
+										 
+                                             Top Attractions 
+                                             Top Cities and Provinces 
+                                             Explore Sri Lanka 
+										 
+										 
+												 
+												 
+													 
+														 
+															 
+															 Mirissa Whale Watching 
+															 
+															 Blue whales are the biggest animal live on the earth and Mirissa is the one of most suitable spot to watch blue whales and other whales too.  Read More  
+														 
+													 
+													 
+														 
+															 
+															 Yala National Park 
+															 
+															 This is the second largest national park in Sri Lanka.Yala is home to Asian elephants, leopards and variety of beautiful endemic birds.  Read More  
+														 
+													 
+													 
+														 
+															 
+															 Sigiriya 
+															 sigiriya popular as eighth wonder of the world among the tourists and it was the one of Asia's oldest landscaped garden.  Read More  
+														 
+													 
+												 
+												 
+													 
+														 
+															  Gall Fort 
+														 
+													 
+													 
+														 
+															  Ella 
+														 
+													 
+													 
+														 
+															  Hikkaduwa Beach 
+														 
+													 
+													 
+														 
+															  Dambulla Cave Temple 
+														 
+													 													
+													 
+														 
+															  Wild Safaris 
+														 
+													 
+													 
+														 
+															  Colombo City Tour 
+														 
+													 
+													 
+														 
+															  See All Attractions 
+														 
+													 
+												 
+												
+											 
+										 
+										 
+											 
+												 
+													 
+														 
+															 
+															 12 Things to Do in Colombo 
+															 
+															 Colombo is the commercial and financial capital of the Sri Lanka. This city filled with luxurious hotels,restaurants and many variety of attractions.   Read More  
+														 
+													 
+													 
+														 
+															 
+															 Provincial  Tourism 
+															 
+															 Sri Lanka have divergent nine provincials.Select what you most prefer provincial in here and travel like your own way.   Read More  
+														 
+													 
+													 
+														 
+															 
+															 Southern Corridor 
+															 
+															 Many of gorgeous beaches are located in southern province of Sri Lanka and not at all, this city is home to ancient British and Dutch architectural buildings and many of ancient religious sites.  Read More  
+														 
+													 
+												 
+												 
+													 
+														 
+															  Northwest Province 
+														 
+													 
+													 
+														 
+															  Sabaragamuwa Province 
+														 
+													 
+													
+												 
+												
+											 
+										 
+										 
+										 
+													 
+														 
+															 
+																 
+																 Explore Sri Lanka 
+																 
+															 
+														 
+														 
+															 
+															 Sri Lanka is the treasure of island for all tourists. You can discover variety of natural, cultural and historical heritages within few hours.  Read More  
+												 
+														 
+													 
+												 												
+						  
+										 
+									  							 								 
+								  
+							  
+							   
+                         
+						  
+						  							
+
+                           Plan Your Trip   
+							
+                          							 
+							  
+							 	 
+									  
+										 
+                                             About Sri Lanka 
+                                             Before You Go 
+                                             Book Your Trip 
+										 
+										 
+												 
+												 
+													 
+														 
+															 
+															 Sri Lanka at a Glance 
+															 As a pearl of the Indian ocean Sri Lanka have unique cultural, geological features. Those things will help you to find out new experience to your life.  Read More  
+														 
+													 
+													
+													 
+														 
+															 
+															 Weather in Sri Lanka 
+															 Sri Lanka has different weather conditions. Center of the country weather are balmy and other sides being hot. You can feel this different in a one day.  Read More  
+														 
+													 
+													
+													 
+														 
+															 
+															 Public Holidays in Sri Lanka 
+															 Full moon Poya days and other religious festivals make the majority of the holidays in Sri Lanka. This will help you to plan a wonderful journey.  Read More  
+														 
+													 
+													
+												 
+												 
+												     
+														 
+															  Marvels of Sri Lanka 
+														 
+													 
+												      
+														 
+															  International Endorsements 
+														 
+													 
+												       
+														 
+															  Tourist Map of Sri Lanka 
+														 
+													 
+													 
+														 
+															  Currency & converter 
+														 
+													 
+													 
+														 
+															  Sri Lankan Embassies 
+														 
+													 
+													 
+														 
+															  Foreign Embassies 
+														 
+													 
+													
+													 
+														 
+															  Emergency Services 
+														 
+													 
+													 
+														 
+															  Tourism News 
+														 
+													 
+													
+												 
+												
+											 
+										 
+										 
+										 	 
+												 
+													 
+														 
+															 
+															 Apply for a Visa 
+														 
+													 
+													 
+														 
+															 
+															 Getting Around 
+														 
+													 
+													 
+														 
+															 
+															 General tips and tricks 
+														 
+													 
+												 
+												 
+													 
+														 
+															  Visa Requirements 
+														 
+													 
+													 
+														 
+															  Visa Services 
+														 
+													 
+													 
+													 
+														 
+															  Tour Guides 
+														 
+													 
+													 
+														 
+															  Travel Agents 
+														 
+													 
+													 
+													 
+														 
+															  Transport 
+														 
+													 
+													 
+														 
+															  Travel Magazines and  Directories 
+														 
+													 
+													 
+														 
+															  Travel Apps 
+														 
+													 
+													
+													 
+														 
+															  For Business Travellers 
+														 
+													 
+													
+												 
+												
+											 
+										 
+										 
+											 
+												 
+													 
+														 
+															 
+															 Book Your Flights 
+															 
+
+														 
+													 
+													 
+														 
+															 
+															 Book Your Accommodation 
+															 
+														 
+													 
+													 
+														 
+															 
+															 Book Your Trip 
+
+														 
+													 
+												 
+											 
+													 
+													 
+														 
+															  Online Services 
+														 
+													 
+													 
+														 
+															  Buy E-Tickets for Attractions 
+														 
+													 
+													 
+														 
+															  Hotels & Other Accommodation 
+														 
+												        
+													 
+														 
+															  Newly Registered Hotels & Other Accommodation 
+														 
+												      
+													 
+														 
+															  National Holiday Resorts (Also Known as "Tourist Board Guest Houses") 
+														 
+												        
+									
+												 
+												
+											 
+										 
+									  							 								 
+								  
+							  
+							   
+						 
+						
+						 							
+                           Upcoming Events 
+                         
+                        
+                         							
+                           What the world has to say 
+                         
+                         
+                       
+                     
+                   
+        		  
+                 
+             
+        
+		
+ 
+function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+  
+
+								 
+							 
+						 
+					 
+				 
+				
+				 
+					 
+						 Hello Again  Sri Lanka 
+						 
+							 
+								 
+									 
+									 Search 
+								 		
+							 
+                    	 						
+					 
+					 
+                             
+                        
+							 
+						
+							 
+						
+							 
+						
+							 
+						
+							 
+						
+							 
+						
+							 
+						 
+				 
+			 
+		 
+	 
+    
+ 
+ 
+	
+	
+ 
+ $('#button-search').keydown(function(e) {
+	if (e.keyCode == 13) {
+		moduleSearch();
+	}
+});
+
+function moduleSearch() {
+	url = 'index.php?route=common/search';
+
+	var key = $('#button-search').val();
+	if (key) {
+		url += '&keyword=' + encodeURIComponent(key);
+	}
+	location = url;
+} 
+    
+$('.close-sound').click(function(){
+    $('#what-is-so-wild').attr('src', $('#what-is-so-wild').attr('src')); 
+});
+ 
+
+
+ 
+ 
+       
+
+
+ 
+ (function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/o4H845Ae6ajeAQUFU1tMvg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})() 
+
+ 
+ 
+ 
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-180752820-1');
+ 
+
+ 
+
+  
+
+  .more_less .icon-map-marker {
+   padding: 0 10px;
+ }
+ .agent-hr{
+   height:1px;
+   border-bottom:1px #0099FF solid;
+ }
+ .travel-hotel-inner p{
+   text-align:left;
+   color:#000;
+   line-height:12px;
+ }
+ .travel-hotel .span5 span{
+   color:#2995F7;
+ }
+ .travel-hotel .span3 img{
+   border-top:5px solid #2D89F0;
+   float:left;
+   width:235px;
+   height:170px;
+ }
+ .theames .service .travel-search{
+  border:1px solid #CCCCCC;
+  margin-bottom:20px;
+  float:left;
+  width:99%;
+}
+.travel-search h4{
+  text-align:left;
+  color:#FFF;
+  line-height:35px;
+  font-size:13px;
+  padding:0 8px;
+}
+.serach-head{
+  background-color:#418bca;
+  margin-top:-10px; 
+}
+#frmSearchEvents p {
+ color: #000000;
+ padding-left: 25px;
+ text-align: left;
+}
+.brownSearch{
+ background:#418bca;
+ color:#FFF;
+ padding:7px 10px ;
+ border-radius:5px;
+}
+.search-btn{
+ float:left;
+ margin:0 0 5px 25px;
+}
+.address.span6 span{
+ color:#2995F7;
+ font-weight:bold;
+}
+.starRating{
+ list-style:none;
+}
+.hotel-social-in{
+ list-style:none;
+ float:left;
+}
+.open-map{
+ background-color:#06F;
+ padding:10px;
+ color:#FFF;
+ border-radius:5px;
+ float:left;
+}
+.book-now{
+ background-color:#a88b2f;
+ padding:10px;
+ color:#FFF;
+ border-radius:5px;
+ float:left;
+}
+.book-now a{
+ color:#FFF;
+}
+.map {
+ background-color: #0066FF;
+ border-radius: 5px 5px 5px 5px;
+ float: left;
+ margin-left:2px;
+}
+.more-details{
+ background-color:#06F;
+ padding:10px;
+ color:#FFF;
+ border-radius:5px;
+ float:left;
+ margin-left:2px;
+ cursor:pointer;
+}
+.accom-guide{
+ color:#000;
+ padding:0 5px;
+ text-align:left;
+}
+.accom-guide p .icon-star{
+ color:#ddab00;
+}
+.accom-guide span {
+ font-weight: bold;
+}
+.starRating > li {
+ display: table-cell;
+ list-style: none;
+ padding: 0 2px;
+}
+.starRating li .icon-star {
+ color: #ddab00;
+}
+.hname {
+ float: left;
+}
+.hname.span6 > h4{
+ margin-top:0px;
+}
+.less-more{
+ margin-left:0px;
+}
+.book-now > a {
+ color: #FFFFFF;
+}
+.less-do{
+ background-color: #0066FF;
+ border-radius: 5px 5px 5px 5px;
+ color: #FFFFFF;
+ float: right;
+ margin-left: 5px;
+ padding: 10px;
+}
+.service-facebook{
+ float:left;
+}
+.service-twitter{
+ float:left;
+}
+.service-youtube{
+ float:left;
+}
+.hotels-tostay{
+ min-height:2000px;
+ height:auto;
+}
+.business-reg-btn {
+ display: inline-block;
+ background-color: #418bca;
+ margin: 0 auto 5px auto;
+ color: #fff;
+ padding: 8px 16px;
+ font-size: 14px;
+ border-radius: 5px;
+}
+.business-reg-btn:hover {
+  color: #e8e8e8;
+}
+
+.interactivemap_beta {
+  background: url(http://srilanka.travel/images/srilanka_11.jpg);
+  /*            width: 267px;*/
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.interactivemap_beta:hover {
+  background: url(http://srilanka.travel/images/srilanka_33.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.search-txt {
+  height: 30px !important;
+  width: 220px;
+}
+
+.search-hotels-w {
+  padding: 0 20px;
+}
+
+.search-hotels-w p{
+  padding-left: 0 !important;
+}
+
+.same-width {
+  width:100%;
+}
+
+
+.search-btn {
+  width:100%;
+  margin: 12px 0px 20px 0px;
+}
+
+.search-btn button{
+  width:100%;
+}
+
+.expired-lbl {
+  display: inline-block;
+  vertical-align: top;
+  margin:0;
+  float: left;
+}
+
+.expired-chckbox {
+  display: inline-block;
+  vertical-align: top;
+  margin:0;
+  float: left;
+  margin-right: 8px !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;  
+  }
+  .travel-search.toursim-business-reg, .travel-search.interactive-map, .travel-search.accomodation-guide{
+    display: none;
+  }
+}
+
+ 
+
+ 
+
+ 
+
+   
+     
+       
+         
+          You are here:  
+                              Home 
+                   >            Hotels & Other Accommodation 
+               
+       
+        
+        
+
+        Print Page 
+
+      
+      Hotels & Other Accommodation 
+
+
+      
+        You'll be spoilt for choice with the array of Sri Lankan accommodation options. We have star class hotels, home stays, heritage bungalows, boutique hotels to guest houses and rented apartments. You can expect friendly service and the best standards in whichever range you choose. Find out more about the different types of accommodation and facilities they offer. 
+
+      
+
+                     
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Anantara Kalutara Resort 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          141 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.anantara.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       rlokusuriya@minor.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/00205        
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0056              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0344297700 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                     
+                                 
+
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Anantara Peace Heaven Resort 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          152 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.anantara.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       wudari@anantara.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/00172        
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0034              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0472244455 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                     
+                                 
+
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Araliya Beach Resort & Spa Unawatuna 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          301 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+                https://www.araliyaresorts.com/araliya-beach/ 
+      		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       accountant@araliyabeachresort.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/00218      
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0044              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0912031111 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                     
+                                 
+
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Araliya Green City 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          192 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.araliyagreencity.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       secretary@araliyagreencity.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/00194        
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0098              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0522225000 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                     
+                                 
+
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Cinnamon Bentota Beach 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          133 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.johnkeellshotels.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       accountant.cbb@cinnamonhotels.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/030          
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0111              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0342275176 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                                                             
+                                 
+                                   
+                                     
+                                     
+                                   
+                                   
+                                
+                              
+                            	
+                                          
+                                 
+                                   
+                                     
+                                     
+                                   
+                                 
+                               
+                                              
+                                          
+                                     
+                                              
+                                         
+                                           
+                                             
+                                             
+                                           
+                                          
+                                       
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                                                          		     
+                                        Book Now 
+                                         
+                                                         
+                                    	
+
+                                 
+                                 
+
+                                                                   More Detail
+                                     
+                                   
+
+                                   
+                                     
+                                     
+                                     Bentota known for its broad golden beaches is situated in the southern coastal zone of Sri Lanka, a mere one & half hour drive from Colombo. If the idea of a vacation calls to mind an image of lazing around on the beach, indulging in mouth watering delicacies and returning home with sun kissed skin, Bentota Beach hotel should be given top priority.
+                                                                                                                                                     
+                                     
+                                     ▲ 
+                                   
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Cinnamon Bey 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          200 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.cinnamon hotels.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       bey@cinnamonhotels.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/00180        
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0102              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0342297000 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                     
+                                   
+                                     
+                                 
+
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Cinnamon Grand Hotel 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          501 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.cinnamonhotels.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       sharon@cinnamonhotels.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/001          
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/001               
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0662286809 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                                                             
+                                 
+                                   
+                                     
+                                     
+                                   
+                                   
+                                
+                              
+                            	
+                                          
+                                 
+                                   
+                                     
+                                     
+                                   
+                                 
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                                                          		     
+                                        Book Now 
+                                         
+                                                         
+                                    	
+
+                                 
+                                 
+
+                                                                   More Detail
+                                     
+                                   
+
+                                   
+                                     
+                                     
+                                     Welcome to a place where senses are delighted and desires indulged. A place of colours, sounds and unexpected pleasures. A place where you pick the pace and you choose the mood. If youre looking to explore the city or escape it, Cinnamon Grand is your perfect haven. Were in the heart of Colombos business, shopping and entertainment centre, just 35 kms from the airport.
+                                                                                                                             
+                                     
+                                     ▲ 
+                                   
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Cinnamon Lakeside Colombo 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          352 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.cinnamonhotels.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       nilanthi@cinnamonhotels.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/062          
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0052              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0112491000 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                                                             
+                                 
+                                   
+                                     
+                                     
+                                   
+                                   
+                                
+                              
+                            	
+                                          
+                                 
+                                   
+                                     
+                                     
+                                   
+                                 
+                               
+                                              
+                                          
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                                                          		     
+                                        Book Now 
+                                         
+                                                         
+                                    	
+
+                                 
+                                 
+
+                                                                   More Detail
+                                     
+                                   
+
+                                   
+                                     
+                                     
+                                     Ranked the Best Five Star City Hotel by Sri Lanka Tourism twice over, Cinnamon Lakeside 
+Colombo is the epitome of indulgence and elegance. This luxury hotel overlooks the tranquil Beira Lake and offers rooms that have been completely refurbished. Awarded Best Luxury Hotel, Sri Lanka at the Business Destinations Travel Awards 2012, its inimitable blend of luxury, personal attention, sincerity and warmth gives you the opportunity to operate at yo                                                   
+                                     
+                                     ▲ 
+                                   
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Cinnamon Lodge 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          162 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.cinnamonhotels.com 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       accountant.lodge@cinnamonhotels.com      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/144          
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0089              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0112306000 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                                                             
+                                 
+                                   
+                                     
+                                     
+                                   
+                                   
+                                
+                              
+                            	
+                                          
+                                 
+                                   
+                                     
+                                     
+                                   
+                                 
+                               
+                                              
+                                          
+                                     
+                                              
+                                         
+                                           
+                                             
+                                             
+                                           
+                                          
+                                       
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                                                          		     
+                                        Book Now 
+                                         
+                                                         
+                                    	
+
+                                 
+                                 
+
+                                                                   More Detail
+                                     
+                                   
+
+                                   
+                                     
+                                     
+                                     Habarana is the centre of Sri Lankas cultural triangle that is made up of Anuradhapura, Polonnaruwa and Kandy; therefore the perfect epicentre to explore the glorious past of Sri Lanka.
+                                                                                                                                                                                                                                                                                                                         
+                                     
+                                     ▲ 
+                                   
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                             
+          
+            	
+                           
+                              
+           
+           
+             
+               
+                 Earl's Regency Hotel 
+               
+
+                                           
+                 
+
+               
+             
+            
+             
+               
+                 Category 
+               
+                                           
+                 Hotels 
+               
+             
+
+            
+        
+         
+           
+            Stars 
+          
+           
+            
+                            
+                           
+                           
+                           
+                           
+                       
+         
+       
+    
+     
+       
+         
+          96 Rooms 
+        
+        
+         
+       
+     
+    
+
+   
+
+    
+     
+       Web 
+     
+     
+      
+       
+       		     
+          www.aitkenspencehotels.com/earlsregency/ 
+
+       		    
+
+
+     
+   
+ 
+ 
+ 
+
+   
+     
+       Email 
+     
+     
+      
+       
+       accountant@earlsregency.lk      
+    
+  
+ 
+ 
+
+   
+     
+       Registration No: 
+     
+     
+      
+       
+       SLTDA/SQA/HC/089          
+    
+  
+ 
+  
+
+   
+     
+       Licence No: 
+     
+     
+      
+       
+       HC/2024/0106              
+    
+  
+ 
+ 
+
+ 
+ 
+
+  
+
+
+
+ 
+
+   
+     
+       Validity status of licence: 
+     
+     
+      
+              
+         Valid till 31st December 2024        
+      
+    
+  
+ 
+ 
+ 
+
+ 
+   
+     
+       Tel 
+     
+     
+      0812422122 
+    
+  
+ 
+
+
+
+                                                 
+                           
+                            
+                                                             
+                                 
+                                   
+                                     
+                                     
+                                   
+                                   
+                                
+                              
+                            	
+                                          
+                                 
+                                   
+                                     
+                                     
+                                   
+                                 
+                               
+                                              
+                                          
+                                     
+                                              
+                                         
+                                           
+                                             
+                                             
+                                           
+                                          
+                                       
+                                                    
+                                     
+                                   
+                                 
+
+                                
+                               
+                               
+                               
+                                                                	                         
+                                 
+                                                                       
+                                       
+                                          On the Map 
+                                           
+                                                                       
+                                   
+                                                                          		     
+                                        Book Now 
+                                         
+                                                         
+                                    	
+
+                                 
+                                 
+
+                                                                   More Detail
+                                     
+                                   
+
+                                   
+                                     
+                                     
+                                     What will you remember about your visit to Kandy? The spectacular parades of elephants and fire eaters at the Esala perahera? The beautiful carvings and inlays of the Palace of the Tooth Relic? Or the calming serenity of the central lake? Stay in the Earl’s Regency, one of the finest Kandy hotels and your memories will include the warm hospitality of Sri Lanka.                                                                                                                                          
+                                     
+                                     ▲ 
+                                   
+                                  
+                               
+                             
+                            
+                           
+
+                         
+                         
+                         
+                         
+                       
+                                         
+                         1    2    3    >   >|   Showing 1 to 10 of 25 (3 Pages)                   
+                   
+                   
+
+
+
+                   
+                     
+                       
+                         Search Hotel and Other Accommodations 
+                       
+                       
+                         
+                           Search by Hotel Name or Place 
+
+                           
+
+                           Accommodation Types: 
+                           
+                              
+                               All Types 
+                                           	
+                                 Boutique Hotels 
+                                             	
+                                 Boutique Villas 
+                                             	
+                                 Bungalow 
+                                             	
+                                 Camping Sites 
+                                             	
+                                 Guest House 
+                                             	
+                                 Heritage Bungalow 
+                                             	
+                                 Heritage Homes 
+                                             	
+                                 Home Stay 
+                                             	
+                                 Hotels 
+                                             	
+                                 Rented Apartment 
+                                             	
+                                 Rented Homes 
+                                             	
+                                 Sri Lanka Tourism Resorts 
+                                                         
+                           
+                             Grades: 
+                                        	
+                               All Grades            	     
+                               Standard 
+                               Superior 
+                               Deluxe                           
+                             	
+                           
+
+                           
+                             Grades: 
+                                        	
+                               All Grades            	
+                               A Grade  
+                               B Grade  
+                               C Grade                                  
+                             	
+                           
+
+                                
+                             Rating: 
+                             
+                               All Rating                                  	
+                               1 Star  
+                               2 Star  
+                               3 Star 
+                               4 Star  
+                               5 Star 
+                               Other Hotels 
+                             
+                                             
+
+
+                           Location 
+                           
+                             All Districts   
+                            
+                               
+                               	    
+                                 Ampara 
+                              
+                               	    
+                                 Anuradhapura 
+                              
+                               	    
+                                 Badulla 
+                              
+                               	    
+                                 Batticaloa 
+                              
+                               	    
+                                 Colombo 
+                              
+                               	    
+                                 Galle 
+                              
+                               	    
+                                 Gampaha 
+                              
+                               	    
+                                 Hambantota 
+                              
+                               	    
+                                 Jaffna 
+                              
+                               	    
+                                 Kalutara 
+                              
+                               	    
+                                 Kandy 
+                              
+                               	    
+                                 Kegalle 
+                              
+                               	    
+                                 Kilinochchi 
+                              
+                               	    
+                                 Kurunegala 
+                              
+                               	    
+                                 Mannar 
+                              
+                               	    
+                                 Matale 
+                              
+                               	    
+                                 Matara 
+                              
+                               	    
+                                 Moneragala 
+                              
+                               	    
+                                 Mullaitivu 
+                              
+                               	    
+                                 N/A 
+                              
+                               	    
+                                 Nuwara Eliya 
+                              
+                               	    
+                                 Polonnaruwa 
+                              
+                               	    
+                                 Puttalam 
+                              
+                               	    
+                                 Ratnapura 
+                              
+                               	    
+                                 Trincomalee 
+                              
+                               	    
+                                 Vavuniya 
+                               
+                           
+
+                           
+                             Activity 
+                             
+                               All Activities   
+                                             	
+                                   Night Life 
+                                               	
+                                   Balooning 
+                                               	
+                                   Diving and Snorking 
+                                               	
+                                   Golf 
+                                               	
+                                   Surfing 
+                                               	
+                                   Fishing 
+                                               	
+                                   Caving 
+                                               	
+                                   Water Skiing 
+                                               	
+                                   Rock Climbing 
+                                               	
+                                   Kayaking and Canoeing 
+                                               	
+                                   Wildlife Safari 
+                                               	
+                                   Agro Tourism 
+                                               	
+                                   Whale and Dolphin Watch 
+                                               	
+                                   White Water Rafting 
+                                               	
+                                   Shopping 
+                                 
+                             
+                           
+                           
+                          
+                             Expired 
+
+                           
+                             
+                                Search
+                             
+                           
+                         
+                                       
+                     
+                     
+
+                     
+                      
+                        Tourism Business Registration 
+                       
+                      
+                      It is mandatory to register tourism businesses if you are operating one in Sri Lanka (please refer  Tourism Act Page Numbers 37 to 43 ).Please register your business.  
+                      Apply Online 
+                      
+                    
+
+                    
+                    
+                     
+                       Interactive Map 
+                     
+
+                       
+
+                     
+
+                   
+
+
+
+                   
+
+
+                   
+                     
+                       Accommodation Guide 
+                       
+                     
+                      5 Stars  
+                        
+                        
+                        
+                        
+                        
+                      
+                      Superior standard and an extensive range of first-class guest services   
+                     
+                      4 Stars 
+                        
+                        
+                        
+                        
+                      
+                      Exceptional standard with high-quality furnishings and comfort   
+                     
+                      3 Stars 
+                        
+                        
+                        
+                      
+                      Well-appointed establishments with comfortable, clean rooms and quality furnishings  
+
+                      Less than 3 Stars 
+                      A basic, well-maintained standard  
+                     
+                      Unclassified Hotels 
+                      Well maintained properties with adequate facilities which do not fall under star classifications. 
+                     
+                      Boutique Hotel and Villas 
+                      Small but exclusive property that caters to the affluent clientele with an exceptional level of service at premium prices. 
+                      Bungalow 
+                      A type of real estate property that consists of a small, one story home with an enclosed porch. 
+                     
+                      Home Stay 
+                      A stay at a residence by a traveler and especially by a tourist who is hosted by a local family to better learn about the local lifestyle 
+                      Rented Apartments 
+                      Is a room or suite of rooms designed as a residence and generally located in a building occupied by more than one household. 
+                      Guest House 
+                      Guest houses range from low budget rooms to luxury apartments, and tend to be like small hotels in larger cities. 
+                     
+                      Boutique Hotel 
+                      Small but exclusive property that caters to the affluent clientele with an exceptional level of service at premium prices. 
+                      Sri Lanka Tourism Resorts 
+                      Resorts and rest houses owned by Sri Lanka tourism with basic facilities at affordable rates. 
+                     
+                      In order to find out more about facilities available in each accommodation provider, please visit the respective website link. Enjoy your stay in Sri Lanka! 
+                             		
+                    
+                    
+                  
+                
+              
+            
+          
+
+          
+          function resetSearchFilter(){
+           $("#ddl_Type").val("");
+           $("#ddl_Type").trigger("onchange");
+         }
+
+
+         $(document).ready(function(){
+          $(".open-map").fancybox({
+           'width'				: '75%',
+           'height'			: '75%',
+           'autoScale'			: false,
+           'transitionIn'		: 'none',
+           'transitionOut'		: 'none',
+           'type'				: 'iframe'
+         });
+
+
+
+
+
+        });
+
+       
+       
+       $(function(){
+        $('.more-details').click(function(){
+
+         $('.less').hide();
+         $(this).next('.less').show().css({display:'block', marginTop:'25px'});
+
+
+
+
+       });
+        $('.less .less-do').click(function(){
+         $(this).parent('.less').hide();
+       });	
+      });
+
+
+       $(document).ready(function() {
+
+		/*$("a#inline").fancybox({
+			'hideOnContentClick': false,
+			'overlayColor'		: '#000',
+			'overlayOpacity'	: 0.6,
+			'overlayBorder'		:'red',
+		});*/
+		
+		/*$('.open-map').click(function() {
+			var lat = $(this).attr('latitude');
+			var lon = $(this).attr('longitude');
+			var box_title = $(this).attr('box_title');
+			var content = $(this).attr('content');
+			
+			initialize(lat, lon, box_title, content);				
+		});*/
+	});
+
+               lordGradeStars("4");
+      
+      function lordGradeStars(type){		
+        switch(type){
+         case '5':
+         $('#star_cont').hide("slow");				
+         $('#grade_cont').show();
+         $('#grade_type').hide("slow");	
+         break;
+
+         case '4':
+         $('#grade_cont').hide("slow");			
+         $('#star_cont').show();
+         $('#grade_type').hide("slow");	
+         break;	
+
+         case '3': case '6': case '7': case '9': case '10': case '11':     
+         $('#grade_cont').hide("slow");			
+         $('#star_cont').hide("slow");		
+         $('#grade_type').show();
+         break;
+
+         default :
+         $('#grade_cont').hide("slow");			
+         $('#star_cont').hide("slow");		
+         $('#grade_type').hide("slow");
+         break;
+       }
+     }
+
+     function clickclear(thisfield, defaulttext) {
+      if (thisfield.value == defaulttext) {
+       thisfield.value = "";
+     }
+   }
+
+   function clickrecall(thisfield, defaulttext) {
+    if (thisfield.value == "") {
+     thisfield.value = defaulttext;
+   }
+ }
+
+ (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id).val()) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+ $('#hotel_name').keydown(function(e) {
+   if (e.keyCode == 13) {
+    moduleFindPlace();
+  }
+});
+
+/*function moduleFindPlaceRefresh() {
+	var find_hotel_type = $('select[name=\'hotel_type\']').val();
+	url = 'index.php?route=travel/tostay';
+		
+	
+	
+	if (find_hotel_type) {
+		url += '&rest=' + find_hotel_type;
+	}
+	
+	location = url;
+	
+}*/
+
+function moduleFindPlace(){	
+	
+	var url = 'index.php?route=travel/tostay';
+	
+  var is_expired=$("#is_expired").is(":checked");
+  
+	var hotel_name = $('#hotel_name').val();	
+  var res = hotel_name.replace(/(.*?) and.*/i, "$1") ;
+  var res1 = res.replace(/(.*?) or.*/i, "$1") ;
+  
+  if (hotel_name != '' && hotel_name != 'Enter a Hotel or Place to search' && hotel_name != 'Search' ) {
+    url += '&hotel_name=' + encodeURIComponent(res1);
+  }
+
+  var hotel_type = $('select[name=\'hotel_type\']').val();	
+  if (hotel_type != '*') {
+    url += '&hotel_type=' + encodeURIComponent(hotel_type);
+  }
+
+  var hotel_district = $('select[name=\'hotel_district\']').val();	
+  if (hotel_district != '*') {
+    url += '&hotel_district=' + encodeURIComponent(hotel_district);
+  }
+
+  var grade = 1;
+  switch(hotel_type){
+   case '5':
+   grade = 1;	
+   break;
+
+   case '4':
+   grade = 2;		
+   break;	
+
+   case '3': case '6': case '7': case '9': case '10': case '11':     
+   grade = 3;	
+   break;
+
+   default :
+   grade = 4;	
+   break;
+ }
+
+ if(grade == 3){	
+  var hotel_grade_type = $('select[name=\'hotel_grade_type\']').val();	
+  if (hotel_grade_type != '*') {
+   url += '&hotel_grade=' + encodeURIComponent(hotel_grade_type);
+ }
+} else if(grade == 1){	
+  var hotel_grade = $('select[name=\'hotel_grade\']').val();	
+  if (hotel_grade != '*') {
+   url += '&hotel_grade=' + encodeURIComponent(hotel_grade);
+ }
+} else if(grade == 2) {
+  var hotel_star = $('select[name=\'hotel_star\']').val();	
+  if (hotel_star != '*') {
+   url += '&hotel_star=' + encodeURIComponent(hotel_star);
+ }	
+}
+
+url += '&is_expired=' + encodeURIComponent(is_expired);
+
+
+	/*var hotel_activity = $('select[name=\'hotel_activity\']').val();	
+	if (hotel_activity != '*') {
+		url += '&hotel_activity=' + encodeURIComponent(hotel_activity);
+	}*/
+	
+	window.location = url;
+	//$('#listView').load('index.php?route=travel/tostay/find'+url);
+	//$('#placess_to_stay').toggle("slow");	
+} 
+//--> 
+﻿ 
+ 
+     
+         For site suggestions and errors, please contact     |   Please
+            use
+             Downloads 
+            page to get the required software for this site    
+     
+ 
+
+ 
+ 
+ 
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#0c1a1e"
+                },
+                "button": {
+                    "background": "#14a7d0"
+                }
+            },
+            "theme": "classic",
+            "content": {
+                "message": "We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies and how you can control them on our Privacy Policy. If you continue to use this site, you consent to our use of cookies.",
+                "link": "Privacy Policy",
+                "href": "https://srilanka.travel/terms-and-conditions"
+            }
+
+        })
+    });
+ 
+
+
+ 
+
+ 
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+    footer {
+        background-color: #0c1a1e;
+        min-height: 350px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .footerleft {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .logofooter {
+        margin-bottom: 10px;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .footerleft p {
+        color: #fff;
+        font-size: 12px !important;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .footerleft p i {
+        width: 20px;
+        color: #999;
+    }
+
+
+    .paddingtop-bottom {margin-top:50px;padding: 0 20px;} .footer-ul {list-style-image: url('https://srilanka.travel/images/theames-new/bullet-arrow.png');padding-left:0px; margin-left:2px;} .footer-ul li {
+        line-height: 24px;
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .footer-ul li a {
+        color: #a0a3a4;
+        transition: color 0.2s linear 0s, background 0.2s linear 0s;
+        line-height: 20px;
+        display: block;
+    }
+
+    .footer-ul-2 {list-style-type: none;padding-left:0px; margin-left:2px;} .footer-ul-2 li {
+        line-height: 24px;
+        font-size: 15px;
+        padding: 14px 0;
+    }
+
+    .footer-ul-2 li a {
+        color: #a0a3a4;
+        transition: color 0.2s linear 0s, background 0.2s linear 0s;
+        line-height: 20px;
+        display: block;
+    }
+
+    .footer-ul i {
+        margin-right: 10px;
+    }
+
+    .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#2D89F0; } .social:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    .icon-ul {
+        list-style-type: none !important;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .icon-ul li {
+        line-height: 75px;
+        width: 100%;
+        float: left;
+    }
+
+    .icon {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .copyright {
+        min-height: 40px;
+        background-color: #000000;
+    }
+
+    .copyright p {
+        text-align: left;
+        color: #FFF;
+        padding: 10px 0;
+        margin-bottom: 0px;
+    }
+
+    .copyright p span {float: right;} .copyright p span a {float: right;} .heading7 {
+        font-size: 21px;
+        font-weight: 700;
+        color: #d9d6d6;
+        margin-bottom: 10px;
+    }
+
+    .post p {
+        font-size: 15px;
+        color: #FFF;
+        line-height: 20px;
+    }
+
+    .post p span {
+        display: block;
+        color: #8f8f8f;
+    }
+
+    .bottom_ul {
+        list-style-type: none;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+    .bottom_ul li {
+        float: left;
+        line-height: 40px;
+    }
+
+    .bottom_ul li:after {
+        content: "/";
+        color: #FFF;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    .bottom_ul li a {
+        color: #FFF;
+        font-size: 12px;
+    }
+
+    .social-icons ul {overflow: hidden;} .social-icons ul a img:hover {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+
+    @media (max-width: 767px ) {
+        .social-icons {
+            margin-bottom: 15px;
+        }
+
+        .copyright {padding: 0 0 5px 0;} .copyright p span
+
+    {float: none;width: 100%;display:inline-block;}
+    }
+
+    @media (max-width: 991px ) and ( min-width: 768px ) {
+        .footer-ul li a {
+            font-size: 14px;
+        }
+    }
+
+ 
+ 
+ 
+
+     
+
+         
+             
+                 Our 
+                    Agencies 
+                 
+                     
+                      Sri Lanka Tourism Development Authority 
+                     
+                      Sri Lanka Tourism Convention Bureau 
+                     
+                      Sri Lanka Institute of Tourism &
+                            Hotel Management  
+                      Ministry of Tourism  
+                 
+             
+
+             
+                 Our 
+                    Partners 
+                 
+                     SriLankan Airlines 
+                      Sri Lanka Airport & Aviation Services 
+                     
+                      Department of Immigration and
+                            Emigration 
+                             Electronic Travel Authorization System 
+
+                 
+                 
+                 
+             
+
+             
+                 Industry 
+                    Associations 
+                 
+                 Tourist Hotels Association of Sri Lanka 
+                  Sri Lanka Association of Inbound Tour Operators 
+                
+               
+                 
+                 
+                
+                 
+
+             
+                 
+                     About the  Site 
+                     
+                         Terms of Use 
+                         
+                         Site Map 
+                         Subscribe 
+                         Contact Us 
+                         Investor Relations Unit 
+                         Complaints 
+                         Tenders 
+                         Important Notices 
+                     
+                     
+                     Follow us on: 
+                     
+                         
+                             
+
+                             
+
+                             
+
+                             
+
+                             
+                         
+                     
+                 
+             
+
+             
+
+         
+
+     
+     
+         
+         
+            * Product Disclaimer :  Information on listed products and services
+            are provided by the operator and were correct at the time of publishing. Please visit the operator’s website
+            for further information. Sri Lanka Tourism makes no representations whatsoever about any other
+            websites which you may access through this website. Some websites are linked to the Sri Lanka Tourism
+            website but are independent from Sri Lanka Tourism and therefore, are not under the control of Sri Lanka
+            Tourism. Sri Lanka Tourism, therefore, does not endorse or accept any responsibility for the use of websites
+            which are owned or operated by third parties and makes no representation or warranty in relation to the
+            standard, class or fitness for purpose of any services, nor does it endorse or in any respect warrant any
+            products or services by virtue of any information, material or content linked from or to this site.
+         
+     
+
+ 
+ 
+
+ 
+     
+         
+             © 2024 All Rights Reserved by Sri Lanka Tourism
+                Promotion Bureau.

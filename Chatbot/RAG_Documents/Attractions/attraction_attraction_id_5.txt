@@ -1,0 +1,571 @@
+
+				 Batticaloa  
+	        >
+	         
+						Wild										 
+	        >
+	       
+		 Baron's Cap or Thoppigala 
+	     
+
+	 
+
+	 
+	 
+	 
+		 
+			 
+				 
+					 
+						 Batticaloa | Baron's Cap or Thoppigala 
+						 
+						 Baron's Cap or Thoppigala 
+						 
+
+	Known as the Baron’s cap and Thoppigala for its distinctive shape of a hat, this rocky edged mountain was known as the PiyagalakaAgaliPawatha in an era gone by. 
+
+ 
+
+	Situated nearly 40 km away from Batticaloa, amidst a thick jungle, Thoppigala had played many a roles in Sri Lankan history. Archeological evidence suggests that the rocky mountain and the surrounding jungle had been the venue of a large monastery built during the Anuradhapura era. Stone inscriptions found atop the mountain details various donations made by King KanishtaThissas to the monastery complex. 
+
+ 
+						 More 
+						 
+
+	According to prominent Archeologist Ven. EllawalaMedhanandaThera, few signs of the monastery were found around Thoppigala during an expedition made in 1983 including the remains of a stupa atop a rock in the mountain. Yet the war, which engulfed the whole of Eastern and Northern Sri Lanka since early 1980s, prevented further archeological investigation, causing loss of another important archeological monument to the country. 
+
+ 
+
+	During the three decade long war against LTTE terrorists, Thoppigala continued to play an important role in military strategy. It changed hands continuously. Standing 534 meters tall and surrounded by rocky terrain and thick jungle the mountain was an ideal location to wage guerrilla warfare. It was used as a LTTE base camp from which they continuously launched attacks on Sinhalese villages in the surrounding area, ethnically cleansing old villages of its population. The location changed hands between the Sri Lankan Army and the LTTE continuously until the Sri Lankan Military captured the LTTE camp in Thoppigala in early 2007. 
+
+ 
+
+	Today a war memorial expands on the land celebrating the Sri Lankan Army’s victory over the LTTE. The memorial celebrates the life of soldiers who were fallen in the battles against LTTE. 
+
+ 
+
+	The exhibition area features various stages of the war. Photographs, models and display units are showcase the great role played by the Sri Lanka Army during the war against terrorists. 
+
+ 
+
+	The camp site, once the training ground of the terrorists, today offers an ideal opportunity for nature lovers to enjoy the surrounding jungle and wildlife walking on the paths treed by Holy Arhants, military personnel and terrorists at various stages of Sri Lankan history. 
+
+ 
+
+	  
+
+ 
+
+	Things To Do : Archeology, Sightseeing and photography 
+
+ 
+						 Hide 
+
+					 
+
+
+					
+					
+					
+										
+					
+					
+					
+					
+					
+					
+					 
+					 
+				 
+				 
+			
+					 
+						 Photos 
+						 
+					
+							 
+								 
+									 
+								 
+							 
+							
+						 
+					 
+			
+
+					 
+						 Video 
+					 
+			   
+		 
+
+							 
+
+
+										 
+						 Nearby Attractions 
+						 
+					     Plan Your Trip >> 
+					 
+
+							 
+    var locations = [
+		      ['<a href="http://srilanka.travel/index.php?route=attractions/attraction&attraction_id=49"><img src="http://srilanka.travel//image/data/001/attractions/Main-Images/Arugambay-1.jpg" style="width:100px;height:50px;"/><br/>Arugam Bay</a>',
+      6.8379771 , 81.82516869999995, 1],
+      
+
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map-area'), {
+      zoom: 8,
+      center: new google.maps.LatLng(7.7311556, 81.674744444444),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+   
+
+
+
+				 
+			 
+
+	 
+    	 
+		 Places To Stay in Batticaloa  
+		 (Following accommodation list is randomly generated) 
+		 Hotels & Other Accommodation >> 
+          
+             
+                 
+                     
+
+                   
+
+                        
+
+                                 
+                                    Marina Passikudah 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelaccounts1@lsr-Srilanka.com 
+                                      				      				         Tel : 0652050244 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Uga Bay Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : gm-ub@ugaescapes.com 
+                                      				      				         Tel : 0655671001 
+				        				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Anantaya Resort & Spa 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						                                      	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                                                          	 
+                                     
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : accountant.passi@anantaya.lk 
+                                      				      				         Tel : 0652233200 
+				        				       
+						
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Hotel East Lagoon 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : info@hoteleastlagoon.com 
+                                      				      				         Tel : 0652229220 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Passi Bay Hotel 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : acc.passikudah@earlsred.lk 
+                                      				      				       
+						
+				      Book Now   
+
+                            
+				      
+  Web Site   
+
+                        
+                                     
+                                 
+
+                         
+
+          
+
+                        
+
+                                 
+                                    Passi Villas Passikudah 
+                                     
+                                    
+
+                                                                       
+                          
+
+                                                                               
+                                             
+						 
+                                             
+                                         
+
+					                                     
+                                     
+                                          				                                               Email : hotelaccounts6@lsr-srilanka.com 
+                                      				      				         Tel : 0652050284 
+				        				       
+						
+				      
+                                     
+                                 
+
+                         
+
+          
+            		 
+                     
+
+                     
+		
+		 4  out of  6  Results 
+		         More Places To Stay 
+			 
+		         More Places To Stay 
+
+				     
+                 
+
+             
+         
+
+
+
+
+
+
+	 
+
+
+	 
+
+
+
+
+
+			 
+        				 
+					 Similar Attractions 
+					 
+
+
+
+									 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Bundala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Biobab Tree  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Delft Wild Horses  
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Udawalawe National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Wilpattu National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Lahugala Kitulana Forest Reserve 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Yala National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kudagala Forest Reserve & Monastery 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Minneriya National Park 
+							 
+						 
+
+							 
+							 
+								 
+									 
+					Wild			
+									 
+
+									 
+								 
+								 
+	  								 
+								 
+								 Kumana National Park 
+							 
+						 
+
+	
+					 
+				 
+                 			 
+
+		 
+	 
+	 
+	 
+
