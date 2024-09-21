@@ -106,6 +106,7 @@ class LocationService {
         return LatLng(7.8259, 80.2944); // Mahawa
 
       case 'Dambulla Cave Temple':
+      case 'Dambulla':
         return LatLng(7.8567, 80.6495);
       case 'Polonnaruwa Ancient City':
         return LatLng(7.9390, 81.0188);
