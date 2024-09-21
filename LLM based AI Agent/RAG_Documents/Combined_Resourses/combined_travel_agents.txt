@@ -1,472 +1,1403 @@
- Travel Agents
- 
+Travel Agents
+
+Category: Travel Agents
 1 2 3 Travels (private) Limited: Address: 81/35, center road,thalpitiya north,wadduwa, Web: https://123travels.org/, District: All Island, Telephone: 0717704916
+
+Category: Travel Agents
 3 R Leisure (private) Limited: Address: No 76/c, kurana, katunayake, Web: www.3rleisure.com, District: Gampaha, Telephone: 0743909033
+
+Category: Travel Agents
 360 Tours Lanka: Address: 367/4,atgala,kochchikade, Web: www.360tourslanka.com, Email: info@360tourslanka.com, District: Gampaha, Telephone: 0779301088
+
+Category: Travel Agents
 A & A Travels (pvt) Ltd: Address: No. 4/4, 1/1, hotel road, mount lavina, Web: www.anasrilanka.com, Email: amraz@anasrilanka.com, District: Colombo, Telephone: 0117213935
+
+Category: Travel Agents
 A 4 Tours (private) Limited: Address: No.636, colombo road, liyanagemulla, seeduwa., Web: www.a4tours.net, Email: to@a4tours.net, District: Gampaha, Telephone: 0112254777, Fax: 0112254777
+
+Category: Travel Agents
 Asy Tours Global (pvt) Limited: Address: 1/12,dewaraja mawatha, bothalapitiya,gampola, Web: WWW.ASYTOURS.COM, District: Kandy, Telephone: 0524303322
+
+Category: Travel Agents
 Atlas Lanka (pvt) Ltd: Address: No.299, galle road, colombo 03, Web: www.atlaslanka.com, District: Colombo, Telephone: 0112375362, Fax: 0112375360
+
+Category: Travel Agents
 Atro Holidays (private) Limited: Address: No. 481, first floor, t.b jaya mawatha, colombo 10., Web: www.atroholidays.com, Email: md@atroholidays.com, District: Colombo, Telephone: 0115935001, Fax: 0115883298
+
+Category: Travel Agents
 Atypique Lanka (pvt) Ltd: Address: No.8/3, balapokuna place, colombo 06, Web: https://atypique-lanka.com/, Email: chamika@atypique-lanka.com, District: Colombo, Telephone: 0112877152
+
+Category: Travel Agents
 Aves L K (pvt) Ltd: Address: No 670/e,maligawatte road,erewwala , pannipitiya, Web: avesnaturetrails.com, District: N/A, Telephone: 0112837810
+
+Category: Travel Agents
 Avotas Tours: Address: No. 330/4/4, new kandy road, delgoda, Web: www.avotastours.com, District: Gampaha, Telephone: 0117047048, Fax: 0112264765
+
+Category: Travel Agents
 Avro Travels And Tours (pvt) Ltd: Address: 479 1/2,  galle road,colombo - 6, Web: https://www.avrotravels.com/, Email: avrotravels@gmail.com, District: Colombo, Telephone: 0112363568, Fax: 0112363541
+
+Category: Travel Agents
 Awn Holidays (pvt) Ltd: Address: 9b/1/1,old quarry road,mount lavinia, Email: info@awnholidays.com, District: Colombo
+
+Category: Travel Agents
 Ayubowan Travels International (pvt) Ltd: Address: No.49,gemunu mawatha,hunupitiya,wattala, Web: www.ayubowaninternational.com, Email: jude@ayubowaninternational.com, District: Colombo, Telephone: 0112581900, Fax: 0112581900
+
+Category: Travel Agents
 Ayurva Traveller (pvt) Ltd: Address: No.275,2nd floor,nawala road,nawala., Web: www.ayurvatraveller.com, Email: nilusha@ayurvatraveller.com, District: Colombo, Telephone: 0117555005, Fax: 0112372878
+
+Category: Travel Agents
 B H Lanka Tours (pvt) Ltd: Address: No 75, samanpaya, kudagalgamuwa,kurunegala., Web: www.bhlankatours.com, District: Kurunegala
+
+Category: Travel Agents
 B.o.c. Travels (pvt) Ltd: Address: 1st florr, bank of ceylon super grade branch building, baseline road, colombo 08, Web: www.boctravels.com, Email: info@boctravels.com, District: Colombo, Telephone: 2688154
+
+Category: Travel Agents
 Best Holidays (pvt)ltd: Address: No.141/6a, vauxshall street, colombo 02, Web: www.srilankatravelsandtours.com, Email: best@sltnet.lk, District: Colombo, Telephone: 0115372026, Fax: 115361726
+
+Category: Travel Agents
 Best Of Lanka (pvt) Ltd: Address: 2b,1st cross street,pagoda road,nugegoda, Web: www.bestoflanka.com, Email: virajsle@gmail.com, District: Colombo, Telephone: 0112199323
+
+Category: Travel Agents
 Beyond Boundaries & Your Holiday Specialist: Address: No.30,reality plaza,naiwala,weyangoda., Web: www.bboundaries.com, Email: gihan@bboundaries.com, District: Gampaha, Telephone: 0332296000, Fax: 0332296000
+
+Category: Travel Agents
 Beyond Escapes (pvt) Ltd: Address: 164/c/2,new kandy road,kothalawala,kaduwela., Web: www.beyondescapes.lk, Email: ruwan@beyondescapes.lk, District: Colombo, Telephone: 0112579679
+
+Category: Travel Agents
 Bienvenido Lanka Travel: Address: No. 292, orex city shopping complex, ekala, ja ela., Web: https://bienvenidolanka.com, District: Gampaha
+
+Category: Travel Agents
 Big Smile Voyages Pvt Ltd: Address: No 275 , 2nd floor , nawala road , nawala., Web: WWW.BIGSMILEVOYAGES.COM, District: Colombo, Telephone: 0113633333
+
+Category: Travel Agents
 Biwonway Travels: Address: 67,divulgahapitiya estate,wellawa, Web: www.biwonwaytravel.com, District: Kurunegala, Telephone: 0375619680, Fax: 0375619680
+
+Category: Travel Agents
 Blue Coral Travel Pvt Ltd: Address: 44a 2/1,frazer avenue,dehiwela, Web: www.srilankatourdrivers.com, District: Colombo, Telephone: 0113633699
+
+Category: Travel Agents
 Blue Dot Tours (pvt) Ltd: Address: 65a, hotel road, mount lavinia, Web: bluedottours.lk, Email: bluedottours@gmail.com, District: Colombo
+
+Category: Travel Agents
 Bon Voyages Travels Colombo (pvt)ltd: Address: No:4/2,suduwella cross road,wekeda,panadura, District: Colombo, Telephone: 0112054930, Fax: 0112054930
+
+Category: Travel Agents
 Bookingmart Holidays (pvt) Ltd: Address: No.297 1/1 ,george r.de silva mawatha, kotahena , colombo 13., Web: www.bookingmart.lk, Email: sales@bookingmart.lk, District: Colombo, Telephone: 0768336336
+
+Category: Travel Agents
 Boundless Lanka (private) Limited: Address: No:08,udaya mawatha,templer's road,mount lavinia., Web: www.boundlesslanka.com, Email: sales@boundlesslanka.com, District: Colombo, Telephone: 0112725010
+
+Category: Travel Agents
 Browns Tours (pvt) Ltd: Address: 2nd floor,no.19 fic tower,dudley senananayake mw,colombo 08., District: Colombo, Telephone: 0112555062
+
+Category: Travel Agents
 Butterflies  (pvt) Ltd: Address: No. 104 a, templer's road, mount lavinia, Web: www.butterflyvacation.com
+
+Category: Travel Agents
 Careem Lanka Travels & Tours (pvt) Ltd: Address: No.95,chatham street, colombo 01, Email: careemtravels@sltnet.lk, District: Colombo, Telephone: 4717188, Fax: 4717134
+
+Category: Travel Agents
 Casons Travels (pvt) Ltd: Address: No:790, munidasa kumarathunga mawatha, halgastota, katunayake., Web: WWW.CASONSTRAVELS.COM, Email: sabrina@casonstravels.com, District: Gampaha, Telephone: 0114690690, Fax: 4406544
+
+Category: Travel Agents
 Cceylon (private) Limited: Address: 90,mawilmada road,kandy, Web: www.cceylon.com, District: Kandy
+
+Category: Travel Agents
 Cci Trade And Travels (private) Limited: Address: 8/3,balapokuna palce colombo 6., Email: susie201698@gmail.com, District: Colombo, Telephone: 0112825258
+
+Category: Travel Agents
 Centauria Travels: Address: Centauria lake resort , new town, embilipitiya., Email: info@centauriatravals.com
+
+Category: Travel Agents
 Ceylon Best Holidays: Address: No. 76, ranmuthu garden,temple road. delduwa. wadduwa,kalutara, Web: www.wedinsrilanka.ru, District: Kalutara, Telephone: 0382285890, Fax: 0382285890
+
+Category: Travel Agents
 Ceylon Carriers (pvt) Ltd: Address: No. 102/16, nawala road, narahenpita, colombo 05, Web: www.rgroup-intl.com, Email: info@rgroup-intl.com, District: Colombo, Telephone: 0112589960, Fax: 0112589968
+
+Category: Travel Agents
 Ceylon Carriers Travels (pvt) Ltd: Address: 60/7 1/1, horton place, colombo 7., Web: www.ceyloncarrierstravels.com, District: Colombo, Telephone: 0112694539, Fax: 0112694013
+
+Category: Travel Agents
 Ceylon Discovery Tours: Address: 325/16, hospital junction, nagoda, kalutara, Web: www.ceylondiscoverytours.lk, District: Kalutara, Telephone: 0342040162
+
+Category: Travel Agents
 Ceylon Dream Travels.: Address: No.248 e/1,neelammahara,boralesgamuwa, Web: www.ceylondreamtravels.com
+
+Category: Travel Agents
 Ceylon Experiences (pvt) Ltd: Address: No: 167/4/1,colombo road,jaela, Web: www.ceylonexperiences.com, District: All Island, Telephone: 0112950977
+
+Category: Travel Agents
 Ceylon Experts Recruitment And Travels: Address: No:47/2/1,aranayake road,mawanella, Web: www.cetalanka.com, Email: tissablue8@yahoo.com, District: Kegalle, Telephone: 0352247224
+
+Category: Travel Agents
 Ceylon Gate Travels (pvt) Ltd: Address: No 12,madampalla road,kochchikade, Web: https://www.ceylongatetravels.com, District: Gampaha, Telephone: 0312277770
+
+Category: Travel Agents
 Ceylon Global Travelers (pvt) Ltd.: Address: No. 20, kasspa road, colombo 05., Email: MICHAELHUANG1007@YAHOO.COM, District: Colombo, Telephone: 0114363101
+
+Category: Travel Agents
 Ceylon Insight: Address: 228/4/1,punchi mahena road,meegahawatta, delgoda, Web: www.reiseleitersrilanka.com
+
+Category: Travel Agents
 Ceylon Shipping  Lines Limited: Address: No. 450, d.r. wijewardana mawatha, colombo 10, Web: www.ceylonshippinglines.com, Email: csltravels@sltnet.lk, District: Colombo, Telephone: 2689500, Fax: 2689510
+
+Category: Travel Agents
 Ceylon Sunny Holidays (pvt) Ltd: Address: No.487, four way junction, nagoda, kalutara south, Web: www.abcsrilanka.com, Email: info@abcsrilanka.com, District: Kalutara, Telephone: 0342221222, Fax: 0342221222
+
+Category: Travel Agents
 Ceylon Tours Limited: Address: No 8 a, sir ernest de silva mawatha ,colombo-07, Web: n/a, Email: info@ceylontours.com, District: Colombo, Telephone: 5531611
+
+Category: Travel Agents
 Ceylon Travel Dream: Address: E1,magala,malimboda, deraniyagala, Web: http://www.ceylontraveldream.com/, District: Kegalle, Telephone: 0815729217
+
+Category: Travel Agents
 Ceylon Vacation Network: Address: 148,kalapaluwawa road,rajagiriya, Web: www.ceylonvacationnetwork.com
+
+Category: Travel Agents
 Aakash Asia Ceylon Private Limited: Address: No 36-1/1,,haig road,colombo 04, Web: www.aakashasiasrilanka.com, Email: srilanka@aakashasia.com, District: Colombo, Telephone: 0114330611
+
+Category: Travel Agents
 Aalam International Tours And Travels: Address: No. 20/1, kothalawela avenue, colombo 04, Web: aalamtravels.com, Email: info@aalamtravels.com, District: Colombo, Telephone: 0112081842, Fax: 011452068
+
+Category: Travel Agents
 Aathika Haj Travels: Address: No.18/1, matale  road, katugastota, kandy, Web: N/A, District: Kandy, Telephone: 0812500740, Fax: 0812500741
+
+Category: Travel Agents
 Ab Luxury (pvt) Ltd: Address: Ab luxury (pvt) ltd,187 ward place,colombo 07, Web: abluxury.lk, District: Colombo, Telephone: 0112056490
+
+Category: Travel Agents
 Abercrombie & Kent (pvt) Ltd: Address: Level 4, thisara plaza, 127/88, dutugemunu street, colombo 06., Web: www.abercrombiekent.com
+
+Category: Travel Agents
 Ceytrans (pvt) Ltd: Address: No.200, samanthara para, molligodawatte, wadduwa, Email: oceanviewhotelgroup@gmail.com, District: Kalutara, Telephone: 0112575035, Fax: 0112575065
+
+Category: Travel Agents
 Chaaliya Tours (private ) Limited: Address: No:545/1,nungamugoda,kelaniya, Web: www.chaaliya.com, Email: info@chaaliya.com, District: Gampaha, Telephone: 0112914323, Fax: 0115555639
+
+Category: Travel Agents
 Chamathka Holidays And Travels: Address: 78, savisiri pura, heenatiyangala road, kaluthara south, District: Kalutara, Telephone: 0765505339
+
+Category: Travel Agents
 Chartered Bureau (pvt) Ltd: Address: No.113 c/1, alpha business complex, noor building, main steet, maruthumunai - 02, Web: www.charteredbureau.lk, District: Ampara, Telephone: 0672056451
+
+Category: Travel Agents
 Che Ceylon Holdings (pvt) Ltd: Address: No:13 , galwatta road , katugastota, kandy, Web: www.checeylon.com
+
+Category: Travel Agents
 Coastline Travels (pvt) Ltd: Address: 2a, 2nd lane,,katukurunda watta road,,mount lavinia, Web: coastlinetravels.lk, District: Colombo, Telephone: 0117112118
+
+Category: Travel Agents
 Coffee Or Tea Travel (pvt) Ltd: Address: 14c, priyadharsanarama road, dehiwala, Web: www.coffeeorteatravel.com, District: Colombo
+
+Category: Travel Agents
 Colombo Flights  And Tours Pvt Ltd: Address: 335c ,temple road , dalugama ,kelaniya, Web: colomboflights.com, District: Gampaha, Telephone: 0112913051
+
+Category: Travel Agents
 Columbus Tours (pvt)ltd: Address: No. 6 ,tickell road, colombo 08, Web: www.columbustourssrilanka.com, Email: info@columbustourssrilanka.com, District: N/A, Telephone: 0112687719, Fax: 2687698
+
+Category: Travel Agents
 Come Lanka Tours: Address: 181/a, kehelbaddara, west, udugampola, Web: https://www.comelankatours.com
+
+Category: Travel Agents
 Concord Exotic Voyages Lanka (pvt) Ltd: Address: No. 74, a1/1, park street, colombo 02, Email: chandima@concordtourslk.com, District: Colombo, Telephone: 0112300223
+
+Category: Travel Agents
 Connaissance De Ceylan (pvt) Ltd: Address: No. 130, high level road, colombo 06, Web: www.connaissance.lk, Email: cdctrv@connaissance.lk, District: Colombo, Telephone: 0114706400, Fax: 0112399378
+
+Category: Travel Agents
 Continents & Oceans Travel (pvt) Ltd: Address: No. 1a, unity place, colombo 3, Web: www.candotravels.com, Email: info@candotravels.com, District: Colombo, Telephone: 0112301169, Fax: 0112301168
+
+Category: Travel Agents
 Cool Sri Lanka Travels & Tours: Address: No. 1054/2, kumaragewatta,thalangama south, pannipitiya road, battaramulla, Web: www.coolsrilanka.com, Email: coolsrilanka.gg@gmail.com, District: Colombo, Telephone: 0117446313
+
+Category: Travel Agents
 Cross-border Travels (pvt) Ltd: Address: 280/57,gardencity, galle road, lakshapathiya, katubedda,moratuwa, Web: WWW.CROSSBORDERTRAVLS.COM, District: Colombo, Telephone: 0112623366
+
+Category: Travel Agents
 Crusader Sports & Leisure Tours (pvt) Ltd: Address: No:136/5,kalalgoda,pannipitiya, Web: www.crusadersportsandleisuretours.com, Email: tina@crusadersportsandleisuretours.com, District: Colombo, Telephone: 0112760425
+
+Category: Travel Agents
 Crystal Holidays (pvt) Ltd: Address: No. 25 a, de seram road, mount lavinia, Web: www.holidayssrilanka.com, Email: crystalh@sltnet.lk, District: Colombo, Telephone: 0112725032, Fax: 0112735031
+
+Category: Travel Agents
 D Dot Travel (pvt) Ltd: Address: D dot travels pvt ltd,143, oreix city shopping complex ekala,ja ela, Web: www.ddottravels.com, District: Gampaha, Telephone: 0113425227
+
+Category: Travel Agents
 Days In Pearl Tours And Travels (private) Limited: Address: 350, kandy road,,kahatapitiya,,gampola,, Web: WWW.DAYSINPEARL.COM, Email: inash.7610@yahoo.com, District: Kandy, Telephone: 0812076015
+
+Category: Travel Agents
 Dazzling Tours: Address: No:56/2, model housing scheme road,mawilmada,kandy, Web: www.dazzlingtours.com, District: Kandy, Telephone: 0812062811, Fax: 0812062811
+
+Category: Travel Agents
 Delair Travels (pvt)ltd: Address: 101,vinayalankara mawatha colombo 10, Web: www.delairtravel.com, Email: sheanka@delairtravel.com, District: Colombo, Telephone: 0117729930, Fax: 0117729925
+
+Category: Travel Agents
 Delux Holidays (pvt) Ltd: Address: No. 410/101b, bullers road, colombo 07, Web: www.deluxholidays.com, Email: sampath@deluxholidays.com, District: Colombo, Telephone: 0112687653, Fax: 2574424
+
+Category: Travel Agents
 Detroves Travels (pvt) Ltd: Address: No.31/1, ridgeway place, colombo 04., Web: www.detrovestravels.com, Email: garwin@detrovestravels.com, District: Colombo, Telephone: 0114388221, Fax: 0112581421
+
+Category: Travel Agents
 Dia Lanka Travels: Address: No.177/1/2,pasal mawatha, halpita,polgasowita, Web: https://dialankatravels.com, District: Colombo
+
+Category: Travel Agents
 Dim Tours: Address: No 435,c,athuruwella,induruwa, Web: www.dimtourssrilanka.com, District: Galle, Telephone: 0347917807
+
+Category: Travel Agents
 Direct Link (pvt)ltd: Address: No.225/7,sri sangaraja mawatha,colombo 10, Web: www.direclink.lk, Email: drctlink@gmail.com, District: Colombo, Telephone: 0113135599, Fax: 0112336385
+
+Category: Travel Agents
 Diyatha (pvt) Ltd: Address: No: 170/c colombo road ,waligampitiya,ja ela., Web: -, Email: info@diyatha.lk
+
+Category: Travel Agents
 Dus Lanka Travels (pvt) Ltd: Address: No.560, galle road, colombo 03, Web: www.duslankatravels.com, Email: duslanka@eureka.lk, District: Colombo, Telephone: 2595354, Fax: 2505834
+
+Category: Travel Agents
 E Turismo Lanka (pvt) Ltd: Address: No, 41, 2ed lane, lokapila, weedagama, bandaragama, Web: www.turismolanka.com, Email: jayantha.wijethunga@gmail.com, District: Colombo, Telephone: 0112075764
+
+Category: Travel Agents
 E.c.d. Holidays: Address: No.49/1,dickson peiris mawatha,off mendis road,kadalana,moratuwa., Web: www.ecdglobal.net, Email: globalmoratuwa@sltnet.lk, District: Colombo, Telephone: 0112654900, Fax: 0112654902
+
+Category: Travel Agents
 East N West On Board Pvt Ltd: Address: 58/1, thiruchentoor beach road, kallady, batticaloa, Email: eastnwestonboard@yahoo.com, District: Batticaloa, Telephone: 0652226079
+
+Category: Travel Agents
 Elite Travels And Tours (private) Limited: Address: 447 2/1,papiliyana road,boralesgamuwa, Web: https://elitetravelexplore.com/, District: Colombo, Telephone: 0772162684
+
+Category: Travel Agents
 Ellick Holdings (pvt) Ltd.: Address: No. 133/c, jaya mawatha, mahahunupitiya, negombo., Web: NO. 133/C, Jaya Mawatha, Mahahunupitiya, Negombo., District: Gampaha, Telephone: 0312225176
+
+Category: Travel Agents
 Emerald Island Tours: Address: No 72, temple road,kalalpitiya,pasyala, Web: http://emeraldislandtours.com, District: Gampaha, Telephone: 0332286026
+
+Category: Travel Agents
 Emirates Travels And Tours (pvt) Ltd: Address: 18,de silva place,ratmalana., Web: emiratestravelslk.com, Email: emiratestravels@gmail.com, District: Colombo, Telephone: 0112736202, Fax: 0112736203
+
+Category: Travel Agents
 Enchanting Ceylon Getaways (pvt) Ltd: Address: 20,3rd floor,sir baron jayathilake mawatha,colombo 01, Web: www.enchantingceylongetaways.com
+
+Category: Travel Agents
 Esna Holidays (private) Limited: Address: Level 12a, parkland, no. 33, park street, colombo 02, Web: www.esnaholidays.com, Email: hello@esnaholidays.com, District: Colombo, Telephone: 0112314303
+
+Category: Travel Agents
 Ethos Travel Company Pvt Ltd: Address: No 18/b,peters mendis road, kudapaduwa,negombo, Web: http://www.ethostravels.com/, Email: sales@ethostravels.com, District: Gampaha, Telephone: 0313322223
+
+Category: Travel Agents
 Euro Asia Travels (pvt) Ltd: Address: No.51/2, ananda coomaraswamy mawatha, colombo 07, Web: www.euroasia.travel, Email: sam.wickramasinghe@euroasia.lk, District: Colombo, Telephone: 0112574622, Fax: 0112575423
+
+Category: Travel Agents
 Everton Holidays (pvt) Ltd: Address: No.106,dutugamunu street,dehiwala, Web: www.mylankandream.com, Email: gbot@mylankandream.com, District: Colombo, Telephone: 0117545454
+
+Category: Travel Agents
 Exotic Global Holidays (private) Limited: Address: 372/2 galle road colombo 03, sri lanka, Web: www.exoticglobalholidays.com, Email: sales@exoticglobalholidays.com, District: Colombo, Telephone: 0114730777, Fax: 0112505888
+
+Category: Travel Agents
 Exotic Holidays International (pvt) Ltd: Address: No.7 barnes avenue, mount lavinia, Web: WWW.EXOTIC-INTL.COM, Email: rushan@exotic-intl.com, District: Colombo, Telephone: 5231224, Fax: 4443726
+
+Category: Travel Agents
 Exotic Sapphire Voyages (pvt) Ltd: Address: 33a 2/1,w.a silva mawatha,colombo 06, Web: WWW.EXOTIC-SAPPHIRE.COM, Email: manoj@sapphirevoyages.com, District: Colombo, Telephone: 0114848466
+
+Category: Travel Agents
 Experiential Journeys (private) Limited: Address: 20/63,fairfield gardens,colombo 8, Web: www.exjourneys.com, District: Colombo, Telephone: 0702228222, Fax: 0115330500
+
+Category: Travel Agents
 Acme Travels  (pvt) Ltd: Address: No 122/8 – 1/1, arnolda place, off kirulapone avenue, colombo 05, Web: www.acmetravels.com, Email: info@acmetravels.com, District: Colombo, Telephone: 0114527575, Fax: 0112554539
+
+Category: Travel Agents
 Acrus Travels & Tours (pvt) Ltd: Address: 88, 3/2, justice akbar mawatha, colombo 02, Web: www.acrustours.com, Email: info@acrustours.com, District: Colombo, Telephone: 0112448988, Fax: 011441510
+
+Category: Travel Agents
 Actionlanka.com (pvt) Ltd: Address: No 366/3 rendapola,horagahakanda lane,thalangama north koswatta., Web: actionlanka.com, Email: info@actionlanka.com, District: Colombo, Telephone: 0114545309, Fax: 0114545309
+
+Category: Travel Agents
 Active Vacations Lanka (pvt) Ltd: Address: No.50, ramya mawatha, subuthipura, battaramulla, Web: www.activevacationslanka.com, Email: kishan@activevacationslanka.com, District: Colombo, Telephone: 0112785785
+
+Category: Travel Agents
 Fahamas Travels: Address: No.47,lukmanjee square,grandpass road,colombo 14., Web: www.fahamas.travels.com, District: Colombo, Telephone: 0112424565, Fax: 0112424565
+
+Category: Travel Agents
 Famico Tours & Travels Private Limited: Address: No.529 1/1, peradeniya road, kandy, Web: www.farmicopl.com, Email: fa_mico@yahoo.com, District: Kandy, Telephone: 0812233383, Fax: 0814476234
+
+Category: Travel Agents
 Fantasia Tour Management (pvt) Ltd: Address: 181/2/1,ulukade junction,ganemulla, Web: www.fantasiatours.com, District: Gampaha, Telephone: 0332261449, Fax: 0332261449
+
+Category: Travel Agents
 Far Holidays (pvt) Ltd: Address: No. 124, park road, colombo 05, Web: www.farholidays.com, Email: info@farholidays.com, District: Colombo, Telephone: 0115977799, Fax: 0115920605
+
+Category: Travel Agents
 Fernando Tours: Address: No: l01/31 (a/f02/u16), reality plaza, ja ela, Web: www.fernandotours.com
+
+Category: Travel Agents
 Fly World: Address: 147b 1/1, w. a silva mawatha,colombo-06., Email: flyworldvacation@gmail.com, District: Colombo, Telephone: 0112500837, Fax: 0112500837
+
+Category: Travel Agents
 Flying Fairway International Travels (pvt)ltd: Address: No. 37/a, sunethra devi road, kohuwala, nugegoda, Web: nul, District: Colombo, Telephone: 0112812178, Fax: 00
+
+Category: Travel Agents
 Fortune Lanka Tours And Travels {pvt}ltd: Address: No. 623, 3/1, galle road, mount lavinia, Web: www.fortunelanka.com, Email: support@fortunelanka.com, District: Colombo, Telephone: 0112736112, Fax: 0112736112
+Category: Travel Agents
 Fox  Vacations (private) Limited: Address: No-330 ,jayah mawatha,colombo 10, Email: dharshana.icl@maharaja.lk, District: Colombo, Telephone: 0112683890
+
+Category: Travel Agents
 Freedom Lanka Travels: Address: No.8a. 2/1,sri sunandharama road,kalubowilla,dehiwala, Web: www.freedomlankatravels.com
+
+Category: Travel Agents
 Geo Ventures And Consultancy (pvt) Ltd: Address: 461/41, sherwood glade , hokandara north, arangala, Web: www.geoventuresafari.com, District: Colombo, Telephone: 0112884031, Fax: 0112884031
+
+Category: Travel Agents
 George Steuart Travels  Limited: Address: No.439,galle road,colombo 03., Web: www.gstravels.lk, Email: info@georgesteuart.lk, District: Colombo, Telephone: 2326795, Fax: 2430156
+
+Category: Travel Agents
 Global Holiday Lanka Tours (pvt) Ltd: Address: 248/11,capt.sumudu rajapaksa mawatha,off hill street, dehiwela, Web: www.globalholidayslanka.com, Email: gm@globalholidayslanka.com, District: Colombo
+
+Category: Travel Agents
 Golden Isle Travels (pvt) Ltd: Address: M-05, mezzanine floor, galadari hotel, #64, lotus road, colombo 01, Web: www.goldenislesrilanka.com, Email: paddy@goldenislesrilanka.com, District: Colombo, Telephone: 0112334554, Fax: 0112334663
+
+Category: Travel Agents
 Grace And Galaxy Holidays (pvt) Ltd: Address: 362/02, chilaw road, negombo., Web: https://gtmglobal.co.in/, Email: bongso.murad@gtmglobal.co.in, District: Gampaha, Telephone: 0114344430
+
+Category: Travel Agents
 Grace International Ventures And Consultants (pvt) Ltd: Address: No.1d,charlemont road,wellawatte, Web: 66/1 Dharmarama Road, District: Colombo
+
+Category: Travel Agents
 Green Island Holiday Lanka (pvt) Ltd: Address: No.255,orex city, ekala,ja-ela, Web: www.greenislandlanka.com, District: Gampaha
+
+Category: Travel Agents
 Green Leaves Leisure (pvt) Ltd: Address: No. 61/75, nawala old road, nawala, Email: gleavesleisure@gmail.com, District: Colombo, Telephone: 0112686627
 
+Category: Travel Agents
 Hamas Hajj Travels: Address: No 655/1b,avissawella road,wellampitiya, Email: hamashajtravels@hotmail.com, District: Colombo, Telephone: 0112532125, Fax: 0112532787
+
+Category: Travel Agents
 Hamoos Travels (pvt) Ltd: Address: No.34, dr wijewardhana mawatha, colombo 10, Email: mahesh@hamoos.com, District: Colombo, Telephone: 0115717777
+
+Category: Travel Agents
 Hathee Travels: Address: No. 142, mudaliyer road,akkaraipattu-04, Email: hatheetravels@gmail.com
+
+Category: Travel Agents
 Helanka Vacations (private) Limited: Address: Level 03, "resolute", no 471, cotta road,rajagiriya., Web: www.helankavacations.com, Email: hvfinance@helankavacations.com, District: Colombo, Telephone: 0117400857, Fax: 4721586
+
+Category: Travel Agents
 Heritage Expediciones (pvt) Ltd: Address: No-106/3, thimbirigasyaya rd, colombo 05., Web: www.heritage.lk, Email: george@heritage.lk, District: Colombo, Telephone: 0112582131, Fax: 0112582132
+
+Category: Travel Agents
 Holiday Concepts (private) Limited: Address: No.175/14, 1/1 lake view drive,nawala road,narahenpita,colombo 05, Web: www.holidayconcepts.lk, Email: accounts@holidayconcepts.lk, District: Colombo, Telephone: 0117024465, Fax: 0117024466
+
+Category: Travel Agents
 Holiday Lanka Tours (pvt) Ltd: Address: 16/e/9, airport road, unnaruwa, minuwangoda, Web: www.holidaylankatours.com, District: Gampaha
+
+Category: Travel Agents
 Holiday Paradise (pvt) Ltd: Address: No.1/1, 1st floor, 1st cross street, colombo 11, Web: www.holidayparadise.lk, Email: info@holidayparadise.lk, District: Colombo, Telephone: 0112326000, Fax: 0112326001
+
+Category: Travel Agents
 Hummingbird Destination Management Lanka Pvt Ltd: Address: No 9a 1/3,st. albans place,colombo 04, Web: hummingbird.travel, District: Colombo
+
+Category: Travel Agents
 Hwa Cheng Travel Agency (pvt) Limited: Address: No.10,don carolis mawatha jawatte,colombo 05, Email: huangym2000@aliyun.com, District: Colombo, Telephone: 0112550114, Fax: 112550114
+
+Category: Travel Agents
 I Ceylon Lifestyle (private) Limited: Address: 202 a,sir james peiris mawatha,colombo 02, Web: www.iceylonlifestyle.com, Email: info@iceylonlifestyle.com, District: Colombo, Telephone: 0112304050, Fax: 0112304051
+
+Category: Travel Agents
 Ideal Getaways (pvt) Ltd: Address: 14 m, moor road, colombo 06., Web: www.idealgetaways.lk, Email: saroj@idealgetaways.lk, District: Colombo, Telephone: 0112361065, Fax: 0112361588
+
+Category: Travel Agents
 Ilma Hajj Services (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.ilmahajjservices.com, Email: ilmahajjservices@gmail.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Air Express Travels And Tours: Address: 3a,,ananda mawatha,maradana colombo-10, District: Colombo
+
+Category: Travel Agents
 Air Lines Crew Tours: Address: No.40,bolana, kal-eliya, Web: https://airlinescrewtours.com, District: Gampaha, Telephone: 0312243243
+
+Category: Travel Agents
 Infotechs Travels (pvt) Ltd: Address: No:23/1 , jaya road,colombo 04, Web: www.infotechs.lk, Email: manori@infotechs.lk, District: Colombo, Telephone: 0112597870, Fax: 2584644
+
+Category: Travel Agents
 Inspire Holidays (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.inspireholidays.lk, Email: info@inspireholidays.lk, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Island Adventures (pvt) Ltd: Address: 01st floor, bartleet house, 65 braybrooke place, colombo 02, Email: info@islandadventures.lk, District: Colombo, Telephone: 0114063640
+
+Category: Travel Agents
 Island Divvy Tours (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.islanddivvytours.com, Email: info@islanddivvytours.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Jagath Tours & Travels: Address: No.119,"lanka lands",peellawatte,andiambalama, Web: www.srilankajagathtours.com, Email: info@srilankajagathtours.com, District: Gampaha, Telephone: 0112255784, Fax: 0112255784
+
+Category: Travel Agents
 Jigsaw International (pvt) Ltd: Address: No 06, sri maha vihara mawatha , panadura, Web: www.junglefowl.net, Email: info@junglefowl.net, District: Colombo
+
+Category: Travel Agents
 Jireh Holidays (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.jirehholidays.com, Email: info@jirehholidays.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Kamvelta Travel & Tours (pvt) Ltd: Address: Kindelpitiya juntion, welmilla, bandaragama, Web: www.kamveltatravels.com, Email: kamveltatours@gmail.com, District: Colombo, Telephone: 0775245553, Fax: 0382293307
+
+Category: Travel Agents
 Kangaroo Tours (pvt) Ltd: Address: No.485/7a, gunawardana mawatha,wijerama, gangodavila, nugegoda, Web: https://kangaroocabs.com/packages, District: Colombo, Telephone: 0112829829, Fax: 0112829830
+
+Category: Travel Agents
 Kaya Voyages (pvt) Ltd: Address: No.246,park road,colombo 05, Web: www.kayavoyages.com, Email: info@kayavoyages.com, District: Colombo, Telephone: 0112596114, Fax: 0112554539
+
+Category: Travel Agents
 Khairaz International Travels & Tours: Address: No. 298, george r de silva mawatha, colombo 13, Web: www.khairaztravels.com, Email: khairaz@live.com, District: Colombo, Telephone: 0112447123, Fax: 2457499
+
+Category: Travel Agents
 Khakiyan Travels (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.khakiyantravels.com, Email: info@khakiyantravels.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Lakpura Leisure (pvt) Ltd: Address: No.78a,c.p.de silva mawatha,kaldemulla,moratuwa., Web: www.lakpura.com, Email: hello@lakpura.com, District: Colombo, Telephone: 0117488288, Fax: 0115747474
+
+Category: Travel Agents
 Laksky Travels (pvt)ltd: Address: 1a , 1st floor, jayanthipura main road, battaramulla, Web: www.lakskytravels.com, Email: sales@lakskytravels.com, District: Colombo, Telephone: 0112888816, Fax: 0112888817
+
+Category: Travel Agents
 Lanka Nature Tours & Travels(pvt)ltd: Address: No.409/a, kurunegala road, wathuwela,  katugastota, kandy, Web: www.lankanature.lk, Email: sabrysabry201@yahoo.com, District: Kandy, Telephone: 0812064871, Fax: 0812064871
+
+Category: Travel Agents
 Lanka Private Drivers: Address: No.97,labukotuwa, hurimaluwa,rambukkana, District: Kegalle
+
+Category: Travel Agents
 Lanka Reisen Ceylon (private) Limited: Address: No. 317/5a,biyagama road,kelaniya, Web: www.lankareisen.com, Email: info@lankareisen.com, District: Gampaha, Telephone: 0112910910, Fax: 0112910911
+
+Category: Travel Agents
 Lankan Detours (pvt) Ltd: Address: No 1132, darmashoka mawatha, hunupitiya,,wattala, Web: www.lankandetours.com, District: Gampaha, Telephone: 0117020555
+
+Category: Travel Agents
 Lankan Personal Drivers (pvt) Ltd: Address: No : 283 , 284,,level 02, orex city,ekala ja-ela, Web: www.srilankanpersonaldrivers.com, Email: info@srilankanpersonaldrivers.com, District: Gampaha, Telephone: 0112225737, Fax: 0112225737
+
+Category: Travel Agents
 Leoland Travels (private) Limited: Address: 320/b/1 , kaduwela road , malabe, Web: www.lealandtravels.lk, Email: info@leolandtravels.lk, District: Colombo, Telephone: 0114234250, Fax: 0114234250
+
+Category: Travel Agents
 Less Taxi Private Limited: Address: Unit 46, nest space, 9th floor, orion towers, orion city it park,colombo 09, Web: Lesstaxi.com, District: Colombo, Telephone: 0779481006
+
+Category: Travel Agents
 Lets See Asia (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.letsseeasia.com, Email: info@letsseeasia.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Al Kaswa (private) Limited: Address: No.09,colombo road,madurankuli., District: Puttalam, Telephone: 0322268368
+
+Category: Travel Agents
 Al Rifa Travels: Address: No 87,main street,mawanella, Email: alrifatravels@yahoo.com, District: Kegalle, Telephone: 0352247232, Fax: 0352247232
+
+Category: Travel Agents
 Al-aqsa Global (pvt) Ltd: Address: No. 86 a 1/1, watarappala road, mount lavinia, Web: www.alaqsatravels.com, Email: alaqsa@sltnet.lk, District: Colombo, Telephone: 0112715715, Fax: 0112715715
+
+Category: Travel Agents
 Lolc Holdings Plc: Address: No.19, dudley senanayake mawatha, colombo 08., Web: www.ceylonroots.com, Email: info@ceylonroots.com, District: Colombo, Telephone: 0113137181, Fax: 0114374645
+
+Category: Travel Agents
 Lotus Air Travels And Tours (pvt) Ltd: Address: 16,dewala road, pagoda,nugegoda, Web: www.lotusairtravelssrilanka.com, District: Colombo, Telephone: 0112822552, Fax: 0112822540
+
+Category: Travel Agents
 Lotus Destination Lanka (pvt) Ltd.: Address: No 102-1/1,senanayake mawatha,nawala, sri lanka, Web: www.lotusdmclanka.com, District: Colombo, Telephone: 0114504988, Fax: 0114504989
+
+Category: Travel Agents
 Lowes Leisure (private) Limited: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.lowesleisure.com, Email: info@lowesleisure.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Luxury Holidays Asia Private Limited: Address: 2nd floor,no. 106, dutugemunu street, bernard business park, dehiwala., Web: https://luxuryholidaysasia.com/, District: Colombo, Telephone: 0117444038
+
+Category: Travel Agents
 Luxury Villas Lanka (private) Limited: Address: Upper floor 10-1,dutch hospital building,hospital street,fort,galle, Web: www.luxuryvillassrilanka.com, District: Galle, Telephone: 0912231877
+
+Category: Travel Agents
 M J F Leisure (pvt) Ltd: Address: 46/38 nawam mawatha,colombo 02, sri lanka, District: Colombo
+
+Category: Travel Agents
 M P S Haj Travels: Address: No.14, main street, madurankuli, Web: N/A, Email: mps@mps.lk, District: Puttalam, Telephone: 0322268368, Fax: 0322268368
+
+Category: Travel Agents
 Magical Isle Holidays (pvt) Ltd: Address: No 26-b, nugegoda road, pepliyana., Web: www.magicaliseholidays.com, Email: enquires@magicaliseholiday.com, District: Colombo, Telephone: 0117207437, Fax: 0112812846
+
+Category: Travel Agents
 Magical Paradise: Address: No 109/g,st theresa mawatha,kandana, Web: www.magicalparadise.lk, District: Gampaha, Telephone: 0112239443
+
+Category: Travel Agents
 Magokoro (pvt) Ltd: Address: 73/16/6,new kandy road,,naranwala 11063,gampaha, sri lanka, Web: www.srilanka-travels.net, District: Gampaha
+
+Category: Travel Agents
 Mahesh Mallawaratchie Enterprises (pvt) Ltd: Address: No. 58, pamankada road, colombo 06, Web: www.maheshmallawaratchie.com, Email: info@maheshmallawaratchie.com, District: Colombo, Telephone: 0112588435, Fax: 0112588435
+
+Category: Travel Agents
 Mango Vacations: Address: Bliock 27, station garden, wellawa., Web: www.mango.vacations.com, District: Kurunegala, Telephone: 0779691550
+
+Category: Travel Agents
 Marcopolo Aviation (private) Limited: Address: No 107/c,abesekara road,,kawdana,dehiwela, Web: NO, Email: INFO@MARCOPOLO.LK, District: Colombo, Telephone: 0112714590, Fax: 000
+
+Category: Travel Agents
 Mariyam Hajj-umra Travels & Tours: Address: No.145,mal 13th road,malayadi giramam 02,sammanthurai., District: Ampara
+
+Category: Travel Agents
 Master Guide Travel Agent  And Tour Operators: Address: No:100, w a fernando house (2nd floor),highlevel road,kirulapana,colombo 06, District: Colombo, Telephone: 0112824348, Fax: 0112824348
+
+Category: Travel Agents
 Misa Travels And Tours (private) Limited: Address: No 106 ,,reclamation road, 4th floor,colombo 11, Web: www.misatravels.com, Email: misatravelsltd@gmail.com, District: Colombo, Telephone: 0112444977
+
+Category: Travel Agents
 Moulana Travels & Tours (pvt)ltd: Address: No. 195, level 01, galle road, bambalapitiya, colombo 04, Web: www.moulanalanka.com, Email: mgrtkt@moulanatours.com, District: Colombo, Telephone: 0114422423
+
+Category: Travel Agents
 Mps Haj Travels: Address: 161/a/1 messenger street colobo 12,,colombo, District: Colombo, Telephone: 0112444435, Fax: 0112441327
+
+Category: Travel Agents
 Msa Travels And Tours (pvt)ltd: Address: No:77, maliban street,colombo 11, Web: www.msaleisure.com, Email: mustafa@msatravels.com, District: Colombo, Telephone: 0112470700, Fax: 0112470887
+
+Category: Travel Agents
 My Ceylon Trip: Address: 91 a,wattalpola road, wattalpola,panadura, Web: www.myceylotrip.com, Email: info@myceylotrip.com, District: Kalutara, Telephone: 0382236236, Fax: 0382236236
+
+Category: Travel Agents
 My Srilanka Travel: Address: 266/33,colombo road,mahamodara,galle, Web: www.mysrilankatravel.com, District: Galle, Telephone: 0912231318
+
+Category: Travel Agents
 My Tours Lanka (pvt) Ltd: Address: 179, 5th floor, ward city,queen mary's road,,gampaha, Web: WWW.MYTOURS.LK, Email: mytourslanka@gmail.com, District: Gampaha, Telephone: 0332235606, Fax: 0332235606
+
+Category: Travel Agents
 N F Travels And Tours (pvt) Ltd: Address: 120/17,church road, wewala,ja-ela, Web: https://nftravels.com, District: Gampaha
+
+Category: Travel Agents
 N.m. Travels & Tours (pvt) Ltd: Address: No.569, galle road, colombo 06, Web: N/A, Email: nm.umrah@gmail.com, District: Colombo, Telephone: 2508438, Fax: 2587927
+
+Category: Travel Agents
 Naag Holidays ( Pvt ) Ltd: Address: No 61 ,3/1,ananda coomaraswamy mawatha,colombo 03, Web: www.naagholidays.com, District: Colombo, Telephone: 0112590590, Fax: 0112590591
+
+Category: Travel Agents
 Navodya Tours: Address: No. 54, kadawatha road, kalubowila, dehiwala, Web: www.navodyatours.com, District: Colombo, Telephone: 0113185185
+
+Category: Travel Agents
 Nawamini Travels (private) Limited: Address: No. 364/1/1, kotte road, pita kotte, Web: www.nawamini.com, District: Colombo, Telephone: 0714229419
+
+Category: Travel Agents
 Neero World (pvt) Ltd: Address: 717, first floor, nelson building, kaduruwela, polonnaruwa,, Web: WWW.NEEROWORLD.COM, District: Polonnaruwa, Telephone: 0272222719
+
+Category: Travel Agents
 Neo Leisure (pvt) Ltd: Address: 63/2a, railway avenue, nugegoda, District: Colombo, Telephone: 0773580880
+
+Category: Travel Agents
 New Berlin Tours: Address: 307b, galle road, hikkaduwa, Web: www.newberlintours.lk, District: Galle, Telephone: 0912277767, Fax: 0912277767
+
+Category: Travel Agents
 Noormadina Travels & Tours (pvt) Ltd: Address: No. 120/4d, level 01, thaj building, kandy road, thihariya, Email: noormtt1@gmail.com, District: Gampaha
+
+Category: Travel Agents
 Ocean Gate Travels & Tours (pvt) Ltd: Address: No. 92, capital trust tower three,glennie street,colombo 02, Web: www.oceangate.lk, District: Colombo, Telephone: 0114923332
+
+Category: Travel Agents
 Oceannex Travels (private) Limited: Address: No 8/2,4th lane, vijithapura road,makandana, piliyandala, Web: https://oceannextravels.com/, District: Colombo, Telephone: 0115995040
+
+Category: Travel Agents
 Off 2 Lanka Tours: Address: No,293/1b, kaliyammahara, piliyandala, Web: www.off2srilanka.com, Email: info@off2srilanka.com, District: Colombo, Telephone: 0112709409, Fax: 0112709409
+
+Category: Travel Agents
 Okinawa Japanese Nojili Travels And Tours: Address: 290,d.r.wijewardena  mawatha,colombo 10, Web: www.okinawatravels.com, Email: info@okinawatravels.com, District: Colombo, Telephone: 0112688888, Fax: 0112688888
+
+Category: Travel Agents
 One Travels And Tours: Address: 96/1 galle road,bambalapitiya,colombo 04, Web: www.onetravels.lk, Email: afshan@onetravels.lk, District: Colombo, Telephone: 0112553814, Fax: 0112502968
+
+Category: Travel Agents
 Oobro Travel Holidays: Address: 3/1, 1/3 seylan bank building,,1st floor,mawanella, Web: WWW.OOBROTRAVELS.COM, Email: srilanka@oobrotravels.com, District: Kegalle, Telephone: 0353124651
+
+Category: Travel Agents
 Opulent Travels Pvt Ltd: Address: No: 215/3,,balagala , anhandiya,mawathagama, District: Kurunegala
+
+Category: Travel Agents
 Oreta Travels (pvt) Ltd: Address: No. 165/l1-59,realty plaza,jaela, District: Gampaha, Telephone: 0112227525
+
+Category: Travel Agents
 Orient Tours: Address: No.81/9a, greenland place,isipathana mawatha, colombo 05, Web: www.orienttourssrilanka.com, Email: orienttours@sltnet.lk, District: Colombo, Telephone: 0112588435, Fax: 0112588435
+
+Category: Travel Agents
 Overland Travel And Tours (private) Limited: Address: 380,thalawathugoda road,madiwela,pitakotte, Web: www.overlandtravels.lk, Email: info@overlandtravels.lk, District: Colombo, Telephone: 0117487000, Fax: 0117487000
+
+Category: Travel Agents
 Pan Lanka Travels & Tours (pvt) Ltd: Address: No. 06, palmyrah avenue, colombo 03, Web: www.panlanka.com, Email: aquinas@panlanka.com, District: Colombo, Telephone: 0114518888, Fax: 0014518881
+
+Category: Travel Agents
 Panoramic Tour And Travels Pvt Ltd: Address: No.186,ela ivura road,hendala , wattala, Web: www.panoramicvacations.com, Email: info@panoramicvacations.com, District: Gampaha, Telephone: 0112941916
+
+Category: Travel Agents
 Paradise Holidays (pvt) Ltd: Address: No: 35/29, fathima gardens, makola., Email: sam@paradiseholidays.lk, District: Colombo, Telephone: 0112591094
+
+Category: Travel Agents
 Passion Travels (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.passiontravels.com, Email: info@passiontravels.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Amago Tours Pvt Ltd: Address: 85a fourth floor,dutugemunu street,kohuwala, Web: www.amagotours.com, Email: asanka@amagotours.com, District: Colombo, Telephone: 0112199812
+
+Category: Travel Agents
 Amanath Tours & Travels: Address: No. 229, 2/9, 2nd floor santhosh plaza, main street, colombo 11, Web: N/A, Email: anzagencies@hotmail.com, District: Colombo, Telephone: 4950654, Fax: 2393330
+
+Category: Travel Agents
 Amaya Desh Tours (pvt) Ltd: Address: 24,cinnamon garden, kaluwarippuwa-east,katana,katana, Web: amayadeshtours.lk, Email: amayadeshtours@gmail.com, District: Gampaha, Telephone: 0314933940, Fax: 0312242174
+
+Category: Travel Agents
 Amaya Tours: Address: No.68.,meda gonawila,dankotuwa, Web: WWW.AMAYATOURS.COM, District: Puttalam
+
+Category: Travel Agents
 Amazing Tribes (private) Limited: Address: No. 44, prison camp road, kattuwa,negambo, Web: www.amazingtribes.com, Email: info@amazingtribes.com, District: Gampaha, Telephone: 0312228228, Fax: 0312228228
+
+Category: Travel Agents
 Pepper Life (pvt) Ltd: Address: No.49/16,iceland building,galle road,colombo 03, Email: mayanthi@thefabulousgetaway.com, District: Colombo, Telephone: 0117895822
+
+Category: Travel Agents
 Perk Travels (pvt) Ltd: Address: No 30 /5,suriyagas junction,moratuwa, Web: www.perktravels.com, District: Colombo
+
+Category: Travel Agents
 Pick Lanka: Address: 639  1/1,kotte road,pitakotte, Web: http://www.picklanka.com/en/home, District: Colombo, Telephone: 0112888501
+
+Category: Travel Agents
 Pin Lanka (pvt) Ltd: Address: 32/1 rani madama,,enderamulla,,wattala, Web: www.pinlanka.com / www.pinlanka.lk, District: Gampaha, Telephone: 0112538506, Fax: 0112075312
+
+Category: Travel Agents
 Pintail Lanka Holidays: Address: Maththegama, ku-bopitiya, Email: info@pintaillanka.com, District: Gampaha, Telephone: 0777777777
+
+Category: Travel Agents
 Prime Vacations (pvt) Ltd: Address: No.505/25,lake view terrace,dharmapala mawatha, wickramasinghepura,thalawathugoda, Web: www.primevacationslanka.com, Email: info@primevacationslanka.com, District: Colombo, Telephone: 0112786019, Fax: 0112784266
+
+Category: Travel Agents
 Pure Vacations Private Limited: Address: No: 18 1/1, mallika lane, wellawatta, colombo 06, Web: www.purevacations.lk, District: Colombo, Telephone: 0112714033
+
+Category: Travel Agents
 Queen Lanka Holiday Travels & Tours: Address: No:176/38, thibirigasyaya rd,colombo 05, Email: queenlankaholiday@yahoo.com, District: Colombo, Telephone: 0112501098, Fax: 0114968940
+Category: Travel Agents
 Quickshawas Tours Ltd: Address: No.03, kalinga place, colombo 05, Web: www.quickshaws.com, Email: tours@quickshawas.com, District: Colombo, Telephone: 0112508369, Fax: 0112587613
+
+Category: Travel Agents
 Qurban Travels (pvt) Ltd: Address: No.10, 1st floor, 1st cross street, colombo 11, Web: www.qurbantravels.com, Email: info@qurbantravels.com, District: Colombo, Telephone: 0112320786, Fax: 0112320786
+
+Category: Travel Agents
 Ran Tours: Address: No.333/a, vihara mawatha, mahawewa, Web: www.rantours.net, Email: rantours@sltnet.lk, District: Puttalam, Telephone: 0322253885, Fax: 0322253885
+
+Category: Travel Agents
 Ranfer Travels (pvt) Ltd: Address: No.36, ketawalamulla place, colombo 09, Web: www.ranfertravels.com, Email: ticketing@ranfertravels.com, District: Colombo, Telephone: 0114605600, Fax: 2686805
+
+Category: Travel Agents
 Ranro Tours: Address: No  8a,stephan place,rajagiriya road,rajagiriya, District: Colombo, Telephone: 0112074310
+
+Category: Travel Agents
 Rayyan Travels: Address: 86,masjid road,puttalam, Email: arrayyaninfo@yahoo.com, District: Puttalam
+
+Category: Travel Agents
 Real Lanka Holidays: Address: No. 699/2, thonwood estate, katunayake, Web: www.rlholidays.com, District: Gampaha, Telephone: 0777777777
+
+Category: Travel Agents
 Reise Mit Uns: Address: No.38 1/1, st.anthony's road, kadalana, moratuwa, District: Colombo
+
+Category: Travel Agents
 Relax Holidays Pvt Ltd: Address: 108/1,east road,akkaraipattu 01,sri lanka, Web: www.relaxholidays.net, Email: info@relaxholidays.net, District: Ampara, Telephone: 0784478638, Fax: 0672277906
+
+Category: Travel Agents
 Reliance Tours Colombo (pvt) Ltd: Address: No. 503, level 2, negombo road,seeduwa, Web: www.reliancetourscmb.com, District: Gampaha, Telephone: 0114348170
+
+Category: Travel Agents
 Resfeber Holidays (pvt) Ltd: Address: 213/3,mosque road galhinna,kandy, District: Kandy, Telephone: 0662240173
+
+Category: Travel Agents
 Responsible Travel (pvt) Ltd: Address: 40e,national housing scheme,kiribathgoda,kelaniya., Web: www.responsible travel.lk, Email: sales@responsibletravels.lk, District: Gampaha, Telephone: 0112911911, Fax: 0112911911
+
+Category: Travel Agents
 Royal Holidays Inbound Tours (pvt) Ltd: Address: No.70, second floor, lucky plaza, st. anthonys road, colombo 03, Web: www.royalholidayssrilanka.com, Email: admin@royalholidayssrilanka.com, District: Colombo, Telephone: 0112574600, Fax: 2574601
+
+Category: Travel Agents
 Rs Leisure (pvt) Ltd: Address: 3rd floor, no 97, main street, baththaramulla., Web: www.rsleisure.com, District: Colombo, Telephone: 0112879888
+
+Category: Travel Agents
 Russ-link International Private Limited: Address: No 104,,havelock road,colombo 05, Web: www.russ-link.com, District: Colombo, Telephone: 0112058331
+
+Category: Travel Agents
 S D Travels And Tours: Address: No:229/b,nivandama,jaela, Web: www.sdtravelsandtours.com, District: Gampaha, Telephone: 0117291291
+
+Category: Travel Agents
 S L Dream Tours (private) Limited: Address: 491/d1,eriyawatiya,kelaniya, Web: www.srilankadreamtours.com, Email: info@srilankadreamtours.com, District: Gampaha, Telephone: 0112910910, Fax: 0112910911
+
+Category: Travel Agents
 S.l.explorer (private) Limited: Address: No: 24, sithuruwana,,molligoda,,wadduwa, Web: www.srilanka-explorere.de, District: Kalutara, Telephone: 0776643727
+
+Category: Travel Agents
 Safety Tours And Travels: Address: No. 2732, stage 3,kashyapa mawatha,anuradhapura, Web: www.navigatesl.com, District: Anuradhapura, Telephone: 0252220620
+
+Category: Travel Agents
 Saffron Island Destination Management (pvt) Ltd: Address: No.415,5th floor,kotte road,rajagiriya., District: Colombo, Telephone: 0112874628
+
+Category: Travel Agents
 Sargia (private) Limited: Address: No.24a,uswatte lane 2,moratuwa, District: Colombo, Telephone: 0777238658
+
+Category: Travel Agents
 Satguru Travel And Tourism Llc: Address: Level 09-03, east tower, world trade center, echelon square, colombo 01, Web: www.satgururtravel.com, District: Colombo
+
+Category: Travel Agents
 Sayu Eco Tours: Address: No. 80,,bambukuliya,,kochchikade, Web: www.sayuecotours.com, District: Gampaha, Telephone: 0312274757, Fax: 0312274757
+
+Category: Travel Agents
 Sazy Lanka Tours: Address: Majestic city 4th floor,4-1e,10,station road,colombo 04., Web: www.sazylankatours.com, District: Colombo, Telephone: 0112727667
+
+Category: Travel Agents
 Sb Travels And Tours (pvt) Ltd: Address: No:324,aluthmawatha road,colombo - 15, Web: www.sbtravels.com, Email: sbtravels99@yahoo.com, District: Colombo, Telephone: 0112540280, Fax: 0112540460
+
+Category: Travel Agents
 Scandi Lanka Travels: Address: 184, 18th mile post,airport junction,katunayake, Web: www.scandilanka.com, Email: scandilanka@gmail.com, District: Gampaha, Telephone: 0112257515, Fax: 112257515
+
+Category: Travel Agents
 Scenic Ventures (pvt) Ltd: Address: No. 225, galle road, colombo 04, Web: www.scenicventures.com, Email: info@scenicventures.com, District: Colombo, Telephone: 2503212, Fax: 2503211
+
+Category: Travel Agents
 Scope Travel (pvt) Ltd: Address: 277,union place,colombo 02, Web: info@scope-travel.com, Email: dimuthu@scope-travel.com, District: Colombo, Telephone: 0115945550
+
+Category: Travel Agents
 Seacare Travels Pvt Ltd: Address: No. 545b, 2/2, sri sangaraja mawatha, colombo 10., Web: www.seacare.lk, Email: shipcar@sltnet.lk, District: Colombo, Telephone: 0114728448, Fax: 0112386969
+
+Category: Travel Agents
 Seasons Travels: Address: No;2,bamunugedara road,kurunegala., Web: www.seasonsth.com, Email: palitha.seasons@yahoo.com, District: Kurunegala, Telephone: 0372056588, Fax: 0372223452
+
+Category: Travel Agents
 Seasons Worldwide Pvt Ltd: Address: 24c,kegalle road,rambukkana., Web: www.seasonsholidays.lk, Email: info@seasonslk.com, District: Kegalle, Telephone: 0352261822, Fax: 0352261822
+
+Category: Travel Agents
 Seeingo Lanka (private) Limited: Address: Level 7, no 41,galle road,dehiwala, District: Colombo, Telephone: 0112717677
+
+Category: Travel Agents
 Seerendipity Tours & Travels: Address: No 159,kiriberiya road,malamulla,panadura, Web: www.urlaub-sr-lanka.info, Email: holiday@vrlavb-sri-lanka.info, District: Kalutara, Telephone: 0382238512
+
+Category: Travel Agents
 Seerock Holidays ( Private ) Limited: Address: No. 134 1/1, philip gunawardana mawatha, colombo 04, Web: www.seerockholidays.com, District: Colombo, Telephone: 0112551950
+
+Category: Travel Agents
 Senok Travel (pvt)ltd: Address: No259/1,galle road ,colombo 04, Email: senoktr@sltnet.lk, District: Colombo, Telephone: 2591365-66
+
+Category: Travel Agents
 Serendib Expeditions & Escapes (pvt) Ltd: Address: 39/4,e 1/1, d. s. senanayake mawatha, borella, colombo 08, District: Colombo
+
+Category: Travel Agents
 Serendib Holidays (pvt) Ltd: Address: No:86-2/1a,chatham street,colombo 01, Email: info@serendibholdings.com, District: Colombo, Telephone: 0112478305, Fax: 0112478306
+
+Category: Travel Agents
 Serendib Travel Holidays Pvt Ltd: Address: No: 49 q 11, mihindu mawatha, dehiwala, Web: serendibtours.com, Email: info@serendibtours.com, District: Colombo, Telephone: 0117446313
+
+Category: Travel Agents
 Serene Travels  And Tours (pvt) Ltd: Address: No 4a, 1st floor, ohlums place, colombo 8, District: Colombo, Telephone: 0112368869, Fax: 0777927924
+
+Category: Travel Agents
 Serene Vacations Lanka ( Pvt ) Ltd: Address: No 46/1/8 marine city business complex.station road,dehiwala, Web: www.sereneonline.com, District: Colombo, Telephone: 0112721519
+
+Category: Travel Agents
 Setmil Travels & Tours (pvt) Ltd: Address: Setmil meritime centre, no.256, srimath ramanathan mawatha, colombo 15, Web: www.setmil.com.lk, Email: travels@setmil.com.lk, District: Colombo, Telephone: 0112485158, Fax: 2423967
+
+Category: Travel Agents
 Shan Travels: Address: 40/1, senguntha lane, thirunelvely east, jaffna, Web: shantravels.lk, District: Jaffna, Telephone: 0212216152
+
+Category: Travel Agents
 Shanthi Adventure Tours (pvt)ltd: Address: No.9/8,suranimala place,colombo 06., Web: www.shantitravel.com, Email: dharshana@shantitravel.lk, District: Colombo, Telephone: 0114654500, Fax: 0114654555
+
+Category: Travel Agents
 Shimon Travels: Address: No:282- 2/1, cotta road,borella,colombo08, Web: DR NM PERERA MAWATHA, District: Colombo
+
+Category: Travel Agents
 Shimron Holidays Private Limited: Address: 18/2,elakanda road,hendala wattala, Web: www.shimronholidays.com, District: Gampaha, Telephone: 0723382938
+
+Category: Travel Agents
 Shineway Travels (private) Limited: Address: No. 45/15,nawala road, narahenpita,colombo 5, Web: www.rentalcarsrilanka.com, District: Colombo, Telephone: 0112368747
+
+Category: Travel Agents
 Shums & Sons Travels (pvt) Ltd: Address: No 33 a, queens road,colombo 03, Web: www.shumsgroup.com, Email: hisham@shumsgroup.com, District: Colombo, Telephone: 0112599253, Fax: 0112507289
+
+Category: Travel Agents
 Shums Holidays{pvt}ltd: Address: 33a queens road,colombo 03, Web: www.shumstravel.com, District: Colombo, Telephone: 0112599253
+
+Category: Travel Agents
 Siddique Travels & Tours: Address: No.94,mannar road,puttalam., Email: sttpxx@yahoo.com, District: Puttalam, Telephone: 0322267141
+
+Category: Travel Agents
 Silk Way Ceylon Tours And Leisure Management Pvt Ltd: Address: 411/1/b/5, 1 st floor, athurugiriya road, malabe, sri lanka, Web: www.silkwayceylontours.com, District: Gampaha
+
+Category: Travel Agents
 Silkway Destinations Pvt Ltd: Address: No. 481, galle road, rawathawatte, moratuwa, District: Colombo, Telephone: 0115978899, Fax: 0112655322
+
+Category: Travel Agents
 Silver Line Tours (pvt) Ltd: Address: No.132 a 1/2 , high level road , kirulapone , colombo 06., Web: www.silverlinetours.com, Email: shamali23@sltnet.lk, District: Colombo, Telephone: 4715193, Fax: 2699213
+
+Category: Travel Agents
 Amith Tours And Travels: Address: No.375/1, galle road, aluthgama, Web: www.amithtours.net, Email: info@amithtours.net, District: Kalutara, Telephone: 0342270244, Fax: 0342270881
+
+Category: Travel Agents
 Amja Travels (privat) Limited: Address: No.22, dias place, gunasinhapura, colombo-12, Email: amjadeen@amja.travels.com, District: Colombo, Telephone: 2335657, Fax: 2437308
+
+Category: Travel Agents
 Amriaz Travels & Tours: Address: No. 476 -d/1, maradana, shopping center, colombo 10, Web: www.amriaztravelslk.com, Email: info@amriaztravelslk.com, District: Colombo, Telephone: 0112678534, Fax: 0112682588
+
+Category: Travel Agents
 Andbeyond Lanka Holdings (pvt) Ltd: Address: No:425/9, havelock place, colombo 06, Web: www.andbeyond.com, District: Colombo, Telephone: 0115970121
+
+Category: Travel Agents
 Andrew The Travel Company (pvt) Ltd: Address: No: 130, level 1, nawala road, narahenpita, colombo 5, Web: andrewstrav.com, Email: prem@andrewstrav.com, District: Colombo, Telephone: 0112369836, Fax: 4513464
+
+Category: Travel Agents
 Apple Holidays (private) Limited: Address: No.148 ,aluthmawatha road, colombo-15, Email: vikesh@sharmilatravels.com, District: Colombo, Telephone: 0112345800
+
+Category: Travel Agents
 Apple Holidays Destination Services(pvt)ltd: Address: No 148 , aluthmawatha road colombo 15., Web: www.appleholidaysds.com, District: Colombo, Telephone: 0112352400, Fax: 0112345800
+
+Category: Travel Agents
 Apple Vacations Pvt Ltd: Address: 249/1, kotuwila,wellampitiya, Web: applevacations.com.co, District: Colombo, Telephone: 0114338831
+
+Category: Travel Agents
 Silver Sand Holidays (pvt) Ltd: Address: 28/20,colombo road,negombo, Web: www.silversandholidays.com, District: Gampaha, Telephone: 0312224868
+
+Category: Travel Agents
 Simplifly Lanka (private) Limited: Address: 46/15, samanala mawatha, athurugiriya, Web: WWW.SIMPLIFLYSRILANKA.COM, District: Colombo
+
+Category: Travel Agents
 Siri Nature Tour In Lanka: Address: No.264/3/b, batalanda road, makola south, makola., Web: www.sirinaturetour.com, Email: wrsrihouse@sltnet.lk, District: Gampaha, Telephone: 0112963893, Fax: 0112963893
+
+Category: Travel Agents
 Sisili Swastha Global (private) Limited: Address: 118a,barns place,colombo 07, Web: www.sisiliswastha.com, District: Colombo, Telephone: 0112576050, Fax: 0112576051
+
+Category: Travel Agents
 Sisin Travels (pvt) Ltd: Address: 50/9,mahalwarawa road,pannipitiya, Web: www.sisintravels.com, District: Colombo, Telephone: 0112840404
+
+Category: Travel Agents
 Sita World Travel Lanka (pvt) Ltd: Address: No.118c, barnes place, colombo 07., Web: www.sita.in, Email: denise.lanz@sita.lk, District: Colombo, Telephone: 0112684701, Fax: 0112684704
+
+Category: Travel Agents
 Siyaahalanka Tours: Address: No 65,gajaba  place,kirulapane, colombo 6, District: Colombo
+
+Category: Travel Agents
 Sky Voyager Tours And Travels (pvt) Ltd: Address: No 348, 2nd floor, kolonnawa road, kolonnawa., Web: www.skyvoyager.lk, District: Colombo, Telephone: 0112534886, Fax: 0112534886
+
+Category: Travel Agents
 Sky World Travels (pvt) Ltd: Address: F-21, peoples park complex, colombo 11, Email: info@skyworldlk.com, District: Colombo, Telephone: 0112395356, Fax: 2395355
+
+Category: Travel Agents
 Skyline Profits Travel Lanka Private Limited: Address: 198/5,delgoda road,markola, Web: www.skylinetravellanka.com, District: Gampaha, Telephone: 0117735735
+
+Category: Travel Agents
 Skyways Travel Solutions (private) Limited: Address: No. 36/1, siripa  road, colombo 05, Email: vasanaskyways@sltnet.lk, District: Colombo, Telephone: 0112577148, Fax: 2574288
+
+Category: Travel Agents
 Skywings Travels  And Tours Pvt Ltd: Address: No. 40 1/1, galle road, colombo 06, Web: www.fareforyou.lk, Email: khan@skywings.lk, District: Colombo, Telephone: 0114324424
+
+Category: Travel Agents
 Sl Ride: Address: No 95/24, lady maccullum's drive, nuwara eliya, Web: www.slride.com, District: Nuwara Eliya
+
+Category: Travel Agents
 Smart Lanka Visitors Pvt Ltd: Address: 157/10, randalu mawatha,raddoluwa,kotugoda, Web: www.lankavisitor.com, Email: info@lankavisitor.com, District: Gampaha, Telephone: 0114494480, Fax: 0112292722
+
+Category: Travel Agents
 Smart Tours: Address: Smart tours,no 39/1/i,makola south, makola, Web: http://smarttravelandtour.com/, Email: info@smarttravelandtour.com, District: Gampaha, Telephone: 0112915538
+
+Category: Travel Agents
 Solo Lanka Holidays Pvt Ltd: Address: 530 / 8 g,negombo road,wattala, Web: www.solosrilankan.com, District: Gampaha, Telephone: 0112946949
+
+Category: Travel Agents
 South Asia Leisure Travels (pvt) Ltd: Address: No.366, first floor, galle road, colombo 03, Web: www.southasialeisure.com, District: Colombo, Telephone: 0777889904
+
+Category: Travel Agents
 Sparklink Holidays & Tours (pvt) Ltd: Address: No.39, st micheals road, colombo 03, Web: www.sparklinkholidays.com, Email: navein@sparklink.lk, District: Colombo, Telephone: 0112341300, Fax: 2434056
+
+Category: Travel Agents
 Sparklink Travels (pvt) Ltd: Address: "nihalsons building", no.39, st. michaels road, colombo 3, Web: www.sparklink.lk, Email: mayanthi@sparklink.lk, District: Colombo, Telephone: 0112336852, Fax: 0112432888
+
+Category: Travel Agents
 Sphere 360 (private) Limited: Address: 22,dharmapala mawatha,rajagiriya, District: Colombo
+
+Category: Travel Agents
 Spiceland Holidays Lanka Limited: Address: 86-2/1, chatham street, colombo 01, Web: www.spicelanddestinations.lk, District: Colombo, Telephone: 0114477442
+
+Category: Travel Agents
 Spillburg Vacation (pvt) Limited: Address: 14, basement level, cinnamon lakeside hotel,115, sir chittampalam a gardiner mawatha, colombo 2, District: Colombo, Telephone: 0112335997
+
+Category: Travel Agents
 Splendtours (pvt) Ltd: Address: 210/v, piliyandala road, palanwatta, pannipitiya, Web: www.splendtours.com, Email: info@splendtours.com, District: Colombo, Telephone: 0112782435, Fax: 0112782435
+
+Category: Travel Agents
 Sri Holidays Travel Services Private Limited: Address: 203,k.c.de silvapura,baseline road,thibirigaskatuwa, District: Gampaha, Telephone: 0312224747, Fax: 0312222400
+
+Category: Travel Agents
 Sri Travels Lanka Holdings (private) Limited: Address: 513/7, st. anne's road,daluwakotuwa,kochchikade, District: Gampaha, Telephone: 0313131800
+
+Category: Travel Agents
 Srieko Holidays (pvt)ltd: Address: No 41 ,sanjeewa building,negombo rd,seeduwa,sri lanka, Email: sriekoholidays@sltnet.lk, District: Gampaha, Telephone: 0312223966, Fax: 0312224266
+
+Category: Travel Agents
 Srikon Tours( Pvt) Ltd: Address: West tower level 34 world trade center,bank of ceylon mawatha,colombo 01, Web: www.srikontours.com, Email: srikontours@gmail.com, District: Colombo, Telephone: 0112326510, Fax: 0112326513
+
+Category: Travel Agents
 Srilankan Holidays: Address: No 28,de vos avenue,colombo 04, Web: www.srilankan.com, District: Colombo, Telephone: 0197331388, Fax: 0197335134
+
+Category: Travel Agents
 Srisky International Private Limited: Address: No. 51, carmel road, kollupitiya, colombo 03, Web: WWW.SRISKYINTERNATIONAL.COM, District: Colombo, Telephone: 0112574578, Fax: 0112440144
+
+Category: Travel Agents
 Star Anise Travels Pvt Ltd: Address: No. 202, gamameda road, thudella, ja- ela, Web: www.thestaranise.com, District: Colombo, Telephone: 0112451012, Fax: 0112451007
+
+Category: Travel Agents
 Star Destinations (private) Limited: Address: No.33,2nd floor, 14th lane,marine drive,colombo 03, Web: www.starsrilanka.com, Email: info@starsrilanka.com, District: Colombo, Telephone: 0112301058, Fax: 0112301059
+
+Category: Travel Agents
 Starron Tours(pvt)ltd: Address: No 01 dr.e.w. adhikaram mawatha, pitakotte., Web: www.starrontours.com, Email: rahula@starrongroup.com, District: Colombo, Telephone: 0117399500
+
+Category: Travel Agents
 Sterling Holidays (pvt) Ltd: Address: No:03,samagi mawatha,dandolla watta,nittambuwa, Email: sterlingholidaystravel@gmail.com, District: Gampaha, Telephone: 0116944800, Fax: 0332283323
+
+Category: Travel Agents
 Sudans  International  Travels And Tours (pvt) Ltd: Address: No.24b, paranawatta, hendala, wattala, Web: N/A, Email: sudansintint@lanka.com.lk, District: Gampaha, Telephone: 2938600, Fax: 2930706
+
+Category: Travel Agents
 Suhair Hajj Travels: Address: No:105/b,,sheik jamaldeen road,beruwala, District: Kalutara, Telephone: 0777889924
+
+Category: Travel Agents
 Suki Travels (pvt)ltd: Address: 277/4/2,high level road,mahalwarawa,pannipitiya, Web: sukitravels.lk, District: Colombo, Telephone: 0112994343
+
+Category: Travel Agents
 Summer Triangle Leisure: Address: 20/5, 1st lane,nagoda,kaluthara, Web: www.summertriangleleisure.com, Email: nayani@summertriangleleisure.com, District: Kalutara, Telephone: 0775122101
+
+Category: Travel Agents
 Summer Voyages (pvt) Ltd: Address: No. 133/14 b, duwa road, baddagana, kotte., Web: www.summervoyages.com, Email: summervoyages@yamail.com, District: Colombo, Telephone: 2884333, Fax: 2867145
+
+Category: Travel Agents
 Sun Leisure World (pvt) Ltd: Address: 70/16 lucky plaza,st anthony's mawatha,colombo-03, Web: www.sunleisureworld.com, District: Colombo, Telephone: 0117911700
+
+Category: Travel Agents
 Sunbird Lanka Tours & Travels (pvt)ltd: Address: No.403,hendala,wattala, Web: www.sunbirdlankatours.com, Email: sunbirdlankatours@gmail.com, District: Gampaha, Telephone: 0112938465, Fax: 0112938465
+
+Category: Travel Agents
 Sunline Travels And Tours (pvt) Ltd: Address: No:86 1/1,lewis place,negambo, Email: sunline@sltnet.lk, District: Gampaha, Telephone: 0312228335, Fax: 0314870095
+
+Category: Travel Agents
 Sunny Side Travellers (private) Limited: Address: No 966 / a4, pannipitiya road, pelawatte, battaramulla., District: Colombo, Telephone: 0114848428, Fax: 0114074123
+
+Category: Travel Agents
 Sunrise Sri Lanka Travels  And Tours: Address: Office 346, orex city,ekala,, Web: WWW.SUNRISESRILANKA.COM, Email: pribala71@yahoo.com, District: Gampaha, Telephone: 0112292433, Fax: 0112242546
+
+Category: Travel Agents
 Suns Mart Group Travels (pvt) Ltd: Address: No. 23/1/1, d.s. senanayake street, kandy, Web: sunsmartgrouptravels.com, Email: sunsmartgroup@gmail.com, District: Kandy, Telephone: 0812225300, Fax: 0812225300
+
+Category: Travel Agents
 Sunway International (pvt) Ltd: Address: "sunway house", no:25,kimbulapitiya road,negombo, Web: www.sunwayholidays.lk, Email: info@sunwayholidays.lk, District: Gampaha, Telephone: 0314936111, Fax: 0312238282
+
+Category: Travel Agents
 Super Taprobane Tours (pvt) Ltd: Address: No. 36/12, de saram road, mount lavinia, Web: www.supertaprobanetours.com, Email: info@supertaprobanetours.com, District: Colombo, Telephone: 2710677
+
+Category: Travel Agents
 Superlink Travels (pvt) Ltd: Address: No:70, "lucky plaza" , kollupitiya lane, colombo 03, Web: www.superlinktravels.com, Email: superlink@superlink.eureka.lk, District: Colombo, Telephone: 2573767, Fax: 2575832
+
+Category: Travel Agents
 Swedlanka Business (private) Limited: Address: 33/2/1,chilaw road,negombo, Web: www.info@srilankaresan.se, District: All Island, Telephone: 0314105899
+
+Category: Travel Agents
 Swiss Lanka Reisen (private) Limited: Address: 277/1, alubogahawatta, hengoda, bandaragama, District: Galle, Telephone: 0779475487
+
+Category: Travel Agents
 Symbolic Leisure (pvt) Ltd: Address: No. 29,,old quarry road,mount lavinia, Web: www.symbolicleisure.com, Email: info@symbolicleisure.com, District: Colombo, Telephone: 0112739974
+
+Category: Travel Agents
 T And T Travel And Tours (pvt) Ltd: Address: 694/1 , lourds lane,teatta road,ragama, Web: https://tnt-traveltours.com/, Email: thusharatna@gmail.com, District: Gampaha, Telephone: 0117445597
+
+Category: Travel Agents
 T B V Tours (pvt) Ltd: Address: No. 9, wasundara  mawatha, nishshankamalla  pedesa, polonnaruwa, Web: http://tbvtours.com/, District: Colombo
+
+Category: Travel Agents
 T.c. Holidays (pvt) Ltd: Address: 108 a 1/1, maya avenue, colombo 06, Email: info@tcholidays.lk, District: Colombo, Telephone: 0112081968
+
+Category: Travel Agents
 T2 Travels Lanka (private) Limited: Address: No. 122/b,gamameda road,tudella, ja ela, Web: https://www.t2travelssrilanka.com/, District: Gampaha, Telephone: 0117021349
+Category: Travel Agents
 Tamarind Holiday Pvt Ltd: Address: 202/32, isurupura, bandaragama rd, kesbwa, Web: www.tamarindholiday.com, District: Colombo
+
+Category: Travel Agents
 Tangerine Tours (pvt) Ltd: Address: No.236, galle road, colombo 03, Web: www.tangerinetours.com, Email: tours3@tangerinetours.com, District: Colombo, Telephone: 0112343720, Fax: 0112448279
+
+Category: Travel Agents
 Taprobane Tours And Travels: Address: No.01,st.anthony's road,periyamulla,negombo, Web: taprobanetoursandtravel.com, Email: taprobanetours@sltnet.lk, District: Gampaha, Telephone: 0312233195, Fax: 0312233195
+
+Category: Travel Agents
 Tgl Travels & Tours (pvt) Ltd: Address: No.90, chatham street, colombo 01., Email: tours@tgl.travel, District: Colombo, Telephone: 0117530000, Fax: 0115371410
+
+Category: Travel Agents
 Thambili Holidays (private) Limited: Address: No. 07,boteju road,colombo 05, Web: www.thambiliholidays.lk, Email: info@thambiliholidays.lk, District: Colombo, Telephone: 0117680063
+
+Category: Travel Agents
 The Bucketlist (pvt) Ltd: Address: No.m6a, millennium cross road, millennium city, athurugiriya., Web: www.thebucketlist.travel, District: Colombo, Telephone: 0112507101, Fax: 0112505988
+
+Category: Travel Agents
 The Educator: Address: No:03, 4th floor, darmaraja mawatha, colombo 03, Web: www.educator.lk, Email: info@educator.lk, District: Colombo, Telephone: 0773136901, Fax: 0113091299
+
+Category: Travel Agents
 The Fabulous Getaway: Address: No:140 a, vauxhall street, colombo 02, Web: www.thefabulousgetaway.com, Email: enquiries@thefabulousgetaway.com, District: Colombo, Telephone: 0117895820, Fax: 0112785441
+
+Category: Travel Agents
 The Fly Zone (private) Limited: Address: No:235-1/1,grandpass road,colombo 14, Web: WWW.THEFLYZONE.LK, District: Colombo, Telephone: 0114848494
+
+Category: Travel Agents
 The Global Travels And Leisure (pvt) Ltd: Address: No 3 a,  ananda mawatha,  colombo 10,,, Web: WWW.THEGLOBAL.LK, Email: INFO@THEGLOBAL.LK, District: Colombo, Telephone: 0117221720, Fax: 011267523
+
+Category: Travel Agents
 The Serendipity Experiences Pvt Ltd: Address: No 20, park lane, rajagiriya, Web: www.serendipitycollection.com, District: Colombo
+
+Category: Travel Agents
 The Signature Collection (private) Limited: Address: 47/47, river side garden, koralawella road, moratuwa, Web: www.silantravels.com, District: Colombo, Telephone: 0114903872
+
+Category: Travel Agents
 The Travel Cafe (pvt) Ltd: Address: No.85/23,jawatte gardens,colombo 05, Web: www.thetravelcafe.lk, Email: colombo@thetravelcafe.lk, District: Colombo, Telephone: 0114280620, Fax: 0112500290
+
+Category: Travel Agents
 The Travel Concierge (pvt) Ltd: Address: No.33,level 12,parkland  building,park street,colombo 02., Web: www.ttcsrilanka.com, Email: laahiru@ttcsrilanka.com, District: Colombo, Telephone: 0112506636
+
+Category: Travel Agents
 The Travel Root: Address: No 120/18/1, araliya uyana, 2nd lane, megoda kolannawa,wellampitiya., District: Colombo, Telephone: 0112531614
+
+Category: Travel Agents
 The Traveller Global (pvt) Ltd: Address: Ug 95, peoples park,colombo 11., Web: www.thetravellerglobal.com, Email: rizmi@ttgpl.com, District: Colombo, Telephone: 011 242157, Fax: 0112430292
+
+Category: Travel Agents
 The Trip Connections (pvt) Ltd: Address: 50, kassapa road,colombo 5, Web: https://thetripconnections.com/, District: Colombo, Telephone: 0112581909, Fax: 0112581911
+
+Category: Travel Agents
 The Visit Lanka Tours: Address: 100/a,ampitiya road,kandy, Web: https://www.thevisitlankatours.com/, District: Kandy
+
+Category: Travel Agents
 The Wanderlust Vacations Private Limited: Address: No:187/b, madiwella rd,,udahamulla,nugegoda, Web: www.twvacations.lk, Email: twvacations@gmail.com, District: Colombo, Telephone: 0779118129
+
+Category: Travel Agents
 Three Six Nine Tours (pvt) Ltd: Address: No 223 lewis place, kudapaduwa, negombo, Web: https://traveldetail.fliggy.com/item.htm?spm=a230r, District: Gampaha, Telephone: 0312230884
+
+Category: Travel Agents
 Thuhina Tours & Travels (pvt) Ltd: Address: No 36/1 , anderson road,kalubowila , dehiwala ., Web: WWW.THUHINATT.COM, District: Colombo, Telephone: 0112890049, Fax: 0112824727
+
+Category: Travel Agents
 Time Travels: Address: 467,galle road,wewala,hikkaduwa, Web: www.timetravels.biz, www.hikkaduwa.org, Email: timetvls@sltnet.lk, District: Galle, Telephone: 0912277767
+
+Category: Travel Agents
 Timeshare Holidays (pvt) Ltd: Address: 396/8/6, colvin crest,,samagi mawatha,hokandara south, Web: www.timesharesrilanka.com, District: Colombo, Telephone: 0113031621, Fax: 0113031621
+
+Category: Travel Agents
 Tokyo Travels And Tours (pvt) Ltd: Address: 25/a, lotus road, dharga town, Web: https://tokyolankapvt.com, District: Kalutara, Telephone: 077-861472
+
+Category: Travel Agents
 Total Holiday Options Lanka (private) Limited: Address: "jetwing house", 46/26, nawam mawatha, colombo 2, Web: www.totalholidayoptions.lk, Email: srilanka@totalholidayoptions.lk, District: Colombo, Telephone: 0112345700, Fax: 0112424954
+
+Category: Travel Agents
 Total Travel Solution (pvt) Ltd: Address: 8/5, porshia skyline residencies, 81 nawala road, nugegoda, Web: www.totaltravelsolution.com, District: Colombo, Telephone: 0112692130
+
+Category: Travel Agents
 Apuru (pvt) Ltd: Address: No : 422, level 09, astoria building - tower 03,r. a. de mel mawatha,colombo 03, Web: www.apuru.com, District: Colombo, Telephone: 0112117665
+
+Category: Travel Agents
 Tour Blue Holdings Pvt Ltd: Address: No 16/2, schofield place , colombo 03, Web: www.tourblue.com, Email: huzam@tourblue.com, District: Colombo, Telephone: 0117575747
+
+Category: Travel Agents
 Tourama (pvt) Ltd: Address: Level 03, autodrome building, no 304, union place ,colombo  02, Web: www.tourama.net, Email: finance@tourama.net, District: Colombo, Telephone: 0112304035, Fax: 2338611
+
+Category: Travel Agents
 Tours For Sl: Address: No.608/1,nabeta,aluthgama,dambulla road,melsiripura., Web: www.toursforsrilanka.com, District: Kurunegala, Telephone: 0778447309
+
+Category: Travel Agents
 Transcend Drive (pvt) Ltd: Address: No: 207/7, dharmapala mawatha, colombo 07, Web: www.transcenddrive.com, District: Colombo, Telephone: 0112591096
+
+Category: Travel Agents
 Transco Travels (pvt) Ltd: Address: 2nd floor, 162 nawala road, nugegoda, Web: https://transcotravels.com/, District: Colombo
+
+Category: Travel Agents
 Transtours & Travels: Address: No:129/1,jayantha weerasekara mawatha,colombo 10, Web: www.transtours@belmail.lk, Email: transtours@belimail.lk, District: Colombo, Telephone: 0114573072
+
+Category: Travel Agents
 Tranzwave Ceylon Tours & Travels (pvt) Ltd: Address: No.7.5/1, deanstone place, colombo 03, Web: www.tranzwave.com, District: Colombo
+
+Category: Travel Agents
 Trave Lanka Tours: Address: No. 54,gurupuraya, palathota, wijayagama, kalutara south, Web: www.travelankatours.com, District: Kalutara, Telephone: 0342228434
+
+Category: Travel Agents
 Travel Arcade (pvt)ltd: Address: No. 15, police park avenue, colombo 05, Web: www.travelarcades.com, Email: travarc@sltnet.lk, District: Colombo, Telephone: 0112591290, Fax: 0112591289
+
+Category: Travel Agents
 Travel Data Tours And Travels (pvt) Ltd: Address: No:9,school lane,colombo 03, Web: www.traveldata.lk, Email: sonali@traveldata.lk, District: Colombo, Telephone: 0112581015, Fax: 0112598777
+
+Category: Travel Agents
 Travel Delegates Pvt Ltd: Address: No. 1b, 1/3,,deanston place,colombo 03, Web: WWW.TRAVELDELEGATES.COM, Email: info@traveldelegates.com, District: Colombo, Telephone: 0117445525
+
+Category: Travel Agents
 Travel Design By Cdc (private) Limited: Address: No 130,high level road,colombo 06, Web: www.traveldesignbycdc.com, District: Colombo, Telephone: 0014706400, Fax: 0112335363
+
+Category: Travel Agents
 Travel Ease Holidays (private) Limited: Address: No.43,vipulasena mawatha,colombo 10, Web: www.traveleaseholidays.com, Email: fazeel@traveleaseholidays.com, District: Colombo, Telephone: 0112695454, Fax: 0112693555
+
+Category: Travel Agents
 Travel Fantasy D M C (pvt) Ltd: Address: No 444, 2nd floor, seeduwa village, colombo road, seeduwa, Web: www.travelfantasydmc.com, District: Colombo, Telephone: 0112590909
+
+Category: Travel Agents
 Travel Hub (private) Limited: Address: 2nd floor, wanigarathne building,galle road, diyalagoda, maggona,kalutara, District: Kalutara, Telephone: 0113631888
+
+Category: Travel Agents
 Travel Lanka Compass (private) Limited: Address: 10/10a, lake drive enclave,,lake drive,,colombo 8, Web: www.tlc.lk, District: Colombo, Telephone: 0777744644, Fax: 0112690579
+
+Category: Travel Agents
 Travel Lanka Connection (pvt) Ltd: Address: No. 324/1/a, galle road, colombo 03, Web: www.travellankaconnection.com, Email: satheesh@travellankaconnection.com, District: Colombo, Telephone: 0112301511
+
+Category: Travel Agents
 Travel Lounge (pvt) Ltd: Address: No.2, 1/1, nelson place, colombo 06, Email: sakthi.tlounge@gmail.com, District: Colombo, Telephone: 0115514134, Fax: 2362227
+
+Category: Travel Agents
 Travel Mission (pvt) Ltd: Address: 285/2, 7th lane, pamunuwa road, maharagama, Web: www.tm.lk, Email: info@tm.lk, District: Colombo, Telephone: 0112577662, Fax: 0112577661
+
+Category: Travel Agents
 Travel Story (pvt) Ltd: Address: Level 03- vinsey space, no. 39, canal row, colombo 01, Web: WWW.TRAVELSTORY.LK, District: Colombo, Telephone: 0113131066
+
+Category: Travel Agents
 Travel Talk (pvt) Ltd: Address: 273,vauxhall street,colombo 02, Email: anu.senevirathna@yahoo.com, District: Colombo, Telephone: 0114342657, Fax: 0112307670
+
+Category: Travel Agents
 Travel Trends Leisure (pvt) Ltd: Address: 206,old kottawa road, nawainna, maharagama, Web: www.traveltrendsleisure.com, Email: info@traveltrendsleisure.com, District: Colombo, Telephone: 0113633950
+
+Category: Travel Agents
 Travel With Dear Sl: Address: Level 06, no. 135, dutugemunu street, kohuwala, Web: www.dearsrilanka.lk, District: Colombo, Telephone: 0112605584
+
+Category: Travel Agents
 Travelco Holidays: Address: 333 2/2,,galle road,colombo-03, Web: www.travelco.lk, District: Colombo, Telephone: 0112574646
+
+Category: Travel Agents
 Traveli Ceylon Holidays Private Limited: Address: 42,st. sebastian road,mahahunupitiya, negombo, Web: www.traveliceylon.com, District: Gampaha, Telephone: 0115813814
+
+Category: Travel Agents
 Traveller Global Destination & Leisure Holidays (pvt) Ltd: Address: No 70/14, lucky plaza(ground floor), st anthony`s mawatha, colombo 00300, Web: www.travellerleisure.com, Email: info@travellerleisure.com, District: Colombo, Telephone: 0112372310, Fax: 0112372935
+
+Category: Travel Agents
 Travellers Isle Holidays (pvt) Ltd: Address: 312 e,high level road,watareka, padukka, Web: https://travellersisle.com/, District: Colombo, Telephone: 0112084272
+
+Category: Travel Agents
 Travellers Link: Address: No: 234, airport-minuwangoda road, andiambalama., Web: www.travellerlinksl.com, District: Gampaha, Telephone: 0112265465
+
+Category: Travel Agents
 Travelling Pearl Lanka: Address: 08/1/a/3/1, y m b a road, gampaha, Web: www.travellingpearllanka.com, District: Gampaha, Telephone: 0117744393
+
+Category: Travel Agents
 Travelorphic (pvt) Ltd: Address: No 282/2/6, 2nd floor,liberty arcade,r.a.de mel mawatha,colombo 03, Email: info@travelorphic.com, District: Colombo, Telephone: 0114330891
+
+Category: Travel Agents
 Travelpax Pvt Ltd: Address: No.364,orex city,ekala, Web: www.travelpax.lk, District: Gampaha, Telephone: 0112280167
+
+Category: Travel Agents
 Travelscape Lanka Private Limited: Address: No: 80b/5,prince street,pettah colombo 11, Web: www.travelscape.international, District: Colombo, Telephone: 0112449441
+
+Category: Travel Agents
 Travelserv Limited: Address: No:71/1, gregory s road, colombo 07., Web: www.travelserv.lk, Email: tsl@sol.lk, District: Colombo, Telephone: 4715601, Fax: 4715601
+
+Category: Travel Agents
 Travelwind Holidays (pvt) Ltd: Address: 272 f,dehiwela-maharagama road,bellangvilla, boralasgamuwa., Web: www.travelwindholiday.com, Email: gkumar@travelwindholiday.com, District: Colombo, Telephone: 0112726118, Fax: 0112726118
+
+Category: Travel Agents
 Traworlux Holdings Private Limited: Address: 20a, pangiriwatta mawatha , mirihana, nugegoda., Web: www.traworlux.com, District: Colombo
+
+Category: Travel Agents
 Tree Of Life Travels (pvt) Ltd: Address: No.01, dias place , pepiliyana road, nugegoda, sri lanka, Web: www.hoteltreeoflife.com, Email: treelife@sltnet.lk, District: Colombo, Telephone: 2824348, Fax: 2824350
+
+Category: Travel Agents
 Trek Lanka: Address: No. 129,airport road,andiambalama, Web: www.treklanka.com, Email: info@treklanka.com, District: Gampaha, Telephone: 0314302892, Fax: 0112265161
+
+Category: Travel Agents
 Trimagine Travels (pvt) Ltd: Address: No .61/9,alexandra place ,,thudella,ja-ela ., Web: www.trimaginetravels .com, District: Gampaha, Telephone: 0112071345, Fax: 0112071345
+
+Category: Travel Agents
 Tripavi (private) Limited: Address: 102 1/1,templers road,mount lavinia, Web: www.tripavi.com, District: Colombo, Telephone: 0112712100, Fax: 0112612110
+
+Category: Travel Agents
 Tripfusion Dmc: Address: No. 98, 5th floor,,havelock road,colombo 5, Email: mark@tripfusiondmc.com, District: Colombo
+
+Category: Travel Agents
 Tropical Asia Tours (pvt) Ltd: Address: No.23a, gower street, colombo 05, Web: www.tropicalasiatours.com, Email: info@tropicalasiatours.com, District: Colombo, Telephone: 112588435
+
+Category: Travel Agents
 Tropiculture (private) Limited: Address: "la forterese" 68, wehera kanda road,baddegana,kotte, Web: www.tropiculture.travel, District: Colombo, Telephone: 0112795385
+
+Category: Travel Agents
 Trotter Escapes (private) Limited: Address: No.262, kotte road,mirihana,nugegoda, Web: www.trotterescapes.com, District: Colombo, Telephone: 0112818776, Fax: 0112818775
+
+Category: Travel Agents
 True Paradise Tours (pvt)ltd: Address: 245 l / 6 , sithum sewana,,thalgasgoda,ambalangoda, Web: www.trueparadisetours.com, District: Galle
+
+Category: Travel Agents
 Trustker Company: Address: 149 c 1,raddoluwa,kotugoda, Web: trustker.com, District: Gampaha
+
+Category: Travel Agents
 Tuktuk Rental (pvt) Ltd: Address: 11/a, negombo road, katunayake, Web: TUKTUKRENTAL.COM, District: Colombo, Telephone: 0112726787
+
+Category: Travel Agents
 Udani Holidays And Tours (pvt) Ltd: Address: No 392/1/1,galle road,aluthgama, Web: www.udaniholidays.com, Email: udaniholidays@gmail.com, District: Kalutara, Telephone: 0342293500, Fax: 0342293500
+
+Category: Travel Agents
 Ukasha (private) Limited: Address: No. 53b,,george mawatha,mabola, wattala., Web: www.ukashatours.com, District: Gampaha, Telephone: 0112935656, Fax: 0112935656
+
+Category: Travel Agents
 Ummul Qura Travels & Tours (pvt) Ltd: Address: No.307a, makkamady road, maruthamunai, Email: ummulqurahaj@gmail.com, District: Ampara, Telephone: 0777274279, Fax: 0672220657
+
+Category: Travel Agents
 Union Holidays (pvt)ltd: Address: 29a\1\1, raymond road, nugegoda, Email: unionholidaysinfo@gmail.com, District: Colombo, Telephone: 0117088270
+
+Category: Travel Agents
 Unique Paradise Travels (private) Limited: Address: Level 12,parkland building,no.33 park street,colombo 02., Web: www.uniqueparadise-travels.com, Email: inquiries@uniqueparadise-travels.com, District: Colombo, Telephone: 0114848646
+
+Category: Travel Agents
 United Travels And Holidays (private) Limited: Address: 245/1a,de fonseka place,colombo 04, Web: www.unitedtravel.lk, District: Colombo, Telephone: 0114356356
+
+Category: Travel Agents
 Universal City Pvt Ltd: Address: F41  f42, ug81, peoples park,shopping complex,colombo-11, District: Colombo
+
+Category: Travel Agents
 Universal Lotus Tours And Travels (private) Limited: Address: No 1034/4a, nisala pedesa, pothuarawa road, malabe, Web: www.universallotustourssrilanka.com, District: Colombo
+
+Category: Travel Agents
 Upali Travels (pvt) Ltd: Address: No.06, regents building, chittampalam gardiner mawatha, colombo 02, Email: mma_cader@upali.lk, District: Colombo, Telephone: 0112543176, Fax: 0112543175
+
+Category: Travel Agents
 Venus Travels And Tours Pvt Ltd: Address: No347a,4th cross street, kotte road,mirihana, nugegoda, Web: www.venustravels.lk, Email: info@venustravels.lk, District: Colombo, Telephone: 0114334456, Fax: 0112827368
+
+Category: Travel Agents
 Viajes Eden (pvt) Ltd: Address: No: 242, kandy road, kurunegala, Web: srilankaviajeseden.es, District: Kandy, Telephone: 0377294905
+
+Category: Travel Agents
 Viajes Lanka: Address: No,280 1/1/1, muthuwela mw, modara, colombo 15,,western province, Web: www.viajeslanka.com, District: Colombo, Telephone: 0112520754
+
+Category: Travel Agents
 Viani London (pvt) Ltd: Address: No 192/10, 9th lane, nawala rd, nawala, Web: https://www.escapeelite.com, District: Colombo
+
+Category: Travel Agents
 Vilhans Speed (pvt) Ltd: Address: 679,high level road, gangodawila,nugegoda, Web: www.vilhansspeed.lk, District: Colombo, Telephone: 0112765765, Fax: 0112802926
+
+Category: Travel Agents
 Viluxur Tourism (pvt) Ltd: Address: No:25/b,nikape road,nedimala,dehiwala., Web: www.viluxurholidays.com, Email: shaleen.s@viluxurholidays.lk, District: Colombo, Telephone: 0112372888, Fax: 2372878
+
+Category: Travel Agents
 Visa World (pvt) Limited: Address: 29a,,st anne's road,wattala, Web: www.visaworld.lk, District: Gampaha, Telephone: 0112933016
+
+Category: Travel Agents
 Vision Lanka Tours: Address: 36/1,eramudugaha junction matara road,,unawatuna., Web: www.visionlankatours.com, District: Galle, Telephone: 0912226624, Fax: 0912226624
+
+Category: Travel Agents
 Visit 2 Lanka: Address: 88/2 a,sumudu rajapakse mawatha, hill street,dehiwala., Web: https://www.visittolanka.com/, District: Colombo, Telephone: 0117936880
+
+Category: Travel Agents
 Visit In Lanka Tours (pvt) Ltd: Address: No-240 , orex city complex , ekala , ja-ela,, Web: www.visitinlanka.com, District: Gampaha, Telephone: 0112246022
+
+Category: Travel Agents
 Visit Lanka (pvt) Ltd: Address: No. 21, circular lane, sapumal place, welikada, rajagiriya, Web: www.visitlanka.com, Email: sarath@visitlanka.com, District: Colombo, Telephone: 0773582287, Fax: 0112879777
+
+Category: Travel Agents
 Visit My City Travels (pvt) Ltd: Address: "rnh house" , no. 622-b, kotte road,kotte, Web: www.visitmycity.lk, Email: info@visitmycity.travel, District: Colombo, Telephone: 0114327627, Fax: 0112867766
+
+Category: Travel Agents
 Visit S L Travels: Address: No. 29, carmel group,,dambulla road,,thorayaya, District: Kurunegala, Telephone: 0714547815
+
+Category: Travel Agents
 Vista Vacations (pvt) Ltd: Address: No. 407, nawala road,rajagiriya, Web: www.vistavacationslk.com, District: Colombo, Telephone: 0114330202
+
+Category: Travel Agents
 Vms Holidays (pvt) Ltd: Address: No: 294, 1/1, 1st floor,galle road,colombo 04, Web: www.vmstravels.org, Email: samantha@vmstravels.net, District: Colombo, Telephone: 0112502209, Fax: 0112580737
+
+Category: Travel Agents
 Vms Travels And Tours (pvt) Ltd: Address: 294 1/1  1st floor,galle road,colombo 04, Web: www.vmstravels.org, District: Colombo, Telephone: 0112502209, Fax: 0112580737
+
+Category: Travel Agents
 Vorteil Reise: Address: 838,ethul kotte,kotte, Web: vorteil-reise.com, District: Colombo
+
+Category: Travel Agents
 Walk Lanka Holidays: Address: No 196/1,,anuradhapura road,,habarana., Web: www.walklankaholidays.com, District: Anuradhapura
+
+Category: Travel Agents
 Walk With Jith Pvt Ltd: Address: 778/b,millagahawatta road,malabe, Web: www.walkwithjith.com, District: Colombo, Telephone: 0112791434
+
+Category: Travel Agents
 Walkers Tours Limited: Address: No.117, sir chittampal a gardiner mawatha,colombo 2 ,sri lanka, Web: www.walkerstours.com, Email: venusha@walkerstours.com, District: Colombo, Telephone: 0112306306, Fax: 0112447087
+
+Category: Travel Agents
 Wander Ceylon: Address: 42/1,galle road,aluthgama, Web: www.wanderceylon.lk, Email: kavinduhashantha@outlook.com, District: Gampaha, Telephone: 0342271470, Fax: 0342274709
+
+Category: Travel Agents
 Wanderlustasia (pvt) Ltd: Address: Ngombo city centre, 1st floor, no198, st. joseph's street, negombo, District: Gampaha, Telephone: 0314333125
+
+Category: Travel Agents
 Waves Destinations (pvt) Ltd: Address: No.115,level 10,sir james peiris mawatha,colombo 02., Web: www.waves-destinations.com, Email: chandula@nawaloka.net, District: Colombo, Telephone: 0115886677, Fax: 0115886688
+
+Category: Travel Agents
 Wayfarers (pvt) Ltd: Address: No.6, boyd place, colombo 3, Web: www.wayfarers-srilanka.com, Email: wayfar@eol.lk, District: Colombo, Telephone: 0112324343, Fax: 2422524
+
+Category: Travel Agents
 Welcome Holiday Travel And Tours (private) Limited: Address: No. 70/7 a, jayaratne road, negambo., Web: www.welcomeholiday.net, Email: gamunu@welcome-holiday.com, District: Gampaha, Telephone: 0312237435, Fax: 0312237435
+
+Category: Travel Agents
 Asia Leisure Travels {pvt}ltd: Address: 6th floor, no 46/46, (green lanka building), nawam mawatha,
+
+Category: Travel Agents
 West Eastern Travels And Tours (pvt) Ltd: Address: No 85/1, first floor,n.m.perera mawatha,colombo 08, Web: www.westeastern.lk, District: Colombo, Telephone: 0112127227, Fax: 0112127227
+
+Category: Travel Agents
 Whittall Boustead (travel) Ltd: Address: No.117 sir chithampalam a gardiner mw, colombo 02, Email: yohan.wbtl@keells.com, District: Colombo, Telephone: 0112306378, Fax: 2306391
+
+Category: Travel Agents
 Wild Ceylon Adventures (pvt) Ltd.: Address: 145/1,high level road,pannipitiya, Web: https://wildceylonadventures.com, District: Colombo, Telephone: 0715808080, Fax: 0114305650
+
+Category: Travel Agents
 Wild Monsoon Holidays (private) Limited: Address: 61/1,,dharmapala place,,rajagiriya, Web: www.wildmonsoonholidays.com, District: Colombo, Telephone: 0112888864, Fax: 0112888874
+
+Category: Travel Agents
 Wind And Waves Solutions (pvt) Ltd: Address: 386/a/10, kularatne mawatha, akkarapanaha, negombo, Web: www.windandwaves.lk, District: Colombo
+
+Category: Travel Agents
 Wingway Holidays (pvt) Ltd: Address: B 35/6/2, crow island, mattakkuliya, colombo 15, Web: https://wingwayholidays.com/, District: Gampaha, Telephone: 0704291223
 Winx Travel (pvt) Ltd: Address: No.20/12,,fair feild gardens,colombo 08, Web: www.winxtravel.com, Email: accounts@winxtravel.com, District: Colombo, Telephone: 0114744174
+
+Category: Travel Agents
 Wonder Isle Holidays  Pvt Ltd: Address: No 38/11, robert gunawardana mawatha, colombo 05, Web: www.wwonderisleholidays.com, District: Colombo
+
+Category: Travel Agents
 World Of Travel (pvt) Ltd: Address: No:249, 1/1, dr.n m perera mawatha, colombo 08., Web: WWW.WOTTRAVELS.COM, District: Colombo, Telephone: 0112202200
+
+Category: Travel Agents
 World Travel Center Colombo (pvt) Ltd: Address: No: 345/35a, r. l. t. alles mawatha, colombo 08., Web: www.totaltravel.lk, Email: travel@wtccolombo.com, District: Colombo, Telephone: 0112690500, Fax: 0117388789
+
+Category: Travel Agents
 Worldlink Tours (private) Limited: Address: No: 125/21,peterson lane,colombo 06, Web: www.theislandsrilanka.com, District: Colombo, Telephone: 0117750580, Fax: 0112366834
+
+Category: Travel Agents
 Worldlink Travels (pvt) Ltd: Address: No.20, dharmarama road, colombo 06, Email: prashi@worldlink.lk, District: Colombo, Telephone: 0117750577, Fax: 0112504877
+
+Category: Travel Agents
 Xin Holidays (pvt) Ltd: Address: No:316 , galle road ,colombo 3, Web: www.xinholidays.com, Email: xinholidays@gmail.com, District: Colombo, Telephone: 011434645, Fax: 0114341452
+
+Category: Travel Agents
 Xpo Holidays: Address: 146 g5, pearl park complex,negombo road,wattala, Web: WWW.XPOHOLIDAYS.COM, District: Gampaha, Telephone: 0113695888
+
+Category: Travel Agents
 Y Planet International (pvt) Ltd: Address: No. 110/16, lake drive, colombo 08., Web: www.yplanetlk.com, District: Colombo
+
+Category: Travel Agents
 Yaka Travels &  Leisure: Address: No.33/6,makulugahawaththa road,kelaniya, District: Gampaha, Telephone: 0112919385
+
+Category: Travel Agents
 Yara Global Pvt Ltd: Address: 36a,shrubbury gardens,colombo 04, Web: WWW.YARAGLOBAL.LK, District: Colombo, Telephone: 0112559914
+
+Category: Travel Agents
 Yara Travels (pvt) Ltd: Address: 1st floor,tfc building,main street,akkaraipattu., Email: travelsyara@gmail.com, District: Ampara, Telephone: 0672279599, Fax: 0672279599
+
+Category: Travel Agents
 Yathra Travels (pvt) Ltd: Address: 572/10, 2nd floor, madiwela road, thalawathugoda, Web: www.yathra.lk, Email: wathsala@yathra.lk, District: Colombo, Telephone: 0114378598, Fax: 0112690319
+
+Category: Travel Agents
 Yatours: Address: No. 252 a/6 , methodist central building , galle road , colombo 03., Web: www.yatours.com, Email: yatours@eol.lk, District: Colombo, Telephone: 0112333168
+
+Category: Travel Agents
 Yolo Travels (private) Limited: Address: No.135/2/3 nabeesha shopping complex,kotugodella street,kandy, Web: www.yolopackage.com, District: Kandy, Telephone: 0812205646
+
+Category: Travel Agents
 Youlanka Travels (pvt)ltd: Address: No 481,galle road,colombo 04., Web: www.youlanka.com, Email: jasonwang@youlanka.com, District: Colombo, Telephone: 0777621858
+
+Category: Travel Agents
 Z R I Adventures (private) Limited: Address: 18,,frances road,colombo 06, Web: https://www.zriadventures.com/, District: Colombo, Telephone: 0778941243
+
+Category: Travel Agents
 Zelen Leisure (pvt) Ltd: Address: 9-5/2, school lane, colombo - 03, Web: www.zelenleisure.com, District: Colombo, Telephone: 0112595100, Fax: 0112595501
+
+Category: Travel Agents
 Zillion Travels (pvt) Ltd: Address: 146 / g05,pearl park complex, negombo road,wattala, Web: WWW.ZILLIONTRAVELS.COM, District: Gampaha, Telephone: 0112933008
+
+Category: Travel Agents
 Zip Travels (pvt) Ltd: Address: No:684,negombo road,mabola,wattala, Web: ziptravels.lk, District: Gampaha
