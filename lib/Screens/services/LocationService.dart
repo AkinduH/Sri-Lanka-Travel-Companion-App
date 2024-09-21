@@ -50,6 +50,7 @@ class LocationService {
       case 'Pidurangala Rock':
         return LatLng(7.9567, 80.7599);
       case 'Sigiriya Rock Fortress':
+      case 'Sigiriya':
         return LatLng(7.9570, 80.7603);
       case "Adam’s Peak":
         return LatLng(6.8094, 80.4994);
