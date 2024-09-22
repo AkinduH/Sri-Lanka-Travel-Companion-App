@@ -7,11 +7,17 @@ import 'SummaryScreen.dart';
 
 class DateSelectionScreen extends StatefulWidget {
   final List<String> selectedCategories;
+  final List<String> bucketList;
+  final List<String> recommendations;
 
-  const DateSelectionScreen({super.key, required this.selectedCategories});
+  const DateSelectionScreen({
+    super.key,
+    required this.selectedCategories,
+    required this.bucketList,
+    required this.recommendations,
+  });
 
   @override
-  // ignore: library_private_types_in_public_api
   _DateSelectionScreenState createState() => _DateSelectionScreenState();
 }
 
@@ -99,6 +105,8 @@ class _DateSelectionScreenState extends State<DateSelectionScreen> {
                           MaterialPageRoute(
                             builder: (context) => SummaryScreen(
                               selectedCategories: widget.selectedCategories,
+                              bucketList: widget.bucketList,
+                              recommendations: widget.recommendations,
                               startDate: _startDate!,
                               endDate: _endDate!,
                               duration: duration,

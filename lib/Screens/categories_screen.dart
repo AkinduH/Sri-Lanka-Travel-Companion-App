@@ -1,28 +1,112 @@
 import 'package:flutter/material.dart';
-import 'date_selection_screen.dart';
+import 'bucket_list_screen.dart';
+import 'widgets/ErrorPopup.dart';
 
 class CategoriesScreen extends StatefulWidget {
   const CategoriesScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _CategoriesScreenState createState() => _CategoriesScreenState();
 }
 
 class _CategoriesScreenState extends State<CategoriesScreen> {
   List<String> categories = [
-    'Beaches',
-    'Adventure',
-    'Wildlife',
-    'Cultural',
-    'Mountains',
+    'Amusement Parks',
+    'Animal Encounters',
+    'Archaeological Sites',
+    'Architecture Photography',
+    'Architecture Tours',
+    'Art Classes',
+    'Arts and Culture',
+    'Ayurvedic Spa Treatments',
+    'Beach Visits',
+    'Beachfront Dining',
+    'Bird Watching',
+    'Boat Safaris',
+    'Botanical Gardens',
+    'Butterfly Watching',
+    'Camping',
+    'Caving',
+    'City Tours',
+    'Craft Workshops',
+    'Cultural Experiences',
+    'Cultural Festivals',
+    'Cycling',
+    'Elephant Rides',
+    'Fishing',
+    'Golfing',
+    'Hiking',
+    'Historic Sites',
+    'Historic Walks',
+    'Historical Monuments',
+    'History Tours',
+    'Horse Shows',
+    'Horseback Riding',
+    'Hot Air Ballooning',
+    'Hot Springs',
+    'Kayaking',
+    'Landscape Photography',
+    'Literary Tours',
+    'Local Crafts',
+    'Mountain Biking',
+    'Museum Visits',
+    'Outdoor Adventures',
+    'Paddleboarding',
+    'Photography',
+    'Planetarium Visits',
+    'Public Art Installations',
+    'River Cruises',
+    'Rock Climbing',
+    'Safaris',
+    'Sailing',
+    'Sailing Lessons',
+    'Scuba Diving',
+    'Sea Cruises',
+    'Sightseeing',
+    'Snorkeling',
+    'Spiritual Retreats',
+    'Surfing',
+    'Tea Tasting',
+    'Temple Pilgrimages',
+    'Theater',
+    'Themed Parks',
+    'Traditional Ceremonies',
+    'Turtle Watching',
+    'Village Homestays',
+    'Water Parks',
     'Waterfalls',
-    'Rainforests',
-    'Scenic Train Rides',
-    'Tea Plantations',
-    'Hiking Trails'
+    'Whale Watching',
+    'Wildlife Viewing',
+    'Yoga Retreats',
+    'Zip-lining'
   ];
   List<String> selectedCategories = [];
+
+  void _showErrorPopup() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return const ErrorPopup(
+          message: 'Please select exactly 3 categories.',
+        );
+      },
+    );
+  }
+
+  void _navigateToBucketList() {
+    if (selectedCategories.length == 3) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => BucketListScreen(
+            selectedCategories: selectedCategories,
+          ),
+        ),
+      );
+    } else {
+      _showErrorPopup();
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +126,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                 ),
                 SizedBox(height: 8),
                 Text(
-                  'Select one or more',
+                  'Select exactly 3 categories',
                   style: TextStyle(fontSize: 16, color: Colors.grey),
                 ),
               ],
@@ -61,7 +145,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     setState(() {
                       if (isSelected) {
                         selectedCategories.remove(category);
-                      } else {
+                      } else if (selectedCategories.length < 3) {
                         selectedCategories.add(category);
                       }
                     });
@@ -72,8 +156,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     decoration: BoxDecoration(
                       color: isSelected ? Colors.blueAccent : Colors.white,
                       border: Border.all(
-                        color:
-                            isSelected ? Colors.blueAccent : Colors.blueAccent,
+                        color: Colors.blueAccent,
                       ),
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -96,18 +179,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
             child: Align(
               alignment: Alignment.bottomRight,
               child: GestureDetector(
-                onTap: selectedCategories.isNotEmpty
-                    ? () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => DateSelectionScreen(
-                              selectedCategories: selectedCategories,
-                            ),
-                          ),
-                        );
-                      }
-                    : null,
+                onTap: _navigateToBucketList,
                 child: Container(
                   height: 30,
                   width: 30,

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'screens/intro_screen.dart';
-import 'screens/categories_screen.dart';
-import 'screens/date_selection_screen.dart';
-import 'screens/SummaryScreen.dart';
+import 'Screens/intro_screen.dart';
+import 'Screens/categories_screen.dart';
+import 'Screens/bucket_list_screen.dart';
+import 'Screens/loading_screen.dart';
+import 'Screens/recommendation_results_screen.dart';
+import 'Screens/date_selection_screen.dart';
+import 'Screens/SummaryScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,18 +23,27 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const IntroScreen(),
+      initialRoute: '/',
       routes: {
+        '/': (context) => const IntroScreen(),
         '/categories': (context) => const CategoriesScreen(),
-        '/date_selection': (context) => DateSelectionScreen(
-              selectedCategories: const [],
+        '/bucket_list': (context) => const BucketListScreen(
+              selectedCategories: [],
             ),
+        '/loading': (context) =>
+            const LoadingScreen(selectedCategories: [], bucketList: []),
+        '/recommendation_results': (context) =>
+            const RecommendationResultsScreen(
+                recommendations: [], selectedCategories: [], bucketList: []),
+        '/date_selection': (context) => const DateSelectionScreen(
+            selectedCategories: [], bucketList: [], recommendations: []),
         '/summary': (context) => SummaryScreen(
-              selectedCategories: const [],
-              startDate: DateTime.now(),
-              endDate: DateTime.now(),
-              duration: 0,
-            ),
+            selectedCategories: [],
+            bucketList: [],
+            recommendations: [],
+            startDate: DateTime.now(),
+            endDate: DateTime.now(),
+            duration: 0),
       },
     );
   }

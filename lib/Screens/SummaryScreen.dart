@@ -5,6 +5,8 @@ import 'widgets/MapMarkerWidget.dart';
 
 class SummaryScreen extends StatelessWidget {
   final List<String> selectedCategories;
+  final List<String> bucketList;
+  final List<String> recommendations;
   final DateTime startDate;
   final DateTime endDate;
   final int duration;
@@ -14,6 +16,8 @@ class SummaryScreen extends StatelessWidget {
   SummaryScreen({
     super.key,
     required this.selectedCategories,
+    required this.bucketList,
+    required this.recommendations,
     required this.startDate,
     required this.endDate,
     required this.duration,
@@ -24,8 +28,8 @@ class SummaryScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Travel Plan')),
       body: FutureBuilder<Map<String, dynamic>>(
-        future: connectionService.sendDataToBackend(
-            selectedCategories, startDate, endDate, duration),
+        future: connectionService.sendDataToBackend(selectedCategories,
+            bucketList, recommendations, startDate, endDate, duration),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Center(
@@ -134,36 +138,6 @@ class SummaryScreen extends StatelessWidget {
                                           style: const TextStyle(fontSize: 16),
                                         ),
                                         contentPadding: EdgeInsets.zero,
-                                      );
-                                    }).toList(),
-                                    const SizedBox(height: 12),
-                                    const Text(
-                                      'Accommodation:',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
-                                        color: Colors.black87,
-                                      ),
-                                    ),
-                                    ...details['Accommodation']
-                                        .map<Widget>((accommodation) {
-                                      return Padding(
-                                        padding: const EdgeInsets.symmetric(
-                                            vertical: 2.0),
-                                        child: Row(
-                                          children: [
-                                            const Icon(Icons.home,
-                                                color: Colors.blueAccent),
-                                            const SizedBox(width: 8),
-                                            Text(
-                                              accommodation,
-                                              style: TextStyle(
-                                                fontSize: 14,
-                                                color: Colors.grey[700],
-                                              ),
-                                            ),
-                                          ],
-                                        ),
                                       );
                                     }).toList(),
                                   ],
