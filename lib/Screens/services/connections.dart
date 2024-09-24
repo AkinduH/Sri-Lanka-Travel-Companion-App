@@ -32,4 +32,56 @@ class connections {
       throw Exception('Failed to load your Plan');
     }
   }
+
+  Future<Map<String, dynamic>> getAccommodations({
+    required List<dynamic> expandedLoc,
+    required List<String> selectedAccommodations,
+  }) async {
+    final url = Uri.parse('http://127.0.0.1:5000/get_accommodations');
+    final response = await http.post(
+      url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({
+        'expandedLoc': expandedLoc,
+        'selectedAccommodations': selectedAccommodations,
+      }),
+    );
+
+    if (response.statusCode == 200) {
+      final jsonResponse = jsonDecode(response.body);
+      return jsonResponse as Map<String, dynamic>;
+    } else {
+      throw Exception('Failed to fetch accommodations');
+    }
+  }
+
+  Future<String> sendMessageToChatbot(
+      String message, String? gptSelection) async {
+    // Modify method signature
+    final url = Uri.parse('http://127.0.0.1:5000/chat');
+    try {
+      final body = {
+        'message': message,
+      };
+      if (gptSelection != null) {
+        body['gpt_selection'] = gptSelection;
+      }
+
+      final response = await http.post(
+        url,
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode(body),
+      );
+
+      if (response.statusCode == 200) {
+        final jsonResponse = jsonDecode(response.body);
+        return jsonResponse['response'] as String;
+      } else {
+        throw Exception('Failed to get response from chatbot');
+      }
+    } catch (e) {
+      print('Error in sendMessageToChatbot: $e');
+      return 'An error occurred. Please try again.';
+    }
+  }
 }
