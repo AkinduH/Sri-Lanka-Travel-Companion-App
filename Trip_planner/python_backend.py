@@ -10,19 +10,126 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from itertools import combinations, permutations
+from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from tavily import Client as TavilyClient
 import ast
+from openai import AsyncOpenAI
+from langchain.memory import ConversationBufferMemory
 import dill
 
-def configure():
-    load_dotenv()
+load_dotenv()
 
 app = Flask(__name__)
 
 # Configure CORS
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
+def initialize_clients():
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    if not openai_api_key:
+        raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
+    openai_client = AsyncOpenAI(
+        base_url="https://integrate.api.nvidia.com/v1",
+        api_key=openai_api_key
+    )
+    
+    tavily_api_key = os.getenv("TAVILY_API_KEY")
+    if not tavily_api_key:
+        raise ValueError("TAVILY_API_KEY is not set in the environment variables.")
+    tavily_client = TavilyClient(tavily_api_key)
+    
+    gemini_api_key = os.getenv("GEMINI_API_KEY")
+    if not gemini_api_key:
+        raise ValueError("GEMINI_API_KEY is not set in the environment variables.")
+    genai.configure(api_key=gemini_api_key)
+    
+    generation_config = {
+        "temperature": 0.7,
+        "top_p": 1.0,
+        "top_k": 40,
+        "max_output_tokens": 2048,
+    }
+    
+    gemini_model = genai.GenerativeModel(
+        model_name="gemini-1.5-flash",
+        generation_config=generation_config,
+    )
+    
+    memory = ConversationBufferMemory(return_messages=True)
+    
+    return openai_client, tavily_client, memory, gemini_model
+
+
+openai_client, tavily_client, memory, gemini_model = initialize_clients()
+
+def generate_response(prompt, openai_client, tavily_client, vector_store, memory, gemini_model):
+
+    def get_openai_response(prompt):
+        try:
+            completion = openai_client.chat.completions.create(
+                model="meta/llama-3.1-405b-instruct",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant and a travel guide who is very knowledgeable about Sri Lanka and its culture, history, and tourism facilities."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.5,
+                top_p=0.7,
+                max_tokens=1024
+            )
+            return completion.choices[0].message.content
+        except AttributeError:
+            return completion
+        except Exception as e:
+            print(f"Error in get_openai_response: {e}")
+            return "An error occurred while processing your request. Try again later."
+    
+    def get_gemini_response(prompt):
+        chat_session = gemini_model.start_chat()
+        final_prompt = f""" 
+        "role": "system", "content": "You are a helpful assistant and a travel guide who is very knowledgeable about Sri Lanka and its culture, history, and tourism facilities.
+        "role": "user", "content": {prompt}"""
+        response = chat_session.send_message(final_prompt)
+        return response.text
+    
+    context = retrieve_context(prompt, vector_store)    
+
+    history = memory.load_memory_variables({})
+
+    history_context = "\n".join([f"{m.type}: {m.content}" for m in history.get("history", [])])
+    print(history_context)
+    context = f"Conversation History:\n{history_context}\n\nContext: {context}\n\n"
+    try:
+        tavily_context = tavily_client.search(query=prompt)
+        context += f"Additional Context: {tavily_context}\n\n"
+    except Exception as e:
+        print(f"Error fetching Tavily context: {e}")
+        context += "Additional Context: No additional context available.\n\n"
+
+    full_prompt = f"""
+    Question: {prompt}
+
+    {context}
+
+    Instructions:
+    Make sure to use the provided Context and Additional Context to make your response and use exactly what asking in the question.
+    The details use recieve from context and additional context are accurate don't show any doubts in your response.
+    Give the response in a friendly and engaging tone.
+    If there are different categories in the context, give the response in a way that the user can understand easily.
+    
+    Answer:
+    """
+
+    return get_gemini_response(full_prompt)
+
 # Configure Gemini API
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+
+tavily_api_key = os.getenv("TAVILY_API_KEY")
+if not tavily_api_key:
+    raise ValueError("TAVILY_API_KEY is not set in the environment variables.")
+tavily_client = TavilyClient(tavily_api_key)
 
 generation_config = {
     "temperature": 0.9,
@@ -46,6 +153,30 @@ script_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 pkl_path = os.path.join(script_dir, 'Recommendation Model', 'Recommendation Model.pkl')
 with open(pkl_path, 'rb') as file:
     loaded_recommender = dill.load(file)
+
+def create_vector_db():
+    try:
+        script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+        file_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", "Combined_Resourses", "Places_to_stay","combined_star_class_hotels.txt")
+        
+        with open(file_path, "r", encoding="utf-8") as file:
+            text = file.read()
+        print("File read successfully")
+    except UnicodeDecodeError as e:
+        print(f"UnicodeDecodeError: {e}")
+        return None
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return None
+    
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
+    chunks = text_splitter.split_text(text)
+    
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vector_store = FAISS.from_texts(chunks, embeddings)
+    return vector_store
+
+vector_store = create_vector_db()
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -105,6 +236,86 @@ def generate_itinerary():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/get_accommodations', methods=['POST'])
+def get_accommodations():
+    try:
+        data = request.json
+        expandedLoc = data.get('expandedLoc')
+        selectedAccommodations = data.get('selectedAccommodations')
+
+        print("printing data received")   
+        # print(expandedLoc)
+        # print(selectedAccommodations)
+
+        prompt =f"{expandedLoc}"
+
+        context = retrieve_context(prompt, vector_store,5)
+        print("context: ", context)
+
+        tavily_context = ""
+        for place in expandedLoc:
+            tavily_result = tavily_client.search(query=f"{selectedAccommodations} Type Accommodation details(name, rating, contact details) for {place}")
+            tavily_result = tavily_result['results']
+            tavily_context += f"Accommodation for {place}: {tavily_result}\n"
+
+        print("tavily_context: ", tavily_context)
+
+        chat_session = model.start_chat(history=[])
+
+        final_prompt = f"""Role: You are a travel location expert in Sri Lanka
+                        use the given accomodations available to give me the best accomodation options for each each unique location (give full information about the accomodation like the name of the hotel, the location, the rating, and the contact numbers): {expandedLoc}
+
+                        The return format needs to be in following format only that do not add any other text:
+
+                        location: location name
+                        3 or less accomodations for that location (The accomodations should be in the following format)
+                        Name of the hotel:
+                        Rating:
+                        Contact details(phone number, email, website):
+
+                        If there are no accomodations available in that location, then add 'No accomodations available right now try searching in the web'
+
+                        The response should be user friendly and attractive   
+
+                        Main accomodations available: {context}
+                        Additional accomodations available: {tavily_context}
+"""
+        
+        response = chat_session.send_message(final_prompt)
+        print("response.text: ", response.text)
+
+        itinerary = extract_itinerary_details(response.text)
+        expanded_loc = process_locations(itinerary)
+
+        return jsonify({'itinerary': itinerary, 'expanded_loc': expanded_loc})
+    except Exception as e:
+        print("error: ", e)
+        return jsonify({'error': str(e)}), 500                                             
+
+
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    try:
+        data = request.json
+        user_message = data.get('message')
+        gpt_selection = data.get('gpt_selection')  # Get GPT selection
+        print("user_message: ", user_message)
+        print("gpt_selection: ", gpt_selection)  # Log GPT selection
+        if not user_message:
+            return jsonify({'error': 'No message provided.'}), 400
+
+        vector_store
+        
+        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory, gemini_model)
+        print("response: ", response)
+
+        return jsonify({'response': response})
+    except Exception as e:
+        print(f"Error in /chat endpoint: {e}")
+        return jsonify({'error': str(e)}), 500
+    
+
 def extract_itinerary_details(text):
     days = re.split(r'Day \d+:', text)[1:]
     itinerary = {}
@@ -144,6 +355,14 @@ def process_locations(itinerary):
         previous_item = item
 
     return unique_loc
+
+def retrieve_context(query, vector_store, top_k=5):
+    results = vector_store.similarity_search_with_score(query, k=top_k)
+    weighted_context = ""
+    for doc, score in results:
+        weighted_context += f"{doc.page_content} (relevance: {score})\n\n"
+    return weighted_context
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
