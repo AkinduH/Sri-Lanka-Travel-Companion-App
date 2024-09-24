@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./LLM based AI Agent/Codebase"
+    ]
+}
