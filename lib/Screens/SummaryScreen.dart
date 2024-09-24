@@ -65,7 +65,6 @@ class SummaryScreen extends StatelessWidget {
                 final dayB = int.parse(b.split(' ')[1].replaceAll(':', ''));
                 return dayA.compareTo(dayB);
               });
-
             return Column(
               children: [
                 // Call MapMarkerWidget to display the map
@@ -148,6 +147,28 @@ class SummaryScreen extends StatelessWidget {
                         ),
                       );
                     },
+                  ),
+                ),
+                // Add Get Accommodations Button
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushNamed(
+                        context,
+                        '/accommodation_selection',
+                        arguments: expandedLoc,
+                      );
+                    },
+                    child: const Text('Get Accommodations'),
+                    style: ElevatedButton.styleFrom(
+                      minimumSize:
+                          const Size.fromHeight(50), // Make button full-width
+                      textStyle: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                 ),
               ],
