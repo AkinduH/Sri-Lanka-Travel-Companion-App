@@ -27,14 +27,14 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Create vector databases 
-def create_vector_db():
+def create_vector_db(resource_folder, subfolder, filename):
     try:
         script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-        file_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", "Combined_Resourses", "Places_to_stay","combined_star_class_hotels.txt")
+        file_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", resource_folder, subfolder, filename)
         
         with open(file_path, "r", encoding="utf-8") as file:
             text = file.read()
-        print("File read successfully")
+        print(f"File {filename} read successfully")
     except UnicodeDecodeError as e:
         print(f"UnicodeDecodeError: {e}")
         return None
@@ -44,6 +44,34 @@ def create_vector_db():
     
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
     chunks = text_splitter.split_text(text)
+    
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vector_store = FAISS.from_texts(chunks, embeddings)
+    return vector_store
+
+def create_vector_db_from_folder(resource_folder, subfolder = None):
+    try:
+        script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+        base_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", resource_folder)
+        
+        if subfolder is None or subfolder == "":
+            folder_path = base_path
+        else:
+            folder_path = os.path.join(base_path, subfolder)
+        
+        all_text = ""
+        for filename in os.listdir(folder_path):
+            if filename.endswith(".txt"):
+                file_path = os.path.join(folder_path, filename)
+                with open(file_path, "r", encoding="utf-8") as file:
+                    all_text += file.read() + "\n\n"
+        print(f"All files in the folder {folder_path} read successfully")
+    except Exception as e:
+        print(f"Error reading files from folder: {e}")
+        return None
+    
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
+    chunks = text_splitter.split_text(all_text)
     
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vector_store = FAISS.from_texts(chunks, embeddings)
@@ -236,8 +264,26 @@ def retrieve_context(query, vector_store, top_k=5):
     return weighted_context
 
 
+script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+vector_dbs_dir = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "Vector DBs")
 
-vector_store = create_vector_db()
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+star_class_hotels_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "star_class_hotels_vector_store"), embeddings, allow_dangerous_deserialization=True)
+boutique_villas_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "boutique_villas_vector_store"), embeddings, allow_dangerous_deserialization=True)
+bungalows_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "bungalows_vector_store"), embeddings, allow_dangerous_deserialization=True)
+camping_sites_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "camping_sites_vector_store"), embeddings, allow_dangerous_deserialization=True)
+home_stays_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "home_stays_vector_store"), embeddings, allow_dangerous_deserialization=True)
+normal_hotels_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "normal_hotels_vector_store"), embeddings, allow_dangerous_deserialization=True)   
+tourism_resorts_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "tourism_resorts_vector_store"), embeddings, allow_dangerous_deserialization=True)
+tourist_shops_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "tourist_shops_vector_store"), embeddings, allow_dangerous_deserialization=True)
+agents_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "agents_vector_store"), embeddings, allow_dangerous_deserialization=True)
+places_to_stay_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "places_to_stay_vector_store"), embeddings, allow_dangerous_deserialization=True)
+transport_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "transport_vector_store"), embeddings, allow_dangerous_deserialization=True)
+attractions_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "attractions_vector_store"), embeddings, allow_dangerous_deserialization=True)
+default_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "default_vector_store"), embeddings, allow_dangerous_deserialization=True)
+
+
 openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model = initialize_clients()
 
 
@@ -311,13 +357,37 @@ def get_accommodations():
         expandedLoc = data.get('expandedLoc')
         selectedAccommodations = data.get('selectedAccommodations')
 
-        print("printing data received")   
-        # print(expandedLoc)
-        # print(selectedAccommodations)
-
         prompt =f"{expandedLoc}"
 
-        context = retrieve_context(prompt, vector_store,5)
+        context = ""
+        
+        # Choose the appropriate vector store based on selectedAccommodations
+        if 'Star Hotels' in selectedAccommodations:
+            vector_store = star_class_hotels_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Normal Hotels' in selectedAccommodations:
+            vector_store = normal_hotels_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Sri Lanka Tourism Resorts' in selectedAccommodations:
+            vector_store = tourism_resorts_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Boutique Villas' in selectedAccommodations:
+            vector_store = boutique_villas_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Bungalows' in selectedAccommodations:
+            vector_store = bungalows_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Home Stays' in selectedAccommodations:
+            vector_store = home_stays_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+        if 'Camping Sites' in selectedAccommodations:
+            vector_store = camping_sites_vector_store
+            context+=retrieve_context(prompt, vector_store,5)   
+        else:
+            vector_store = places_to_stay_vector_store
+            context+=retrieve_context(prompt, vector_store,5)
+
+    
         print("context: ", context)
 
         tavily_context = ""
@@ -375,8 +445,19 @@ def chat():
         if not user_message:
             return jsonify({'error': 'No message provided.'}), 400
         
-        vector_store
-
+        if gpt_selection == "AgentGPT":
+            vector_store = agents_vector_store
+        elif gpt_selection == "StayGPT":
+            vector_store = places_to_stay_vector_store
+        elif gpt_selection == "TravelGPT":
+            vector_store = transport_vector_store
+        elif gpt_selection == "PlacesGPT":
+            vector_store = attractions_vector_store
+        elif gpt_selection == "ShopGPT":
+            vector_store = tourist_shops_vector_store
+        else:
+            vector_store = default_vector_store 
+        
         response = generate_response(user_message, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model,is_fast_mode)   
         print("response: ", response)
 

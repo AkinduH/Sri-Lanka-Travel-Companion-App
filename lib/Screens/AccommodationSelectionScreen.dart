@@ -18,9 +18,11 @@ class _AccommodationSelectionScreenState
   final List<String> accommodationOptions = [
     'Star Hotels',
     'Normal Hotels',
+    'Sri Lanka Tourism Resorts',
     'Boutique Villas',
-    'Hostels',
-    'Luxury Resorts',
+    'Bungalows',
+    'Home Stays',
+    'Camping Sites'
   ];
   List<String> selectedAccommodations = [];
   bool isLoading = false;
