@@ -13,9 +13,9 @@ from itertools import combinations, permutations
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from tavily import Client as TavilyClient
+from tavily import TavilyClient
 import ast
-from openai import AsyncOpenAI
+from openai import OpenAI
 from langchain.memory import ConversationBufferMemory
 import dill
 
@@ -30,7 +30,7 @@ def initialize_clients():
     openai_api_key = os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
         raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
-    openai_client = AsyncOpenAI(
+    openai_client = OpenAI(
         base_url="https://integrate.api.nvidia.com/v1",
         api_key=openai_api_key
     )
@@ -57,14 +57,15 @@ def initialize_clients():
         generation_config=generation_config,
     )
     
-    memory = ConversationBufferMemory(return_messages=True)
+    memory_fast = ConversationBufferMemory(return_messages=True)
+    memory_lengthy = ConversationBufferMemory(return_messages=True)
     
-    return openai_client, tavily_client, memory, gemini_model
+    return openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model
 
 
-openai_client, tavily_client, memory, gemini_model = initialize_clients()
+openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model = initialize_clients()
 
-def generate_response(prompt, openai_client, tavily_client, vector_store, memory, gemini_model):
+def generate_response(prompt, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model, is_fast_mode):
 
     def get_openai_response(prompt):
         try:
@@ -76,7 +77,7 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
                 ],
                 temperature=0.5,
                 top_p=0.7,
-                max_tokens=1024
+                max_tokens=4096
             )
             return completion.choices[0].message.content
         except AttributeError:
@@ -95,7 +96,7 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
     
     context = retrieve_context(prompt, vector_store)    
 
-    history = memory.load_memory_variables({})
+    history = memory_fast.load_memory_variables({}) if is_fast_mode else memory_lengthy.load_memory_variables({})
 
     history_context = "\n".join([f"{m.type}: {m.content}" for m in history.get("history", [])])
     print(history_context)
@@ -116,12 +117,18 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
     Make sure to use the provided Context and Additional Context to make your response and use exactly what asking in the question.
     The details use recieve from context and additional context are accurate don't show any doubts in your response.
     Give the response in a friendly and engaging tone.
-    If there are different categories in the context, give the response in a way that the user can understand easily.
     
     Answer:
     """
-
-    return get_gemini_response(full_prompt)
+    print("full_prompt: ", full_prompt)
+    if is_fast_mode:
+        final_response = get_gemini_response(full_prompt)
+        memory_fast.save_context({"input": prompt}, {"output": final_response})
+        return final_response
+    else:
+        final_response = get_openai_response(full_prompt)
+        memory_lengthy.save_context({"input": prompt}, {"output": final_response})
+        return final_response
 
 # Configure Gemini API
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
@@ -300,14 +307,16 @@ def chat():
         data = request.json
         user_message = data.get('message')
         gpt_selection = data.get('gpt_selection')  # Get GPT selection
+        is_fast_mode = data.get('isFastMode', True)  # Get isFastMode, default to True
         print("user_message: ", user_message)
         print("gpt_selection: ", gpt_selection)  # Log GPT selection
+        print("is_fast_mode: ", is_fast_mode)  # Log isFastMode
         if not user_message:
             return jsonify({'error': 'No message provided.'}), 400
-
-        vector_store
         
-        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory, gemini_model)
+        vector_store
+
+        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model,is_fast_mode)   
         print("response: ", response)
 
         return jsonify({'response': response})

@@ -119,8 +119,10 @@ async def generate_response(prompt, openai_client, tavily_client, vector_store, 
     
     Answer:
     """
+    final_response = await get_gemini_response(full_prompt)
+    memory.save_context({"input": prompt}, {"output": final_response})
 
-    return await get_gemini_response(full_prompt)
+    return final_response
 
 if __name__ == "__main__":
     import asyncio
@@ -132,9 +134,9 @@ if __name__ == "__main__":
         
         # Change the path to the correct location of the vector stores
         script_dir = os.path.dirname(os.path.realpath(__file__))
-        # vector_store_path = os.path.join(script_dir, "..", "Vector DBs", "Tour_guides_and_agents_vector_store")
+        vector_store_path = os.path.join(script_dir, "..", "Vector DBs", "Tour_guides_and_agents_vector_store")
         # vector_store_path = os.path.join(script_dir, "..", "Vector DBs", "attractions_vector_store")
-        vector_store_path = os.path.join(script_dir, "..", "Vector DBs", "Tourist_shops_vector_store")
+        # vector_store_path = os.path.join(script_dir, "..", "Vector DBs", "Tourist_shops_vector_store")
         
         if not os.path.exists(vector_store_path):
             raise FileNotFoundError(f"Vector store not found at {vector_store_path}. Please ensure it has been created.")
@@ -151,6 +153,7 @@ if __name__ == "__main__":
             print("User Prompt: ", prompt)
             start_time = time.time()
             response = await generate_response(prompt, openai_client, tavily_client, vector_store, memory, 1, gemini_model)
+            print("Chatbot Response: ", response)
 
             end_time = time.time()
             response_time = end_time - start_time

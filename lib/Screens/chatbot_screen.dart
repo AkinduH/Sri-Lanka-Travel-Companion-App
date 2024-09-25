@@ -10,28 +10,53 @@ class ChatbotScreen extends StatefulWidget {
 }
 
 class _ChatbotScreenState extends State<ChatbotScreen> {
-  final List<_Message> _messages = [];
+  final List<_Message> _fastMessages = [];
+  final List<_Message> _lengthyMessages = [];
   final TextEditingController _controller = TextEditingController();
-  final connections connectionService = connections();
+  final Connections connectionService = Connections();
 
-  String? _selectedGPT; // Add this line to keep track of selected GPT
+  String? _selectedGPT;
+  bool _isFastMode = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _addInitialBotMessage();
+  }
+
+  void _addInitialBotMessage() {
+    setState(() {
+      _fastMessages.add(_Message(
+        text:
+            "Hello! I'm your fast chatbot assistant. How can I help you today?",
+        isUser: false,
+      ));
+      _lengthyMessages.add(_Message(
+        text:
+            "Hello! I'm your lengthy chatbot assistant. How can I help you today?",
+        isUser: false,
+      ));
+    });
+  }
 
   void _sendMessage(String text) async {
     if (text.trim().isEmpty) return;
     setState(() {
-      _messages.add(_Message(text: text, isUser: true));
+      (_isFastMode ? _fastMessages : _lengthyMessages)
+          .add(_Message(text: text, isUser: true));
     });
     _controller.clear();
 
     try {
       String botResponse = await connectionService.sendMessageToChatbot(
-          text, _selectedGPT); // Modify this line
+          text, _selectedGPT, _isFastMode); // Pass isFastMode here
       setState(() {
-        _messages.add(_Message(text: botResponse, isUser: false));
+        (_isFastMode ? _fastMessages : _lengthyMessages)
+            .add(_Message(text: botResponse, isUser: false));
       });
     } catch (e) {
       setState(() {
-        _messages.add(
+        (_isFastMode ? _fastMessages : _lengthyMessages).add(
             _Message(text: "Error: Unable to get response.", isUser: false));
       });
     }
@@ -41,8 +66,14 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     return DropdownButton<String>(
       value: _selectedGPT,
       hint: const Text("Select GPT"),
-      items: <String>['Default', 'AgentGPT', 'ShopGPT', 'StayGPT']
-          .map((String? value) {
+      items: <String>[
+        'Default',
+        'AgentGPT',
+        'ShopGPT',
+        'StayGPT',
+        'TravelGPT',
+        'PlacesGPT'
+      ].map((String? value) {
         return DropdownMenuItem<String>(
           value: value,
           child: Text(value ?? 'None'),
@@ -58,20 +89,40 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     );
   }
 
+  Widget _buildModeToggle() {
+    return Switch(
+      value: _isFastMode,
+      onChanged: (value) {
+        setState(() {
+          _isFastMode = value;
+        });
+      },
+      activeColor: Colors.green,
+      inactiveTrackColor: Colors.blue,
+      activeThumbImage: AssetImage('assets/fast_icon.png'),
+      inactiveThumbImage: AssetImage('assets/lengthy_icon.png'),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Chatbot'),
+          actions: [
+            _buildModeToggle(),
+          ],
         ),
         body: Column(
           children: <Widget>[
             Expanded(
               child: ListView.builder(
                 padding: const EdgeInsets.all(8.0),
-                itemCount: _messages.length,
+                itemCount:
+                    (_isFastMode ? _fastMessages : _lengthyMessages).length,
                 itemBuilder: (context, index) {
-                  final message = _messages[index];
+                  final message =
+                      (_isFastMode ? _fastMessages : _lengthyMessages)[index];
                   return Align(
                     alignment: message.isUser
                         ? Alignment.centerRight
@@ -107,7 +158,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
                 children: [
                   Row(
                     children: <Widget>[
-                      _buildGPTSelector(), // Add GPT selector here
+                      _buildGPTSelector(),
                       Expanded(
                         child: TextField(
                           controller: _controller,

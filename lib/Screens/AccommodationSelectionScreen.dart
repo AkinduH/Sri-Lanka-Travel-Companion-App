@@ -14,7 +14,7 @@ class AccommodationSelectionScreen extends StatefulWidget {
 
 class _AccommodationSelectionScreenState
     extends State<AccommodationSelectionScreen> {
-  final connections connectionService = connections();
+  final Connections connectionService = Connections();
   final List<String> accommodationOptions = [
     'Star Hotels',
     'Normal Hotels',

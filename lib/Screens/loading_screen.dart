@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/recommendation_model.dart';
+import 'services/connections.dart';
 import 'widgets/DotProgressIndicator.dart';
 import 'recommendation_results_screen.dart';
 
@@ -18,6 +18,8 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
+  final Connections connectionService = Connections();
+
   @override
   void initState() {
     super.initState();
@@ -26,8 +28,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   Future<void> _fetchRecommendations() async {
     try {
-      List<String> recommendations =
-          await RecommendationModel.getRecommendations(
+      List<String> recommendations = await connectionService.getRecommendations(
+        // Updated method call
         widget.selectedCategories,
         widget.bucketList,
       );

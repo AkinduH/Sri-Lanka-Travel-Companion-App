@@ -11,7 +11,7 @@ class SummaryScreen extends StatelessWidget {
   final DateTime endDate;
   final int duration;
 
-  final connections connectionService = connections();
+  final Connections connectionService = Connections();
 
   SummaryScreen({
     super.key,
