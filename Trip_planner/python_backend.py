@@ -26,6 +26,30 @@ app = Flask(__name__)
 # Configure CORS
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
+# Create vector databases 
+def create_vector_db():
+    try:
+        script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+        file_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", "Combined_Resourses", "Places_to_stay","combined_star_class_hotels.txt")
+        
+        with open(file_path, "r", encoding="utf-8") as file:
+            text = file.read()
+        print("File read successfully")
+    except UnicodeDecodeError as e:
+        print(f"UnicodeDecodeError: {e}")
+        return None
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return None
+    
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
+    chunks = text_splitter.split_text(text)
+    
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vector_store = FAISS.from_texts(chunks, embeddings)
+    return vector_store
+
+# Initialize clients for the chatbot
 def initialize_clients():
     openai_api_key = os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
@@ -62,9 +86,39 @@ def initialize_clients():
     
     return openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model
 
+#Setup for Travel planner
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
-openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model = initialize_clients()
+tavily_api_key = os.getenv("TAVILY_API_KEY")
+if not tavily_api_key:
+    raise ValueError("TAVILY_API_KEY is not set in the environment variables.")
+tavily_client = TavilyClient(tavily_api_key)
 
+generation_config = {
+    "temperature": 0.9,
+    "top_p": 1,
+    "top_k": 1,
+    "max_output_tokens": 4048,
+    "response_mime_type": "text/plain",
+}
+
+model = genai.GenerativeModel(
+    model_name="gemini-1.5-flash",
+    generation_config=generation_config,
+)
+
+places_instance = Places()
+
+def filter_places_by_categories(interested_categories):
+    return places_instance.filter_places_by_categories(interested_categories)
+
+script_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+pkl_path = os.path.join(script_dir, 'Recommendation Model', 'Recommendation Model.pkl')
+with open(pkl_path, 'rb') as file:
+    loaded_recommender = dill.load(file)
+
+
+# Generate response for the chatbot
 def generate_response(prompt, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model, is_fast_mode):
 
     def get_openai_response(prompt):
@@ -130,61 +184,64 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
         memory_lengthy.save_context({"input": prompt}, {"output": final_response})
         return final_response
 
-# Configure Gemini API
-genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+# Extract itinerary details from the response
+def extract_itinerary_details(text):
+    days = re.split(r'Day \d+:', text)[1:]
+    itinerary = {}
+    for i, day in enumerate(days, 1):
+        day_title = re.search(r'(.*?)\n', day.strip()).group(1).strip().replace('[', '').replace(']', '').replace('*', '')
+        day_key = f"Day {i}: {day_title}"
 
-tavily_api_key = os.getenv("TAVILY_API_KEY")
-if not tavily_api_key:
-    raise ValueError("TAVILY_API_KEY is not set in the environment variables.")
-tavily_client = TavilyClient(tavily_api_key)
+        description_match = re.search(r'Description:\s*(.*?)(?=\n-\s*Activities:|\Z)', day, re.DOTALL)
+        description = description_match.group(1).strip() if description_match else ""
 
-generation_config = {
-    "temperature": 0.9,
-    "top_p": 1,
-    "top_k": 1,
-    "max_output_tokens": 4048,
-    "response_mime_type": "text/plain",
-}
+        activities_match = re.search(r'Activities:\s*(.*?)(?=\Z)', day, re.DOTALL)
+        activities = activities_match.group(1).strip().split('|') if activities_match else []
+        activities = [activity.strip().lstrip('-,') for activity in activities if activity.strip()]
 
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
-    generation_config=generation_config,
-)
+        itinerary[day_key] = {
+            'Description': description,
+            'Activities': activities
+        }
 
-places_instance = Places()
+    return itinerary
 
-def filter_places_by_categories(interested_categories):
-    return places_instance.filter_places_by_categories(interested_categories)
+# Process locations from the itinerary
+def process_locations(itinerary):
+    Locations = [day.split(':')[1].strip() for day in itinerary.keys()]
+    expanded_loc = []
+    for item in Locations:
+        if '-' in item:
+            parts = [part.strip().replace('[', '').replace(']', '').replace('*', '') for part in item.split('-')]
+            expanded_loc.extend(parts)
+        else:
+            expanded_loc.append(item.replace('[', '').replace(']', '').replace('*', ''))
 
-script_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-pkl_path = os.path.join(script_dir, 'Recommendation Model', 'Recommendation Model.pkl')
-with open(pkl_path, 'rb') as file:
-    loaded_recommender = dill.load(file)
+    unique_loc = []
+    previous_item = None
+    for item in expanded_loc:
+        if item != previous_item:
+            unique_loc.append(item)
+        previous_item = item
 
-def create_vector_db():
-    try:
-        script_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-        file_path = os.path.join(script_dir, "trip_planner_team_9th_dimension", "LLM based AI Agent", "RAG_Documents", "Combined_Resourses", "Places_to_stay","combined_star_class_hotels.txt")
-        
-        with open(file_path, "r", encoding="utf-8") as file:
-            text = file.read()
-        print("File read successfully")
-    except UnicodeDecodeError as e:
-        print(f"UnicodeDecodeError: {e}")
-        return None
-    except Exception as e:
-        print(f"Error reading file: {e}")
-        return None
-    
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=200)
-    chunks = text_splitter.split_text(text)
-    
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    vector_store = FAISS.from_texts(chunks, embeddings)
-    return vector_store
+    return unique_loc
+
+
+# Retrieve context from the vector store
+def retrieve_context(query, vector_store, top_k=5):
+    results = vector_store.similarity_search_with_score(query, k=top_k)
+    weighted_context = ""
+    for doc, score in results:
+        weighted_context += f"{doc.page_content} (relevance: {score})\n\n"
+    return weighted_context
+
+
 
 vector_store = create_vector_db()
+openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model = initialize_clients()
 
+
+# Recommend places based on user's activities and bucket list
 @app.route('/recommend', methods=['POST'])
 def recommend():
     try:
@@ -204,6 +261,8 @@ def recommend():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
+# Generate itinerary for the user
 @app.route('/plan', methods=['POST'])
 def generate_itinerary():
     try:
@@ -243,6 +302,8 @@ def generate_itinerary():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
+# Get accommodations for the user
 @app.route('/get_accommodations', methods=['POST'])
 def get_accommodations():
     try:
@@ -300,7 +361,7 @@ def get_accommodations():
         return jsonify({'error': str(e)}), 500                                             
 
 
-
+# Chat with the chatbot
 @app.route('/chat', methods=['POST'])
 def chat():
     try:
@@ -324,54 +385,5 @@ def chat():
         print(f"Error in /chat endpoint: {e}")
         return jsonify({'error': str(e)}), 500
     
-
-def extract_itinerary_details(text):
-    days = re.split(r'Day \d+:', text)[1:]
-    itinerary = {}
-    for i, day in enumerate(days, 1):
-        day_title = re.search(r'(.*?)\n', day.strip()).group(1).strip().replace('[', '').replace(']', '').replace('*', '')
-        day_key = f"Day {i}: {day_title}"
-
-        description_match = re.search(r'Description:\s*(.*?)(?=\n-\s*Activities:|\Z)', day, re.DOTALL)
-        description = description_match.group(1).strip() if description_match else ""
-
-        activities_match = re.search(r'Activities:\s*(.*?)(?=\Z)', day, re.DOTALL)
-        activities = activities_match.group(1).strip().split('|') if activities_match else []
-        activities = [activity.strip().lstrip('-,') for activity in activities if activity.strip()]
-
-        itinerary[day_key] = {
-            'Description': description,
-            'Activities': activities
-        }
-
-    return itinerary
-
-def process_locations(itinerary):
-    Locations = [day.split(':')[1].strip() for day in itinerary.keys()]
-    expanded_loc = []
-    for item in Locations:
-        if '-' in item:
-            parts = [part.strip().replace('[', '').replace(']', '').replace('*', '') for part in item.split('-')]
-            expanded_loc.extend(parts)
-        else:
-            expanded_loc.append(item.replace('[', '').replace(']', '').replace('*', ''))
-
-    unique_loc = []
-    previous_item = None
-    for item in expanded_loc:
-        if item != previous_item:
-            unique_loc.append(item)
-        previous_item = item
-
-    return unique_loc
-
-def retrieve_context(query, vector_store, top_k=5):
-    results = vector_store.similarity_search_with_score(query, k=top_k)
-    weighted_context = ""
-    for doc, score in results:
-        weighted_context += f"{doc.page_content} (relevance: {score})\n\n"
-    return weighted_context
-
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
