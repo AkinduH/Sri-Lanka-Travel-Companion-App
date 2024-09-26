@@ -10,12 +10,10 @@ class ChatbotScreen extends StatefulWidget {
 }
 
 class _ChatbotScreenState extends State<ChatbotScreen> {
-  final List<_Message> _fastMessages = [];
-  final List<_Message> _lengthyMessages = [];
+  final List<_Message> _messages = [];
   final TextEditingController _controller = TextEditingController();
   final Connections connectionService = Connections();
 
-  String? _selectedGPT;
   bool _isFastMode = true;
 
   @override
@@ -26,15 +24,11 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 
   void _addInitialBotMessage() {
     setState(() {
-      _fastMessages.add(_Message(
-        text:
-            "Hello! I'm your fast chatbot assistant. How can I help you today?",
+      _messages.add(_Message(
+        text: "Hello! I'm your chatbot assistant. How can I help you today?",
         isUser: false,
-      ));
-      _lengthyMessages.add(_Message(
-        text:
-            "Hello! I'm your lengthy chatbot assistant. How can I help you today?",
-        isUser: false,
+        selectedAgent: "General",
+        isFastMode: true,
       ));
     });
   }
@@ -42,51 +36,36 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   void _sendMessage(String text) async {
     if (text.trim().isEmpty) return;
     setState(() {
-      (_isFastMode ? _fastMessages : _lengthyMessages)
-          .add(_Message(text: text, isUser: true));
+      _messages.add(_Message(
+        text: text,
+        isUser: true,
+        selectedAgent: "User",
+        isFastMode: _isFastMode,
+      ));
     });
     _controller.clear();
 
     try {
-      String botResponse = await connectionService.sendMessageToChatbot(
-          text, _selectedGPT, _isFastMode); // Pass isFastMode here
+      Map<String, String> botResponse =
+          await connectionService.sendMessageToChatbot(text, _isFastMode);
       setState(() {
-        (_isFastMode ? _fastMessages : _lengthyMessages)
-            .add(_Message(text: botResponse, isUser: false));
+        _messages.add(_Message(
+          text: botResponse['response'] ?? "No response",
+          isUser: false,
+          selectedAgent: botResponse['selected_agent'] ?? "Unknown",
+          isFastMode: _isFastMode,
+        ));
       });
     } catch (e) {
       setState(() {
-        (_isFastMode ? _fastMessages : _lengthyMessages).add(
-            _Message(text: "Error: Unable to get response.", isUser: false));
+        _messages.add(_Message(
+          text: "Error: Unable to get response.",
+          isUser: false,
+          selectedAgent: "Error",
+          isFastMode: _isFastMode,
+        ));
       });
     }
-  }
-
-  Widget _buildGPTSelector() {
-    return DropdownButton<String>(
-      value: _selectedGPT,
-      hint: const Text("Select GPT"),
-      items: <String>[
-        'Default',
-        'AgentGPT',
-        'ShopGPT',
-        'StayGPT',
-        'TravelGPT',
-        'PlacesGPT'
-      ].map((String? value) {
-        return DropdownMenuItem<String>(
-          value: value,
-          child: Text(value ?? 'None'),
-        );
-      }).toList(),
-      onChanged: (String? newValue) {
-        setState(() {
-          _selectedGPT = newValue;
-        });
-      },
-      isExpanded: false,
-      underline: Container(),
-    );
   }
 
   Widget _buildModeToggle() {
@@ -118,11 +97,9 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
             Expanded(
               child: ListView.builder(
                 padding: const EdgeInsets.all(8.0),
-                itemCount:
-                    (_isFastMode ? _fastMessages : _lengthyMessages).length,
+                itemCount: _messages.length,
                 itemBuilder: (context, index) {
-                  final message =
-                      (_isFastMode ? _fastMessages : _lengthyMessages)[index];
+                  final message = _messages[index];
                   return Align(
                     alignment: message.isUser
                         ? Alignment.centerRight
@@ -134,16 +111,46 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
                       decoration: BoxDecoration(
                         color: message.isUser
                             ? Colors.blueAccent
-                            : Colors.grey[300],
+                            : (message.isFastMode
+                                ? Colors.green[300]
+                                : Colors.blue[300]),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
-                      child: MarkdownBody(
-                        data: message.text,
-                        styleSheet: MarkdownStyleSheet(
-                          p: TextStyle(
-                            color: message.isUser ? Colors.white : Colors.black,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          if (!message.isUser)
+                            Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  message.selectedAgent,
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  message.isFastMode
+                                      ? Icons.flash_on
+                                      : Icons.hourglass_empty,
+                                  size: 16,
+                                  color: Colors.black,
+                                ),
+                              ],
+                            ),
+                          MarkdownBody(
+                            data: message.text,
+                            styleSheet: MarkdownStyleSheet(
+                              p: TextStyle(
+                                color: message.isUser
+                                    ? Colors.white
+                                    : Colors.black,
+                              ),
+                            ),
                           ),
-                        ),
+                        ],
                       ),
                     ),
                   );
@@ -154,24 +161,19 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               color: Theme.of(context).cardColor,
-              child: Column(
-                children: [
-                  Row(
-                    children: <Widget>[
-                      _buildGPTSelector(),
-                      Expanded(
-                        child: TextField(
-                          controller: _controller,
-                          decoration: const InputDecoration.collapsed(
-                              hintText: 'Send a message'),
-                          onSubmitted: _sendMessage,
-                        ),
-                      ),
-                      IconButton(
-                        icon: const Icon(Icons.send),
-                        onPressed: () => _sendMessage(_controller.text),
-                      ),
-                    ],
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: TextField(
+                      controller: _controller,
+                      decoration: const InputDecoration.collapsed(
+                          hintText: 'Send a message'),
+                      onSubmitted: _sendMessage,
+                    ),
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.send),
+                    onPressed: () => _sendMessage(_controller.text),
                   ),
                 ],
               ),
@@ -184,6 +186,13 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 class _Message {
   final String text;
   final bool isUser;
+  final String selectedAgent;
+  final bool isFastMode;
 
-  _Message({required this.text, required this.isUser});
+  _Message({
+    required this.text,
+    required this.isUser,
+    required this.selectedAgent,
+    required this.isFastMode,
+  });
 }

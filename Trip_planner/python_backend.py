@@ -18,6 +18,7 @@ import ast
 from openai import OpenAI
 from langchain.memory import ConversationBufferMemory
 from huggingface_hub import InferenceClient
+import time
 import dill
 
 load_dotenv()
@@ -81,7 +82,7 @@ def create_vector_db_from_folder(resource_folder, subfolder = None):
 # Creating SLM client
 SLM = InferenceClient(
     "mistralai/Mistral-7B-Instruct-v0.1",
-    token="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",
+    token=os.getenv("Hugging_Face_access_token"),
 )
 
 # Initialize clients for the chatbot
@@ -105,10 +106,10 @@ def initialize_clients():
     genai.configure(api_key=gemini_api_key)
     
     generation_config = {
-        "temperature": 0.7,
-        "top_p": 1.0,
-        "top_k": 40,
-        "max_output_tokens": 2048,
+        "temperature": 0.5,
+        "top_p": 0.9,
+        "top_k": 20,
+        "max_output_tokens": 1024,
     }
     
     gemini_model = genai.GenerativeModel(
@@ -116,10 +117,9 @@ def initialize_clients():
         generation_config=generation_config,
     )
     
-    memory_fast = ConversationBufferMemory(return_messages=True)
-    memory_lengthy = ConversationBufferMemory(return_messages=True)
+    memory = ConversationBufferMemory(return_messages=True)
     
-    return openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model
+    return openai_client, tavily_client, memory, gemini_model
 
 #Setup for Travel planner
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
@@ -154,41 +154,48 @@ with open(pkl_path, 'rb') as file:
 
 
 # Generate response for the chatbot
-def generate_response(prompt, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model, is_fast_mode):
+def generate_response(prompt, openai_client, tavily_client, vector_store, memory, gemini_model, is_fast_mode):
 
     def get_openai_response(prompt):
         try:
             completion = openai_client.chat.completions.create(
                 model="meta/llama-3.1-405b-instruct",
                 messages=[
-                    {"role": "system", "content": "You are a helpful assistant and a travel guide who is very knowledgeable about Sri Lanka and its culture, history, and tourism facilities."},
+                    {"role": "system", "content": "You are a concise Sri Lanka travel expert. Provide accurate, detailed responses focusing on key attractions, accommodations, transport, and local insights."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.5,
-                top_p=0.7,
-                max_tokens=4096
+                temperature=0.2,
+                top_p=0.95,
+                max_tokens=3096,
+                presence_penalty=0.05,
+                frequency_penalty=0.05
             )
             return completion.choices[0].message.content
-        except AttributeError:
-            return completion
+        except AttributeError as ae:
+            print(f"AttributeError in get_openai_response: {ae}")
+            return "I apologize, but I'm having trouble accessing the required information. Could you please rephrase your question?"
         except Exception as e:
             print(f"Error in get_openai_response: {e}")
-            return "An error occurred while processing your request. Try again later."
+            return "I apologize, but an error occurred while processing your request. Please try again in a moment or rephrase your question."
     
     def get_gemini_response(prompt):
         chat_session = gemini_model.start_chat()
         final_prompt = f""" 
-        "role": "system", "content": "You are a helpful assistant and a travel guide who is very knowledgeable about Sri Lanka and its culture, history, and tourism facilities.
+        "role": "system", "content": "You are a quick travel guide for Sri Lanka. Provide concise, accurate answers about Sri Lankan tourism, culture, and attractions.
         "role": "user", "content": {prompt}"""
         response = chat_session.send_message(final_prompt)
         return response.text
     
-    context = retrieve_context(prompt, vector_store)    
+    if(vector_store == ""):
+        context = "No context available"
+    else:
+        context = retrieve_context(prompt, vector_store)    
+    
+    print("context: ", context)
 
-    history = memory_fast.load_memory_variables({}) if is_fast_mode else memory_lengthy.load_memory_variables({})
+    history = memory.load_memory_variables({})
 
     history_context = "\n".join([f"{m.type}: {m.content}" for m in history.get("history", [])])
-    print(history_context)
     context = f"Conversation History:\n{history_context}\n\nContext: {context}\n\n"
     try:
         tavily_context = tavily_client.search(query=prompt)
@@ -204,19 +211,21 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
 
     Instructions:
     Make sure to use the provided Context and Additional Context to make your response and use exactly what asking in the question.
+    If the user Question is a general one that doen't need to use context and additional context to answer, then don't use them.
+    If context and additional context are not available, then don't mention them or worry about them.
     The details use recieve from context and additional context are accurate don't show any doubts in your response.
     Give the response in a friendly and engaging tone.
     
     Answer:
     """
-    print("full_prompt: ", full_prompt)
+    # print("full_prompt: ", full_prompt)
     if is_fast_mode:
         final_response = get_gemini_response(full_prompt)
-        memory_fast.save_context({"input": prompt}, {"output": final_response})
+        memory.save_context({"input": prompt}, {"output": final_response})
         return final_response
     else:
         final_response = get_openai_response(full_prompt)
-        memory_lengthy.save_context({"input": prompt}, {"output": final_response})
+        memory.save_context({"input": prompt}, {"output": final_response})
         return final_response
 
 # Extract itinerary details from the response
@@ -287,11 +296,10 @@ tourist_shops_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "tour
 agents_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "agents_vector_store"), embeddings, allow_dangerous_deserialization=True)
 places_to_stay_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "places_to_stay_vector_store"), embeddings, allow_dangerous_deserialization=True)
 transport_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "transport_vector_store"), embeddings, allow_dangerous_deserialization=True)
-attractions_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "attractions_vector_store"), embeddings, allow_dangerous_deserialization=True)
 default_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "default_vector_store"), embeddings, allow_dangerous_deserialization=True)
 
 
-openai_client, tavily_client, memory_fast, memory_lengthy, gemini_model = initialize_clients()
+openai_client, tavily_client, memory, gemini_model = initialize_clients()
 
 
 # Recommend places based on user's activities and bucket list
@@ -444,75 +452,89 @@ def chat():
     try:
         data = request.json
         user_message = data.get('message')
-        gpt_selection = data.get('gpt_selection')  # Get GPT selection
         is_fast_mode = data.get('isFastMode', True)  # Get isFastMode, default to True
         print("user_message: ", user_message)
-        print("gpt_selection: ", gpt_selection)  # Log GPT selection
         print("is_fast_mode: ", is_fast_mode)  # Log isFastMode
         if not user_message:
             return jsonify({'error': 'No message provided.'}), 400
-        
-        # if gpt_selection == "AgentGPT":
-        #     vector_store = agents_vector_store
-        # elif gpt_selection == "StayGPT":
-        #     vector_store = places_to_stay_vector_store
-        # elif gpt_selection == "TravelGPT":
-        #     vector_store = transport_vector_store
-        # elif gpt_selection == "PlacesGPT":
-        #     vector_store = attractions_vector_store
-        # elif gpt_selection == "ShopGPT":
-        #     vector_store = tourist_shops_vector_store
-        # else:
-        #     vector_store = default_vector_store 
-        
-        import time
 
         SLM_prompt = f"""
-        Role: GPT selector
-        User message: {user_message}
-        We have the following agents: AgentGPT, StayGPT, TransportGPT, PlacesGPT, ShopGPT.
+        Role: GPT selector based on the user message.
+
+        We have the following agents: AgentGPT, StayGPT, TransportGPT, ShopGPT, GreetingGPT.
         Select the most suitable agent based on the user message.
+        User message: {user_message}
         If the user message doesn't match any specific agent, respond with DefaultGPT.
 
-        Respond with only the selected agent name, nothing else.
-        For example:
-        AgentGPT
+        Here is the description of each agent:
+        AgentGPT for questions related to travel agents, travel agencies, and travel guides in sri lanka.
+        StayGPT for questions related to finding places to stay, hotels, and accommodation in sri lanka.
+        TransportGPT for questions related to transport, transportation like taxies, buses, and trains in sri lanka.
+        ShopGPT for questions related to finding tourist shops, shopping in sri lanka.
+        GreetingGPT for greetings from  the user.
+
+        Respond with only the selected agent name, nothing else. No need to add any other text.
+
+        For examples of a correct response:
+        example 1: AgentGPT
+        example 2: StayGPT
 
         """
         
         start_time = time.time()
         
+        SLM_response = ""
         for message in SLM.chat_completion(
-        messages=[{"role": "user", "content": SLM_prompt}],
-        max_tokens=500,
+            messages=[{"role": "user", "content": SLM_prompt}],
+            max_tokens=500,
             stream=True,
         ):
-            print(message.choices[0].delta.content, end="")
-            SLM_response = message.choices[0].delta.content
+            content = message.choices[0].delta.content
+            if content:
+                print(content, end="")
+                SLM_response += content
 
         end_time = time.time()
         process_time = end_time - start_time
         
-        print(f"SLM_response: {SLM_response}")
+        print(f"\nSLM_response: {SLM_response.strip()}")
         print(f"Process time: {process_time:.2f} seconds")
+
+        selected_agent = "General"
         
-        if SLM_response == "AgentGPT":
+        if "AgentGPT" in SLM_response:
             vector_store = agents_vector_store
-        elif SLM_response == "StayGPT":
+            selected_agent = "Tour Agent"
+            print("vector_store: agents_vector_store")
+        elif "StayGPT" in SLM_response:
             vector_store = places_to_stay_vector_store
-        elif SLM_response == "TravelGPT":
+            selected_agent = "Stay Specialist"
+            print("vector_store: places_to_stay_vector_store")
+        elif "TransportGPT" in SLM_response:
             vector_store = transport_vector_store
-        elif SLM_response == "PlacesGPT":
-            vector_store = attractions_vector_store
-        elif SLM_response == "ShopGPT":
+            selected_agent = "Transport Specialist"
+            print("vector_store: transport_vector_store")
+        elif "ShopGPT" in SLM_response:
             vector_store = tourist_shops_vector_store   
+            selected_agent = "Shop Specialist"
+            print("vector_store: tourist_shops_vector_store")
+        elif "GreetingGPT" in SLM_response:
+            vector_store = ""
+            selected_agent = "General"
+            print("vector_store: None")
         else:
             vector_store = default_vector_store
+            selected_agent = "General"
+            print("vector_store: default_vector_store")
 
-        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model,is_fast_mode)   
+        start_time = time.time()
+        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory, gemini_model,is_fast_mode)   
+        end_time = time.time()
+        process_time = end_time - start_time
         print("response: ", response)
+        print(f"Generate response time: {process_time:.2f} seconds")
 
-        return jsonify({'response': response})
+        return jsonify({'response': response, 'selected_agent': selected_agent})
     except Exception as e:
         print(f"Error in /chat endpoint: {e}")
         return jsonify({'error': str(e)}), 500

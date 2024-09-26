@@ -1,8 +1,9 @@
+import os
 from huggingface_hub import InferenceClient
 
 client = InferenceClient(
     "mistralai/Mistral-7B-Instruct-v0.1",
-    token="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",
+    token=os.getenv("Hugging_Face_access_token"),
 )
 
 for message in client.chat_completion(

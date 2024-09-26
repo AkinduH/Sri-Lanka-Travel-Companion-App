@@ -70,7 +70,6 @@ def create_and_save_vector_dbs():
         "agents": create_vector_db_from_folder("Combined_Resourses", "Agents"),
         "places_to_stay": create_vector_db_from_folder("Combined_Resourses", "Places_to_stay"),
         "transport": create_vector_db_from_folder("Transport"),
-        "attractions": create_vector_db_from_folder("Attractions"),
         "default": create_vector_db_from_folder("scraped_texts")
     }
 

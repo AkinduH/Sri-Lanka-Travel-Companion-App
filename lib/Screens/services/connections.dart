@@ -94,17 +94,14 @@ class Connections {
     }
   }
 
-  Future<String> sendMessageToChatbot(
-      String message, String? gptSelection, bool isFastMode) async {
+  Future<Map<String, String>> sendMessageToChatbot(
+      String message, bool isFastMode) async {
     final url = Uri.parse('$_baseUrl/chat');
     try {
       final body = {
         'message': message,
-        'isFastMode': isFastMode, // Include isFastMode in the body
+        'isFastMode': isFastMode,
       };
-      if (gptSelection != null) {
-        body['gpt_selection'] = gptSelection;
-      }
 
       final response = await http.post(
         url,
@@ -114,13 +111,19 @@ class Connections {
 
       if (response.statusCode == 200) {
         final jsonResponse = jsonDecode(response.body);
-        return jsonResponse['response'] as String;
+        return {
+          'response': jsonResponse['response'] as String,
+          'selected_agent': jsonResponse['selected_agent'] as String,
+        };
       } else {
         throw Exception('Failed to get response from chatbot');
       }
     } catch (e) {
       print('Error in sendMessageToChatbot: $e');
-      return 'An error occurred. Please try again.';
+      return {
+        'response':
+            'I apologize, but an error occurred while processing your request. Please try again in a moment or rephrase your question.'
+      };
     }
   }
 }
