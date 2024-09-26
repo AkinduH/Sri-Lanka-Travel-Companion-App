@@ -17,6 +17,7 @@ from tavily import TavilyClient
 import ast
 from openai import OpenAI
 from langchain.memory import ConversationBufferMemory
+from huggingface_hub import InferenceClient
 import dill
 
 load_dotenv()
@@ -76,6 +77,12 @@ def create_vector_db_from_folder(resource_folder, subfolder = None):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vector_store = FAISS.from_texts(chunks, embeddings)
     return vector_store
+
+# Creating SLM client
+SLM = InferenceClient(
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    token="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",
+)
 
 # Initialize clients for the chatbot
 def initialize_clients():
@@ -445,19 +452,63 @@ def chat():
         if not user_message:
             return jsonify({'error': 'No message provided.'}), 400
         
-        if gpt_selection == "AgentGPT":
-            vector_store = agents_vector_store
-        elif gpt_selection == "StayGPT":
-            vector_store = places_to_stay_vector_store
-        elif gpt_selection == "TravelGPT":
-            vector_store = transport_vector_store
-        elif gpt_selection == "PlacesGPT":
-            vector_store = attractions_vector_store
-        elif gpt_selection == "ShopGPT":
-            vector_store = tourist_shops_vector_store
-        else:
-            vector_store = default_vector_store 
+        # if gpt_selection == "AgentGPT":
+        #     vector_store = agents_vector_store
+        # elif gpt_selection == "StayGPT":
+        #     vector_store = places_to_stay_vector_store
+        # elif gpt_selection == "TravelGPT":
+        #     vector_store = transport_vector_store
+        # elif gpt_selection == "PlacesGPT":
+        #     vector_store = attractions_vector_store
+        # elif gpt_selection == "ShopGPT":
+        #     vector_store = tourist_shops_vector_store
+        # else:
+        #     vector_store = default_vector_store 
         
+        import time
+
+        SLM_prompt = f"""
+        Role: GPT selector
+        User message: {user_message}
+        We have the following agents: AgentGPT, StayGPT, TransportGPT, PlacesGPT, ShopGPT.
+        Select the most suitable agent based on the user message.
+        If the user message doesn't match any specific agent, respond with DefaultGPT.
+
+        Respond with only the selected agent name, nothing else.
+        For example:
+        AgentGPT
+
+        """
+        
+        start_time = time.time()
+        
+        for message in SLM.chat_completion(
+        messages=[{"role": "user", "content": SLM_prompt}],
+        max_tokens=500,
+            stream=True,
+        ):
+            print(message.choices[0].delta.content, end="")
+            SLM_response = message.choices[0].delta.content
+
+        end_time = time.time()
+        process_time = end_time - start_time
+        
+        print(f"SLM_response: {SLM_response}")
+        print(f"Process time: {process_time:.2f} seconds")
+        
+        if SLM_response == "AgentGPT":
+            vector_store = agents_vector_store
+        elif SLM_response == "StayGPT":
+            vector_store = places_to_stay_vector_store
+        elif SLM_response == "TravelGPT":
+            vector_store = transport_vector_store
+        elif SLM_response == "PlacesGPT":
+            vector_store = attractions_vector_store
+        elif SLM_response == "ShopGPT":
+            vector_store = tourist_shops_vector_store   
+        else:
+            vector_store = default_vector_store
+
         response = generate_response(user_message, openai_client, tavily_client, vector_store, memory_fast, memory_lengthy, gemini_model,is_fast_mode)   
         print("response: ", response)
 
