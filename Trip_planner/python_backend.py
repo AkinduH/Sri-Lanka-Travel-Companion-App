@@ -82,7 +82,7 @@ def create_vector_db_from_folder(resource_folder, subfolder = None):
 # Creating SLM client
 SLM = InferenceClient(
     "mistralai/Mistral-7B-Instruct-v0.1",
-    token=os.getenv("Hugging_Face_access_token"),
+    token=os.getenv("HuggingFace_API_KEY"),
 )
 
 # Initialize clients for the chatbot

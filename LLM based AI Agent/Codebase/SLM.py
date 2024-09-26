@@ -1,9 +1,12 @@
 import os
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = InferenceClient(
     "mistralai/Mistral-7B-Instruct-v0.1",
-    token=os.getenv("Hugging_Face_access_token"),
+    token=os.getenv("HuggingFace_API_KEY"),
 )
 
 for message in client.chat_completion(
