@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'dart:convert';
 import 'services/connections.dart';
 import 'widgets/DotProgressIndicator.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class AccommodationSelectionScreen extends StatefulWidget {
   final List<dynamic> expandedLoc;
@@ -26,7 +28,7 @@ class _AccommodationSelectionScreenState
   ];
   List<String> selectedAccommodations = [];
   bool isLoading = false;
-  String? responseMessage;
+  List<dynamic>? accommodations;
 
   void _submitAccommodations() async {
     if (selectedAccommodations.isEmpty) {
@@ -38,27 +40,86 @@ class _AccommodationSelectionScreenState
 
     setState(() {
       isLoading = true;
-      responseMessage = null;
+      accommodations = null;
     });
 
     try {
-      final response = await connectionService.getAccommodations(
+      String response = await connectionService.getAccommodations(
         expandedLoc: widget.expandedLoc,
         selectedAccommodations: selectedAccommodations,
       );
 
-      setState(() {
-        responseMessage =
-            response['message'] ?? 'Accommodations retrieved successfully!';
-      });
+      // Remove ```json and ``` if present
+      if (response.startsWith('```json')) {
+        response = response.substring(7);
+      }
+      if (response.endsWith('```')) {
+        response = response.substring(0, response.length - 3);
+      }
+
+      final decodedResponse = json.decode(response);
+      if (decodedResponse is Map<String, dynamic> &&
+          decodedResponse.containsKey('locations')) {
+        setState(() {
+          accommodations = decodedResponse['locations'];
+        });
+      } else {
+        throw Exception('Invalid response format.');
+      }
     } catch (e) {
       setState(() {
-        responseMessage = 'Error: $e';
+        accommodations = null;
       });
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Error: $e')),
+      );
+      print('Error in _submitAccommodations: $e');
     } finally {
       setState(() {
         isLoading = false;
       });
+    }
+  }
+
+  void _showContactInfo(BuildContext context, String title, String content) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(title),
+          content: Text(content),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Close'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<void> _launchURL(String url) async {
+    final Uri uri = Uri.parse(url);
+    try {
+      if (await canLaunchUrl(uri)) {
+        if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+          throw 'Could not launch $url';
+        }
+      } else {
+        throw 'Could not launch $url';
+      }
+    } catch (e) {
+      print('Error in _launchURL: $e');
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+              content: Text(
+                  'Could not open the link. Try opening in a browser: $url')),
+        );
+      }
     }
   }
 
@@ -83,15 +144,92 @@ class _AccommodationSelectionScreenState
           ],
         ),
       );
-    } else if (responseMessage != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Text(
-            responseMessage!,
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-          ),
+    } else if (accommodations != null) {
+      return Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: accommodations!.length,
+          itemBuilder: (context, index) {
+            final location = accommodations![index];
+            // Check if the location has a message instead of accommodations
+            if (location['accommodations'] != null &&
+                location['accommodations'].isNotEmpty &&
+                location['accommodations'][0].containsKey('message')) {
+              return Card(
+                child: ListTile(
+                  title: Text(
+                    location['name'],
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  subtitle: Text(
+                    location['accommodations'][0]['message'] ??
+                        'No accommodations available',
+                  ),
+                ),
+              );
+            }
+
+            return Card(
+              child: ExpansionTile(
+                title: Text(
+                  location['name'],
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                children: [
+                  if (location['accommodations'].isEmpty)
+                    ListTile(
+                      title: Text(
+                          location['message'] ?? 'No accommodations available'),
+                    )
+                  else
+                    ...location['accommodations'].map<Widget>((accommodation) {
+                      return ListTile(
+                        title: Text(accommodation['name']),
+                        subtitle: Text(accommodation['type']),
+                        trailing: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            if (accommodation['contact']['phone'] != null &&
+                                accommodation['contact']['phone']
+                                    .toString()
+                                    .isNotEmpty)
+                              IconButton(
+                                icon: Icon(Icons.phone),
+                                onPressed: () {
+                                  _showContactInfo(context, 'Phone',
+                                      accommodation['contact']['phone']);
+                                },
+                              ),
+                            if (accommodation['contact']['email'] != null &&
+                                accommodation['contact']['email']
+                                    .toString()
+                                    .isNotEmpty)
+                              IconButton(
+                                icon: Icon(Icons.email),
+                                onPressed: () {
+                                  _showContactInfo(context, 'Email',
+                                      accommodation['contact']['email']);
+                                },
+                              ),
+                            if (accommodation['contact']['website'] != null &&
+                                accommodation['contact']['website']
+                                    .toString()
+                                    .isNotEmpty)
+                              IconButton(
+                                icon: Icon(Icons.language),
+                                onPressed: () {
+                                  _launchURL(
+                                      accommodation['contact']['website']);
+                                },
+                              ),
+                          ],
+                        ),
+                      );
+                    }).toList(),
+                ],
+              ),
+            );
+          },
         ),
       );
     } else {
@@ -127,7 +265,7 @@ class _AccommodationSelectionScreenState
               onPressed: _submitAccommodations,
               child: const Text('Submit'),
               style: ElevatedButton.styleFrom(
-                minimumSize: const Size.fromHeight(50), // Full-width button
+                minimumSize: const Size.fromHeight(50),
                 textStyle: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,

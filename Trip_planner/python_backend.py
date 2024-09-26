@@ -23,7 +23,7 @@ import dill
 from speechmatics.models import ConnectionSettings, BatchTranscriptionConfig
 from speechmatics.batch_client import BatchClient
 from httpx import HTTPStatusError
-import tempfile  # Ensure tempfile is imported
+import tempfile  
 
 load_dotenv()
 
@@ -137,7 +137,7 @@ generation_config = {
     "temperature": 0.9,
     "top_p": 1,
     "top_k": 1,
-    "max_output_tokens": 4048,
+    "max_output_tokens": 6144,
     "response_mime_type": "text/plain",
 }
 
@@ -202,7 +202,8 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
     history_context = "\n".join([f"{m.type}: {m.content}" for m in history.get("history", [])])
     context = f"Conversation History:\n{history_context}\n\nContext: {context}\n\n"
     try:
-        tavily_context = tavily_client.search(query=prompt)
+        tavily_context = tavily_client.search(query=prompt)['results']
+        print("tavily_context: ", tavily_context)
         context += f"Additional Context: {tavily_context}\n\n"
     except Exception as e:
         print(f"Error fetching Tavily context: {e}")
@@ -376,76 +377,92 @@ def get_accommodations():
         expandedLoc = data.get('expandedLoc')
         selectedAccommodations = data.get('selectedAccommodations')
 
-        prompt =f"{expandedLoc}"
-
         context = ""
         
         # Choose the appropriate vector store based on selectedAccommodations
         if 'Star Hotels' in selectedAccommodations:
             vector_store = star_class_hotels_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Star Hotels", vector_store,1)
         if 'Normal Hotels' in selectedAccommodations:
             vector_store = normal_hotels_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Normal Hotels", vector_store,1)
         if 'Sri Lanka Tourism Resorts' in selectedAccommodations:
             vector_store = tourism_resorts_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Sri Lanka Tourism Resorts", vector_store,1)
         if 'Boutique Villas' in selectedAccommodations:
             vector_store = boutique_villas_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Boutique Villas", vector_store,1)
         if 'Bungalows' in selectedAccommodations:
             vector_store = bungalows_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Bungalows", vector_store,1)
         if 'Home Stays' in selectedAccommodations:
             vector_store = home_stays_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Home Stays", vector_store,1)
         if 'Camping Sites' in selectedAccommodations:
             vector_store = camping_sites_vector_store
-            context+=retrieve_context(prompt, vector_store,5)   
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place} Camping Sites", vector_store,1)   
         else:
             vector_store = places_to_stay_vector_store
-            context+=retrieve_context(prompt, vector_store,5)
+            for place in expandedLoc:
+                context+=retrieve_context(f"{place}", vector_store,1)
 
     
         print("context: ", context)
 
         tavily_context = ""
         for place in expandedLoc:
-            tavily_result = tavily_client.search(query=f"{selectedAccommodations} Type Accommodation details(name, rating, contact details) for {place}")
-            tavily_result = tavily_result['results']
-            tavily_context += f"Accommodation for {place}: {tavily_result}\n"
+            tavily_result = tavily_client.search(query=f"One {selectedAccommodations} Type Accommodation details(name, rating, contact details) for {place}")
+            tavily_result = tavily_result['results'][:2]
+            tavily_context += f"Accommodation for {place}: {tavily_result}\n\n\n"
 
         print("tavily_context: ", tavily_context)
 
         chat_session = model.start_chat(history=[])
-
         final_prompt = f"""Role: You are a travel location expert in Sri Lanka
-                        use the given accomodations available to give me the best accomodation options for each each unique location (give full information about the accomodation like the name of the hotel, the location, the rating, and the contact numbers): {expandedLoc}
+                        Use the given accommodations available to provide the best accommodation options for each unique location (include full information about the accommodation like the name of the hotel, the location, the rating, and the contact numbers): {expandedLoc}
 
-                        The return format needs to be in following format only that do not add any other text:
+                        The return format must be in valid JSON format only. Do not add any other text. The structure should be as follows:
 
-                        location: location name
-                        3 or less accomodations for that location (The accomodations should be in the following format)
-                        Name of the hotel:
-                        Rating:
-                        Contact details(phone number, email, website):
+                        {{
+                            "locations": [
+                                {{
+                                    "name": "location name",
+                                    "accommodations": [
+                                        {{
+                                            "name": "Name of the hotel",
+                                            "type": "Accommodation type",
+                                            "contact": {{
+                                                "phone": "phone number",
+                                                "email": "email",
+                                                "website": "website"
+                                            }}
+                                        }}
+                                    ]
+                                }}
+                            ]
+                        }}
 
-                        If there are no accomodations available in that location, then add 'No accomodations available right now try searching in the web'
+                        Include up to 3 accommodations per location. Add atleast one accommodation per location(use {tavily_context} if no accommodations are available in the main accommodations)
 
-                        The response should be user friendly and attractive   
+                        Ensure the response is user-friendly and attractive.
 
-                        Main accomodations available: {context}
-                        Additional accomodations available: {tavily_context}
-"""
+                        Main accommodations available: {context}
+                        Additional accommodations available: {tavily_context}
+
+                        Important: The response must be valid JSON. Do not include any explanatory text outside the JSON structure."""
         
         response = chat_session.send_message(final_prompt)
-        print("response.text: ", response.text)
+        print(response.text)
 
-        itinerary = extract_itinerary_details(response.text)
-        expanded_loc = process_locations(itinerary)
-
-        return jsonify({'itinerary': itinerary, 'expanded_loc': expanded_loc})
-    except Exception as e:
+        return jsonify({'response': response.text})
+    except Exception as e:              
         print("error: ", e)
         return jsonify({'error': str(e)}), 500                                             
 
@@ -475,7 +492,7 @@ def chat():
         StayGPT for questions related to finding places to stay, hotels, and accommodation in sri lanka.
         TransportGPT for questions related to transport, transportation like taxies, buses, and trains in sri lanka.
         ShopGPT for questions related to finding tourist shops, shopping in sri lanka.
-        GreetingGPT for greetings from  the user.
+        GreetingGPT for greetings from  the user and for other general questions not related to traveling in Sri Lanka.
 
         Respond with only the selected agent name, nothing else. No need to add any other text.
 

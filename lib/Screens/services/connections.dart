@@ -72,7 +72,7 @@ class Connections {
     }
   }
 
-  Future<Map<String, dynamic>> getAccommodations({
+  Future<String> getAccommodations({
     required List<dynamic> expandedLoc,
     required List<String> selectedAccommodations,
   }) async {
@@ -88,7 +88,7 @@ class Connections {
 
     if (response.statusCode == 200) {
       final jsonResponse = jsonDecode(response.body);
-      return jsonResponse as Map<String, dynamic>;
+      return jsonResponse['response'];
     } else {
       throw Exception('Failed to fetch accommodations');
     }
