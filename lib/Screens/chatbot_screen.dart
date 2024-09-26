@@ -15,6 +15,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   final Connections connectionService = Connections();
 
   bool _isFastMode = true;
+  bool _isRecording = false;
 
   @override
   void initState() {
@@ -60,6 +61,49 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
       setState(() {
         _messages.add(_Message(
           text: "Error: Unable to get response.",
+          isUser: false,
+          selectedAgent: "Error",
+          isFastMode: _isFastMode,
+        ));
+      });
+    }
+  }
+
+  // Updated method to handle record button press
+  void _handleRecordButton() {
+    setState(() {
+      _isRecording = !_isRecording;
+    });
+    if (!_isRecording) {
+      _uploadAudioFile(
+          "C:/Users/Akindu Himan/OneDrive/Documents/Sound Recordings/Recording.m4a");
+    }
+  }
+
+  // Updated method to upload audio file
+  Future<void> _uploadAudioFile(String filePath) async {
+    try {
+      print("filePath: $filePath");
+      String transcribedText = await connectionService.uploadAudio(filePath);
+      print("transcribedText: $transcribedText");
+      if (transcribedText.isNotEmpty) {
+        _sendMessage(transcribedText);
+      } else {
+        // Handle empty transcription
+        setState(() {
+          _messages.add(_Message(
+            text: "Error: Transcription returned empty.",
+            isUser: false,
+            selectedAgent: "Error",
+            isFastMode: _isFastMode,
+          ));
+        });
+      }
+    } catch (e) {
+      // Handle upload/transcription error
+      setState(() {
+        _messages.add(_Message(
+          text: "Error: Unable to transcribe audio.",
           isUser: false,
           selectedAgent: "Error",
           isFastMode: _isFastMode,
@@ -170,6 +214,11 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
                           hintText: 'Send a message'),
                       onSubmitted: _sendMessage,
                     ),
+                  ),
+                  IconButton(
+                    icon: Icon(_isRecording ? Icons.stop : Icons.mic),
+                    color: _isRecording ? Colors.red : Colors.blue,
+                    onPressed: _handleRecordButton,
                   ),
                   IconButton(
                     icon: const Icon(Icons.send),

@@ -126,4 +126,25 @@ class Connections {
       };
     }
   }
+
+  Future<String> uploadAudio(String filePath) async {
+    final url = Uri.parse('$_baseUrl/transcribe');
+    var request = http.MultipartRequest('POST', url);
+
+    // Send only the file path
+    request.fields['filepath'] = filePath;
+
+    try {
+      var response = await request.send();
+      if (response.statusCode == 200) {
+        var responseBody = await response.stream.bytesToString();
+        var jsonResponse = jsonDecode(responseBody);
+        return jsonResponse['transcription'] as String;
+      } else {
+        throw Exception('Failed to transcribe audio');
+      }
+    } catch (e) {
+      throw Exception('Error while transcribing audio: $e');
+    }
+  }
 }

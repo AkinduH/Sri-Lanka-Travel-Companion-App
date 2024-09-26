@@ -20,6 +20,10 @@ from langchain.memory import ConversationBufferMemory
 from huggingface_hub import InferenceClient
 import time
 import dill
+from speechmatics.models import ConnectionSettings, BatchTranscriptionConfig
+from speechmatics.batch_client import BatchClient
+from httpx import HTTPStatusError
+import tempfile  # Ensure tempfile is imported
 
 load_dotenv()
 
@@ -539,5 +543,43 @@ def chat():
         print(f"Error in /chat endpoint: {e}")
         return jsonify({'error': str(e)}), 500
     
+@app.route('/transcribe', methods=['POST'])
+def transcribe_audio():
+    if 'filepath' not in request.form:
+        return jsonify({'error': 'No file path provided'}), 400
+
+    file_path = request.form['filepath']
+    print("file path: ", file_path)
+
+    if not file_path:
+        return jsonify({'error': 'Empty file path'}), 400
+
+    try:
+        # Use the Speechmatics API to transcribe the audio
+        API_KEY = os.getenv("SPEECHMATICS_API_KEY")
+        LANGUAGE = "en"
+
+        # Open the client using a context manager
+        with BatchClient(API_KEY) as client:
+            try:
+                job_id = client.submit_job(file_path, BatchTranscriptionConfig(LANGUAGE))
+                print(f'job {job_id} submitted successfully, waiting for transcript')
+
+                # Note that in production, you should set up notifications instead of polling.
+                # Notifications are described here: https://docs.speechmatics.com/features-other/notifications
+                transcript = client.wait_for_completion(job_id, transcription_format='txt')
+                print("transcript: ", transcript)
+
+                return jsonify({'transcription': transcript})
+            except HTTPStatusError as e:
+                if e.response.status_code == 401:
+                    return jsonify({'error': 'Invalid API key - Check your API_KEY'}), 401
+                elif e.response.status_code == 400:
+                    return jsonify({'error': e.response.json()['detail']}), 400
+                else:
+                    raise e
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+         
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
