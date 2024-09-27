@@ -450,6 +450,7 @@ def get_accommodations():
                         }}
 
                         Include up to 3 accommodations per location. Add atleast one accommodation per location(use {tavily_context} if no accommodations are available in the main accommodations)
+                        If there are no accommodations available in the location, then don't add that location to the response.
 
                         Ensure the response is user-friendly and attractive.
 

@@ -75,100 +75,145 @@ class SummaryScreen extends StatelessWidget {
                 Expanded(
                   flex: 2,
                   child: ListView.builder(
-                    itemCount: sortedKeys.length,
+                    itemCount: sortedKeys.length + 1, // Add 1 for the buttons
                     itemBuilder: (context, index) {
-                      String day = sortedKeys[index];
-                      Map<String, dynamic> details = itinerary[day];
+                      if (index < sortedKeys.length) {
+                        String day = sortedKeys[index];
+                        Map<String, dynamic> details = itinerary[day];
 
-                      return Padding(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 8.0, horizontal: 16.0),
-                        child: Card(
-                          elevation: 5,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(15.0),
-                          ),
-                          child: ExpansionTile(
-                            title: Text(
-                              day,
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
-                                color: Colors.black,
-                              ),
+                        return Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 8.0, horizontal: 16.0),
+                          child: Card(
+                            elevation: 5,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(15.0),
                             ),
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(16.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    const Text(
-                                      'Description:',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
-                                        color: Colors.black87,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 4),
-                                    Text(
-                                      details['Description'],
-                                      style: TextStyle(
-                                        fontSize: 14,
-                                        color: Colors.grey[700],
-                                      ),
-                                    ),
-                                    const SizedBox(height: 8),
-                                    const Text(
-                                      'Activities:',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
-                                      ),
-                                    ),
-                                    ...details['Activities']
-                                        .map<Widget>((activity) {
-                                      return ListTile(
-                                        leading: const Icon(
-                                            Icons.check_circle_outline),
-                                        title: Text(
-                                          activity,
-                                          style: const TextStyle(fontSize: 16),
-                                        ),
-                                        contentPadding: EdgeInsets.zero,
-                                      );
-                                    }).toList(),
-                                  ],
+                            child: ExpansionTile(
+                              title: Text(
+                                day,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                  color: Colors.black,
                                 ),
                               ),
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      const Text(
+                                        'Description:',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                          color: Colors.black87,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 4),
+                                      Text(
+                                        details['Description'],
+                                        style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.grey[700],
+                                        ),
+                                      ),
+                                      const SizedBox(height: 8),
+                                      const Text(
+                                        'Activities:',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                      ...details['Activities']
+                                          .map<Widget>((activity) {
+                                        return ListTile(
+                                          leading: const Icon(
+                                              Icons.check_circle_outline),
+                                          title: Text(
+                                            activity,
+                                            style:
+                                                const TextStyle(fontSize: 16),
+                                          ),
+                                          contentPadding: EdgeInsets.zero,
+                                        );
+                                      }).toList(),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      } else {
+                        // Add buttons at the end of the ListView
+                        return Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                width: double.infinity,
+                                child: ElevatedButton(
+                                  onPressed: () {
+                                    // TODO: Implement save journey functionality
+                                    print('Save my journey');
+                                  },
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.blue,
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 20),
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                  ),
+                                  child: const Text(
+                                    'Save my journey',
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(height: 16),
+                              const Text(
+                                'Need Accommodations?',
+                                style: TextStyle(fontSize: 16),
+                              ),
+                              const SizedBox(height: 16),
+                              SizedBox(
+                                width: double.infinity,
+                                child: ElevatedButton(
+                                  onPressed: () {
+                                    Navigator.pushNamed(
+                                      context,
+                                      '/accommodation_selection',
+                                      arguments: expandedLoc,
+                                    );
+                                  },
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.blue,
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 20),
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                  ),
+                                  child: const Text(
+                                    'Get Accommodations',
+                                    style: TextStyle(
+                                        fontSize: 18, color: Colors.white),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(height: 16),
                             ],
                           ),
-                        ),
-                      );
+                        );
+                      }
                     },
-                  ),
-                ),
-                // Add Get Accommodations Button
-                Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: ElevatedButton(
-                    onPressed: () {
-                      Navigator.pushNamed(
-                        context,
-                        '/accommodation_selection',
-                        arguments: expandedLoc,
-                      );
-                    },
-                    child: const Text('Get Accommodations'),
-                    style: ElevatedButton.styleFrom(
-                      minimumSize:
-                          const Size.fromHeight(50), // Make button full-width
-                      textStyle: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
                   ),
                 ),
               ],

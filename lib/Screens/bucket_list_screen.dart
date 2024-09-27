@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'loading_screen.dart';
 import 'widgets/ErrorPopup.dart';
+import 'data/locations.dart';
 
 class BucketListScreen extends StatefulWidget {
   final List<String> selectedCategories;
@@ -12,20 +13,8 @@ class BucketListScreen extends StatefulWidget {
 }
 
 class _BucketListScreenState extends State<BucketListScreen> {
-  final List<String> bucketList = [];
-  final List<String> availablePlaces = [
-    'Sigiriya Rock Fortress',
-    'Galle Fort',
-    'Yala National Park',
-    'Ella',
-    'Kandy Lake',
-    'Nuwara Eliya',
-    'Hikkaduwa Beach',
-    'Anuradhapura',
-    'Polonnaruwa',
-    'Bentota River',
-    // Add more places as needed
-  ];
+  final List<TextEditingController> _controllers =
+      List.generate(5, (_) => TextEditingController());
 
   void _showErrorPopup(String message) {
     showDialog(
@@ -38,25 +27,17 @@ class _BucketListScreenState extends State<BucketListScreen> {
     );
   }
 
-  void _addBucketListItem(String item) {
-    if (bucketList.length >= 5) {
-      _showErrorPopup('You can select up to 5 places.');
+  void _navigateToLoading() {
+    List<String> bucketList = _controllers
+        .map((controller) => controller.text.trim())
+        .where((text) => text.isNotEmpty)
+        .toList();
+
+    if (bucketList.isEmpty) {
+      _showErrorPopup('Please enter at least one place.');
       return;
     }
-    if (!bucketList.contains(item)) {
-      setState(() {
-        bucketList.add(item);
-      });
-    }
-  }
 
-  void _removeBucketListItem(String item) {
-    setState(() {
-      bucketList.remove(item);
-    });
-  }
-
-  void _navigateToLoading() {
     Navigator.push(
       context,
       MaterialPageRoute(
@@ -69,50 +50,108 @@ class _BucketListScreenState extends State<BucketListScreen> {
   }
 
   @override
+  void dispose() {
+    for (var controller in _controllers) {
+      controller.dispose();
+    }
+    super.dispose();
+  }
+
+  Widget _buildAutoCompleteField(int index) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      child: Autocomplete<String>(
+        optionsBuilder: (TextEditingValue textEditingValue) {
+          if (textEditingValue.text.isEmpty) {
+            return const Iterable<String>.empty();
+          }
+          return allLocations.where((String option) {
+            return option
+                .toLowerCase()
+                .contains(textEditingValue.text.toLowerCase());
+          });
+        },
+        onSelected: (String selection) {
+          _controllers[index].text = selection;
+        },
+        fieldViewBuilder: (BuildContext context,
+            TextEditingController fieldController,
+            FocusNode focusNode,
+            VoidCallback onFieldSubmitted) {
+          _controllers[index] = fieldController;
+          return TextField(
+            controller: fieldController,
+            focusNode: focusNode,
+            decoration: InputDecoration(
+              labelText: 'Place ${index + 1}',
+              border: const OutlineInputBorder(),
+              focusedBorder: const OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.blueAccent),
+              ),
+              labelStyle: const TextStyle(color: Colors.black),
+            ),
+            cursorColor: Colors.blueAccent,
+          );
+        },
+      ),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('Select Your Bucket List'),
-        ),
-        body: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            children: [
-              const Text(
-                'Select up to 5 places for your bucket list:',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 20),
-              Expanded(
-                child: ListView.builder(
-                  itemCount: availablePlaces.length,
-                  itemBuilder: (context, index) {
-                    final place = availablePlaces[index];
-                    final isSelected = bucketList.contains(place);
-
-                    return ListTile(
-                      title: Text(place),
-                      trailing: isSelected
-                          ? IconButton(
-                              icon: const Icon(Icons.remove_circle,
-                                  color: Colors.red),
-                              onPressed: () => _removeBucketListItem(place),
-                            )
-                          : IconButton(
-                              icon: const Icon(Icons.add_circle,
-                                  color: Colors.green),
-                              onPressed: () => _addBucketListItem(place),
-                            ),
-                    );
-                  },
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+          const SizedBox(height: 60),
+          const Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Add your bucket list in Sri Lanka',
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 8),
+                Text(
+                  'Select your favorite places',
+                  style: TextStyle(fontSize: 16, color: Colors.grey),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              padding: const EdgeInsets.all(10.0),
+              itemCount: 5,
+              itemBuilder: (context, index) {
+                return _buildAutoCompleteField(index);
+              },
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Align(
+              alignment: Alignment.bottomRight,
+              child: GestureDetector(
+                onTap: _navigateToLoading,
+                child: Container(
+                  height: 30,
+                  width: 30,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                      image: AssetImage('assets/continue_button.png'),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
               ),
-              ElevatedButton(
-                onPressed: _navigateToLoading,
-                child: const Text('Continue'),
-              ),
-            ],
+            ),
           ),
-        ));
+        ],
+      ),
+    );
   }
 }

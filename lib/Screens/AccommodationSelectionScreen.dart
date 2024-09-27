@@ -123,168 +123,266 @@ class _AccommodationSelectionScreenState
     }
   }
 
-  Widget _buildBody() {
-    if (isLoading) {
-      return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Text(
-              'Fetching accommodations...',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 20),
-            DotProgressIndicator(
-              totalDots: 4,
-              dotSize: 10,
-              activeColor: Colors.blue,
-              inactiveColor: Colors.grey.shade300,
-              animationDuration: const Duration(milliseconds: 300),
-            ),
-          ],
+  Widget _buildAccommodationSelectionUI() {
+    return Column(
+      children: [
+        const SizedBox(height: 60),
+        const Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'What type of accommodations are you interested in?',
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 8),
+              Text(
+                'Select one or more options',
+                style: TextStyle(fontSize: 16, color: Colors.grey),
+              ),
+            ],
+          ),
         ),
-      );
-    } else if (accommodations != null) {
-      return Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: ListView.builder(
-          itemCount: accommodations!.length,
-          itemBuilder: (context, index) {
-            final location = accommodations![index];
-            // Check if the location has a message instead of accommodations
-            if (location['accommodations'] != null &&
-                location['accommodations'].isNotEmpty &&
-                location['accommodations'][0].containsKey('message')) {
-              return Card(
-                child: ListTile(
-                  title: Text(
-                    location['name'],
-                    style: TextStyle(fontWeight: FontWeight.bold),
+        Expanded(
+          child: ListView.builder(
+            padding: const EdgeInsets.all(10.0),
+            itemCount: accommodationOptions.length,
+            itemBuilder: (context, index) {
+              final option = accommodationOptions[index];
+              final isSelected = selectedAccommodations.contains(option);
+
+              return GestureDetector(
+                onTap: () {
+                  setState(() {
+                    if (isSelected) {
+                      selectedAccommodations.remove(option);
+                    } else {
+                      selectedAccommodations.add(option);
+                    }
+                  });
+                },
+                child: Container(
+                  margin: const EdgeInsets.symmetric(vertical: 8.0),
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  decoration: BoxDecoration(
+                    color: isSelected ? Colors.blueAccent : Colors.white,
+                    border: Border.all(
+                      color: Colors.blueAccent,
+                    ),
+                    borderRadius: BorderRadius.circular(10),
                   ),
-                  subtitle: Text(
-                    location['accommodations'][0]['message'] ??
-                        'No accommodations available',
+                  alignment: Alignment.center,
+                  child: Text(
+                    option,
+                    style: TextStyle(
+                      color: isSelected ? Colors.white : Colors.blueAccent,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
               );
-            }
-
-            return Card(
-              child: ExpansionTile(
-                title: Text(
-                  location['name'],
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
-                children: [
-                  if (location['accommodations'].isEmpty)
-                    ListTile(
-                      title: Text(
-                          location['message'] ?? 'No accommodations available'),
-                    )
-                  else
-                    ...location['accommodations'].map<Widget>((accommodation) {
-                      return ListTile(
-                        title: Text(accommodation['name']),
-                        subtitle: Text(accommodation['type']),
-                        trailing: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            if (accommodation['contact']['phone'] != null &&
-                                accommodation['contact']['phone']
-                                    .toString()
-                                    .isNotEmpty)
-                              IconButton(
-                                icon: Icon(Icons.phone),
-                                onPressed: () {
-                                  _showContactInfo(context, 'Phone',
-                                      accommodation['contact']['phone']);
-                                },
-                              ),
-                            if (accommodation['contact']['email'] != null &&
-                                accommodation['contact']['email']
-                                    .toString()
-                                    .isNotEmpty)
-                              IconButton(
-                                icon: Icon(Icons.email),
-                                onPressed: () {
-                                  _showContactInfo(context, 'Email',
-                                      accommodation['contact']['email']);
-                                },
-                              ),
-                            if (accommodation['contact']['website'] != null &&
-                                accommodation['contact']['website']
-                                    .toString()
-                                    .isNotEmpty)
-                              IconButton(
-                                icon: Icon(Icons.language),
-                                onPressed: () {
-                                  _launchURL(
-                                      accommodation['contact']['website']);
-                                },
-                              ),
-                          ],
-                        ),
-                      );
-                    }).toList(),
-                ],
-              ),
-            );
-          },
+            },
+          ),
         ),
-      );
-    } else {
-      return Padding(
+        Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Align(
+            alignment: Alignment.bottomRight,
+            child: GestureDetector(
+              onTap: _submitAccommodations,
+              child: Container(
+                height: 30,
+                width: 30,
+                decoration: const BoxDecoration(
+                  shape: BoxShape.circle,
+                  image: DecorationImage(
+                    image: AssetImage('assets/continue_button.png'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildAccommodationResults() {
+    return SafeArea(
+      child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Select Accommodation Types:',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              'Recommended Accommodations',
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 8),
+            const Text(
+              'Based on your preferences, here are the best options for each location on your journey',
+              style: TextStyle(fontSize: 16, color: Colors.grey),
+            ),
+            const SizedBox(height: 24),
             Expanded(
-              child: ListView(
-                children: accommodationOptions.map((option) {
-                  return CheckboxListTile(
-                    title: Text(option),
-                    value: selectedAccommodations.contains(option),
-                    onChanged: (bool? value) {
-                      setState(() {
-                        if (value == true) {
-                          selectedAccommodations.add(option);
-                        } else {
-                          selectedAccommodations.remove(option);
-                        }
-                      });
-                    },
-                  );
-                }).toList(),
-              ),
-            ),
-            ElevatedButton(
-              onPressed: _submitAccommodations,
-              child: const Text('Submit'),
-              style: ElevatedButton.styleFrom(
-                minimumSize: const Size.fromHeight(50),
-                textStyle: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+              child: ListView.builder(
+                itemCount: accommodations!.length + 1, // Add 1 for the button
+                itemBuilder: (context, index) {
+                  if (index < accommodations!.length) {
+                    final location = accommodations![index];
+                    // Check if the location has a message instead of accommodations
+                    if (location['accommodations'] != null &&
+                        location['accommodations'].isNotEmpty &&
+                        location['accommodations'][0].containsKey('message')) {
+                      return Card(
+                        child: ListTile(
+                          title: Text(
+                            location['name'],
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          subtitle: Text(
+                            location['accommodations'][0]['message'] ??
+                                'No accommodations available',
+                          ),
+                        ),
+                      );
+                    }
+
+                    return Card(
+                      child: ExpansionTile(
+                        title: Text(
+                          location['name'],
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        children: [
+                          if (location['accommodations'].isEmpty)
+                            ListTile(
+                              title: Text(location['message'] ??
+                                  'No accommodations available'),
+                            )
+                          else
+                            ...location['accommodations']
+                                .map<Widget>((accommodation) {
+                              return ListTile(
+                                title: Text(accommodation['name']),
+                                subtitle: Text(accommodation['type']),
+                                trailing: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    if (accommodation['contact']['phone'] !=
+                                            null &&
+                                        accommodation['contact']['phone']
+                                            .toString()
+                                            .isNotEmpty)
+                                      IconButton(
+                                        icon: Icon(Icons.phone),
+                                        onPressed: () {
+                                          _showContactInfo(
+                                              context,
+                                              'Phone',
+                                              accommodation['contact']
+                                                  ['phone']);
+                                        },
+                                      ),
+                                    if (accommodation['contact']['email'] !=
+                                            null &&
+                                        accommodation['contact']['email']
+                                            .toString()
+                                            .isNotEmpty)
+                                      IconButton(
+                                        icon: Icon(Icons.email),
+                                        onPressed: () {
+                                          _showContactInfo(
+                                              context,
+                                              'Email',
+                                              accommodation['contact']
+                                                  ['email']);
+                                        },
+                                      ),
+                                    if (accommodation['contact']['website'] !=
+                                            null &&
+                                        accommodation['contact']['website']
+                                            .toString()
+                                            .isNotEmpty)
+                                      IconButton(
+                                        icon: Icon(Icons.language),
+                                        onPressed: () {
+                                          _launchURL(accommodation['contact']
+                                              ['website']);
+                                        },
+                                      ),
+                                  ],
+                                ),
+                              );
+                            }).toList(),
+                        ],
+                      ),
+                    );
+                  } else {
+                    // This is the last item, so we return the button
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16.0),
+                      child: SizedBox(
+                        width: double.infinity,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            // TODO: Implement save functionality
+                            print('Journey and Accommodations saved');
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.blue,
+                            padding: const EdgeInsets.symmetric(vertical: 20),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                          ),
+                          child: const Text(
+                            'Save Journey & Accommodations',
+                            style: TextStyle(fontSize: 18, color: Colors.white),
+                          ),
+                        ),
+                      ),
+                    );
+                  }
+                },
               ),
             ),
           ],
         ),
-      );
-    }
+      ),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Select Accommodations'),
-      ),
-      body: _buildBody(),
+      backgroundColor: Colors.white,
+      body: isLoading
+          ? Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Fetching accommodations...',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 20),
+                  DotProgressIndicator(
+                    totalDots: 4,
+                    dotSize: 10,
+                    activeColor: Colors.blue,
+                    inactiveColor: Colors.grey.shade300,
+                    animationDuration: const Duration(milliseconds: 300),
+                  ),
+                ],
+              ),
+            )
+          : accommodations == null
+              ? _buildAccommodationSelectionUI()
+              : _buildAccommodationResults(),
     );
   }
 }
