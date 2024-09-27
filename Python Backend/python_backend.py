@@ -416,14 +416,6 @@ def get_accommodations():
     
         print("context: ", context)
 
-        tavily_context = ""
-        for place in expandedLoc:
-            tavily_result = tavily_client.search(query=f"One {selectedAccommodations} Type Accommodation details(name, rating, contact details) for {place}")
-            tavily_result = tavily_result['results'][:2]
-            tavily_context += f"Accommodation for {place}: {tavily_result}\n\n\n"
-
-        print("tavily_context: ", tavily_context)
-
         chat_session = model.start_chat(history=[])
         final_prompt = f"""Role: You are a travel location expert in Sri Lanka
                         Use the given accommodations available to provide the best accommodation options for each unique location (include full information about the accommodation like the name of the hotel, the location, the rating, and the contact numbers): {expandedLoc}
@@ -449,13 +441,11 @@ def get_accommodations():
                             ]
                         }}
 
-                        Include up to 3 accommodations per location. Add atleast one accommodation per location(use {tavily_context} if no accommodations are available in the main accommodations)
                         If there are no accommodations available in the location, then don't add that location to the response.
 
                         Ensure the response is user-friendly and attractive.
 
                         Main accommodations available: {context}
-                        Additional accommodations available: {tavily_context}
 
                         Important: The response must be valid JSON. Do not include any explanatory text outside the JSON structure."""
         
@@ -465,7 +455,7 @@ def get_accommodations():
         return jsonify({'response': response.text})
     except Exception as e:              
         print("error: ", e)
-        return jsonify({'error': str(e)}), 500                                             
+        return jsonify({'response': 'The server is currently busy. Please try again in few seconds.'}), 500
 
 
 # Chat with the chatbot
