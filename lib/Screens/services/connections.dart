@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 class Connections {
   static const String _baseUrl =
-      'http://127.0.0.1:5000'; // Server 'http://13.51.159.48:5000'; Local 'http://127.0.0.1:5000';
+      'http://13.51.159.48:5000'; // Server 'http://13.51.159.48:5000'; Local 'http://127.0.0.1:5000';
 
   Future<List<String>> getRecommendations(
       List<String> categories, List<String> bucketList) async {

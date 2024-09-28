@@ -20,8 +20,13 @@ class _BucketListScreenState extends State<BucketListScreen> {
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return ErrorPopup(
-          message: message,
+        return Theme(
+          data: ThemeData(
+            dialogBackgroundColor: Colors.white,
+          ),
+          child: ErrorPopup(
+            message: message,
+          ),
         );
       },
     );
@@ -89,8 +94,41 @@ class _BucketListScreenState extends State<BucketListScreen> {
                 borderSide: BorderSide(color: Colors.blueAccent),
               ),
               labelStyle: const TextStyle(color: Colors.black),
+              fillColor: Colors.white,
+              filled: true,
             ),
             cursorColor: Colors.blueAccent,
+          );
+        },
+        optionsViewBuilder: (BuildContext context,
+            AutocompleteOnSelected<String> onSelected,
+            Iterable<String> options) {
+          return Align(
+            alignment: Alignment.topLeft,
+            child: Material(
+              elevation: 4.0,
+              child: Container(
+                color: Colors.white,
+                width: 300.0,
+                child: ListView.builder(
+                  padding: EdgeInsets.zero,
+                  shrinkWrap: true,
+                  itemCount: options.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    final String option = options.elementAt(index);
+                    return InkWell(
+                      onTap: () {
+                        onSelected(option);
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Text(option),
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ),
           );
         },
       ),

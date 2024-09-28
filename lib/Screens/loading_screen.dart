@@ -51,6 +51,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
+            backgroundColor: Colors.white,
             title: const Text('Error'),
             content: Text('Failed to fetch recommendations: ${e.toString()}'),
             actions: [
@@ -71,19 +72,22 @@ class _LoadingScreenState extends State<LoadingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text('Fetching Recommendations'),
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
+            Text(
               'Generating your recommendations...',
               style: TextStyle(fontSize: 18),
             ),
-            const SizedBox(height: 20),
-            const DotProgressIndicator(),
+            SizedBox(height: 20),
+            DotProgressIndicator(),
           ],
         ),
       ),

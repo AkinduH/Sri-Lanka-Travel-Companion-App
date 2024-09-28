@@ -64,14 +64,17 @@ class _AccommodationSelectionScreenState
           accommodations = decodedResponse['locations'];
         });
       } else {
-        throw Exception('Invalid response format.');
+        throw Exception(
+            'The server is currently busy. Please try again in few seconds.');
       }
     } catch (e) {
       setState(() {
         accommodations = null;
       });
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error: $e')),
+        const SnackBar(
+            content: Text(
+                'The server is currently busy. Please try again in few seconds.')),
       );
       print('Error in _submitAccommodations: $e');
     } finally {
@@ -86,6 +89,7 @@ class _AccommodationSelectionScreenState
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
+          backgroundColor: Colors.white,
           title: Text(title),
           content: Text(content),
           actions: <Widget>[
@@ -238,6 +242,7 @@ class _AccommodationSelectionScreenState
                         location['accommodations'].isNotEmpty &&
                         location['accommodations'][0].containsKey('message')) {
                       return Card(
+                        color: Colors.white,
                         child: ListTile(
                           title: Text(
                             location['name'],
@@ -252,6 +257,7 @@ class _AccommodationSelectionScreenState
                     }
 
                     return Card(
+                      color: Colors.white,
                       child: ExpansionTile(
                         title: Text(
                           location['name'],
