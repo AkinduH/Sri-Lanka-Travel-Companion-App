@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 class Connections {
   static const String _baseUrl =
-      'http://13.51.159.48:5000'; // Server 'http://13.51.159.48:5000'; Local 'http://127.0.0.1:5000';
+      'http://127.0.0.1:5000'; // Server 'http://13.53.39.231:5000'; Local 'http://127.0.0.1:5000';
 
   Future<List<String>> getRecommendations(
       List<String> categories, List<String> bucketList) async {
@@ -96,13 +96,15 @@ class Connections {
     }
   }
 
-  Future<Map<String, String>> sendMessageToChatbot(
-      String message, bool isFastMode) async {
+  Future<Map<String, String>> sendMessageToChatbot(String message,
+      bool isFastMode, bool isFirstMessage, String? sessionId) async {
     final url = Uri.parse('$_baseUrl/chat');
     try {
       final body = {
         'message': message,
         'isFastMode': isFastMode,
+        'isFirstMessage': isFirstMessage,
+        'sessionId': sessionId,
       };
 
       final response = await http.post(
@@ -116,6 +118,8 @@ class Connections {
         return {
           'response': jsonResponse['response'] as String,
           'selected_agent': jsonResponse['selected_agent'] as String,
+          'topic': jsonResponse['topic'] as String,
+          'sessionId': jsonResponse['sessionId'] as String,
         };
       } else {
         throw Exception('Failed to get response from chatbot');

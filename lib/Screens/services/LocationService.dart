@@ -287,6 +287,7 @@ class LocationService {
       case 'Angammedilla National Park':
         return LatLng(7.9254453, 80.9207737);
       case 'Anuradhapura New Town':
+      case 'Anuradhapura':
         return LatLng(8.3227654, 80.4025767);
       case 'Arankale Buddhist Monastery':
         return LatLng(7.6396538, 80.4191984);

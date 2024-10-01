@@ -4,7 +4,6 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import os
 import re
-from places import Places
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -24,6 +23,7 @@ from speechmatics.models import ConnectionSettings, BatchTranscriptionConfig
 from speechmatics.batch_client import BatchClient
 from httpx import HTTPStatusError
 import tempfile  
+import uuid
 
 load_dotenv()
 
@@ -125,6 +125,15 @@ def initialize_clients():
     
     return openai_client, tavily_client, memory, gemini_model
 
+# Pool of client instances
+client_pool = {}
+
+# Function to get or create a client instance
+def get_or_create_client_instance(session_id):
+    if session_id not in client_pool:
+        client_pool[session_id] = initialize_clients()
+    return client_pool[session_id]
+
 #Setup for Travel planner
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
@@ -146,10 +155,6 @@ model = genai.GenerativeModel(
     generation_config=generation_config,
 )
 
-places_instance = Places()
-
-def filter_places_by_categories(interested_categories):
-    return places_instance.filter_places_by_categories(interested_categories)
 
 script_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 pkl_path = os.path.join(script_dir, 'Recommendation Model', 'Recommendation Model.pkl')
@@ -195,7 +200,7 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
     else:
         context = retrieve_context(prompt, vector_store)    
     
-    print("context: ", context)
+    # print("context: ", context)
 
     history = memory.load_memory_variables({})
 
@@ -203,7 +208,7 @@ def generate_response(prompt, openai_client, tavily_client, vector_store, memory
     context = f"Conversation History:\n{history_context}\n\nContext: {context}\n\n"
     try:
         tavily_context = tavily_client.search(query=prompt)['results']
-        print("tavily_context: ", tavily_context)
+        # print("tavily_context: ", tavily_context)
         context += f"Additional Context: {tavily_context}\n\n"
     except Exception as e:
         print(f"Error fetching Tavily context: {e}")
@@ -304,9 +309,6 @@ transport_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "transpor
 default_vector_store = FAISS.load_local(os.path.join(vector_dbs_dir, "default_vector_store"), embeddings, allow_dangerous_deserialization=True)
 
 
-openai_client, tavily_client, memory, gemini_model = initialize_clients()
-
-
 # Recommend places based on user's activities and bucket list
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -342,7 +344,6 @@ def generate_itinerary():
         print("selected_categories: ", selected_categories)
         print("duration: ", duration)
 
-        filtered_places = filter_places_by_categories(selected_categories)
         chat_session = model.start_chat(history=[])
 
         response = chat_session.send_message(f"[AI Role: Trip planning expert inside Sri Lanka]\n"
@@ -464,32 +465,41 @@ def chat():
     try:
         data = request.json
         user_message = data.get('message')
-        is_fast_mode = data.get('isFastMode', True)  # Get isFastMode, default to True
+        is_fast_mode = data.get('isFastMode', True)
+        is_first_message = data.get('isFirstMessage', True)
+        session_id = data.get('sessionId')
+
         print("user_message: ", user_message)
-        print("is_fast_mode: ", is_fast_mode)  # Log isFastMode
+        print("is_fast_mode: ", is_fast_mode)
+        print("is_first_message: ", is_first_message)
+        print("session_id: ", session_id)
+
         if not user_message:
             return jsonify({'error': 'No message provided.'}), 400
 
+        if is_first_message:
+            # Generate a new session ID if it's the first message
+            session_id = str(uuid.uuid4())
+            openai_client, tavily_client, memory, gemini_model = initialize_clients()
+            client_pool[session_id] = (openai_client, tavily_client, memory, gemini_model)
+        else:
+            # Retrieve the existing client instance
+            openai_client, tavily_client, memory, gemini_model = client_pool.get(session_id, (None, None, None, None))
+            if not all((openai_client, tavily_client, memory, gemini_model)):
+                return jsonify({'error': 'Invalid session ID'}), 400
+
         SLM_prompt = f"""
-        Role: GPT selector based on the user message.
+        Select the most suitable agent for this user message: {user_message}
 
-        We have the following agents: AgentGPT, StayGPT, TransportGPT, ShopGPT, GreetingGPT.
-        Select the most suitable agent based on the user message.
-        User message: {user_message}
-        If the user message doesn't match any specific agent, respond with DefaultGPT.
+        Agents:
+        AgentGPT: travel agents, agencies, guides in Sri Lanka
+        StayGPT: accommodation, hotels in Sri Lanka
+        TransportGPT: transport, taxis, buses, trains in Sri Lanka
+        ShopGPT: tourist shops, shopping in Sri Lanka
+        NOTTravelGPT: greetings, general non-travel questions
+        DefaultGPT: if no specific match
 
-        Here is the description of each agent:
-        AgentGPT for questions related to travel agents, travel agencies, and travel guides in sri lanka.
-        StayGPT for questions related to finding places to stay, hotels, and accommodation in sri lanka.
-        TransportGPT for questions related to transport, transportation like taxies, buses, and trains in sri lanka.
-        ShopGPT for questions related to finding tourist shops, shopping in sri lanka.
-        GreetingGPT for greetings from  the user and for other general questions not related to traveling in Sri Lanka.
-
-        Respond with only the selected agent name, nothing else. No need to add any other text.
-
-        For examples of a correct response:
-        example 1: AgentGPT
-        example 2: StayGPT
+        Respond with only the agent name.
 
         """
         
@@ -530,7 +540,7 @@ def chat():
             vector_store = tourist_shops_vector_store   
             selected_agent = "Shop Specialist"
             print("vector_store: tourist_shops_vector_store")
-        elif "GreetingGPT" in SLM_response:
+        elif "NOTTravelGPT" in SLM_response:
             vector_store = ""
             selected_agent = "General"
             print("vector_store: None")
@@ -539,14 +549,88 @@ def chat():
             selected_agent = "General"
             print("vector_store: default_vector_store")
 
+        print("selected_agent: ", selected_agent)
+
         start_time = time.time()
-        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory, gemini_model,is_fast_mode)   
+        response = generate_response(user_message, openai_client, tavily_client, vector_store, memory, gemini_model, is_fast_mode)   
         end_time = time.time()
         process_time = end_time - start_time
         print("response: ", response)
         print(f"Generate response time: {process_time:.2f} seconds")
+        print("session_id: ", session_id)
 
-        return jsonify({'response': response, 'selected_agent': selected_agent})
+        if is_first_message:
+            Topic_prompt = f"""
+            You have this user message: {user_message}
+            You have this response: {response}
+
+            Based on the user message and the response, create a topic for the user message.
+            The topic should be a short and informative title for the user message.
+            The topic should be in maximum 5 words.
+            """
+            start_time = time.time()
+            
+            Topic_response = ""
+            for message in SLM.chat_completion(
+                messages=[{"role": "user", "content": Topic_prompt}],
+            max_tokens=100,
+                stream=True,
+            ):
+                content = message.choices[0].delta.content
+                if content:
+                    print(content, end="")
+                    Topic_response += content
+
+            end_time = time.time()
+            process_time = end_time - start_time
+            
+            Topic_response = Topic_response.strip().strip('"')
+            print(f"\nGenerated topic: {Topic_response}")
+            print(f"Process time: {process_time:.2f} seconds")
+        else:
+            Topic_response = ""
+
+        Agent_prompt = f"""
+        Based on this user message and response:
+        User: {user_message}
+        Response: {response}
+
+        Select the most suitable agent:
+        - AgentGPT (About travel agents and guides in Sri Lanka)
+        - StayGPT (About accommodation in Sri Lanka)
+        - TransportGPT (About transportation in Sri Lanka)
+        - ShopGPT (About shopping in Sri Lanka)
+        - General (For other topics)
+
+        Output only the agent name.
+        """
+        start_time = time.time()
+            
+        Agent_response = ""
+        for message in SLM.chat_completion(
+            messages=[{"role": "user", "content": Agent_prompt}],
+            max_tokens=100,
+            stream=True,
+        ):
+            content = message.choices[0].delta.content
+            if content:
+                print(content, end="")
+                Agent_response += content
+
+        if "AgentGPT" in Agent_response:
+            selected_agent = "Tour Agent"
+        elif "StayGPT" in Agent_response:
+            selected_agent = "Stay Specialist"
+        elif "TransportGPT" in Agent_response:
+            selected_agent = "Transport Specialist"
+        elif "ShopGPT" in Agent_response:
+            selected_agent = "Shop Specialist"
+        else:
+            selected_agent = "General"
+
+        print("selected_agent: ", selected_agent)
+
+        return jsonify({'response': response, 'selected_agent': selected_agent, 'topic': Topic_response, 'sessionId': session_id})
     except Exception as e:
         print(f"Error in /chat endpoint: {e}")
         return jsonify({'error': str(e)}), 500

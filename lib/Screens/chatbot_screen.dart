@@ -16,6 +16,8 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 
   bool _isFastMode = true;
   bool _isRecording = false;
+  bool _isFirstMessage = true;
+  String? _sessionId;
 
   @override
   void initState() {
@@ -47,8 +49,8 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     _controller.clear();
 
     try {
-      Map<String, String> botResponse =
-          await connectionService.sendMessageToChatbot(text, _isFastMode);
+      Map<String, String> botResponse = await connectionService
+          .sendMessageToChatbot(text, _isFastMode, _isFirstMessage, _sessionId);
       setState(() {
         _messages.add(_Message(
           text: botResponse['response'] ?? "No response",
@@ -56,6 +58,10 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
           selectedAgent: botResponse['selected_agent'] ?? "Unknown",
           isFastMode: _isFastMode,
         ));
+        if (_isFirstMessage) {
+          _isFirstMessage = false;
+          _sessionId = botResponse['sessionId'];
+        }
       });
     } catch (e) {
       setState(() {
