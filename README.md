@@ -58,8 +58,8 @@ flutter run
 
 ### AI Travel Assistant
 <p float="left">
-  <img src="APP pics/chat1.png" width="300" alt="AI Chat Interface" />
-  <img src="APP pics/chat2.png" width="300" alt="Contextual Responses" />
+  <img src="APP pics/chat1.png" width="200" alt="AI Chat Interface" />
+  <img src="APP pics/chat2.png" width="200" alt="Contextual Responses" />
 </p>
 
 - Real-time travel assistance and recommendations
@@ -69,21 +69,21 @@ flutter run
 
 ### Travel Planning Interface
 <p float="left">
-  <img src="APP pics/plan1.jpg" width="250" alt="Trip Planning - Step 1" />
-  <img src="APP pics/plan2.jpg" width="250" alt="Trip Planning - Step 2" />
-  <img src="APP pics/plan3.jpg" width="250" alt="Trip Planning - Step 3" />
+  <img src="APP pics/plan1.jpg" width="200" alt="Trip Planning - Step 1" />
+  <img src="APP pics/plan2.jpg" width="200" alt="Trip Planning - Step 2" />
+  <img src="APP pics/plan3.jpg" width="200" alt="Trip Planning - Step 3" />
 </p>
 
 <p float="left">
-  <img src="APP pics/plan4.jpg" width="250" alt="Trip Planning - Step 4" />
-  <img src="APP pics/plan5.jpg" width="250" alt="Trip Planning - Step 5" />
-  <img src="APP pics/plan6.jpg" width="250" alt="Trip Planning - Step 6" />
+  <img src="APP pics/plan4.jpg" width="200" alt="Trip Planning - Step 4" />
+  <img src="APP pics/plan5.jpg" width="200" alt="Trip Planning - Step 5" />
+  <img src="APP pics/plan6.jpg" width="200" alt="Trip Planning - Step 6" />
 </p>
 
 <p float="left">
-  <img src="APP pics/plan7.jpg" width="250" alt="Trip Planning - Step 7" />
-  <img src="APP pics/plan8.jpg" width="250" alt="Trip Planning - Step 8" />
-  <img src="APP pics/plan9.jpg" width="250" alt="Trip Planning - Step 9" />
+  <img src="APP pics/plan7.jpg" width="200" alt="Trip Planning - Step 7" />
+  <img src="APP pics/plan8.jpg" width="200" alt="Trip Planning - Step 8" />
+  <img src="APP pics/plan9.jpg" width="200" alt="Trip Planning - Step 9" />
 </p>
 
 - Interactive itinerary creation
