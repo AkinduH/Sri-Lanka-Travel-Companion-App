@@ -53,3 +53,44 @@ python python_backend.py
 ```bash
 flutter run
 ```
+
+## Screenshots
+
+### AI Travel Assistant
+<p float="left">
+  <img src="APP pics/chat1.png" width="300" alt="AI Chat Interface" />
+  <img src="APP pics/chat2.png" width="300" alt="Contextual Responses" />
+</p>
+
+Our intelligent AI chat interface provides:
+- Real-time travel assistance and recommendations
+- Context-aware responses using RAG technology
+- Multiple specialized AI agents for different travel aspects
+- Integration with local travel knowledge base
+
+### Travel Planning Interface
+<p float="left">
+  <img src="APP pics/plan1.png" width="250" alt="Trip Planning - Step 1" />
+  <img src="APP pics/plan2.png" width="250" alt="Trip Planning - Step 2" />
+  <img src="APP pics/plan3.png" width="250" alt="Trip Planning - Step 3" />
+</p>
+
+<p float="left">
+  <img src="APP pics/plan4.png" width="250" alt="Trip Planning - Step 4" />
+  <img src="APP pics/plan5.png" width="250" alt="Trip Planning - Step 5" />
+  <img src="APP pics/plan6.png" width="250" alt="Trip Planning - Step 6" />
+</p>
+
+<p float="left">
+  <img src="APP pics/plan7.png" width="250" alt="Trip Planning - Step 7" />
+  <img src="APP pics/plan8.png" width="250" alt="Trip Planning - Step 8" />
+  <img src="APP pics/plan9.png" width="250" alt="Trip Planning - Step 9" />
+</p>
+
+The travel planning interface showcases:
+- Interactive itinerary creation
+- Destination selection and customization
+- Timeline visualization
+- Map integration with points of interest
+- Detailed activity scheduling
+- Personalized recommendations based on preferences
